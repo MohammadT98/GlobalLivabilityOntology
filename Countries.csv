@@ -1,4 +1,4 @@
-abbreviation,country,country_long,official language,currency,capital_city,region,continent,latitude,longitude
+country,name,fullName,language,currency,capitalCity,region,continent,latitude,longitude
 AF,Afghanistan,Islamic State of Afghanistan,Pashto,Afghan afghani,Kabul,Southern Asia,Asia,33,65
 AL,Albania,Republic of Albania,Albanian,Albanian lek,Tirana,Southern Europe,Europe,41,20
 DZ,Algeria,People's Democratic Republic of Algeria,Arabic,Algerian dinar,Algiers,Northern Africa,Africa,28,3
