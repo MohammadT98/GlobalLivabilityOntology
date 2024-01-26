@@ -1,0 +1,180 @@
+country,InternetSpeedsFixedBroadbandDownloadSpeed,ISO2
+India,55.8,IN
+China,230.39,CN
+United States,215.72,US
+Indonesia,28.28,ID
+Pakistan,13.71,PK
+Nigeria,18.83,NG
+Brazil,136.92,BR
+Bangladesh,38.65,BD
+Russia,81.95,Not Found
+Ethiopia,7.11,ET
+Mexico,63.43,MX
+Japan,170.29,JP
+Philippines,91.08,PH
+Egypt,61.22,EG
+DR Congo,26.86,Not Found
+Vietnam,104.08,Not Found
+Iran,13.03,Not Found
+Turkey,38.12,Not Found
+Germany,87.94,DE
+Thailand,218.94,TH
+Tanzania,18.52,Not Found
+United Kingdom,84.93,GB
+France,200.99,FR
+South Africa,41.02,ZA
+Italy,69.99,IT
+Kenya,9.95,KE
+Myanmar,20.05,MM
+Colombia,111.65,CO
+South Korea,139.83,Not Found
+Uganda,12.65,UG
+Sudan,8.36,SD
+Spain,189.37,ES
+Iraq,31.67,IQ
+Algeria,11.99,DZ
+Argentina,75.39,AR
+Afghanistan,3.07,AF
+Poland,133.35,PL
+Canada,165.67,CA
+Morocco,24.78,MA
+Ukraine,72.42,UA
+Angola,15.04,AO
+Saudi Arabia,102.41,SA
+Uzbekistan,54.12,UZ
+Yemen,6.12,YE
+Mozambique,12.88,MZ
+Ghana,37.27,GH
+Peru,93.52,PE
+Malaysia,110.8,MY
+Nepal,56.26,NP
+Madagascar,21.44,MG
+Ivory Coast,60.0,Not Found
+Venezuela,37.43,Not Found
+Cameroon,10.34,CM
+Niger,5.12,NE
+Australia,54.37,AU
+Syria,4.06,Not Found
+Mali,22.45,ML
+Taiwan,157.55,Not Found
+Burkina Faso,43.3,BF
+Sri Lanka,19.57,LK
+Malawi,18.74,MW
+Zambia,22.01,ZM
+Kazakhstan,47.53,KZ
+Chile,248.65,CL
+Romania,191.36,RO
+Somalia,12.47,SO
+Ecuador,74.33,EC
+Guatemala,42.41,GT
+Senegal,21.75,SN
+Netherlands,177.88,NL
+Cambodia,22.64,KH
+Zimbabwe,10.01,ZW
+Guinea,9.32,GN
+Rwanda,30.92,RW
+Benin,23.11,BJ
+Burundi,5.43,BI
+Bolivia,30.71,Not Found
+Tunisia,8.81,TN
+Haiti,32.48,HT
+Belgium,90.59,BE
+Dominican Republic,36.62,DO
+Jordan,109.58,JO
+Cuba,2.19,CU
+Honduras,37.96,HN
+Sweden,127.33,SE
+Papua New Guinea,11.01,PG
+Azerbaijan,30.48,AZ
+Tajikistan,20.77,TJ
+Greece,47.5,GR
+Portugal,150.45,PT
+Hungary,149.85,HU
+United Arab Emirates,235.72,AE
+Belarus,53.8,BY
+Israel,144.81,IL
+Togo,28.74,TG
+Sierra Leone,18.09,SL
+Austria,82.52,AT
+Switzerland,187.48,CH
+Laos,32.82,Not Found
+Hong Kong,263.07,HK
+Nicaragua,49.8,NI
+Serbia,70.95,RS
+Libya,8.96,LY
+Paraguay,83.92,PY
+Kyrgyzstan,54.37,KG
+Bulgaria,77.7,BG
+Turkmenistan,8.68,TM
+El Salvador,47.99,SV
+Republic of the Congo,41.32,Not Found
+Singapore,264.15,SG
+Denmark,206.8,DK
+Slovakia,69.4,SK
+Finland,102.43,FI
+Liberia,7.58,LR
+Norway,123.63,NO
+Palestine,64.82,Not Found
+New Zealand,163.16,NZ
+Costa Rica,79.9,CR
+Lebanon,8.27,LB
+Ireland,94.62,IE
+Mauritania,18.09,MR
+Oman,67.64,OM
+Panama,148.76,PA
+Kuwait,153.58,KW
+Croatia,56.51,HR
+Georgia,25.76,GE
+Mongolia,62.66,MN
+Uruguay,143.06,UY
+Moldova,108.2,Not Found
+Bosnia and Herzegovina,28.33,BA
+Gambia,6.89,GM
+Albania,52.54,AL
+Jamaica,62.31,JM
+Armenia,45.31,AM
+Qatar,127.04,QA
+Botswana,7.96,BW
+Lithuania,103.26,LT
+Namibia,13.59,NA
+Gabon,37.47,GA
+Lesotho,22.46,LS
+Slovenia,88.68,SI
+North Macedonia,39.08,MK
+Latvia,81.01,LV
+Trinidad and Tobago,100.68,TT
+Bahrain,79.94,BH
+Estonia,76.46,EE
+Mauritius,50.13,MU
+Cyprus,61.26,CY
+Djibouti,19.05,DJ
+Fiji,15.79,FJ
+Guyana,63.34,GY
+Bhutan,12.01,BT
+Macau,160.52,Not Found
+Luxembourg,117.66,LU
+Suriname,11.38,SR
+Montenegro,68.38,ME
+Cape Verde,17.09,Not Found
+Western Sahara,20.25,EH
+Malta,108.19,MT
+Maldives,13.24,MV
+Brunei,73.05,Not Found
+Belize,44.77,BZ
+Bahamas,54.65,BS
+Iceland,204.8,IS
+Vanuatu,10.76,VU
+Barbados,92.96,BB
+Saint Lucia,99.96,LC
+Grenada,76.85,GD
+Micronesia,13.07,Not Found
+Seychelles,27.56,SC
+Saint Vincent and the Grenadines,90.11,VC
+Antigua and Barbuda,33.53,AG
+Andorra,156.9,AD
+Dominica,88.78,DM
+Saint Kitts and Nevis,55.9,KN
+Liechtenstein,152.22,LI
+Monaco,187.49,MC
+San Marino,70.82,SM
+World,98.28998802,Not Found

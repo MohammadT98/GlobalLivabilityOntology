@@ -1,0 +1,74 @@
+country,easiestCountriesToGetCitizenship_popularMethods,easiestCountriesToGetCitizenship_bizInsider,easiestCountriesToGetCitizenship_wcil,easiestCountriesToGetCitizenship_ggv,easiestCountriesToGetCitizenship_ii,easiestCountriesToGetCitizenship_gcs,easiestCountriesToGetCitizenship_grcg,ISO2
+United States,"Birth, Naturalization",no,yes,no,yes,no,false,US
+Pakistan,Birth,no,yes,no,no,no,false,PK
+Brazil,Naturalization,no,yes,yes,yes,no,false,BR
+Russia,Naturalization,no,no,no,yes,no,false,Not Found
+Ethiopia,Naturalization,no,yes,yes,no,no,false,ET
+Mexico,Birth,yes,yes,yes,no,no,false,MX
+Turkey,Investment,no,no,yes,no,no,false,Not Found
+Germany,"Descent, Naturalization",no,yes,yes,yes,no,8,DE
+Thailand,Naturalization,no,yes,no,no,no,false,TH
+Tanzania,Birth,no,yes,no,no,no,false,Not Found
+United Kingdom,Descent,no,yes,yes,no,no,4,GB
+France,false,no,no,no,no,no,6,FR
+Italy,Descent,no,yes,yes,no,no,12,IT
+Spain,"Descent, Investment, Naturalization",no,yes,yes,yes,no,13,ES
+Argentina,"Birth, Naturalization",no,yes,yes,yes,no,false,AR
+Poland,"Descent, Naturalization",no,yes,yes,no,no,1,PL
+Canada,"Birth, Naturalization",yes,yes,yes,yes,no,false,CA
+Peru,Birth,no,yes,yes,no,no,false,PE
+Malaysia,Retirement,no,yes,no,no,no,false,MY
+Venezuela,Birth,no,yes,no,no,no,false,Not Found
+Australia,Naturalization,no,yes,yes,no,no,false,AU
+Chile,"Birth, Naturalization",no,yes,yes,no,no,false,CL
+Romania,Descent,no,yes,no,no,no,false,RO
+Ecuador,"Birth, Naturalization",no,yes,yes,no,no,false,EC
+Guatemala,"Birth, Naturalization",no,yes,no,no,no,false,GT
+Netherlands,false,no,no,no,no,no,7,NL
+Bolivia,Birth,no,yes,no,no,no,false,Not Found
+Belgium,Naturalization,no,yes,yes,no,no,5,BE
+Dominican Republic,Naturalization,no,yes,no,no,no,false,DO
+Cuba,Birth,no,yes,no,no,no,false,CU
+Honduras,"Birth, Naturalization",no,yes,yes,no,no,false,HN
+Sweden,Naturalization,no,no,no,yes,no,3,SE
+Greece,"Descent, Investment",no,yes,yes,yes,no,false,GR
+Portugal,"Descent, Investment, Naturalization",no,yes,yes,yes,no,false,PT
+Hungary,Descent,no,yes,yes,no,no,false,HU
+Israel,"Descent, Naturalization",yes,yes,yes,no,no,false,IL
+Austria,"Descent, Investment",no,yes,no,yes,no,11,AT
+Switzerland,"Investment, Naturalization",no,no,no,yes,no,14,CH
+Nicaragua,"Birth, Naturalization",no,yes,no,no,no,false,NI
+Serbia,Naturalization,no,yes,yes,no,no,false,RS
+Paraguay,"Birth, Naturalization",yes,yes,yes,no,no,false,PY
+Bulgaria,Naturalization,no,yes,yes,no,no,false,BG
+El Salvador,Birth,no,yes,no,no,no,false,SV
+Denmark,Naturalization,no,no,no,yes,no,10,DK
+Norway,Naturalization,no,no,no,yes,no,9,NO
+Costa Rica,"Birth, Naturalization",no,yes,no,no,no,false,CR
+Ireland,"Descent, Naturalization",yes,yes,yes,no,no,2,IE
+Panama,"Birth, Naturalization",no,yes,yes,no,no,false,PA
+Uruguay,Birth,no,yes,yes,no,no,false,UY
+Albania,Naturalization,no,yes,yes,no,no,false,AL
+Jamaica,Birth,no,yes,yes,no,no,false,JM
+Armenia,Descent,no,yes,yes,no,no,false,AM
+Lithuania,Descent,no,yes,yes,no,no,false,LT
+Lesotho,Birth,no,yes,no,no,no,false,LS
+Latvia,"Descent, Investment",no,yes,yes,no,no,false,LV
+Mauritius,"Investment, Retirement",no,yes,no,no,no,false,MU
+Cyprus,Investment,no,no,no,no,yes,false,CY
+Fiji,Birth,no,yes,yes,no,no,false,FJ
+Guyana,Birth,no,yes,no,no,no,false,GY
+Luxembourg,Descent,no,yes,yes,no,no,false,LU
+Montenegro,Investment,no,no,no,yes,no,false,ME
+Malta,"Descent, Investment",no,yes,yes,yes,yes,false,MT
+Belize,Birth,no,yes,no,no,no,false,BZ
+Vanuatu,"Investment, Naturalization",no,yes,no,yes,no,false,VU
+Barbados,"Birth, Naturalization",no,yes,yes,no,no,false,BB
+Curacao,Investment,no,no,yes,no,no,false,Not Found
+Saint Lucia,"Birth, Investment",no,yes,no,yes,yes,false,LC
+Grenada,"Birth, Investment",no,yes,no,yes,yes,false,GD
+Aruba,Naturalization,no,yes,no,no,no,false,AW
+Antigua and Barbuda,"Birth, Investment",no,yes,yes,yes,yes,false,AG
+Dominica,"Birth, Investment",no,yes,no,yes,yes,false,DM
+Saint Kitts and Nevis,"Birth, Investment",no,yes,yes,yes,yes,false,KN
+Tuvalu,Birth,no,yes,no,no,no,false,TV

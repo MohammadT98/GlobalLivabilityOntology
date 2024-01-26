@@ -1,0 +1,21 @@
+country,easiestCountriesToImmigrateTo_overallRank,easiestCountriesToImmigrateTo_expatica,easiestCountriesToImmigrateTo_visaGuide,easiestCountriesToImmigrateTo_insiderMonkey,easiestCountriesToImmigrateTo_tripzilla,easiestCountriesToImmigrateTo_wowTravel,ISO2
+Mexico,3,yes,no,6.0,yes,8.0,MX
+Germany,5,no,yes,,yes,2.0,DE
+Thailand,17,yes,yes,,no,,TH
+Spain,16,no,yes,,yes,,ES
+Argentina,11,no,no,10.0,no,10.0,AR
+Canada,1,no,yes,1.0,yes,3.0,CA
+Australia,4,no,yes,,yes,1.0,AU
+Ecuador,10,yes,no,9.0,no,,EC
+Sweden,18,no,no,2.0,no,,SE
+Czech Republic,15,yes,yes,,no,,Not Found
+Portugal,14,no,yes,,yes,,PT
+Paraguay,6,yes,yes,,no,4.0,PY
+Singapore,9,yes,no,,no,5.0,SG
+Denmark,20,no,no,7.0,no,,DK
+Finland,12,no,no,,yes,12.0,FI
+New Zealand,2,no,yes,4.0,yes,6.0,NZ
+Ireland,8,no,no,3.0,no,11.0,IE
+Panama,7,yes,no,15.0,yes,,PA
+Montenegro,13,yes,yes,,no,,ME
+Malta,19,no,no,5.0,no,,MT

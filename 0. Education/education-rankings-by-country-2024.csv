@@ -1,0 +1,189 @@
+country,educationRankingsByCountry_rank2021,educationRankingsByCountry_rank2020,LiteracyRateAllGenders,ISO2
+India,32.0,34.0,74.0,IN
+China,22.0,24.0,97.0,CN
+United States,1.0,1.0,,US
+Indonesia,54.0,55.0,96.0,ID
+Pakistan,,,58.0,PK
+Nigeria,,,62.0,NG
+Brazil,36.0,30.0,94.0,BR
+Bangladesh,,,75.0,BD
+Russia,23.0,21.0,100.0,Not Found
+Ethiopia,,,52.0,ET
+Mexico,37.0,36.0,95.0,MX
+Japan,7.0,11.0,,JP
+Philippines,55.0,52.0,96.0,PH
+Egypt,39.0,42.0,75.0,EG
+DR Congo,,,81.0,Not Found
+Vietnam,59.0,64.0,96.0,Not Found
+Iran,,,89.0,Not Found
+Turkey,31.0,31.0,97.0,Not Found
+Germany,3.0,4.0,,DE
+Thailand,46.0,48.0,94.0,TH
+Tanzania,,,82.0,Not Found
+United Kingdom,2.0,2.0,,GB
+France,5.0,5.0,,FR
+South Africa,33.0,32.0,90.0,ZA
+Italy,14.0,16.0,99.0,IT
+Kenya,68.0,68.0,83.0,KE
+Myanmar,76.0,71.0,89.0,MM
+Colombia,51.0,49.0,96.0,CO
+South Korea,19.0,22.0,,Not Found
+Uganda,,,81.0,UG
+Sudan,,,61.0,SD
+Spain,17.0,18.0,99.0,ES
+Iraq,77.0,,,IQ
+Algeria,,,81.0,DZ
+Argentina,34.0,29.0,99.0,AR
+Afghanistan,,,37.0,AF
+Poland,26.0,23.0,100.0,PL
+Canada,4.0,3.0,,CA
+Morocco,57.0,57.0,77.0,MA
+Ukraine,40.0,38.0,100.0,UA
+Angola,,,72.0,AO
+Saudi Arabia,35.0,46.0,98.0,SA
+Uzbekistan,72.0,,100.0,UZ
+Yemen,,,70.0,YE
+Mozambique,,,63.0,MZ
+Ghana,,,80.0,GH
+Peru,64.0,59.0,94.0,PE
+Malaysia,38.0,39.0,95.0,MY
+Nepal,,,71.0,NP
+Madagascar,,,77.0,MG
+Ivory Coast,,,90.0,Not Found
+Venezuela,,,98.0,Not Found
+Cameroon,,,78.0,CM
+Niger,,,38.0,NE
+Australia,8.0,7.0,,AU
+Syria,,,86.0,Not Found
+Mali,,,31.0,ML
+Taiwan,,,99.0,Not Found
+Burkina Faso,,,34.0,BF
+Sri Lanka,66.0,67.0,,LK
+Malawi,,,68.0,MW
+Zambia,,,88.0,ZM
+Kazakhstan,71.0,70.0,100.0,KZ
+Chile,48.0,35.0,97.0,CL
+Romania,47.0,40.0,99.0,RO
+Chad,,,27.0,TD
+Somalia,,,41.0,SO
+Ecuador,73.0,65.0,94.0,EC
+Guatemala,78.0,73.0,84.0,GT
+Senegal,,,58.0,SN
+Netherlands,10.0,9.0,,NL
+Cambodia,75.0,,84.0,KH
+Zimbabwe,,,90.0,ZW
+Guinea,,,45.0,GN
+Rwanda,,,76.0,RW
+Benin,,,47.0,BJ
+Burundi,,,76.0,BI
+Bolivia,,,94.0,Not Found
+Tunisia,67.0,63.0,84.0,TN
+Haiti,,,62.0,HT
+Belgium,18.0,,,BE
+Dominican Republic,69.0,60.0,95.0,DO
+Jordan,58.0,53.0,98.0,JO
+South Sudan,,,35.0,SS
+Cuba,,,100.0,CU
+Honduras,,,89.0,HN
+Sweden,9.0,8.0,,SE
+Papua New Guinea,,,64.0,PG
+Czech Republic,,,99.0,Not Found
+Azerbaijan,65.0,61.0,100.0,AZ
+Tajikistan,,,100.0,TJ
+Greece,28.0,26.0,98.0,GR
+Portugal,25.0,20.0,97.0,PT
+Hungary,30.0,,99.0,HU
+United Arab Emirates,27.0,28.0,98.0,AE
+Belarus,52.0,51.0,100.0,BY
+Israel,24.0,25.0,92.0,IL
+Togo,,,67.0,TG
+Sierra Leone,,,49.0,SL
+Austria,16.0,13.0,,AT
+Switzerland,6.0,6.0,,CH
+Laos,,,88.0,Not Found
+Nicaragua,,,83.0,NI
+Serbia,63.0,58.0,99.0,RS
+Libya,,,91.0,LY
+Paraguay,,,95.0,PY
+Kyrgyzstan,,,100.0,KG
+Bulgaria,49.0,43.0,98.0,BG
+Turkmenistan,,,99.0,TM
+El Salvador,74.0,,90.0,SV
+Republic of the Congo,,,81.0,Not Found
+Singapore,21.0,19.0,97.0,SG
+Denmark,12.0,10.0,,DK
+Central African Republic,,,37.0,CF
+Slovakia,45.0,44.0,,SK
+Finland,15.0,15.0,,FI
+Liberia,,,48.0,LR
+Norway,13.0,12.0,,NO
+New Zealand,11.0,14.0,,NZ
+Costa Rica,61.0,54.0,98.0,CR
+Lebanon,70.0,69.0,95.0,LB
+Ireland,20.0,,,IE
+Mauritania,,,67.0,MR
+Oman,62.0,62.0,97.0,OM
+Panama,60.0,56.0,96.0,PA
+Kuwait,,,96.0,KW
+Croatia,43.0,33.0,99.0,HR
+Eritrea,,,77.0,ER
+Georgia,,,100.0,GE
+Mongolia,,,99.0,MN
+Uruguay,56.0,,99.0,UY
+Moldova,,,100.0,Not Found
+Puerto Rico,,,92.0,PR
+Bosnia and Herzegovina,,,98.0,BA
+Gambia,,,59.0,GM
+Albania,,,99.0,AL
+Jamaica,,,89.0,JM
+Armenia,,,100.0,AM
+Qatar,41.0,37.0,94.0,QA
+Botswana,,,89.0,BW
+Lithuania,42.0,45.0,100.0,LT
+Namibia,,,92.0,NA
+Gabon,,,86.0,GA
+Lesotho,,,82.0,LS
+Guinea-Bissau,,,54.0,GW
+Slovenia,53.0,41.0,100.0,SI
+North Macedonia,,,98.0,MK
+Latvia,50.0,50.0,100.0,LV
+Equatorial Guinea,,,95.0,GQ
+Trinidad and Tobago,,,98.0,TT
+Bahrain,,,98.0,BH
+Timor-Leste,,,70.0,TL
+Estonia,44.0,47.0,100.0,EE
+Mauritius,,,92.0,MU
+Cyprus,,,99.0,CY
+Eswatini,,,89.0,SZ
+Fiji,,,99.0,FJ
+Comoros,,,62.0,KM
+Guyana,,,90.0,GY
+Bhutan,,,72.0,BT
+Solomon Islands,,,77.0,SB
+Suriname,,,95.0,SR
+Montenegro,,,99.0,ME
+Cape Verde,,,91.0,Not Found
+Malta,,,95.0,MT
+Maldives,,,98.0,MV
+Brunei,,,98.0,Not Found
+Belize,,,81.0,BZ
+Vanuatu,,,89.0,VU
+New Caledonia,,,97.0,NC
+Barbados,,,100.0,BB
+Sao Tome and Principe,,,94.0,ST
+Samoa,,,99.0,WS
+Guam,,,100.0,GU
+Grenada,,,99.0,GD
+Tonga,,,99.0,TO
+Seychelles,,,96.0,SC
+Aruba,,,98.0,AW
+Saint Vincent and the Grenadines,,,97.0,VC
+Antigua and Barbuda,,,99.0,AG
+Andorra,,,100.0,AD
+Cayman Islands,,,99.0,KY
+Greenland,,,100.0,GL
+American Samoa,,,97.0,AS
+Marshall Islands,,,98.0,MH
+San Marino,,,100.0,SM
+Palau,,,97.0,PW
+World,,,73.51199715101204,Not Found

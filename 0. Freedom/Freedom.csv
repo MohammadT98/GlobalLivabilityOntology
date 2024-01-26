@@ -1,0 +1,195 @@
+country,democracy_score,democracy_type,currentLeadership,InternetFreedomStatus
+AF,2.97,Authoritarian,President,
+AL,5.98,Hybrid regime,Prime Minister,
+DZ,3.5,Authoritarian,President,
+AD,0,Unknown,Head of Government,
+AO,3.62,Authoritarian,President,Partly Free
+AG,0,Unknown,Prime Minister,
+AR,7.02,Flawed democracy,President,Free
+AM,4.79,Hybrid regime,Prime Minister,Free
+AU,9.09,Full democracy,Prime Minister,Free
+AT,8.29,Full democracy,Federal Chancellor,
+AZ,2.65,Authoritarian,President,Not Free
+BH,2.71,Authoritarian,King,Not Free
+BD,5.57,Hybrid regime,Prime Minister,Partly Free
+BB,0,Unknown,Prime Minister,
+BY,3.13,Authoritarian,President,Not Free
+BE,7.78,Flawed democracy,Prime Minister,
+BZ,0,Unknown,Prime Minister,
+BJ,5.74,Hybrid regime,President,
+BT,5.3,Hybrid regime,Prime Minister,
+BO,5.7,Hybrid regime,President,
+BA,4.98,Hybrid regime,High Representative,
+BW,7.81,Flawed democracy,President,
+BR,6.97,Flawed democracy,President,Partly Free
+BN,0,Unknown,Sultan and Prime Minister,
+BG,7.03,Flawed democracy,Prime Minister,
+BF,4.75,Hybrid regime,President,
+BI,2.33,Authoritarian,President,
+CV,7.88,Flawed democracy,,
+KH,3.59,Authoritarian,Prime Minister,Partly Free
+CM,3.28,Authoritarian,President,
+CA,9.15,Full democracy,Prime Minister,Free
+CF,1.52,Authoritarian,President,
+TD,1.61,Authoritarian,President,
+CL,7.97,Flawed democracy,President,
+CN,3.32,Authoritarian,General Secretary of the Communist Party,Not Free
+CO,6.96,Flawed democracy,President,Partly Free
+KM,3.71,Authoritarian,President,
+CG,3.31,Authoritarian,President,
+CR,8.07,Full democracy,President,Free
+CI,4.15,Hybrid regime,President,
+HR,6.57,Flawed democracy,Prime Minister,
+CU,3,Authoritarian,First Secretary of the Communist Party,Not Free
+CY,7.59,Flawed democracy,President,
+CZ,7.69,Flawed democracy,Prime Minister,
+KP,1.08,Authoritarian,Chairman of the Workers Party of Korea,
+CD,1.49,Authoritarian,President,
+DK,9.22,Full democracy,Prime Minister,
+DJ,2.87,Authoritarian,President,
+DM,0,Unknown,Prime Minister,
+DO,6.54,Flawed democracy,President,
+EC,6.27,Flawed democracy,President,Partly Free
+EG,3.36,Authoritarian,President,Not Free
+SV,5.96,Hybrid regime,President,
+GQ,1.92,Authoritarian,President,
+ER,2.37,Authoritarian,President,
+EE,7.97,Flawed democracy,Prime Minister,Free
+SZ,3.03,Authoritarian,King,
+ET,3.35,Authoritarian,Prime Minister,Not Free
+FJ,5.85,Hybrid regime,Prime Minister,
+FI,9.14,Full democracy,Prime Minister,
+FR,7.8,Flawed democracy,President,Free
+GA,3.61,Authoritarian,President,
+GE,5.5,Hybrid regime,Prime Minister,Free
+DE,8.68,Full democracy,Federal Chancellor,Free
+GH,6.63,Flawed democracy,President,Partly Free
+GR,7.29,Flawed democracy,Prime Minister,
+GD,0,Unknown,Prime Minister,
+GT,5.6,Hybrid regime,President,
+GN,3.14,Authoritarian,President,
+GW,1.98,Authoritarian,President,
+GY,6.67,Flawed democracy,President,
+HT,4.91,Hybrid regime,President,
+HN,5.63,Hybrid regime,President,
+HU,6.63,Flawed democracy,Prime Minister,Partly Free
+IS,9.58,Full democracy,Prime Minister,Free
+IN,7.23,Flawed democracy,Prime Minister,Partly Free
+ID,6.39,Flawed democracy,President,Partly Free
+IR,2.45,Authoritarian,Supreme Leader,Not Free
+IQ,4.06,Hybrid regime,Prime Minister,Partly Free
+IE,9.15,Full democracy,Taoiseach,
+IL,7.79,Flawed democracy,Prime Minister,
+IT,7.71,Flawed democracy,Prime Minister,Free
+JM,7.02,Flawed democracy,Prime Minister,
+JP,7.99,Flawed democracy,Prime Minister,Free
+JO,3.93,Authoritarian,King,Partly Free
+KZ,2.94,Authoritarian,President,Not Free
+KE,5.11,Hybrid regime,President,Partly Free
+KI,0,Unknown,President,
+KR,8,Flawed democracy,President,Partly Free
+KW,3.85,Authoritarian,Emir,
+KG,5.11,Hybrid regime,Prime Minister,Partly Free
+LA,2.37,Authoritarian,General Secretary of the Communist Party,
+LV,7.38,Flawed democracy,Prime Minister,
+LB,4.63,Hybrid regime,Prime Minister,Partly Free
+LS,6.64,Flawed democracy,Prime Minister,
+LR,5.35,Hybrid regime,President,
+LY,2.19,Authoritarian,Prime Minister,Partly Free
+LI,0,Unknown,Regent,
+LT,7.5,Flawed democracy,President,
+LU,8.81,Full democracy,Prime Minister,
+MG,5.22,Hybrid regime,President,
+MW,5.49,Hybrid regime,President,Partly Free
+MY,6.88,Flawed democracy,Prime Minister,Partly Free
+MV,0,Unknown,President,
+ML,5.41,Hybrid regime,President,
+MT,8.21,Full democracy,Prime Minister,
+MH,0,Unknown,President,
+MR,3.82,Authoritarian,President,
+MU,8.22,Full democracy,Prime Minister,
+MX,6.19,Flawed democracy,President,Partly Free
+FM,0,Unknown,President,
+MD,5.85,Hybrid regime,Prime Minister,
+MC,0,Unknown,Sovereign Prince,
+MN,6.5,Flawed democracy,President,
+ME,5.74,Hybrid regime,Prime Minister,
+MA,4.99,Hybrid regime,King,Partly Free
+MZ,3.85,Authoritarian,President,
+MM,3.83,Authoritarian,President,Not Free
+NA,6.25,Flawed democracy,President,
+NR,0,Unknown,President,
+NP,5.18,Hybrid regime,Prime Minister,
+NL,8.89,Full democracy,Prime Minister,
+NZ,9.26,Full democracy,Prime Minister,
+NI,3.63,Authoritarian,President,Partly Free
+NE,3.76,Authoritarian,President,
+NG,4.44,Hybrid regime,President,Partly Free
+MK,5.87,Hybrid regime,President,
+NO,9.87,Full democracy,Prime Minister,
+OM,3.04,Authoritarian,Sultan and Prime Minister,
+PK,4.17,Hybrid regime,Prime Minister,Not Free
+PW,0,Unknown,President,
+PA,7.05,Flawed democracy,President,
+PG,6.03,Flawed democracy,Prime Minister,
+PY,6.24,Flawed democracy,President,
+PE,6.6,Flawed democracy,President,
+PH,6.71,Flawed democracy,President,Partly Free
+PL,6.67,Flawed democracy,Prime Minister,
+PT,7.84,Flawed democracy,Prime Minister,
+QA,3.19,Authoritarian,Emir,
+RO,6.38,Flawed democracy,President,
+RU,2.94,Authoritarian,President,Not Free
+RW,3.35,Authoritarian,President,Not Free
+WS,0,Unknown,Prime Minister,
+SM,0,Unknown,Captain Regent,
+ST,0,Unknown,President,
+SA,1.93,Authoritarian,King,Not Free
+SN,6.15,Flawed democracy,President,
+RS,6.41,Flawed democracy,Prime Minister,Free
+SC,0,Unknown,President,
+SL,4.66,Hybrid regime,President,
+SG,6.38,Flawed democracy,Prime Minister,Partly Free
+SK,7.1,Flawed democracy,,
+SI,7.5,Flawed democracy,Prime Minister,
+SB,0,Unknown,Prime Minister,
+SO,0,Unknown,Prime Minister,
+ZA,7.24,Flawed democracy,President,Free
+SS,0,Unknown,President,
+ES,8.08,Full democracy,President,
+LK,6.19,Flawed democracy,President,Partly Free
+KN,0,Unknown,,
+LC,0,Unknown,,
+VC,0,Unknown,,
+SD,2.15,Authoritarian,Leader of the Sovereignty Council,Not Free
+SR,6.98,Flawed democracy,President,
+SE,9.39,Full democracy,Prime Minister,
+CH,9.03,Full democracy,President,
+SY,1.43,Authoritarian,President,
+TJ,1.93,Authoritarian,President,
+TZ,5.41,Hybrid regime,President,
+TH,4.63,Hybrid regime,Prime Minister,Not Free
+BS,0,Unknown,Prime Minister,
+GM,4.31,Hybrid regime,President,Partly Free
+TL,7.19,Flawed democracy,,
+TG,3.1,Authoritarian,President,
+TO,0,Unknown,Prime Minister,
+TT,7.16,Flawed democracy,Prime Minister,
+TN,6.41,Flawed democracy,President,Partly Free
+TR,4.37,Hybrid regime,President,Not Free
+TM,1.72,Authoritarian,President,
+TV,0,Unknown,Prime Minister,
+UG,5.2,Hybrid regime,President,Partly Free
+UA,5.69,Hybrid regime,President,Partly Free
+AE,2.76,Authoritarian,President,Not Free
+GB,8.53,Full democracy,Prime Minister,Free
+US,7.96,Flawed democracy,President,Free
+UY,8.38,Full democracy,President,
+UZ,2.01,Authoritarian,President,Not Free
+VU,0,Unknown,Prime Minister,
+VE,3.16,Authoritarian,President,Not Free
+VN,3.08,Authoritarian,General Secretary of the Communist Party,Not Free
+PS,4.39,Hybrid regime,,
+YE,1.95,Authoritarian,President,
+ZM,5.61,Hybrid regime,President,Partly Free
+ZW,3.16,Authoritarian,President,Partly Free
