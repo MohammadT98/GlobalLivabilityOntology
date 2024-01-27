@@ -1,66 +1,66 @@
-country,mostAtheistCountries_religiousPerson,mostAtheistCountries_totalAth,mostAtheistCountries_notReligiousPerson,mostAtheistCountries_convincedAtheist,mostAtheistCountries_doNotKnow,ISO2
-India,94,6,3,2,1.0,IN
-China,9,91,23,67,1.0,CN
-United States,56,43,32,7,4.0,US
-Indonesia,58,42,30,0,12.0,ID
-Pakistan,93,7,5,1,1.0,PK
-Nigeria,97,3,2,0,1.0,NG
-Brazil,82,18,15,2,1.0,BR
-Bangladesh,80,20,19,0,1.0,BD
-Russia,61,39,23,7,9.0,Not Found
-Mexico,61,38,28,8,2.0,MX
-Japan,13,86,31,29,26.0,JP
-Philippines,90,10,9,0,1.0,PH
-DR Congo,80,21,9,8,4.0,Not Found
-Vietnam,33,67,57,6,4.0,Not Found
-Iran,77,23,16,4,3.0,Not Found
-Turkey,74,26,12,6,8.0,Not Found
-Germany,34,66,46,14,6.0,DE
-Thailand,98,2,1,1,0.0,TH
-United Kingdom,27,72,58,11,3.0,GB
-France,45,55,29,21,5.0,FR
-Italy,69,31,18,8,5.0,IT
-Colombia,84,16,11,3,2.0,CO
-South Korea,35,65,37,23,5.0,Not Found
-Spain,37,63,41,16,6.0,ES
-Iraq,64,36,34,0,2.0,IQ
-Argentina,78,22,16,4,2.0,AR
-Poland,82,18,9,1,8.0,PL
-Canada,37,63,47,10,6.0,CA
-Ukraine,53,46,36,6,4.0,UA
-Ghana,94,6,1,0,5.0,GH
-Peru,72,29,20,3,6.0,PE
-Ivory Coast,94,6,6,0,,Not Found
-Australia,31,70,50,13,7.0,AU
-Romania,89,11,6,3,2.0,RO
-Ecuador,78,22,16,2,4.0,EC
-Belgium,28,72,43,21,8.0,BE
-Sweden,22,78,55,18,5.0,SE
-Papua New Guinea,94,6,5,0,1.0,PG
-Czech Republic,24,75,47,25,3.0,Not Found
-Azerbaijan,35,64,64,0,0.0,AZ
-Greece,73,27,15,7,5.0,GR
-Portugal,59,41,29,9,3.0,PT
-Israel,39,61,50,8,3.0,IL
-Austria,41,59,43,10,6.0,AT
-Hong Kong,33,66,33,30,3.0,HK
-Serbia,75,25,17,4,4.0,RS
-Paraguay,87,13,7,2,4.0,PY
-Bulgaria,51,50,36,3,11.0,BG
-Denmark,32,68,47,14,7.0,DK
-Finland,39,62,47,8,7.0,FI
-Norway,30,70,50,12,8.0,NO
-Palestine,61,39,34,1,4.0,Not Found
-Lebanon,71,29,26,2,1.0,LB
-Ireland,40,60,47,9,4.0,IE
-Panama,84,16,10,3,3.0,PA
-Mongolia,71,29,21,8,,MN
-Bosnia and Herzegovina,75,24,21,1,2.0,BA
-Albania,56,44,30,9,5.0,AL
-Armenia,92,7,4,2,1.0,AM
-Lithuania,47,52,34,6,12.0,LT
-Slovenia,41,59,25,28,6.0,SI
-Latvia,37,62,43,9,10.0,LV
-Estonia,28,72,50,10,12.0,EE
-Fiji,92,8,6,2,0.0,FJ
-Iceland,46,54,32,17,5.0,IS
+country,mostAtheistCountries_religiousPerson,mostAtheistCountries_totalAth,mostAtheistCountries_notReligiousPerson,mostAtheistCountries_convincedAtheist,mostAtheistCountries_doNotKnow
+IN,94,6,3,2,1
+CN,9,91,23,67,1
+US,56,43,32,7,4
+ID,58,42,30,0,12
+PK,93,7,5,1,1
+NG,97,3,2,0,1
+BR,82,18,15,2,1
+BD,80,20,19,0,1
+RU,61,39,23,7,9
+MX,61,38,28,8,2
+JP,13,86,31,29,26
+PH,90,10,9,0,1
+CD,80,21,9,8,4
+VN,33,67,57,6,4
+IR,77,23,16,4,3
+TR,74,26,12,6,8
+DE,34,66,46,14,6
+TH,98,2,1,1,0
+GB,27,72,58,11,3
+FR,45,55,29,21,5
+IT,69,31,18,8,5
+CO,84,16,11,3,2
+KR,35,65,37,23,5
+ES,37,63,41,16,6
+IQ,64,36,34,0,2
+AR,78,22,16,4,2
+PL,82,18,9,1,8
+CA,37,63,47,10,6
+UA,53,46,36,6,4
+GH,94,6,1,0,5
+PE,72,29,20,3,6
+CI,94,6,6,0,
+AU,31,70,50,13,7
+RO,89,11,6,3,2
+EC,78,22,16,2,4
+BE,28,72,43,21,8
+SE,22,78,55,18,5
+PG,94,6,5,0,1
+CZ,24,75,47,25,3
+AZ,35,64,64,0,0
+GR,73,27,15,7,5
+PT,59,41,29,9,3
+IL,39,61,50,8,3
+AT,41,59,43,10,6
+HK,33,66,33,30,3
+RS,75,25,17,4,4
+PY,87,13,7,2,4
+BG,51,50,36,3,11
+DK,32,68,47,14,7
+FI,39,62,47,8,7
+NO,30,70,50,12,8
+PS,61,39,34,1,4
+LB,71,29,26,2,1
+IE,40,60,47,9,4
+PA,84,16,10,3,3
+MN,71,29,21,8,
+BA,75,24,21,1,2
+AL,56,44,30,9,5
+AM,92,7,4,2,1
+LT,47,52,34,6,12
+SI,41,59,25,28,6
+LV,37,62,43,9,10
+EE,28,72,50,10,12
+FJ,92,8,6,2,0
+IS,46,54,32,17,5

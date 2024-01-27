@@ -1,31 +1,31 @@
-country,CountriesWhereAlcoholIsIllegal,CountriesWhereAlcoholIsIllegalAdditionalDetails,ISO2
-India,Partially legal,"Illegal in Gujarat, Nagaland and Bihar.",IN
-Indonesia,Partially legal,Illegal in Aceh teritory.,ID
-Pakistan,Partially legal,Illegal for Muslims and in public.,PK
-Bangladesh,Illegal,,BD
-Egypt,Partially legal,Illegal in public places and during Ramadan.,EG
-Iran,Partially legal,"Home production legal for Zoroastrians, Jews and Christians.",Not Found
-United Kingdom,Partially legal,"In Scotland, alcohol cannot be sold in stores after 10pm.",GB
-Sudan,Partially legal,Legal for non-Muslims in private.,SD
-Iraq,Partially legal,"Banned by parliament, but rarely enforced.",IQ
-Algeria,Partially legal,"Illegal in public, legal in hotels, restaurants, bars and homes.",DZ
-Afghanistan,Illegal,,AF
-Morocco,Partially legal,"Alcohol must be purchased and consumed in licensed hotels, bars, and tourist area, or in major supermarkets.",MA
-Saudi Arabia,Illegal,,SA
-Yemen,Illegal,,YE
-Malaysia,Partially legal,Public drinking illegal in Kelantan and Terengganu.,MY
-Chile,Partially legal,Illegal in public.,CL
-Somalia,Illegal,,SO
-Tunisia,Partially legal,Alcohol sales are banned on Fridays and during Ramadan.,TN
-United Arab Emirates,Illegal,,AE
-Israel,Partially legal,"Selling in stores between 11 p.m. to 6 a.m. is illegal; serving at bars, restaurants and clubs always legal.",IL
-Libya,Illegal,,LY
-Turkmenistan,Partially legal,"Illegal on trains, airplanes, and ferries and in sports facilities. Sales are banned on weekends and holidays, except at bars and restaurants.",TM
-Norway,Partially legal,"Illegal in public, except at bars and restaurants. Alcohol is only sold in stores within a certain time period on weekdays",NO
-Palestine,Partially legal,"Illegal in Gaza, legal in West Bank",Not Found
-Mauritania,Illegal,,MR
-Oman,Partially legal,"Legal for non-Muslim foreigners at restaurants, hotels and bars; at home with a licence. Illegal in public",OM
-Kuwait,Illegal,,KW
-Qatar,Partially legal,Legal for tourists at hotels and bars.,QA
-Comoros,Partially legal,Illegal for Muslims during Ramadan.,KM
-Brunei,Illegal,,Not Found
+country,CountriesWhereAlcoholIsIllegal,CountriesWhereAlcoholIsIllegalAdditionalDetails
+IN,Partially legal,"Illegal in Gujarat, Nagaland and Bihar."
+ID,Partially legal,Illegal in Aceh teritory.
+PK,Partially legal,Illegal for Muslims and in public.
+BD,Illegal,
+EG,Partially legal,Illegal in public places and during Ramadan.
+IR,Partially legal,"Home production legal for Zoroastrians, Jews and Christians."
+GB,Partially legal,"In Scotland, alcohol cannot be sold in stores after 10pm."
+SD,Partially legal,Legal for non-Muslims in private.
+IQ,Partially legal,"Banned by parliament, but rarely enforced."
+DZ,Partially legal,"Illegal in public, legal in hotels, restaurants, bars and homes."
+AF,Illegal,
+MA,Partially legal,"Alcohol must be purchased and consumed in licensed hotels, bars, and tourist area, or in major supermarkets."
+SA,Illegal,
+YE,Illegal,
+MY,Partially legal,Public drinking illegal in Kelantan and Terengganu.
+CL,Partially legal,Illegal in public.
+SO,Illegal,
+TN,Partially legal,Alcohol sales are banned on Fridays and during Ramadan.
+AE,Illegal,
+IL,Partially legal,"Selling in stores between 11 p.m. to 6 a.m. is illegal; serving at bars, restaurants and clubs always legal."
+LY,Illegal,
+TM,Partially legal,"Illegal on trains, airplanes, and ferries and in sports facilities. Sales are banned on weekends and holidays, except at bars and restaurants."
+NO,Partially legal,"Illegal in public, except at bars and restaurants. Alcohol is only sold in stores within a certain time period on weekdays"
+PS,Partially legal,"Illegal in Gaza, legal in West Bank"
+MR,Illegal,
+OM,Partially legal,"Legal for non-Muslim foreigners at restaurants, hotels and bars; at home with a licence. Illegal in public"
+KW,Illegal,
+QA,Partially legal,Legal for tourists at hotels and bars.
+KM,Partially legal,Illegal for Muslims during Ramadan.
+BN,Illegal,

@@ -1,82 +1,82 @@
-country,CountriesWithTheMostHolidaysNumberOfPublicHolidays,ISO2
-India,21,IN
-China,11,CN
-United States,11,US
-Indonesia,16,ID
-Pakistan,16,PK
-Brazil,9,BR
-Bangladesh,22,BD
-Russia,11,Not Found
-Mexico,8,MX
-Japan,16,JP
-Philippines,18,PH
-Egypt,22,EG
-Vietnam,11,Not Found
-Iran,26,Not Found
-Turkey,14,Not Found
-Germany,10,DE
-Thailand,16,TH
-Tanzania,16,Not Found
-United Kingdom,8,GB
-France,11,FR
-South Africa,12,ZA
-Italy,12,IT
-Myanmar,32,MM
-Colombia,18,CO
-South Korea,14,Not Found
-Spain,12,ES
-Argentina,19,AR
-Poland,13,PL
-Canada,10,CA
-Ukraine,11,UA
-Peru,14,PE
-Malaysia,21,MY
-Nepal,39,NP
-Venezuela,14,Not Found
-Australia,10,AU
-Taiwan,12,Not Found
-Sri Lanka,25,LK
-Kazakhstan,16,KZ
-Chile,14,CL
-Romania,15,RO
-Ecuador,8,EC
-Netherlands,11,NL
-Cambodia,21,KH
-Rwanda,14,RW
-Belgium,10,BE
-Dominican Republic,12,DO
-Sweden,12,SE
-Czech Republic,13,Not Found
-Greece,12,GR
-Portugal,13,PT
-Hungary,12,HU
-Israel,11,IL
-Austria,14,AT
-Switzerland,9,CH
-Hong Kong,17,HK
-Serbia,13,RS
-Bulgaria,12,BG
-Singapore,11,SG
-Denmark,14,DK
-Slovakia,15,SK
-Finland,13,FI
-Norway,14,NO
-New Zealand,12,NZ
-Lebanon,19,LB
-Ireland,10,IE
-Croatia,14,HR
-Mongolia,14,MN
-Uruguay,12,UY
-Albania,15,AL
-Lithuania,15,LT
-Slovenia,14,SI
-Latvia,13,LV
-Trinidad and Tobago,15,TT
-Estonia,10,EE
-Cyprus,14,CY
-Fiji,10,FJ
-Luxembourg,11,LU
-Malta,14,MT
-Iceland,16,IS
-Barbados,12,BB
-Liechtenstein,20,LI
+country,CountriesWithTheMostHolidaysNumberOfPublicHolidays
+IN,21
+CN,11
+US,11
+ID,16
+PK,16
+BR,9
+BD,22
+RU,11
+MX,8
+JP,16
+PH,18
+EG,22
+VN,11
+IR,26
+TR,14
+DE,10
+TH,16
+TZ,16
+GB,8
+FR,11
+ZA,12
+IT,12
+MM,32
+CO,18
+KR,14
+ES,12
+AR,19
+PL,13
+CA,10
+UA,11
+PE,14
+MY,21
+NP,39
+VE,14
+AU,10
+TW,12
+LK,25
+KZ,16
+CL,14
+RO,15
+EC,8
+NL,11
+KH,21
+RW,14
+BE,10
+DO,12
+SE,12
+CZ,13
+GR,12
+PT,13
+HU,12
+IL,11
+AT,14
+CH,9
+HK,17
+RS,13
+BG,12
+SG,11
+DK,14
+SK,15
+FI,13
+NO,14
+NZ,12
+LB,19
+IE,10
+HR,14
+MN,14
+UY,12
+AL,15
+LT,15
+SI,14
+LV,13
+TT,15
+EE,10
+CY,14
+FJ,10
+LU,11
+MT,14
+IS,16
+BB,12
+LI,20

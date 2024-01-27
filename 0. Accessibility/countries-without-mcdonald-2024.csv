@@ -1,97 +1,97 @@
-country,CountriesWithoutMcDonalds,ISO2
-Nigeria,x,NG
-Bangladesh,x,BD
-Russia,x,Not Found
-Ethiopia,x,ET
-DR Congo,x,Not Found
-Iran,x,Not Found
-Tanzania,x,Not Found
-Kenya,x,KE
-Myanmar,x,MM
-Uganda,x,UG
-Sudan,x,SD
-Iraq,x,IQ
-Algeria,x,DZ
-Afghanistan,x,AF
-Angola,x,AO
-Uzbekistan,x,UZ
-Yemen,x,YE
-Mozambique,x,MZ
-Ghana,x,GH
-Nepal,x,NP
-Madagascar,x,MG
-Ivory Coast,x,Not Found
-Cameroon,x,CM
-Niger,x,NE
-North Korea,x,Not Found
-Syria,x,Not Found
-Mali,x,ML
-Burkina Faso,x,BF
-Malawi,x,MW
-Zambia,x,ZM
-Kazakhstan,x,KZ
-Chad,x,TD
-Somalia,x,SO
-Senegal,x,SN
-Cambodia,x,KH
-Zimbabwe,x,ZW
-Guinea,x,GN
-Rwanda,x,RW
-Benin,x,BJ
-Burundi,x,BI
-Bolivia,x,Not Found
-Haiti,x,HT
-South Sudan,x,SS
-Papua New Guinea,x,PG
-Tajikistan,x,TJ
-Togo,x,TG
-Sierra Leone,x,SL
-Laos,x,Not Found
-Libya,x,LY
-Kyrgyzstan,x,KG
-Turkmenistan,x,TM
-Central African Republic,x,CF
-Palestine,x,Not Found
-Mauritania,x,MR
-Eritrea,x,ER
-Mongolia,x,MN
-Bosnia and Herzegovina,x,BA
-Gambia,x,GM
-Albania,x,AL
-Jamaica,x,JM
-Armenia,x,AM
-Botswana,x,BW
-Namibia,x,NA
-Gabon,x,GA
-Lesotho,x,LS
-Guinea-Bissau,x,GW
-Equatorial Guinea,x,GQ
-Timor-Leste,x,TL
-Djibouti,x,DJ
-Comoros,x,KM
-Bhutan,x,BT
-Solomon Islands,x,SB
-Montenegro,x,ME
-Cape Verde,x,Not Found
-Maldives,x,MV
-Belize,x,BZ
-Iceland,x,IS
-Vanuatu,x,VU
-Barbados,x,BB
-Sao Tome and Principe,x,ST
-Saint Lucia,x,LC
-Kiribati,x,KI
-Grenada,x,GD
-Micronesia,x,Not Found
-Tonga,x,TO
-Seychelles,x,SC
-Dominica,x,DM
-Bermuda,x,BM
-Greenland,x,GL
-Saint Kitts and Nevis,x,KN
-Marshall Islands,x,MH
-Palau,x,PW
-Nauru,x,NR
-Tuvalu,x,TV
-Falkland Islands,x,Not Found
-Vatican City,x,Not Found
+country,CountriesWithoutMcDonalds
+NG,x
+BD,x
+RU,x
+ET,x
+CD,x
+IR,x
+TZ,x
+KE,x
+MM,x
+UG,x
+SD,x
+IQ,x
+DZ,x
+AF,x
+AO,x
+UZ,x
+YE,x
+MZ,x
+GH,x
+NP,x
+MG,x
+CI,x
+CM,x
+NE,x
+KP,x
+SY,x
+ML,x
+BF,x
+MW,x
+ZM,x
+KZ,x
+TD,x
+SO,x
+SN,x
+KH,x
+ZW,x
+GN,x
+RW,x
+BJ,x
+BI,x
+BO,x
+HT,x
+SS,x
+PG,x
+TJ,x
+TG,x
+SL,x
+LA,x
+LY,x
+KG,x
+TM,x
+CF,x
+PS,x
+MR,x
+ER,x
+MN,x
+BA,x
+GM,x
+AL,x
+JM,x
+AM,x
+BW,x
+NA,x
+GA,x
+LS,x
+GW,x
+GQ,x
+TL,x
+DJ,x
+KM,x
+BT,x
+SB,x
+ME,x
+CV,x
+MV,x
+BZ,x
+IS,x
+VU,x
+BB,x
+ST,x
+LC,x
+KI,x
+GD,x
+FM,x
+TO,x
+SC,x
+DM,x
+BM,x
+GL,x
+KN,x
+MH,x
+PW,x
+NR,x
+TV,x
+FK,x
+VA,x

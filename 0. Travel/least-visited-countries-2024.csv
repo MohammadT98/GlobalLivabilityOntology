@@ -1,189 +1,189 @@
-country,leastVisitedCountries_unwto2019,leastVisitedCountries_unwto2020,leastVisitedCountries_overnightOnly,leastVisitedCountries_overnightOnly2020,ISO2
-India,17914000,6337000.0,no,no,IN
-China,162538000,30402000.0,no,no,CN
-United States,165478000,45037000.0,no,no,US
-Indonesia,16107000,4053000.0,no,no,ID
-Brazil,6353000,2146000.0,no,no,BR
-Bangladesh,323000,168000.0,yes,no,BD
-Russia,24419000,6359000.0,no,no,Not Found
-Ethiopia,812000,518000.0,yes,no,ET
-Mexico,97406000,51128000.0,no,no,MX
-Japan,31881000,4115800.0,no,no,JP
-Philippines,8261000,1483000.0,yes,no,PH
-Egypt,13026000,3677000.0,no,no,EG
-Vietnam,18009000,3837000.0,no,no,Not Found
-Iran,9107000,1550000.0,no,no,Not Found
-Turkey,51747000,15971000.0,no,no,Not Found
-Germany,39563000,12449000.0,yes,no,DE
-Thailand,39916000,6702000.0,yes,no,TH
-Tanzania,1527000,621000.0,no,no,Not Found
-United Kingdom,40857000,11101000.0,no,no,GB
-France,217877000,117109000.0,no,no,FR
-South Africa,14797000,3886600.0,no,no,ZA
-Italy,95399000,38419000.0,no,no,IT
-Kenya,2049000,568000.0,no,no,KE
-Myanmar,4364000,903000.0,yes,no,MM
-Colombia,4351000,1396000.0,no,no,CO
-South Korea,17503000,2519000.0,no,no,Not Found
-Uganda,1543000,473000.0,yes,no,UG
-Spain,126170000,36410000.0,no,no,ES
-Algeria,2371000,591000.0,no,no,DZ
-Argentina,11131000,3096000.0,no,no,AR
-Poland,88515000,51076000.0,no,no,PL
-Canada,32430000,5068000.0,no,no,CA
-Morocco,13109000,2802000.0,no,no,MA
-Ukraine,13710000,3382000.0,no,no,UA
-Angola,218000,64000.0,no,no,AO
-Saudi Arabia,20292000,4882000.0,no,no,SA
-Uzbekistan,6749000,1504000.0,no,no,UZ
-Mozambique,2033000,959000.0,no,no,MZ
-Peru,5275000,1119000.0,no,no,PE
-Malaysia,35046000,6102000.0,no,no,MY
-Nepal,1197000,230000.0,yes,no,NP
-Madagascar,486000,87100.0,no,no,MG
-Ivory Coast,2070000,668000.0,no,no,Not Found
-Cameroon,1021000,,no,no,CM
-Niger,192000,85000.0,yes,no,NE
-Australia,9466000,1828000.0,no,no,AU
-Syria,2424000,479000.0,no,no,Not Found
-Mali,217000,75000.0,yes,no,ML
-Taiwan,11864000,1378000.0,no,no,Not Found
-Burkina Faso,143000,67000.0,yes,no,BF
-Sri Lanka,2027000,540000.0,no,no,LK
-Zambia,1266000,502000.0,no,no,ZM
-Kazakhstan,8515000,2035000.0,no,no,KZ
-Chile,5431000,1311000.0,no,no,CL
-Romania,12815000,5023000.0,no,no,RO
-Chad,81000,10000.0,yes,no,TD
-Ecuador,2108000,507000.0,no,no,EC
-Guatemala,2560000,594000.0,no,no,GT
-Netherlands,20129000,7265000.0,yes,no,NL
-Cambodia,6611000,1306000.0,yes,no,KH
-Zimbabwe,2294000,639000.0,no,no,ZW
-Rwanda,1634000,,no,no,RW
-Benin,337000,354000.0,no,no,BJ
-Bolivia,1239000,323000.0,yes,no,Not Found
-Tunisia,9429000,2012000.0,yes,no,TN
-Haiti,938000,322000.0,no,no,HT
-Belgium,9343000,2584000.0,yes,no,BE
-Dominican Republic,7550000,2748000.0,no,no,DO
-Jordan,5361000,1240000.0,no,no,JO
-Cuba,4276000,1086000.0,no,no,CU
-Honduras,2315000,669000.0,no,no,HN
-Sweden,7616000,1957000.0,no,no,SE
-Papua New Guinea,211000,39000.0,no,no,PG
-Azerbaijan,3170000,796000.0,no,no,AZ
-Tajikistan,1257000,351000.0,no,no,TJ
-Greece,34005000,7406000.0,no,no,GR
-Portugal,17283000,4208000.0,yes,no,PT
-Hungary,61397000,31641000.0,no,no,HU
-United Arab Emirates,25282000,8084000.0,no,no,AE
-Belarus,11832000,3598000.0,no,no,BY
-Israel,4905000,887000.0,no,no,IL
-Togo,876000,482000.0,yes,no,TG
-Sierra Leone,71000,26000.0,no,no,SL
-Austria,31884000,15091000.0,yes,no,AT
-Switzerland,11818000,3690000.0,yes,no,CH
-Laos,4791000,886400.0,no,no,Not Found
-Hong Kong,55913000,3569000.0,no,no,HK
-Nicaragua,1455000,474000.0,no,no,NI
-Serbia,1847000,446000.0,yes,no,RS
-Paraguay,4368000,1077000.0,no,no,PY
-Kyrgyzstan,8508000,2079000.0,no,no,KG
-Bulgaria,12552000,4973000.0,no,no,BG
-El Salvador,2639000,707000.0,no,no,SV
-Singapore,19116000,2742000.0,no,no,SG
-Denmark,33093000,15595000.0,no,no,DK
-Central African Republic,87000,,yes,no,CF
-Slovakia,16086000,,no,no,SK
-Finland,3290000,896000.0,no,no,FI
-Norway,5879000,1397000.0,yes,no,NO
-Palestine,3810000,93000.0,no,yes,Not Found
-New Zealand,3888000,996000.0,no,no,NZ
-Costa Rica,3366000,1147000.0,no,no,CR
-Lebanon,1936000,414000.0,yes,no,LB
-Ireland,10951000,,yes,no,IE
-Oman,3506000,869000.0,no,no,OM
-Panama,2494000,647000.0,no,no,PA
-Kuwait,8565000,2161000.0,no,no,KW
-Croatia,60021000,21608000.0,no,no,HR
-Georgia,7726000,1513000.0,no,no,GE
-Mongolia,637000,67000.0,no,no,MN
-Uruguay,3480000,,no,no,UY
-Moldova,174000,29000.0,no,no,Not Found
-Puerto Rico,4931000,3882000.0,no,no,PR
-Bosnia and Herzegovina,1198000,197000.0,yes,no,BA
-Gambia,640000,246000.0,no,no,GM
-Albania,6406000,2658000.0,no,no,AL
-Jamaica,4233000,1329700.0,no,no,JM
-Armenia,1894000,375000.0,yes,no,AM
-Qatar,2137000,582000.0,no,no,QA
-Lithuania,6150000,2284000.0,no,no,LT
-Namibia,1651000,187100.0,no,no,NA
-Lesotho,1142000,,no,no,LS
-Guinea-Bissau,52000,,no,no,GW
-Slovenia,4702000,1216000.0,yes,no,SI
-North Macedonia,756000,118000.0,yes,no,MK
-Latvia,8342000,3204000.0,no,no,LV
-Trinidad and Tobago,480000,141000.0,no,no,TT
-Bahrain,11061000,1909000.0,no,no,BH
-Timor-Leste,81000,18000.0,yes,no,TL
-Estonia,6103000,1695000.0,no,no,EE
-Mauritius,1418000,316000.0,no,no,MU
-Cyprus,4117000,632000.0,no,yes,CY
-Eswatini,1226000,345300.0,no,no,SZ
-Reunion,601000,255000.0,no,no,Not Found
-Fiji,969000,168000.0,no,no,FJ
-Comoros,45000,7000.0,no,no,KM
-Guyana,315000,86000.0,yes,no,GY
-Bhutan,316000,30000.0,yes,no,BT
-Solomon Islands,29000,4000.0,yes,no,SB
-Macau,39406000,5897000.0,no,no,Not Found
-Luxembourg,1041000,525000.0,yes,no,LU
-Montenegro,2510000,351000.0,no,no,ME
-Cape Verde,758000,180000.0,yes,no,Not Found
-Malta,3519000,718000.0,no,no,MT
-Maldives,1703000,555000.0,yes,no,MV
-Brunei,4449000,1071000.0,no,no,Not Found
-Belize,1674000,487000.0,no,no,BZ
-Bahamas,7250000,1794500.0,no,no,BS
-Iceland,2202000,488000.0,no,no,IS
-Martinique,919000,523600.0,no,no,MQ
-Vanuatu,256000,82400.0,no,no,VU
-French Polynesia,300000,89400.0,no,no,PF
-New Caledonia,474000,31000.0,no,yes,NC
-Barbados,966000,546000.0,no,no,BB
-Sao Tome and Principe,34900,10700.0,no,no,ST
-Samoa,181000,24000.0,no,no,WS
-Curacao,1293000,436000.0,no,no,Not Found
-Saint Lucia,1220000,432500.0,no,no,LC
-Guam,1667000,328000.0,yes,no,GU
-Kiribati,12000,1400.0,no,no,KI
-Grenada,526000,217000.0,no,no,GD
-Micronesia,18000,,yes,no,Not Found
-Tonga,94000,12000.0,no,no,TO
-Seychelles,428000,125000.0,no,no,SC
-Aruba,1951000,,no,no,AW
-Saint Vincent and the Grenadines,404000,155000.0,no,no,VC
-United States Virgin Islands,2074000,8612000.0,no,no,Not Found
-Antigua and Barbuda,1035000,276000.0,no,no,AG
-Andorra,8235000,5207000.0,no,no,AD
-Dominica,322000,140000.0,no,no,DM
-Cayman Islands,2334000,660000.0,no,no,KY
-Bermuda,805000,51400.0,no,no,BM
-Northern Mariana Islands,487000,89000.0,no,no,MP
-Saint Kitts and Nevis,1107000,301400.0,no,no,KN
-Turks and Caicos Islands,1599000,370400.0,no,no,TC
-Sint Maarten,1952000,542000.0,no,no,Not Found
-American Samoa,58600,900.0,no,no,AS
-Marshall Islands,6100,1200.0,no,no,MH
-Liechtenstein,98100,58400.0,yes,no,LI
-Monaco,363000,159000.0,yes,no,MC
-San Marino,1904000,1015000.0,no,no,SM
-British Virgin Islands,895000,83000.0,no,yes,Not Found
-Palau,94000,18000.0,no,no,PW
-Cook Islands,172000,25000.0,yes,no,CK
-Anguilla,166000,41000.0,no,no,AI
-Tuvalu,3700,600.0,yes,no,TV
-Montserrat,19300,7700.0,no,no,MS
-Niue,10200,1300.0,yes,no,NU
+country,leastVisitedCountries_unwto2019,leastVisitedCountries_unwto2020,leastVisitedCountries_overnightOnly,leastVisitedCountries_overnightOnly2020
+IN,17914000,6337000,no,no
+CN,162538000,30402000,no,no
+US,165478000,45037000,no,no
+ID,16107000,4053000,no,no
+BR,6353000,2146000,no,no
+BD,323000,168000,yes,no
+RU,24419000,6359000,no,no
+ET,812000,518000,yes,no
+MX,97406000,51128000,no,no
+JP,31881000,4115800,no,no
+PH,8261000,1483000,yes,no
+EG,13026000,3677000,no,no
+VN,18009000,3837000,no,no
+IR,9107000,1550000,no,no
+TR,51747000,15971000,no,no
+DE,39563000,12449000,yes,no
+TH,39916000,6702000,yes,no
+TZ,1527000,621000,no,no
+GB,40857000,11101000,no,no
+FR,217877000,117109000,no,no
+ZA,14797000,3886600,no,no
+IT,95399000,38419000,no,no
+KE,2049000,568000,no,no
+MM,4364000,903000,yes,no
+CO,4351000,1396000,no,no
+KR,17503000,2519000,no,no
+UG,1543000,473000,yes,no
+ES,126170000,36410000,no,no
+DZ,2371000,591000,no,no
+AR,11131000,3096000,no,no
+PL,88515000,51076000,no,no
+CA,32430000,5068000,no,no
+MA,13109000,2802000,no,no
+UA,13710000,3382000,no,no
+AO,218000,64000,no,no
+SA,20292000,4882000,no,no
+UZ,6749000,1504000,no,no
+MZ,2033000,959000,no,no
+PE,5275000,1119000,no,no
+MY,35046000,6102000,no,no
+NP,1197000,230000,yes,no
+MG,486000,87100,no,no
+CI,2070000,668000,no,no
+CM,1021000,,no,no
+NE,192000,85000,yes,no
+AU,9466000,1828000,no,no
+SY,2424000,479000,no,no
+ML,217000,75000,yes,no
+TW,11864000,1378000,no,no
+BF,143000,67000,yes,no
+LK,2027000,540000,no,no
+ZM,1266000,502000,no,no
+KZ,8515000,2035000,no,no
+CL,5431000,1311000,no,no
+RO,12815000,5023000,no,no
+TD,81000,10000,yes,no
+EC,2108000,507000,no,no
+GT,2560000,594000,no,no
+NL,20129000,7265000,yes,no
+KH,6611000,1306000,yes,no
+ZW,2294000,639000,no,no
+RW,1634000,,no,no
+BJ,337000,354000,no,no
+BO,1239000,323000,yes,no
+TN,9429000,2012000,yes,no
+HT,938000,322000,no,no
+BE,9343000,2584000,yes,no
+DO,7550000,2748000,no,no
+JO,5361000,1240000,no,no
+CU,4276000,1086000,no,no
+HN,2315000,669000,no,no
+SE,7616000,1957000,no,no
+PG,211000,39000,no,no
+AZ,3170000,796000,no,no
+TJ,1257000,351000,no,no
+GR,34005000,7406000,no,no
+PT,17283000,4208000,yes,no
+HU,61397000,31641000,no,no
+AE,25282000,8084000,no,no
+BY,11832000,3598000,no,no
+IL,4905000,887000,no,no
+TG,876000,482000,yes,no
+SL,71000,26000,no,no
+AT,31884000,15091000,yes,no
+CH,11818000,3690000,yes,no
+LA,4791000,886400,no,no
+HK,55913000,3569000,no,no
+NI,1455000,474000,no,no
+RS,1847000,446000,yes,no
+PY,4368000,1077000,no,no
+KG,8508000,2079000,no,no
+BG,12552000,4973000,no,no
+SV,2639000,707000,no,no
+SG,19116000,2742000,no,no
+DK,33093000,15595000,no,no
+CF,87000,,yes,no
+SK,16086000,,no,no
+FI,3290000,896000,no,no
+NO,5879000,1397000,yes,no
+PS,3810000,93000,no,yes
+NZ,3888000,996000,no,no
+CR,3366000,1147000,no,no
+LB,1936000,414000,yes,no
+IE,10951000,,yes,no
+OM,3506000,869000,no,no
+PA,2494000,647000,no,no
+KW,8565000,2161000,no,no
+HR,60021000,21608000,no,no
+GE,7726000,1513000,no,no
+MN,637000,67000,no,no
+UY,3480000,,no,no
+MD,174000,29000,no,no
+PR,4931000,3882000,no,no
+BA,1198000,197000,yes,no
+GM,640000,246000,no,no
+AL,6406000,2658000,no,no
+JM,4233000,1329700,no,no
+AM,1894000,375000,yes,no
+QA,2137000,582000,no,no
+LT,6150000,2284000,no,no
+NA,1651000,187100,no,no
+LS,1142000,,no,no
+GW,52000,,no,no
+SI,4702000,1216000,yes,no
+MK,756000,118000,yes,no
+LV,8342000,3204000,no,no
+TT,480000,141000,no,no
+BH,11061000,1909000,no,no
+TL,81000,18000,yes,no
+EE,6103000,1695000,no,no
+MU,1418000,316000,no,no
+CY,4117000,632000,no,yes
+SZ,1226000,345300,no,no
+FR,601000,255000,no,no
+FJ,969000,168000,no,no
+KM,45000,7000,no,no
+GY,315000,86000,yes,no
+BT,316000,30000,yes,no
+SB,29000,4000,yes,no
+CN,39406000,5897000,no,no
+LU,1041000,525000,yes,no
+ME,2510000,351000,no,no
+CV,758000,180000,yes,no
+MT,3519000,718000,no,no
+MV,1703000,555000,yes,no
+BN,4449000,1071000,no,no
+BZ,1674000,487000,no,no
+BS,7250000,1794500,no,no
+IS,2202000,488000,no,no
+MQ,919000,523600,no,no
+VU,256000,82400,no,no
+PF,300000,89400,no,no
+NC,474000,31000,no,yes
+BB,966000,546000,no,no
+ST,34900,10700,no,no
+WS,181000,24000,no,no
+CW,1293000,436000,no,no
+LC,1220000,432500,no,no
+GU,1667000,328000,yes,no
+KI,12000,1400,no,no
+GD,526000,217000,no,no
+FM,18000,,yes,no
+TO,94000,12000,no,no
+SC,428000,125000,no,no
+AW,1951000,,no,no
+VC,404000,155000,no,no
+US,2074000,8612000,no,no
+AG,1035000,276000,no,no
+AD,8235000,5207000,no,no
+DM,322000,140000,no,no
+KY,2334000,660000,no,no
+BM,805000,51400,no,no
+MP,487000,89000,no,no
+KN,1107000,301400,no,no
+TC,1599000,370400,no,no
+SX,1952000,542000,no,no
+AS,58600,900,no,no
+MH,6100,1200,no,no
+LI,98100,58400,yes,no
+MC,363000,159000,yes,no
+SM,1904000,1015000,no,no
+GB,895000,83000,no,yes
+PW,94000,18000,no,no
+CK,172000,25000,yes,no
+AI,166000,41000,no,no
+TV,3700,600,yes,no
+MS,19300,7700,no,no
+NU,10200,1300,yes,no

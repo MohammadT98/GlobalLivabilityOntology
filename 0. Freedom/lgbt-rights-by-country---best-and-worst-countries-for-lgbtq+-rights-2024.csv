@@ -1,231 +1,231 @@
-country,LgbtqGAI,LgbtqEEI,LgbtqTSI,LgbtqConsensualSameSexActs,LgbtqDeathPenalty,LgbtqMaxPenalty,LgbtqSameSexUnions,LgbtqSameSexMarriages,LgbtqSameSexAdoptions,ISO2
-India,5.28,63.0,77.0,Legalized 2018,No,,No,No,No,IN
-China,3.69,45.0,31.0,Legalized 1997,No,,Pending,No,No,CN
-United States,7.42,82.0,267.0,Legalized (various 1962-2003),No,,Varied,Legalized 2015,Legalized 2015,US
-Indonesia,2.79,34.0,3.0,Varied,No,varies,No,No,No,ID
-Pakistan,3.66,34.0,-93.0,Illegal - 1860,Possible,"3 mos + fines, possibly death",No,No,No,PK
-Nigeria,2.18,9.0,-190.0,Illegal - 1959 (updated 2017),Yes,14 yrs + fines or death,No,No,No,NG
-Brazil,7.22,82.0,223.0,Legalized 1831,No,,Legalized 2011,Legalized 2013,Legalized 2010,BR
-Bangladesh,3.69,23.0,-9.0,Illegal - 1860,No,Life in prison,No,No,No,BD
-Russia,3.28,32.0,-2.0,Legalized 1993,No,,No,No,No,Not Found
-Ethiopia,1.63,14.0,-93.0,Illegal - 1957 (updated 2004),No,3 yrs prison,No,No,No,ET
-Mexico,6.5,78.0,173.0,Legalized 1872,No,,Varied,Varied,Varied,MX
-Japan,5.26,64.0,83.0,Legalized 1882,No,,Varied,Varied,No,JP
-Philippines,6.06,58.0,47.0,Legalized 1870,No,,No,No,No,PH
-Egypt,2.48,11.0,-96.0,"Illegal (as \debauchery\"") - 1961""",No,6 yrs prison,No,No,No,EG
-DR Congo,3.32,52.0,-27.0,Legal - never illegal,No,,No,No,No,Not Found
-Vietnam,4.99,52.0,54.0,Legal - never illegal,No,,No,No,No,Not Found
-Iran,2.11,6.0,-104.0,Illegal - 2003,Yes,Death,No,No,No,Not Found
-Turkey,3.94,32.0,40.0,Legalized 1858,No,,No,No,No,Not Found
-Germany,7.73,84.0,259.0,Legalized 1968-1969,No,,Replaced,Legalized 2017,Legalized 2017,DE
-Thailand,5.81,52.0,131.0,Legalized 1957,No,,Pending,No,Pending,TH
-Tanzania,3.27,17.0,-120.0,Illegal - 1998,No,Life in prison,No,No,No,Not Found
-United Kingdom,8.34,84.0,347.0,Legalized (various 1967-1982),No,,Legalized 2005,Legalized 2014,Legalized 2005-2013,GB
-France,7.73,78.0,338.0,Legalized 1791,No,,Legalized 1999,Legalized 2013,Legalized 2013,FR
-South Africa,6.01,76.0,292.0,Legalized 1998,No,,Legalized 2006,Legalized 2006,Legalized 2002,ZA
-Italy,6.94,65.0,168.0,Legalized 1890,No,,Legalized 2016,No,No,IT
-Kenya,3.62,23.0,-87.0,Illegal - 1930 (updated 2003),No,14 yrs prison,No,No,No,KE
-Myanmar,4.11,22.0,-118.0,Illegal - 1860,No,10 yrs prison + fines,No,No,No,MM
-Colombia,6.1,69.0,241.0,Legalized 1981,No,,Legalized 2011,Legalized 2016,Legalized 2015,CO
-South Korea,4.53,54.0,97.0,Legal - never illegal,No,2 yrs + labor (military only),No,No,No,Not Found
-Uganda,3.63,13.0,-92.0,Illegal - 2000,No,Unclear,No,No,No,UG
-Sudan,2.99,11.0,-109.0,Illegal - 2020,No,Life in prison,No,No,No,SD
-Spain,8.77,82.0,341.0,Legalized 1979,No,,Legalized 2011,Legalized 2005,Legalized 2005,ES
-Iraq,3.81,15.0,-28.0,Unclear,No,Unclear,No,No,No,IQ
-Algeria,4.28,16.0,-75.0,Illegal - 1966,No,2 yrs prison + fines,No,No,No,DZ
-Argentina,7.07,82.0,260.0,Legalized 1903,No,,Legalized 2002,Legalized 2010,Legalized 2010,AR
-Afghanistan,3.32,2.0,-147.0,Illegal - 2018,Possible,2 yrs prison to death,No,No,No,AF
-Poland,5.15,49.0,82.0,Legalized 1932,No,,Pending,No,No,PL
-Canada,9.02,90.0,383.0,Legalized 1969,No,,Legalized 1999,Legalized 2005,Legalized (1996-2011),CA
-Morocco,3.39,22.0,-89.0,Illegal - 1963,No,3 yrs prison + fines,No,No,No,MA
-Ukraine,2.91,47.0,80.0,Legalized 1991,No,,No,No,No,UA
-Angola,3.66,62.0,213.0,Legalized 2021,No,,No,No,No,AO
-Saudi Arabia,3.6,13.0,-177.0,Illegal,Yes,Death,No,No,No,SA
-Uzbekistan,3.68,40.0,-65.0,Illegal - 1994,No,3 yrs prison,No,No,No,UZ
-Yemen,3.41,,-128.0,Illegal - 1994,Yes,"Death (males), 3 yrs (females)",No,No,No,YE
-Mozambique,4.92,60.0,87.0,Legalized 2015,No,,No,No,No,MZ
-Ghana,2.68,21.0,-49.0,Illegal - 1960 (updated 2003),No,3 yrs prison,No,No,No,GH
-Peru,5.15,54.0,207.0,Legalized 1924,No,,Limited,No,No,PE
-Malaysia,3.48,13.0,-165.0,Illegal - 1936,No,20 yrs + whipping,No,No,No,MY
-Nepal,7.84,69.0,181.0,Legalized 2007,No,,No,No,No,NP
-Madagascar,3.36,38.0,26.0,Legal - never illegal,No,,No,No,No,MG
-Ivory Coast,3.55,26.0,-25.0,Legal - never illegal,No,,No,No,No,Not Found
-Venezuela,5.51,50.0,34.0,Legalized 1836,No,,No,No,No,Not Found
-Cameroon,2.79,18.0,,Illegal - 2016,No,5 yrs prison + fines,No,No,No,CM
-Niger,2.97,29.0,14.0,Legal - never illegal,No,,No,No,No,NE
-Australia,8.03,84.0,307.0,Legalized 1975-1997,No,,Varied,Legalized 2017,Legalized 2002-2018,AU
-North Korea,,,,Legal - never illegal,No,,No,No,No,Not Found
-Syria,5.22,29.0,,Illegal - 1949,No,3 yrs prison,No,No,No,Not Found
-Mali,2.74,34.0,12.0,Legal - never illegal,No,,No,No,No,ML
-Taiwan,5.74,66.0,188.0,Legalized 1912,No,,Legalized 2015,Legalized 2019,Related & second-parent only,Not Found
-Burkina Faso,2.96,39.0,23.0,Legal - never illegal,No,,No,No,No,BF
-Sri Lanka,3.23,38.0,-91.0,Illegal - 1995,No,10 yrs prison,No,No,No,LK
-Malawi,1.75,19.0,-163.0,Illegal - 2011,No,14 yrs + forced labor,No,No,No,MW
-Zambia,2.04,18.0,-104.0,Illegal - 1933,No,14 yrs prison,No,No,No,ZM
-Kazakhstan,2.69,35.0,3.0,Legalized 1998,No,,No,No,No,KZ
-Chile,6.83,79.0,312.0,Legalized 1999,No,,Legalized 2015,Pending,Pending,CL
-Romania,4.1,49.0,137.0,Legalized 1996,No,,No,No,No,RO
-Chad,2.72,15.0,-58.0,Illegal - 2017,No,2 yrs prison + fines,No,No,No,TD
-Somalia,1.59,2.0,-150.0,Illegal - 1964,Possible,varies (3yrs to death),No,No,No,SO
-Ecuador,5.47,64.0,228.0,Legalized 1997,No,,Legalized 2008,Legalized 2019,No,EC
-Guatemala,4.71,51.0,-6.0,Legalized 1834,No,,No,No,No,GT
-Senegal,1.85,14.0,-67.0,Illegal - 1965,No,5 yrs prison + fines,No,No,No,SN
-Netherlands,9.46,85.0,374.0,Legalized 1811,No,,Legalized 1998,Legalized 2001,Legalized 2001,NL
-Cambodia,4.96,40.0,94.0,Legal - never illegal,No,,No,Pending,No,KH
-Zimbabwe,1.57,27.0,-52.0,Illegal - 2004,No,1 yr prison + fines,No,No,No,ZW
-Guinea,3.06,16.0,-80.0,Illegal - 2016,No,3 yrs prison + fines,No,No,No,GN
-Rwanda,2.77,34.0,-29.0,Legal - never illegal,No,,No,No,No,RW
-Benin,3.88,36.0,10.0,Legal - never illegal,No,,No,No,No,BJ
-Burundi,3.3,21.0,-45.0,Illegal - 2009,No,2 yrs prison + fines,No,No,No,BI
-Bolivia,5.24,60.0,223.0,Legalized 1832,No,,No,No,No,Not Found
-Tunisia,3.38,19.0,-91.0,Illegal - 2010,No,3 yrs prison + fines,No,No,No,TN
-Haiti,3.32,33.0,88.0,Legalized 1791,No,,No,No,No,HT
-Belgium,7.95,77.0,343.0,Legalized 1795,No,,Legalized 1998,Legalized 2003,Legalized 2006,BE
-Dominican Republic,4.98,40.0,1.0,Legalized 1822,No,,No,No,No,DO
-Jordan,1.87,24.0,-30.0,Legalized 1951,No,,No,No,No,JO
-South Sudan,2.73,22.0,-126.0,Illegal - 2008 (updated ,No,10 yrs prison + fines,No,No,No,SS
-Cuba,5.8,81.0,176.0,Legalized 1979,No,,No,No,No,CU
-Honduras,5.15,49.0,15.0,Legalized ,No,,No,No,No,HN
-Sweden,9.18,81.0,378.0,Legalized 1944,No,,No,Legalized 2009,Legalized 2003,SE
-Papua New Guinea,,41.0,-80.0,Illegal - 1974,No,14 yrs + counseling/public service,No,No,No,PG
-Czech Republic,5.87,67.0,185.0,Legalized 1962,No,,Legalized 2006,No,Limited,Not Found
-Azerbaijan,1.42,24.0,,Legalized 2000,No,,No,No,No,AZ
-Tajikistan,1.56,52.0,25.0,Legalized 1998,No,,No,No,No,TJ
-Greece,5.44,62.0,189.0,Legalized 1951,No,,Legalized 2015,No,Limited,GR
-Portugal,6.87,69.0,358.0,Legalized 1983,No,,Legalized 2001,Legalized 2010,Legalized 2016,PT
-Hungary,5.08,51.0,136.0,Legalized 1962,No,,Legalized 2009,No,No,HU
-United Arab Emirates,,10.0,-134.0,Illegal - 1987 (updated 2016),Possible,varies (14 yrs to death),No,No,No,AE
-Belarus,3.38,38.0,53.0,Legalized 1994,No,,No,No,No,BY
-Israel,5.69,69.0,220.0,Legalized 1988,No,,Legalized 1994,No,Legalized 2008,IL
-Togo,3.15,18.0,-45.0,Illegal - 2015,No,3 yrs prison,No,No,No,TG
-Sierra Leone,2.97,26.0,-63.0,Illegal - 1861,No,Life in prison,No,No,No,SL
-Austria,7.2,74.0,305.0,Legalized 1971,No,,Legalized 2010,Legalized 2019,Legalized 2016,AT
-Switzerland,8.0,78.0,325.0,Legalized 1942,No,,Legalized 2007,Legalized 2022,Second-parent only,CH
-Laos,4.89,59.0,45.0,Legal - never illegal,No,,No,No,No,Not Found
-Hong Kong,6.38,,99.0,Legalized 1991,No,,No,No,No,HK
-Nicaragua,5.57,51.0,122.0,Legalized 2008,No,,No,No,No,NI
-Serbia,3.71,44.0,172.0,Legalized 1994,No,,No,No,No,RS
-Libya,3.78,7.0,-150.0,Illegal - 1953 (updated 1976),No,5 yrs prison,No,No,No,LY
-Paraguay,4.74,40.0,29.0,Legalized 1990,No,,No,No,No,PY
-Kyrgyzstan,2.16,39.0,32.0,Legalized 1998,No,,No,No,No,KG
-Bulgaria,4.19,55.0,128.0,Legalized 1968,No,,No,No,No,BG
-Turkmenistan,,36.0,-65.0,Illegal - 2019,No,5 yrs + psych treatment,No,No,No,TM
-El Salvador,5.22,48.0,18.0,Legalized 1826,No,,No,No,No,SV
-Republic of the Congo,3.27,34.0,16.0,Legal - never illegal,No,,No,No,No,Not Found
-Singapore,5.86,52.0,18.0,Illegal - 1938,No,2 yrs prison,No,No,No,SG
-Denmark,8.69,86.0,307.0,Legalized 1933,No,,Replaced,Legalized 2012,Legalized 2010,DK
-Central African Republic,2.62,55.0,-52.0,Legal - never illegal,No,,No,No,No,CF
-Slovakia,4.82,56.0,186.0,Legalized 1962,No,,No,No,No,SK
-Finland,7.96,74.0,299.0,Legalized 1971,No,,Replaced,Legalized 2017,Legalized 2017,FI
-Liberia,2.65,23.0,-39.0,Illegal - 1978,No,1 yr prison + fines,No,No,No,LR
-Norway,9.38,86.0,343.0,Legalized 1972,No,,Replaced,Legalized 2009,Legalized 2001,NO
-Palestine,3.2,16.0,-106.0,Varied,No,10 yrs prison (Gaza only),No,No,No,Not Found
-New Zealand,8.23,78.0,323.0,Legalized 1986,No,,Legalized 2005,Legalized 2013,Legalized 2013,NZ
-Costa Rica,6.35,72.0,197.0,Legalized 1971,No,,No,Legalized 2020,Legalized 2020,CR
-Lebanon,3.63,19.0,-58.0,Illegal - 1943,No,1 yr prison,No,No,No,LB
-Ireland,8.41,73.0,294.0,Legalized 1993,No,,Replaced,Legalized 2015,Legalized 2015,IE
-Mauritania,1.77,3.0,-96.0,Illegal - 1983,Yes,2 yrs + fines or death,No,No,No,MR
-Oman,,13.0,-145.0,Illegal - 2018,No,3 yrs prison,No,No,No,OM
-Panama,5.28,43.0,53.0,Legalized 2008,No,,No,No,No,PA
-Kuwait,3.61,21.0,-180.0,Illegal - 1960,No,7 yrs + deportation,No,No,No,KW
-Croatia,5.05,58.0,254.0,Legalized 1977,No,,Legalized 2014,No,Limited,HR
-Eritrea,,14.0,-75.0,Illegal - 1957 (updated 2015),No,3 yrs prison,No,No,No,ER
-Georgia,2.94,44.0,122.0,Legalized 2000,No,,No,No,No,GE
-Mongolia,2.71,42.0,117.0,Legalized 1961,No,,No,No,No,MN
-Uruguay,7.9,86.0,306.0,Legalized 1934,No,,Legalized 2008,Legalized 2013,Legalized 2009,UY
-Moldova,1.91,37.0,110.0,Legalized 1995,No,,No,No,No,Not Found
-Puerto Rico,7.52,,210.0,Legalized 2003,No,,No,Legalized 2016,Legalized 2018,PR
-Bosnia and Herzegovina,2.87,43.0,123.0,Legalized 1991-2003,No,,No,No,No,BA
-Gambia,2.44,10.0,-139.0,Illegal - 1934 (updated 2014),No,Unclear,No,No,No,GM
-Albania,2.65,38.0,141.0,Legalized 1995,No,,No,No,No,AL
-Jamaica,3.83,30.0,-132.0,Illegal - 2009,No,7 yrs w/w-out hard labor,No,No,No,JM
-Armenia,2.17,34.0,64.0,Legalized 2003,No,,No,No,No,AM
-Qatar,3.54,14.0,-137.0,Illegal - 2004,Possible,"7-10 yrs, possible death",No,No,No,QA
-Botswana,4.3,56.0,98.0,Legalized 2019,No,,No,No,No,BW
-Lithuania,4.38,50.0,145.0,Legalized 1993,No,,Pending,No,No,LT
-Namibia,4.93,55.0,48.0,Illegal - 2004,No,Unclear,No,No,No,NA
-Gabon,2.8,44.0,20.0,Legalized 2020,No,,No,No,No,GA
-Lesotho,4.18,43.0,80.0,Legalized 2012,No,,No,No,No,LS
-Guinea-Bissau,,60.0,,Legalized 1993,No,,No,No,No,GW
-Slovenia,6.21,66.0,242.0,Legalized 1977,No,,Legalized 2005,No,No,SI
-North Macedonia,3.13,42.0,113.0,Legalized 1996,No,,No,No,No,MK
-Latvia,4.42,54.0,109.0,Legalized 1992,No,,No,No,No,LV
-Equatorial Guinea,,64.0,40.0,Legal - never illegal,No,,No,No,No,GQ
-Trinidad and Tobago,4.7,37.0,71.0,Legalized 2018,No,,No,No,No,TT
-Bahrain,5.73,44.0,-15.0,Legalized 1976,No,,No,No,No,BH
-Timor-Leste,,33.0,10.0,Legalized 1975,No,,No,No,No,TL
-Estonia,5.25,59.0,206.0,Legalized 1992,No,,Legalized 2016,No,Second-parent only,EE
-Mauritius,5.34,58.0,15.0,Illegal - 1838,No,5 yrs penal servitude,No,No,No,MU
-Cyprus,5.16,59.0,192.0,Legalized 1998,No,,Legalized 2015,No,No,CY
-Eswatini,3.02,32.0,-46.0,Illegal - 1907,No,Unclear,No,No,No,SZ
-Djibouti,2.89,43.0,15.0,Legal - never illegal,No,,No,No,No,DJ
-Reunion,,,,Legalized 1791,No,,Legalized 1999,Legalized 2013,Legalized 2013,Not Found
-Fiji,,80.0,86.0,Legalized 2010,No,,No,No,No,FJ
-Comoros,3.47,22.0,-56.0,Illegal - 1981,No,5 yrs prison + fines,No,No,No,KM
-Guyana,4.36,28.0,-175.0,Illegal - 1893,No,10 yrs prison,No,No,No,GY
-Bhutan,4.18,57.0,16.0,Illegal - 2004,No,1 yr prison,No,No,No,BT
-Solomon Islands,,31.0,-85.0,Illegal - 1963,No,14 yrs prison,No,No,No,SB
-Macau,4.01,,40.0,Legalized 1996,No,,No,No,No,Not Found
-Luxembourg,7.82,78.0,269.0,Legalized 1795,No,,Legalized 2004,Legalized 2015,Legalized 2015,LU
-Suriname,4.64,59.0,171.0,Legalized 1869,No,,No,No,No,SR
-Montenegro,3.53,48.0,141.0,Legalized 1977,No,,Legalized 2021,No,No,ME
-Cape Verde,6.78,69.0,125.0,Legalized 2004,No,,No,No,No,Not Found
-Malta,8.01,82.0,369.0,Legalized 1973,No,,Legalized 2014,Legalized 2017,Legalized 2014,MT
-Maldives,,31.0,-100.0,Illegal - 2014,No,8 yrs + 100 lashes,No,No,No,MV
-Brunei,,2.0,-200.0,Illegal - 2019,Yes,10 yrs prison to death,No,No,No,Not Found
-Belize,4.14,66.0,-12.0,Legalized 2016,No,,No,No,No,BZ
-Bahamas,4.09,51.0,50.0,Legalized 1991,No,,No,No,No,BS
-Guadeloupe,,,,Legalized 1816,No,,Legalized 1999,Legalized 2013,Legalized 2013,GP
-Iceland,9.78,90.0,330.0,Legalized 1940,No,,No,Legalized 2010,Legalized 2006,IS
-Martinique,,,,Legalized 1815,No,,Legalized 1999,Legalized 2013,Legalized 2013,MQ
-Mayotte,,,,Legal - never illegal,No,,Legalized 2006,Legalized 2013,Legalized 2013,YT
-Vanuatu,,71.0,,Legal - never illegal,No,,No,No,No,VU
-French Guiana,,,,Legalized 1817,No,,Legalized 1999,Legalized 2013,Legalized 2013,GF
-French Polynesia,,,,Legal - never illegal,No,,No,Legalized 2013,Legalized 2013,PF
-New Caledonia,,,,Legal - never illegal,No,,Legalized 2009,Legalized 2013,Legalized 2013,NC
-Barbados,4.43,56.0,-93.0,Illegal - 1992,No,Life in prison,No,No,No,BB
-Sao Tome and Principe,3.15,51.0,,Legalized 2012,No,,No,No,No,ST
-Samoa,,61.0,48.0,Illegal - 2013,No,varies,No,No,No,WS
-Curacao,,,50.0,Legalized 1869,No,,No,No,No,Not Found
-Saint Lucia,3.8,36.0,-75.0,Illegal - 2004,No,10 yrs prison,No,No,No,LC
-Guam,,,289.0,Legalized 1977,No,,No,Legalized 2015,Legalized 2015,GU
-Kiribati,,43.0,-70.0,Illegal - 1977,No,14 yrs prison,No,No,No,KI
-Grenada,3.88,38.0,33.0,Illegal - 1958,No,10 yrs prison,No,No,No,GD
-Micronesia,,58.0,100.0,Legal - never illegal,No,,No,No,No,Not Found
-Tonga,,47.0,-155.0,Illegal - 1988,No,10 yrs or whipping,No,No,No,TO
-Seychelles,,68.0,75.0,Legalized 2016,No,,No,No,No,SC
-Aruba,,,138.0,Legalized 1869,No,,Legalized 2016,No,No,AW
-Saint Vincent and the Grenadines,3.04,21.0,-70.0,Illegal - 1988,No,10 yrs prison,No,No,No,VC
-United States Virgin Islands,,,264.0,Legalized 1985,No,,No,Legalized 2015,Legalized 2015,Not Found
-Antigua and Barbuda,3.52,35.0,-67.0,Illegal - 1995,No,15 yrs prison,No,No,No,AG
-Isle of Man,,90.0,,Legalized 1992,No,,Legalized 2010,Legalized 2016,Legalized 2011,IM
-Andorra,7.48,85.0,175.0,Legalized 1990,No,,Legalized 2005,No,Legalized 2014,AD
-Dominica,3.56,27.0,-57.0,Illegal - 1998,No,10 yrs + mental hospital,No,No,No,DM
-Cayman Islands,,,59.0,Legalized 2001,No,,Legalized 2020,No,No,KY
-Bermuda,,,,Legalized 1994,No,,No,No,Legalized 2015,BM
-Greenland,,,,Legalized 1933,No,,Replaced,Legalized 2016,Legalized 2016,GL
-Faroe Islands,,,,Legalized 1933,No,,No,Legalized 2017,Legalized 2017,FO
-Northern Mariana Islands,,,85.0,Legalized 1983,No,,No,Legalized 2015,Legalized 2015,MP
-Saint Kitts and Nevis,3.71,34.0,-52.0,Illegal - 2002,No,10 yrs w/w-out hard labor,No,No,No,KN
-Turks and Caicos Islands,,,50.0,Legalized 2001,No,,No,No,No,TC
-Sint Maarten,,,75.0,Legalized 1869,No,,No,No,No,Not Found
-American Samoa,,,,Legalized 1980,No,,No,No,No,AS
-Marshall Islands,,66.0,110.0,Legalized 2005,No,,No,No,No,MH
-Liechtenstein,,80.0,217.0,Legalized 1989,No,,Legalized 2011,No,No,LI
-Monaco,,68.0,61.0,Legalized 1793,No,,Legalized 2020,No,No,MC
-San Marino,,81.0,238.0,Legalized 2004,No,,Legalized 2018,No,Second-parent only,SM
-Gibraltar,,,,Legalized 1993,No,,Legalized 2014,Legalized 2016,Legalized 2014,GI
-Saint Martin,,,,Legalized 1791,No,,Legalized 1999,Legalized 2013,Legalized 2013,Not Found
-Palau,,68.0,,Legalized 2014,No,,No,No,No,PW
-Cook Islands,,,,Illegal - 1969,No,varies,No,No,No,CK
-Anguilla,,,,Legalized 2001,No,,No,No,No,AI
-Nauru,,58.0,,Legalized 2016,No,,No,No,No,NR
-Tuvalu,,36.0,-75.0,Illegal - 1965,No,14 yrs prison,No,No,No,TV
-Wallis and Futuna,,,,Legal - never illegal,No,,Legalized 2009,Legalized 2013,Legalized 2013,WF
-Saint Barthelemy,,,,Legalized 1878,No,,Legalized 1999,Legalized 2013,Legalized 2013,Not Found
-Saint Pierre and Miquelon,,,,Legalized 1814,No,,No,Legalized 2013,Legalized 2013,PM
-Montserrat,,,,Legalized 2001,No,,No,No,No,MS
-Falkland Islands,,,,Legalized 1989,No,,Legalized 2017,Legalized 2017,Legalized 2017,Not Found
-Niue,,,,Legalized 2007,No,,No,No,No,NU
-Tokelau,,,,Legalized 2007,No,,No,No,No,TK
-Vatican City,,56.0,,Legalized 1890,No,,No,No,No,Not Found
+country,LgbtqGAI,LgbtqEEI,LgbtqTSI,LgbtqConsensualSameSexActs,LgbtqDeathPenalty,LgbtqMaxPenalty,LgbtqSameSexUnions,LgbtqSameSexMarriages,LgbtqSameSexAdoptions
+IN,5.28,63,77,Legalized 2018,No,,No,No,No
+CN,3.69,45,31,Legalized 1997,No,,Pending,No,No
+US,7.42,82,267,Legalized (various 1962-2003),No,,Varied,Legalized 2015,Legalized 2015
+ID,2.79,34,3,Varied,No,varies,No,No,No
+PK,3.66,34,-93,Illegal - 1860,Possible,"3 mos + fines, possibly death",No,No,No
+NG,2.18,9,-190,Illegal - 1959 (updated 2017),Yes,14 yrs + fines or death,No,No,No
+BR,7.22,82,223,Legalized 1831,No,,Legalized 2011,Legalized 2013,Legalized 2010
+BD,3.69,23,-9,Illegal - 1860,No,Life in prison,No,No,No
+RU,3.28,32,-2,Legalized 1993,No,,No,No,No
+ET,1.63,14,-93,Illegal - 1957 (updated 2004),No,3 yrs prison,No,No,No
+MX,6.5,78,173,Legalized 1872,No,,Varied,Varied,Varied
+JP,5.26,64,83,Legalized 1882,No,,Varied,Varied,No
+PH,6.06,58,47,Legalized 1870,No,,No,No,No
+EG,2.48,11,-96,"Illegal (as \debauchery\"") - 1961""",No,6 yrs prison,No,No,No
+CD,3.32,52,-27,Legal - never illegal,No,,No,No,No
+VN,4.99,52,54,Legal - never illegal,No,,No,No,No
+IR,2.11,6,-104,Illegal - 2003,Yes,Death,No,No,No
+TR,3.94,32,40,Legalized 1858,No,,No,No,No
+DE,7.73,84,259,Legalized 1968-1969,No,,Replaced,Legalized 2017,Legalized 2017
+TH,5.81,52,131,Legalized 1957,No,,Pending,No,Pending
+TZ,3.27,17,-120,Illegal - 1998,No,Life in prison,No,No,No
+GB,8.34,84,347,Legalized (various 1967-1982),No,,Legalized 2005,Legalized 2014,Legalized 2005-2013
+FR,7.73,78,338,Legalized 1791,No,,Legalized 1999,Legalized 2013,Legalized 2013
+ZA,6.01,76,292,Legalized 1998,No,,Legalized 2006,Legalized 2006,Legalized 2002
+IT,6.94,65,168,Legalized 1890,No,,Legalized 2016,No,No
+KE,3.62,23,-87,Illegal - 1930 (updated 2003),No,14 yrs prison,No,No,No
+MM,4.11,22,-118,Illegal - 1860,No,10 yrs prison + fines,No,No,No
+CO,6.1,69,241,Legalized 1981,No,,Legalized 2011,Legalized 2016,Legalized 2015
+KR,4.53,54,97,Legal - never illegal,No,2 yrs + labor (military only),No,No,No
+UG,3.63,13,-92,Illegal - 2000,No,Unclear,No,No,No
+SD,2.99,11,-109,Illegal - 2020,No,Life in prison,No,No,No
+ES,8.77,82,341,Legalized 1979,No,,Legalized 2011,Legalized 2005,Legalized 2005
+IQ,3.81,15,-28,Unclear,No,Unclear,No,No,No
+DZ,4.28,16,-75,Illegal - 1966,No,2 yrs prison + fines,No,No,No
+AR,7.07,82,260,Legalized 1903,No,,Legalized 2002,Legalized 2010,Legalized 2010
+AF,3.32,2,-147,Illegal - 2018,Possible,2 yrs prison to death,No,No,No
+PL,5.15,49,82,Legalized 1932,No,,Pending,No,No
+CA,9.02,90,383,Legalized 1969,No,,Legalized 1999,Legalized 2005,Legalized (1996-2011)
+MA,3.39,22,-89,Illegal - 1963,No,3 yrs prison + fines,No,No,No
+UA,2.91,47,80,Legalized 1991,No,,No,No,No
+AO,3.66,62,213,Legalized 2021,No,,No,No,No
+SA,3.6,13,-177,Illegal,Yes,Death,No,No,No
+UZ,3.68,40,-65,Illegal - 1994,No,3 yrs prison,No,No,No
+YE,3.41,,-128,Illegal - 1994,Yes,"Death (males), 3 yrs (females)",No,No,No
+MZ,4.92,60,87,Legalized 2015,No,,No,No,No
+GH,2.68,21,-49,Illegal - 1960 (updated 2003),No,3 yrs prison,No,No,No
+PE,5.15,54,207,Legalized 1924,No,,Limited,No,No
+MY,3.48,13,-165,Illegal - 1936,No,20 yrs + whipping,No,No,No
+NP,7.84,69,181,Legalized 2007,No,,No,No,No
+MG,3.36,38,26,Legal - never illegal,No,,No,No,No
+CI,3.55,26,-25,Legal - never illegal,No,,No,No,No
+VE,5.51,50,34,Legalized 1836,No,,No,No,No
+CM,2.79,18,,Illegal - 2016,No,5 yrs prison + fines,No,No,No
+NE,2.97,29,14,Legal - never illegal,No,,No,No,No
+AU,8.03,84,307,Legalized 1975-1997,No,,Varied,Legalized 2017,Legalized 2002-2018
+KP,,,,Legal - never illegal,No,,No,No,No
+SY,5.22,29,,Illegal - 1949,No,3 yrs prison,No,No,No
+ML,2.74,34,12,Legal - never illegal,No,,No,No,No
+TW,5.74,66,188,Legalized 1912,No,,Legalized 2015,Legalized 2019,Related & second-parent only
+BF,2.96,39,23,Legal - never illegal,No,,No,No,No
+LK,3.23,38,-91,Illegal - 1995,No,10 yrs prison,No,No,No
+MW,1.75,19,-163,Illegal - 2011,No,14 yrs + forced labor,No,No,No
+ZM,2.04,18,-104,Illegal - 1933,No,14 yrs prison,No,No,No
+KZ,2.69,35,3,Legalized 1998,No,,No,No,No
+CL,6.83,79,312,Legalized 1999,No,,Legalized 2015,Pending,Pending
+RO,4.1,49,137,Legalized 1996,No,,No,No,No
+TD,2.72,15,-58,Illegal - 2017,No,2 yrs prison + fines,No,No,No
+SO,1.59,2,-150,Illegal - 1964,Possible,varies (3yrs to death),No,No,No
+EC,5.47,64,228,Legalized 1997,No,,Legalized 2008,Legalized 2019,No
+GT,4.71,51,-6,Legalized 1834,No,,No,No,No
+SN,1.85,14,-67,Illegal - 1965,No,5 yrs prison + fines,No,No,No
+NL,9.46,85,374,Legalized 1811,No,,Legalized 1998,Legalized 2001,Legalized 2001
+KH,4.96,40,94,Legal - never illegal,No,,No,Pending,No
+ZW,1.57,27,-52,Illegal - 2004,No,1 yr prison + fines,No,No,No
+GN,3.06,16,-80,Illegal - 2016,No,3 yrs prison + fines,No,No,No
+RW,2.77,34,-29,Legal - never illegal,No,,No,No,No
+BJ,3.88,36,10,Legal - never illegal,No,,No,No,No
+BI,3.3,21,-45,Illegal - 2009,No,2 yrs prison + fines,No,No,No
+BO,5.24,60,223,Legalized 1832,No,,No,No,No
+TN,3.38,19,-91,Illegal - 2010,No,3 yrs prison + fines,No,No,No
+HT,3.32,33,88,Legalized 1791,No,,No,No,No
+BE,7.95,77,343,Legalized 1795,No,,Legalized 1998,Legalized 2003,Legalized 2006
+DO,4.98,40,1,Legalized 1822,No,,No,No,No
+JO,1.87,24,-30,Legalized 1951,No,,No,No,No
+SS,2.73,22,-126,Illegal - 2008 (updated ,No,10 yrs prison + fines,No,No,No
+CU,5.8,81,176,Legalized 1979,No,,No,No,No
+HN,5.15,49,15,Legalized ,No,,No,No,No
+SE,9.18,81,378,Legalized 1944,No,,No,Legalized 2009,Legalized 2003
+PG,,41,-80,Illegal - 1974,No,14 yrs + counseling/public service,No,No,No
+CZ,5.87,67,185,Legalized 1962,No,,Legalized 2006,No,Limited
+AZ,1.42,24,,Legalized 2000,No,,No,No,No
+TJ,1.56,52,25,Legalized 1998,No,,No,No,No
+GR,5.44,62,189,Legalized 1951,No,,Legalized 2015,No,Limited
+PT,6.87,69,358,Legalized 1983,No,,Legalized 2001,Legalized 2010,Legalized 2016
+HU,5.08,51,136,Legalized 1962,No,,Legalized 2009,No,No
+AE,,10,-134,Illegal - 1987 (updated 2016),Possible,varies (14 yrs to death),No,No,No
+BY,3.38,38,53,Legalized 1994,No,,No,No,No
+IL,5.69,69,220,Legalized 1988,No,,Legalized 1994,No,Legalized 2008
+TG,3.15,18,-45,Illegal - 2015,No,3 yrs prison,No,No,No
+SL,2.97,26,-63,Illegal - 1861,No,Life in prison,No,No,No
+AT,7.2,74,305,Legalized 1971,No,,Legalized 2010,Legalized 2019,Legalized 2016
+CH,8,78,325,Legalized 1942,No,,Legalized 2007,Legalized 2022,Second-parent only
+LA,4.89,59,45,Legal - never illegal,No,,No,No,No
+HK,6.38,,99,Legalized 1991,No,,No,No,No
+NI,5.57,51,122,Legalized 2008,No,,No,No,No
+RS,3.71,44,172,Legalized 1994,No,,No,No,No
+LY,3.78,7,-150,Illegal - 1953 (updated 1976),No,5 yrs prison,No,No,No
+PY,4.74,40,29,Legalized 1990,No,,No,No,No
+KG,2.16,39,32,Legalized 1998,No,,No,No,No
+BG,4.19,55,128,Legalized 1968,No,,No,No,No
+TM,,36,-65,Illegal - 2019,No,5 yrs + psych treatment,No,No,No
+SV,5.22,48,18,Legalized 1826,No,,No,No,No
+CG,3.27,34,16,Legal - never illegal,No,,No,No,No
+SG,5.86,52,18,Illegal - 1938,No,2 yrs prison,No,No,No
+DK,8.69,86,307,Legalized 1933,No,,Replaced,Legalized 2012,Legalized 2010
+CF,2.62,55,-52,Legal - never illegal,No,,No,No,No
+SK,4.82,56,186,Legalized 1962,No,,No,No,No
+FI,7.96,74,299,Legalized 1971,No,,Replaced,Legalized 2017,Legalized 2017
+LR,2.65,23,-39,Illegal - 1978,No,1 yr prison + fines,No,No,No
+NO,9.38,86,343,Legalized 1972,No,,Replaced,Legalized 2009,Legalized 2001
+PS,3.2,16,-106,Varied,No,10 yrs prison (Gaza only),No,No,No
+NZ,8.23,78,323,Legalized 1986,No,,Legalized 2005,Legalized 2013,Legalized 2013
+CR,6.35,72,197,Legalized 1971,No,,No,Legalized 2020,Legalized 2020
+LB,3.63,19,-58,Illegal - 1943,No,1 yr prison,No,No,No
+IE,8.41,73,294,Legalized 1993,No,,Replaced,Legalized 2015,Legalized 2015
+MR,1.77,3,-96,Illegal - 1983,Yes,2 yrs + fines or death,No,No,No
+OM,,13,-145,Illegal - 2018,No,3 yrs prison,No,No,No
+PA,5.28,43,53,Legalized 2008,No,,No,No,No
+KW,3.61,21,-180,Illegal - 1960,No,7 yrs + deportation,No,No,No
+HR,5.05,58,254,Legalized 1977,No,,Legalized 2014,No,Limited
+ER,,14,-75,Illegal - 1957 (updated 2015),No,3 yrs prison,No,No,No
+GE,2.94,44,122,Legalized 2000,No,,No,No,No
+MN,2.71,42,117,Legalized 1961,No,,No,No,No
+UY,7.9,86,306,Legalized 1934,No,,Legalized 2008,Legalized 2013,Legalized 2009
+MD,1.91,37,110,Legalized 1995,No,,No,No,No
+PR,7.52,,210,Legalized 2003,No,,No,Legalized 2016,Legalized 2018
+BA,2.87,43,123,Legalized 1991-2003,No,,No,No,No
+GM,2.44,10,-139,Illegal - 1934 (updated 2014),No,Unclear,No,No,No
+AL,2.65,38,141,Legalized 1995,No,,No,No,No
+JM,3.83,30,-132,Illegal - 2009,No,7 yrs w/w-out hard labor,No,No,No
+AM,2.17,34,64,Legalized 2003,No,,No,No,No
+QA,3.54,14,-137,Illegal - 2004,Possible,"7-10 yrs, possible death",No,No,No
+BW,4.3,56,98,Legalized 2019,No,,No,No,No
+LT,4.38,50,145,Legalized 1993,No,,Pending,No,No
+NA,4.93,55,48,Illegal - 2004,No,Unclear,No,No,No
+GA,2.8,44,20,Legalized 2020,No,,No,No,No
+LS,4.18,43,80,Legalized 2012,No,,No,No,No
+GW,,60,,Legalized 1993,No,,No,No,No
+SI,6.21,66,242,Legalized 1977,No,,Legalized 2005,No,No
+MK,3.13,42,113,Legalized 1996,No,,No,No,No
+LV,4.42,54,109,Legalized 1992,No,,No,No,No
+GQ,,64,40,Legal - never illegal,No,,No,No,No
+TT,4.7,37,71,Legalized 2018,No,,No,No,No
+BH,5.73,44,-15,Legalized 1976,No,,No,No,No
+TL,,33,10,Legalized 1975,No,,No,No,No
+EE,5.25,59,206,Legalized 1992,No,,Legalized 2016,No,Second-parent only
+MU,5.34,58,15,Illegal - 1838,No,5 yrs penal servitude,No,No,No
+CY,5.16,59,192,Legalized 1998,No,,Legalized 2015,No,No
+SZ,3.02,32,-46,Illegal - 1907,No,Unclear,No,No,No
+DJ,2.89,43,15,Legal - never illegal,No,,No,No,No
+FR,,,,Legalized 1791,No,,Legalized 1999,Legalized 2013,Legalized 2013
+FJ,,80,86,Legalized 2010,No,,No,No,No
+KM,3.47,22,-56,Illegal - 1981,No,5 yrs prison + fines,No,No,No
+GY,4.36,28,-175,Illegal - 1893,No,10 yrs prison,No,No,No
+BT,4.18,57,16,Illegal - 2004,No,1 yr prison,No,No,No
+SB,,31,-85,Illegal - 1963,No,14 yrs prison,No,No,No
+CN,4.01,,40,Legalized 1996,No,,No,No,No
+LU,7.82,78,269,Legalized 1795,No,,Legalized 2004,Legalized 2015,Legalized 2015
+SR,4.64,59,171,Legalized 1869,No,,No,No,No
+ME,3.53,48,141,Legalized 1977,No,,Legalized 2021,No,No
+CV,6.78,69,125,Legalized 2004,No,,No,No,No
+MT,8.01,82,369,Legalized 1973,No,,Legalized 2014,Legalized 2017,Legalized 2014
+MV,,31,-100,Illegal - 2014,No,8 yrs + 100 lashes,No,No,No
+BN,,2,-200,Illegal - 2019,Yes,10 yrs prison to death,No,No,No
+BZ,4.14,66,-12,Legalized 2016,No,,No,No,No
+BS,4.09,51,50,Legalized 1991,No,,No,No,No
+GP,,,,Legalized 1816,No,,Legalized 1999,Legalized 2013,Legalized 2013
+IS,9.78,90,330,Legalized 1940,No,,No,Legalized 2010,Legalized 2006
+MQ,,,,Legalized 1815,No,,Legalized 1999,Legalized 2013,Legalized 2013
+YT,,,,Legal - never illegal,No,,Legalized 2006,Legalized 2013,Legalized 2013
+VU,,71,,Legal - never illegal,No,,No,No,No
+GF,,,,Legalized 1817,No,,Legalized 1999,Legalized 2013,Legalized 2013
+PF,,,,Legal - never illegal,No,,No,Legalized 2013,Legalized 2013
+NC,,,,Legal - never illegal,No,,Legalized 2009,Legalized 2013,Legalized 2013
+BB,4.43,56,-93,Illegal - 1992,No,Life in prison,No,No,No
+ST,3.15,51,,Legalized 2012,No,,No,No,No
+WS,,61,48,Illegal - 2013,No,varies,No,No,No
+CW,,,50,Legalized 1869,No,,No,No,No
+LC,3.8,36,-75,Illegal - 2004,No,10 yrs prison,No,No,No
+GU,,,289,Legalized 1977,No,,No,Legalized 2015,Legalized 2015
+KI,,43,-70,Illegal - 1977,No,14 yrs prison,No,No,No
+GD,3.88,38,33,Illegal - 1958,No,10 yrs prison,No,No,No
+FM,,58,100,Legal - never illegal,No,,No,No,No
+TO,,47,-155,Illegal - 1988,No,10 yrs or whipping,No,No,No
+SC,,68,75,Legalized 2016,No,,No,No,No
+AW,,,138,Legalized 1869,No,,Legalized 2016,No,No
+VC,3.04,21,-70,Illegal - 1988,No,10 yrs prison,No,No,No
+US,,,264,Legalized 1985,No,,No,Legalized 2015,Legalized 2015
+AG,3.52,35,-67,Illegal - 1995,No,15 yrs prison,No,No,No
+IM,,90,,Legalized 1992,No,,Legalized 2010,Legalized 2016,Legalized 2011
+AD,7.48,85,175,Legalized 1990,No,,Legalized 2005,No,Legalized 2014
+DM,3.56,27,-57,Illegal - 1998,No,10 yrs + mental hospital,No,No,No
+KY,,,59,Legalized 2001,No,,Legalized 2020,No,No
+BM,,,,Legalized 1994,No,,No,No,Legalized 2015
+GL,,,,Legalized 1933,No,,Replaced,Legalized 2016,Legalized 2016
+FO,,,,Legalized 1933,No,,No,Legalized 2017,Legalized 2017
+MP,,,85,Legalized 1983,No,,No,Legalized 2015,Legalized 2015
+KN,3.71,34,-52,Illegal - 2002,No,10 yrs w/w-out hard labor,No,No,No
+TC,,,50,Legalized 2001,No,,No,No,No
+SX,,,75,Legalized 1869,No,,No,No,No
+AS,,,,Legalized 1980,No,,No,No,No
+MH,,66,110,Legalized 2005,No,,No,No,No
+LI,,80,217,Legalized 1989,No,,Legalized 2011,No,No
+MC,,68,61,Legalized 1793,No,,Legalized 2020,No,No
+SM,,81,238,Legalized 2004,No,,Legalized 2018,No,Second-parent only
+GI,,,,Legalized 1993,No,,Legalized 2014,Legalized 2016,Legalized 2014
+MF,,,,Legalized 1791,No,,Legalized 1999,Legalized 2013,Legalized 2013
+PW,,68,,Legalized 2014,No,,No,No,No
+CK,,,,Illegal - 1969,No,varies,No,No,No
+AI,,,,Legalized 2001,No,,No,No,No
+NR,,58,,Legalized 2016,No,,No,No,No
+TV,,36,-75,Illegal - 1965,No,14 yrs prison,No,No,No
+WF,,,,Legal - never illegal,No,,Legalized 2009,Legalized 2013,Legalized 2013
+BL,,,,Legalized 1878,No,,Legalized 1999,Legalized 2013,Legalized 2013
+PM,,,,Legalized 1814,No,,No,Legalized 2013,Legalized 2013
+MS,,,,Legalized 2001,No,,No,No,No
+FK,,,,Legalized 1989,No,,Legalized 2017,Legalized 2017,Legalized 2017
+NU,,,,Legalized 2007,No,,No,No,No
+TK,,,,Legalized 2007,No,,No,No,No
+VA,,56,,Legalized 1890,No,,No,No,No

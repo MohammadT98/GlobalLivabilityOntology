@@ -1,22 +1,22 @@
-country,WorstToVisitTravelAdvisoryQ42022,WorstToVisitPossibleThreats,ISO2
-Russia,Level 4 (Do Not Travel),"Singling out of US citizens in Russia by government security officials including for detention, COVID-19-related restrictions, and terrorism",Not Found
-Mexico,Other,Crime and kidnapping,MX
-Iran,Level 4 (Do Not Travel),Kidnapping and the arbitrary arrest and detention of U.S. citizens.,Not Found
-Myanmar,Level 4 (Do Not Travel),"Civil unrest, armed conflict, possible COVID-19-related restrictions and inadequate health care, possible land mines or wrongful detention",MM
-Sudan,Level 4 (Do Not Travel),"Civil unrest, possible crime, terrorism, kidnapping, and armed conflict",SD
-Iraq,Level 4 (Do Not Travel),"Terrorism, kidnapping, armed conflict, and civil unrest",IQ
-Afghanistan,Level 4 (Do Not Travel),"Armed conflict, civil unrest, crime, terrorism, and kidnapping (especially targeting US citizens)",AF
-Ukraine,Level 4 (Do Not Travel),Full-scale military invasion,UA
-Yemen,Level 4 (Do Not Travel),"Terrorism, civil unrest, health risks, kidnapping, armed conflict, and landmines",YE
-Venezuela,Level 4 (Do Not Travel),"Crime, civil unrest, poor health infrastructure, kidnapping, and unjust arrest and detention",Not Found
-North Korea,Level 4 (Do Not Travel),Continuing serious risk of arrest and long-term detention of US nationals,Not Found
-Syria,Level 4 (Do Not Travel),"Terrorism, civil unrest, kidnapping, armed conflict, and unjust arrest and detention",Not Found
-Mali,Level 4 (Do Not Travel),"Crime, terrorism, and kidnapping",ML
-Burkina Faso,Level 4 (Do Not Travel),"Terrorism, crime, and kidnapping",BF
-Somalia,Level 4 (Do Not Travel),"Crime, terrorism, civil unrest, health issues, kidnapping, and piracy",SO
-Haiti,Level 4 (Do Not Travel),"Kidnapping, crime, and civil unrest.",HT
-South Sudan,Level 4 (Do Not Travel),"Crime, kidnapping, and armed conflict",SS
-Belarus,Level 4 (Do Not Travel),"Arbitrary enforcement of laws, risk of detention, military buildup",BY
-Libya,Level 4 (Do Not Travel),"Crime, terrorism, civil unrest, kidnapping, and armed conflict",LY
-Central African Republic,Level 4 (Do Not Travel),"Crime, civil unrest, kidnapping",CF
-Palestine,Other,"Terrorism, civil unrest, and armed conflict",Not Found
+country,WorstToVisitTravelAdvisoryQ42022,WorstToVisitPossibleThreats
+RU,Level 4 (Do Not Travel),"Singling out of US citizens in Russia by government security officials including for detention, COVID-19-related restrictions, and terrorism"
+MX,Other,Crime and kidnapping
+IR,Level 4 (Do Not Travel),Kidnapping and the arbitrary arrest and detention of U.S. citizens.
+MM,Level 4 (Do Not Travel),"Civil unrest, armed conflict, possible COVID-19-related restrictions and inadequate health care, possible land mines or wrongful detention"
+SD,Level 4 (Do Not Travel),"Civil unrest, possible crime, terrorism, kidnapping, and armed conflict"
+IQ,Level 4 (Do Not Travel),"Terrorism, kidnapping, armed conflict, and civil unrest"
+AF,Level 4 (Do Not Travel),"Armed conflict, civil unrest, crime, terrorism, and kidnapping (especially targeting US citizens)"
+UA,Level 4 (Do Not Travel),Full-scale military invasion
+YE,Level 4 (Do Not Travel),"Terrorism, civil unrest, health risks, kidnapping, armed conflict, and landmines"
+VE,Level 4 (Do Not Travel),"Crime, civil unrest, poor health infrastructure, kidnapping, and unjust arrest and detention"
+KP,Level 4 (Do Not Travel),Continuing serious risk of arrest and long-term detention of US nationals
+SY,Level 4 (Do Not Travel),"Terrorism, civil unrest, kidnapping, armed conflict, and unjust arrest and detention"
+ML,Level 4 (Do Not Travel),"Crime, terrorism, and kidnapping"
+BF,Level 4 (Do Not Travel),"Terrorism, crime, and kidnapping"
+SO,Level 4 (Do Not Travel),"Crime, terrorism, civil unrest, health issues, kidnapping, and piracy"
+HT,Level 4 (Do Not Travel),"Kidnapping, crime, and civil unrest."
+SS,Level 4 (Do Not Travel),"Crime, kidnapping, and armed conflict"
+BY,Level 4 (Do Not Travel),"Arbitrary enforcement of laws, risk of detention, military buildup"
+LY,Level 4 (Do Not Travel),"Crime, terrorism, civil unrest, kidnapping, and armed conflict"
+CF,Level 4 (Do Not Travel),"Crime, civil unrest, kidnapping"
+PS,Other,"Terrorism, civil unrest, and armed conflict"
