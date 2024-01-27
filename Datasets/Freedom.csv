@@ -1,0 +1,232 @@
+country,democracy_score,democracy_type,currentLeadership,InternetFreedomStatus,CountriesWhereAlcoholIsIllegal,countriesWhereAbortionIsIllegal_legality,genderEqualityByCountry_gendEqal2021,genderEqualityByCountry_econ,genderEqualityByCountry_education,genderEqualityByCountry_health,genderEqualityByCountry_polit,CountriesWhereWearingBurqaIsMandatoryHijabMandatory,countriesWithMandatoryMilitaryService_mandatoryService,LgbtqGAI,LgbtqEEI,LgbtqTSI,LgbtqConsensualSameSexActs,LgbtqDeathPenalty,LgbtqMaxPenalty,LgbtqSameSexUnions,LgbtqSameSexMarriages,LgbtqSameSexAdoptions
+AF,2.97,Authoritarian,President,,Illegal,To save the mothers life,0.444,0.18,0.514,0.952,0.132,Yes,unclear,3.32,2.0,-147.0,Illegal - 2018,Possible,2 yrs prison to death,No,No,No
+AL,5.98,Hybrid regime,Prime Minister,,,No restriction,0.77,0.748,0.999,0.956,0.377,,No,2.65,38.0,141.0,Legalized 1995,No,,No,No,No
+DZ,3.5,Authoritarian,President,,Partially legal,To preserve physical/mental health,0.633,0.456,0.966,0.958,0.151,,Yes,4.28,16.0,-75.0,Illegal - 1966,No,2 yrs prison + fines,No,No,No
+AD,0.0,Unknown,Head of Government,,,Prohibited altogether,,,,,,,,7.48,85.0,175.0,Legalized 1990,No,,Legalized 2005,No,Legalized 2014
+AO,3.62,Authoritarian,President,Partly Free,,Prohibited altogether,0.657,0.646,0.759,0.976,0.245,,Yes,3.66,62.0,213.0,Legalized 2021,No,,No,No,No
+AG,0.0,Unknown,Prime Minister,,,To save the mothers life,,,,,,,,3.52,35.0,-67.0,Illegal - 1995,No,15 yrs prison,No,No,No
+AR,7.02,Flawed democracy,President,Free,,No restriction,0.752,0.639,1.0,0.977,0.39,,De jure,7.07,82.0,260.0,Legalized 1903,No,,Legalized 2002,Legalized 2010,Legalized 2010
+AM,4.79,Hybrid regime,Prime Minister,Free,,No restriction,0.673,0.655,0.998,0.95,0.091,,Yes,2.17,34.0,64.0,Legalized 2003,No,,No,No,No
+AU,9.09,Full democracy,Prime Minister,Free,,No restriction,0.731,0.7,1.0,0.968,0.258,,No,8.03,84.0,307.0,Legalized 1975-1997,No,,Varied,Legalized 2017,Legalized 2002-2018
+AT,8.29,Full democracy,Federal Chancellor,,,No restriction,0.777,0.665,1.0,0.97,0.473,,Yes,7.2,74.0,305.0,Legalized 1971,No,,Legalized 2010,Legalized 2019,Legalized 2016
+AZ,2.65,Authoritarian,President,Not Free,,No restriction,0.688,0.748,0.996,0.939,0.069,,Yes,1.42,24.0,,Legalized 2000,No,,No,No,No
+BH,2.71,Authoritarian,King,Not Free,,No restriction,0.632,0.518,0.985,0.959,0.066,,No,5.73,44.0,-15.0,Legalized 1976,No,,No,No,No
+BD,5.57,Hybrid regime,Prime Minister,Partly Free,Illegal,To save the mothers life,0.719,0.418,0.951,0.962,0.546,,No,3.69,23.0,-9.0,Illegal - 1860,No,Life in prison,No,No,No
+BB,0.0,Unknown,Prime Minister,,,To preserve health/on socioeconomic grounds,0.769,0.837,0.991,0.968,0.278,,No,4.43,56.0,-93.0,Illegal - 1992,No,Life in prison,No,No,No
+BY,3.13,Authoritarian,President,Not Free,,No restriction,0.758,0.84,0.999,0.977,0.216,,Yes,3.38,38.0,53.0,Legalized 1994,No,,No,No,No
+BE,7.78,Flawed democracy,Prime Minister,,,No restriction,0.789,0.709,1.0,0.968,0.48,,No,7.95,77.0,343.0,Legalized 1795,No,,Legalized 1998,Legalized 2003,Legalized 2006
+BZ,0.0,Unknown,Prime Minister,,,To preserve health/on socioeconomic grounds,0.699,0.749,0.991,0.98,0.075,,De jure,4.14,66.0,-12.0,Legalized 2016,No,,No,No,No
+BJ,5.74,Hybrid regime,President,,,To preserve physical health,0.653,0.814,0.733,0.973,0.093,,Yes,3.88,36.0,10.0,Legal - never illegal,No,,No,No,No
+BT,5.3,Hybrid regime,Prime Minister,,,To save the mothers life,0.639,0.556,0.954,0.963,0.082,,Yes,4.18,57.0,16.0,Illegal - 2004,No,1 yr prison,No,No,No
+BO,5.7,Hybrid regime,President,,,To preserve physical health,0.722,0.595,0.981,0.962,0.352,,Yes,5.24,60.0,223.0,Legalized 1832,No,,No,No,No
+BA,4.98,Hybrid regime,High Representative,,,No restriction,,,,,,,,2.87,43.0,123.0,Legalized 1991-2003,No,,No,No,No
+BW,7.81,Flawed democracy,President,,,To preserve physical/mental health,0.716,0.799,1.0,0.98,0.084,,No,4.3,56.0,98.0,Legalized 2019,No,,No,No,No
+BR,6.97,Flawed democracy,President,Partly Free,,To save the mothers life,0.695,0.665,1.0,0.98,0.138,,Yes,7.22,82.0,223.0,Legalized 1831,No,,Legalized 2011,Legalized 2013,Legalized 2010
+BN,0.0,Unknown,Sultan and Prime Minister,,Illegal,,0.678,0.722,0.992,0.965,0.031,,No,,2.0,-200.0,Illegal - 2019,Yes,10 yrs prison to death,No,No,No
+BG,7.03,Flawed democracy,Prime Minister,,,No restriction,0.746,0.738,0.991,0.979,0.275,,No,4.19,55.0,128.0,Legalized 1968,No,,No,No,No
+BF,4.75,Hybrid regime,President,,,To preserve physical health,0.651,0.689,0.873,0.978,0.066,,No,2.96,39.0,23.0,Legal - never illegal,No,,No,No,No
+BI,2.33,Authoritarian,President,,,To preserve physical health,0.769,0.855,0.896,0.979,0.345,,No,3.3,21.0,-45.0,Illegal - 2009,No,2 yrs prison + fines,No,No,No
+CV,7.88,Flawed democracy,,,,No restriction,0.716,0.761,0.972,0.98,0.152,,Yes,6.78,69.0,125.0,Legalized 2004,No,,No,No,No
+KH,3.59,Authoritarian,Prime Minister,Partly Free,,No restriction,0.684,0.729,0.919,0.978,0.111,,Yes,4.96,40.0,94.0,Legal - never illegal,No,,No,Pending,No
+CM,3.28,Authoritarian,President,,,To preserve physical health,0.692,0.706,0.885,0.973,0.202,,No,2.79,18.0,,Illegal - 2016,No,5 yrs prison + fines,No,No,No
+CA,9.15,Full democracy,Prime Minister,Free,,No restriction,0.772,0.741,1.0,0.968,0.381,,No,9.02,90.0,383.0,Legalized 1969,No,,Legalized 1999,Legalized 2005,Legalized (1996-2011)
+CF,1.52,Authoritarian,President,,,To preserve physical health,,,,,,,No,2.62,55.0,-52.0,Legal - never illegal,No,,No,No,No
+TD,1.61,Authoritarian,President,,,To preserve physical health,0.593,0.693,0.589,0.97,0.118,,Yes,2.72,15.0,-58.0,Illegal - 2017,No,2 yrs prison + fines,No,No,No
+CL,7.97,Flawed democracy,President,,Partially legal,To save the mothers life,0.716,0.61,1.0,0.97,0.283,,Infrequent,6.83,79.0,312.0,Legalized 1999,No,,Legalized 2015,Pending,Pending
+CN,3.32,Authoritarian,General Secretary of the Communist Party,Not Free,,,0.682,0.701,0.973,0.935,0.118,,De jure,3.69,45.0,31.0,Legalized 1997,No,,Pending,No,No
+CN,3.32,Authoritarian,General Secretary of the Communist Party,Not Free,,,0.682,0.701,0.973,0.935,0.118,,De jure,4.01,,40.0,Legalized 1996,No,,No,No,No
+CO,6.96,Flawed democracy,President,Partly Free,,To preserve physical/mental health,0.725,0.708,1.0,0.975,0.216,,Yes,6.1,69.0,241.0,Legalized 1981,No,,Legalized 2011,Legalized 2016,Legalized 2015
+KM,3.71,Authoritarian,President,,Partially legal,To preserve physical health,,,,,,,No,3.47,22.0,-56.0,Illegal - 1981,No,5 yrs prison + fines,No,No,No
+CG,3.31,Authoritarian,President,,,,,,,,,,,3.27,34.0,16.0,Legal - never illegal,No,,No,No,No
+CR,8.07,Full democracy,President,Free,,To preserve physical health,0.786,0.624,1.0,0.973,0.545,,,6.35,72.0,197.0,Legalized 1971,No,,No,Legalized 2020,Legalized 2020
+CI,4.15,Hybrid regime,President,,,To save the mothers life,0.637,0.664,0.828,0.979,0.076,,De jure,3.55,26.0,-25.0,Legal - never illegal,No,,No,No,No
+HR,6.57,Flawed democracy,Prime Minister,,,No restriction,0.733,0.666,0.995,0.978,0.294,,No,5.05,58.0,254.0,Legalized 1977,No,,Legalized 2014,No,Limited
+CU,3.0,Authoritarian,First Secretary of the Communist Party,Not Free,,No restriction,0.746,0.63,0.998,0.973,0.382,,Yes,5.8,81.0,176.0,Legalized 1979,No,,No,No,No
+CY,7.59,Flawed democracy,President,,,To preserve health/on socioeconomic grounds,0.707,0.694,0.998,0.96,0.177,,Yes,5.16,59.0,192.0,Legalized 1998,No,,Legalized 2015,No,No
+CZ,7.69,Flawed democracy,Prime Minister,,,No restriction,0.711,0.662,1.0,0.978,0.203,,,5.87,67.0,185.0,Legalized 1962,No,,Legalized 2006,No,Limited
+KP,1.08,Authoritarian,Chairman of the Workers Party of Korea,,,No restriction,,,,,,,Yes,,,,Legal - never illegal,No,,No,No,No
+CD,1.49,Authoritarian,President,,,Prohibited altogether,0.576,0.571,0.658,0.976,0.099,,Yes,3.32,52.0,-27.0,Legal - never illegal,No,,No,No,No
+CD,1.49,Authoritarian,President,,,Prohibited altogether,0.576,0.571,0.658,0.976,0.099,,Yes,3.32,52.0,-27.0,Legal - never illegal,No,,No,No,No
+DK,9.22,Full democracy,Prime Minister,,,No restriction,0.768,0.736,1.0,0.964,0.371,,Yes,8.69,86.0,307.0,Legalized 1933,No,,Replaced,Legalized 2012,Legalized 2010
+DJ,2.87,Authoritarian,President,,,To preserve physical health,,,,,,,No,2.89,43.0,15.0,Legal - never illegal,No,,No,No,No
+DM,0.0,Unknown,Prime Minister,,,To save the mothers life,,,,,,,,3.56,27.0,-57.0,Illegal - 1998,No,10 yrs + mental hospital,No,No,No
+DO,6.54,Flawed democracy,President,,,Prohibited altogether,0.699,0.646,1.0,0.98,0.172,,No,4.98,40.0,1.0,Legalized 1822,No,,No,No,No
+EC,6.27,Flawed democracy,President,Partly Free,,To preserve physical health,0.739,0.675,0.997,0.968,0.318,,No,5.47,64.0,228.0,Legalized 1997,No,,Legalized 2008,Legalized 2019,No
+EG,3.36,Authoritarian,President,Not Free,Partially legal,To save the mothers life,0.639,0.421,0.973,0.968,0.196,,Yes,2.48,11.0,-96.0,"Illegal (as \debauchery\"") - 1961""",No,6 yrs prison,No,No,No
+SV,5.96,Hybrid regime,President,,,Prohibited altogether,0.738,0.634,0.992,0.98,0.347,,Yes,5.22,48.0,18.0,Legalized 1826,No,,No,No,No
+GQ,1.92,Authoritarian,President,,,To preserve physical health,,,,,,,Yes,,64.0,40.0,Legal - never illegal,No,,No,No,No
+ER,2.37,Authoritarian,President,,,To preserve physical/mental health,,,,,,,Yes,,14.0,-75.0,Illegal - 1957 (updated 2015),No,3 yrs prison,No,No,No
+EE,7.97,Flawed democracy,Prime Minister,Free,,No restriction,0.733,0.754,1.0,0.975,0.201,,Yes,5.25,59.0,206.0,Legalized 1992,No,,Legalized 2016,No,Second-parent only
+SZ,3.03,Authoritarian,King,,,To preserve physical/mental health,0.729,0.797,0.992,0.98,0.147,,No,3.02,32.0,-46.0,Illegal - 1907,No,Unclear,No,No,No
+ET,3.35,Authoritarian,Prime Minister,Not Free,,To preserve physical health,0.691,0.56,0.85,0.971,0.382,,De jure,1.63,14.0,-93.0,Illegal - 1957 (updated 2004),No,3 yrs prison,No,No,No
+FJ,5.85,Hybrid regime,Prime Minister,,,To preserve health/on socioeconomic grounds,0.674,0.568,0.997,0.972,0.16,,No,,80.0,86.0,Legalized 2010,No,,No,No,No
+FI,9.14,Full democracy,Prime Minister,,,To preserve health/on socioeconomic grounds,0.861,0.806,1.0,0.97,0.669,,Yes,7.96,74.0,299.0,Legalized 1971,No,,Replaced,Legalized 2017,Legalized 2017
+FR,7.8,Flawed democracy,President,Free,,No restriction,0.784,0.71,1.0,0.97,0.457,,No,7.73,78.0,338.0,Legalized 1791,No,,Legalized 1999,Legalized 2013,Legalized 2013
+FR,7.8,Flawed democracy,President,Free,,No restriction,0.784,0.71,1.0,0.97,0.457,,No,,,,Legalized 1791,No,,Legalized 1999,Legalized 2013,Legalized 2013
+GA,3.61,Authoritarian,President,,,Prohibited altogether,,,,,,,No,2.8,44.0,20.0,Legalized 2020,No,,No,No,No
+GE,5.5,Hybrid regime,Prime Minister,Free,,,0.732,0.705,1.0,0.977,0.245,,Yes,2.94,44.0,122.0,Legalized 2000,No,,No,No,No
+DE,8.68,Full democracy,Federal Chancellor,Free,,No restriction,0.796,0.706,0.997,0.972,0.509,,No,7.73,84.0,259.0,Legalized 1968-1969,No,,Replaced,Legalized 2017,Legalized 2017
+GH,6.63,Flawed democracy,President,Partly Free,,To preserve physical/mental health,0.666,0.598,0.951,0.978,0.135,,No,2.68,21.0,-49.0,Illegal - 1960 (updated 2003),No,3 yrs prison,No,No,No
+GR,7.29,Flawed democracy,Prime Minister,,,No restriction,0.689,0.672,0.994,0.966,0.123,,Yes,5.44,62.0,189.0,Legalized 1951,No,,Legalized 2015,No,Limited
+GD,0.0,Unknown,Prime Minister,,,To preserve physical health,,,,,,,,3.88,38.0,33.0,Illegal - 1958,No,10 yrs prison,No,No,No
+GT,5.6,Hybrid regime,President,,,To save the mothers life,0.655,0.56,0.969,0.979,0.112,,Yes,4.71,51.0,-6.0,Legalized 1834,No,,No,No,No
+GN,3.14,Authoritarian,President,,,To preserve physical health,0.66,0.839,0.68,0.966,0.157,,No,3.06,16.0,-80.0,Illegal - 2016,No,3 yrs prison + fines,No,No,No
+GW,1.98,Authoritarian,President,,,,,,,,,,Yes,,60.0,,Legalized 1993,No,,No,No,No
+GY,6.67,Flawed democracy,President,,,No restriction,0.728,0.638,0.984,0.98,0.31,,No,4.36,28.0,-175.0,Illegal - 1893,No,10 yrs prison,No,No,No
+HT,4.91,Hybrid regime,President,,,Prohibited altogether,,,,,,,,3.32,33.0,88.0,Legalized 1791,No,,No,No,No
+HN,5.63,Hybrid regime,President,,,Prohibited altogether,0.716,0.721,1.0,0.964,0.179,,No,5.15,49.0,15.0,Legalized ,No,,No,No,No
+HU,6.63,Flawed democracy,Prime Minister,Partly Free,,No restriction,0.688,0.669,0.993,0.98,0.112,,No,5.08,51.0,136.0,Legalized 1962,No,,Legalized 2009,No,No
+IS,9.58,Full democracy,Prime Minister,Free,,To preserve health/on socioeconomic grounds,0.892,0.846,0.999,0.964,0.76,,,9.78,90.0,330.0,Legalized 1940,No,,No,Legalized 2010,Legalized 2006
+IN,7.23,Flawed democracy,Prime Minister,Partly Free,Partially legal,To preserve health/on socioeconomic grounds,0.625,0.326,0.962,0.937,0.276,,No,5.28,63.0,77.0,Legalized 2018,No,,No,No,No
+ID,6.39,Flawed democracy,President,Partly Free,Partially legal,To save the mothers life,0.688,0.647,0.97,0.971,0.164,,De jure,2.79,34.0,3.0,Varied,No,varies,No,No,No
+IR,2.45,Authoritarian,Supreme Leader,Not Free,Partially legal,To save the mothers life,0.582,0.375,0.953,0.963,0.036,Yes,Yes,2.11,6.0,-104.0,Illegal - 2003,Yes,Death,No,No,No
+IQ,4.06,Hybrid regime,Prime Minister,Partly Free,Partially legal,Prohibited altogether,0.535,0.228,0.807,0.968,0.136,,No,3.81,15.0,-28.0,Unclear,No,Unclear,No,No,No
+IE,9.15,Full democracy,Taoiseach,,,No restriction before 12 weeks,0.8,0.733,0.998,0.964,0.504,,No,8.41,73.0,294.0,Legalized 1993,No,,Replaced,Legalized 2015,Legalized 2015
+IL,7.79,Flawed democracy,Prime Minister,,Partially legal,To preserve physical/mental health,0.724,0.705,1.0,0.964,0.227,,Yes,5.69,69.0,220.0,Legalized 1988,No,,Legalized 1994,No,Legalized 2008
+IT,7.71,Flawed democracy,Prime Minister,Free,,No restriction,0.721,0.609,0.997,0.965,0.313,,No,6.94,65.0,168.0,Legalized 1890,No,,Legalized 2016,No,No
+JM,7.02,Flawed democracy,Prime Minister,,,To preserve physical/mental health,0.741,0.768,1.0,0.968,0.23,,No,3.83,30.0,-132.0,Illegal - 2009,No,7 yrs w/w-out hard labor,No,No,No
+JP,7.99,Flawed democracy,Prime Minister,Free,,To preserve health/on socioeconomic grounds,0.656,0.604,0.983,0.973,0.061,,No,5.26,64.0,83.0,Legalized 1882,No,,Varied,Varied,No
+JO,3.93,Authoritarian,King,Partly Free,,To preserve physical health,0.638,0.538,0.991,0.957,0.066,,Yes,1.87,24.0,-30.0,Legalized 1951,No,,No,No,No
+KZ,2.94,Authoritarian,President,Not Free,,No restriction,0.71,0.728,0.995,0.975,0.141,,Yes,2.69,35.0,3.0,Legalized 1998,No,,No,No,No
+KE,5.11,Hybrid regime,President,Partly Free,,To preserve physical health,0.692,0.672,0.929,0.975,0.193,,No,3.62,23.0,-87.0,Illegal - 1930 (updated 2003),No,14 yrs prison,No,No,No
+KI,0.0,Unknown,President,,,To save the mothers life,,,,,,,,,43.0,-70.0,Illegal - 1977,No,14 yrs prison,No,No,No
+KR,8.0,Flawed democracy,President,Partly Free,,To preserve physical health,0.687,0.586,0.973,0.976,0.214,,Yes,4.53,54.0,97.0,Legal - never illegal,No,2 yrs + labor (military only),No,No,No
+KW,3.85,Authoritarian,Emir,,Illegal,To preserve physical health,0.621,0.498,0.997,0.968,0.022,,Yes,3.61,21.0,-180.0,Illegal - 1960,No,7 yrs + deportation,No,No,No
+KG,5.11,Hybrid regime,Prime Minister,Partly Free,,No restriction,0.681,0.646,0.99,0.98,0.108,,Yes,2.16,39.0,32.0,Legalized 1998,No,,No,No,No
+LA,2.37,Authoritarian,General Secretary of the Communist Party,,,Prohibited altogether,0.75,0.915,0.965,0.975,0.146,,Yes,4.89,59.0,45.0,Legal - never illegal,No,,No,No,No
+LV,7.38,Flawed democracy,Prime Minister,,,No restriction,0.778,0.822,1.0,0.976,0.313,,No,4.42,54.0,109.0,Legalized 1992,No,,No,No,No
+LB,4.63,Hybrid regime,Prime Minister,Partly Free,,To save the mothers life,0.638,0.487,0.964,0.97,0.129,,No,3.63,19.0,-58.0,Illegal - 1943,No,1 yr prison,No,No,No
+LS,6.64,Flawed democracy,Prime Minister,,,To preserve physical health,0.698,0.647,1.0,0.98,0.165,,No,4.18,43.0,80.0,Legalized 2012,No,,No,No,No
+LR,5.35,Hybrid regime,President,,,To preserve physical/mental health,0.693,0.717,0.839,0.962,0.255,,No,2.65,23.0,-39.0,Illegal - 1978,No,1 yr prison + fines,No,No,No
+LY,2.19,Authoritarian,Prime Minister,Partly Free,Illegal,To save the mothers life,,,,,,,No,3.78,7.0,-150.0,Illegal - 1953 (updated 1976),No,5 yrs prison,No,No,No
+LI,0.0,Unknown,Regent,,,To preserve physical health,,,,,,,,,80.0,217.0,Legalized 1989,No,,Legalized 2011,No,No
+LT,7.5,Flawed democracy,President,,,No restriction,0.804,0.808,0.998,0.98,0.429,,Yes,4.38,50.0,145.0,Legalized 1993,No,,Pending,No,No
+LU,8.81,Full democracy,Prime Minister,,,No restriction,0.726,0.691,1.0,0.965,0.247,,No,7.82,78.0,269.0,Legalized 1795,No,,Legalized 2004,Legalized 2015,Legalized 2015
+MG,5.22,Hybrid regime,President,,,Prohibited altogether,0.725,0.754,0.982,0.965,0.2,,No,3.36,38.0,26.0,Legal - never illegal,No,,No,No,No
+MW,5.49,Hybrid regime,President,Partly Free,,To save the mothers life,0.671,0.624,0.915,0.98,0.164,,No,1.75,19.0,-163.0,Illegal - 2011,No,14 yrs + forced labor,No,No,No
+MY,6.88,Flawed democracy,Prime Minister,Partly Free,Partially legal,To preserve physical/mental health,0.676,0.638,0.994,0.972,0.102,,No,3.48,13.0,-165.0,Illegal - 1936,No,20 yrs + whipping,No,No,No
+MV,0.0,Unknown,President,,,To preserve physical health,0.642,0.491,1.0,0.955,0.121,,No,,31.0,-100.0,Illegal - 2014,No,8 yrs + 100 lashes,No,No,No
+ML,5.41,Hybrid regime,President,,,To save the mothers life,0.591,0.475,0.757,0.959,0.172,,Yes,2.74,34.0,12.0,Legal - never illegal,No,,No,No,No
+MT,8.21,Full democracy,Prime Minister,,,Prohibited altogether,0.703,0.656,1.0,0.965,0.192,,No,8.01,82.0,369.0,Legalized 1973,No,,Legalized 2014,Legalized 2017,Legalized 2014
+MH,0.0,Unknown,President,,,Prohibited altogether,,,,,,,,,66.0,110.0,Legalized 2005,No,,No,No,No
+MR,3.82,Authoritarian,President,,Illegal,Prohibited altogether,0.606,0.44,0.879,0.957,0.147,,No,1.77,3.0,-96.0,Illegal - 1983,Yes,2 yrs + fines or death,No,No,No
+MU,8.22,Full democracy,Prime Minister,,,To preserve physical/mental health,0.679,0.6,0.992,0.98,0.144,,No,5.34,58.0,15.0,Illegal - 1838,No,5 yrs penal servitude,No,No,No
+MX,6.19,Flawed democracy,President,Partly Free,,To save the mothers life,0.757,0.59,0.997,0.975,0.468,,Yes,6.5,78.0,173.0,Legalized 1872,No,,Varied,Varied,Varied
+FM,0.0,Unknown,President,,,Prohibited altogether,,,,,,,,,58.0,100.0,Legal - never illegal,No,,No,No,No
+MD,5.85,Hybrid regime,Prime Minister,,,No restriction,0.768,0.811,0.996,0.98,0.286,,Yes,1.91,37.0,110.0,Legalized 1995,No,,No,No,No
+MC,0.0,Unknown,Sovereign Prince,,,To preserve physical health,,,,,,,,,68.0,61.0,Legalized 1793,No,,Legalized 2020,No,No
+MN,6.5,Flawed democracy,President,,,No restriction,0.716,0.769,0.993,0.98,0.122,,Yes,2.71,42.0,117.0,Legalized 1961,No,,No,No,No
+ME,5.74,Hybrid regime,Prime Minister,,,No restriction,0.732,0.748,0.998,0.97,0.212,,No,3.53,48.0,141.0,Legalized 1977,No,,Legalized 2021,No,No
+MA,4.99,Hybrid regime,King,Partly Free,Partially legal,To preserve physical health,0.612,0.407,0.956,0.961,0.126,,Yes,3.39,22.0,-89.0,Illegal - 1963,No,3 yrs prison + fines,No,No,No
+MZ,3.85,Authoritarian,President,,,To preserve physical/mental health,0.758,0.655,0.904,0.98,0.494,,Yes,4.92,60.0,87.0,Legalized 2015,No,,No,No,No
+MM,3.83,Authoritarian,President,Not Free,,To save the mothers life,0.681,0.657,0.975,0.98,0.113,,De jure,4.11,22.0,-118.0,Illegal - 1860,No,10 yrs prison + fines,No,No,No
+,6.25,Flawed democracy,President,,,To preserve physical/mental health,0.809,0.794,1.0,0.98,0.463,,No,4.93,55.0,48.0,Illegal - 2004,No,Unclear,No,No,No
+NR,0.0,Unknown,President,,,To preserve physical/mental health,,,,,,,,,58.0,,Legalized 2016,No,,No,No,No
+NP,5.18,Hybrid regime,Prime Minister,,,No restriction,0.683,0.63,0.895,0.965,0.241,,No,7.84,69.0,181.0,Legalized 2007,No,,No,No,No
+NL,8.89,Full democracy,Prime Minister,,,No restriction,0.762,0.713,1.0,0.962,0.375,,No,9.46,85.0,374.0,Legalized 1811,No,,Legalized 1998,Legalized 2001,Legalized 2001
+NZ,9.26,Full democracy,Prime Minister,,,No restriction before 20 weeks,0.84,0.763,1.0,0.966,0.63,,No,8.23,78.0,323.0,Legalized 1986,No,,Legalized 2005,Legalized 2013,Legalized 2013
+NI,3.63,Authoritarian,President,Partly Free,,Prohibited altogether,0.796,0.598,1.0,0.978,0.606,,No,5.57,51.0,122.0,Legalized 2008,No,,No,No,No
+NE,3.76,Authoritarian,President,,,To preserve physical health,0.629,0.673,0.726,0.964,0.155,,Yes,2.97,29.0,14.0,Legal - never illegal,No,,No,No,No
+NG,4.44,Hybrid regime,President,Partly Free,,To save the mothers life,0.627,0.687,0.806,0.967,0.047,,No,2.18,9.0,-190.0,Illegal - 1959 (updated 2017),Yes,14 yrs + fines or death,No,No,No
+MK,5.87,Hybrid regime,President,,,No restriction,0.715,0.647,0.977,0.97,0.267,,No,3.13,42.0,113.0,Legalized 1996,No,,No,No,No
+NO,9.87,Full democracy,Prime Minister,,Partially legal,No restriction,0.849,0.792,1.0,0.964,0.64,,Yes,9.38,86.0,343.0,Legalized 1972,No,,Replaced,Legalized 2009,Legalized 2001
+OM,3.04,Authoritarian,Sultan and Prime Minister,,Partially legal,To save the mothers life,0.608,0.453,0.977,0.961,0.041,,No,,13.0,-145.0,Illegal - 2018,No,3 yrs prison,No,No,No
+PK,4.17,Hybrid regime,Prime Minister,Not Free,Partially legal,To preserve physical health,0.556,0.316,0.811,0.944,0.154,,No,3.66,34.0,-93.0,Illegal - 1860,Possible,"3 mos + fines, possibly death",No,No,No
+PW,0.0,Unknown,President,,,Prohibited altogether,,,,,,,,,68.0,,Legalized 2014,No,,No,No,No
+PA,7.05,Flawed democracy,President,,,To save the mothers life,0.737,0.731,0.994,0.973,0.252,,,5.28,43.0,53.0,Legalized 2008,No,,No,No,No
+PG,6.03,Flawed democracy,Prime Minister,,,To save the mothers life,0.635,0.684,0.895,0.959,0.0,,No,,41.0,-80.0,Illegal - 1974,No,14 yrs + counseling/public service,No,No,No
+PY,6.24,Flawed democracy,President,,,To save the mothers life,0.702,0.672,0.998,0.974,0.164,,Yes,4.74,40.0,29.0,Legalized 1990,No,,No,No,No
+PE,6.6,Flawed democracy,President,,,To preserve physical health,0.721,0.629,0.981,0.964,0.31,,No,5.15,54.0,207.0,Legalized 1924,No,,Limited,No,No
+PH,6.71,Flawed democracy,President,Partly Free,,Prohibited altogether,0.784,0.795,0.999,0.979,0.362,,No,6.06,58.0,47.0,Legalized 1870,No,,No,No,No
+PL,6.67,Flawed democracy,Prime Minister,,,To preserve physical health,0.713,0.705,0.996,0.98,0.171,,No,5.15,49.0,82.0,Legalized 1932,No,,Pending,No,No
+PT,7.84,Flawed democracy,Prime Minister,,,No restriction,0.775,0.746,0.992,0.972,0.39,,De jure,6.87,69.0,358.0,Legalized 1983,No,,Legalized 2001,Legalized 2010,Legalized 2016
+QA,3.19,Authoritarian,Emir,,Partially legal,To preserve physical health,0.624,0.504,0.99,0.948,0.053,,Yes,3.54,14.0,-137.0,Illegal - 2004,Possible,"7-10 yrs, possible death",No,No,No
+RO,6.38,Flawed democracy,President,,,No restriction,0.7,0.723,0.997,0.98,0.1,,No,4.1,49.0,137.0,Legalized 1996,No,,No,No,No
+RU,2.94,Authoritarian,President,Not Free,,No restriction,0.708,0.767,1.0,0.98,0.085,,Yes,3.28,32.0,-2.0,Legalized 1993,No,,No,No,No
+RW,3.35,Authoritarian,President,Not Free,,To preserve physical health,0.805,0.726,0.957,0.974,0.563,,No,2.77,34.0,-29.0,Legal - never illegal,No,,No,No,No
+WS,0.0,Unknown,Prime Minister,,,To preserve physical/mental health,,,,,,,,,61.0,48.0,Illegal - 2013,No,varies,No,No,No
+SM,0.0,Unknown,Captain Regent,,,Prohibited altogether,,,,,,,De jure,,81.0,238.0,Legalized 2004,No,,Legalized 2018,No,Second-parent only
+ST,0.0,Unknown,President,,,Prohibited altogether,,,,,,,De jure,3.15,51.0,,Legalized 2012,No,,No,No,No
+SA,1.93,Authoritarian,King,Not Free,Illegal,To preserve physical health,0.603,0.39,0.98,0.964,0.077,,No,3.6,13.0,-177.0,Illegal,Yes,Death,No,No,No
+SN,6.15,Flawed democracy,President,,,Prohibited altogether,0.684,0.554,0.888,0.967,0.327,,Yes,1.85,14.0,-67.0,Illegal - 1965,No,5 yrs prison + fines,No,No,No
+RS,6.41,Flawed democracy,Prime Minister,Free,,No restriction,0.78,0.716,0.998,0.969,0.437,,No,3.71,44.0,172.0,Legalized 1994,No,,No,No,No
+SC,0.0,Unknown,President,,,To preserve physical/mental health,,,,,,,No,,68.0,75.0,Legalized 2016,No,,No,No,No
+SL,4.66,Hybrid regime,President,,,To preserve physical/mental health,0.655,0.713,0.86,0.966,0.083,,No,2.97,26.0,-63.0,Illegal - 1861,No,Life in prison,No,No,No
+SG,6.38,Flawed democracy,Prime Minister,Partly Free,,No restriction,0.727,0.749,0.99,0.963,0.208,,Yes,5.86,52.0,18.0,Illegal - 1938,No,2 yrs prison,No,No,No
+SK,7.1,Flawed democracy,,,,No restriction,0.712,0.682,1.0,0.98,0.184,,De jure,4.82,56.0,186.0,Legalized 1962,No,,No,No,No
+SI,7.5,Flawed democracy,Prime Minister,,,No restriction,0.741,0.803,1.0,0.977,0.184,,No,6.21,66.0,242.0,Legalized 1977,No,,Legalized 2005,No,No
+SB,0.0,Unknown,Prime Minister,,,To save the mothers life,,,,,,,,,31.0,-85.0,Illegal - 1963,No,14 yrs prison,No,No,No
+SO,0.0,Unknown,Prime Minister,,Illegal,To save the mothers life,,,,,,,De jure,1.59,2.0,-150.0,Illegal - 1964,Possible,varies (3yrs to death),No,No,No
+ZA,7.24,Flawed democracy,President,Free,,No restriction,0.781,0.658,0.994,0.979,0.493,,No,6.01,76.0,292.0,Legalized 1998,No,,Legalized 2006,Legalized 2006,Legalized 2002
+SS,0.0,Unknown,President,,,To save the mothers life,,,,,,,Yes,2.73,22.0,-126.0,Illegal - 2008 (updated ,No,10 yrs prison + fines,No,No,No
+ES,8.08,Full democracy,President,,,No restriction,0.788,0.699,0.998,0.965,0.491,,De jure,8.77,82.0,341.0,Legalized 1979,No,,Legalized 2011,Legalized 2005,Legalized 2005
+LK,6.19,Flawed democracy,President,Partly Free,,To save the mothers life,0.67,0.547,0.988,0.98,0.167,,No,3.23,38.0,-91.0,Illegal - 1995,No,10 yrs prison,No,No,No
+KN,0.0,Unknown,,,,To preserve physical/mental health,,,,,,,,3.71,34.0,-52.0,Illegal - 2002,No,10 yrs w/w-out hard labor,No,No,No
+LC,0.0,Unknown,,,,To preserve physical/mental health,,,,,,,No,3.8,36.0,-75.0,Illegal - 2004,No,10 yrs prison,No,No,No
+VC,0.0,Unknown,,,,To preserve health/on socioeconomic grounds,,,,,,,,3.04,21.0,-70.0,Illegal - 1988,No,10 yrs prison,No,No,No
+SD,2.15,Authoritarian,Leader of the Sovereignty Council,Not Free,Partially legal,To save the mothers life,,,,,,,Yes,2.99,11.0,-109.0,Illegal - 2020,No,Life in prison,No,No,No
+SR,6.98,Flawed democracy,President,,,Prohibited altogether,0.729,0.703,0.993,0.969,0.252,,No,4.64,59.0,171.0,Legalized 1869,No,,No,No,No
+SE,9.39,Full democracy,Prime Minister,,,No restriction,0.823,0.81,0.996,0.962,0.522,,Yes,9.18,81.0,378.0,Legalized 1944,No,,No,Legalized 2009,Legalized 2003
+CH,9.03,Full democracy,President,,,No restriction,0.798,0.743,0.992,0.964,0.494,,Yes,8.0,78.0,325.0,Legalized 1942,No,,Legalized 2007,Legalized 2022,Second-parent only
+SY,1.43,Authoritarian,President,,,To save the mothers life,0.568,0.285,0.953,0.965,0.067,,Yes,5.22,29.0,,Illegal - 1949,No,3 yrs prison,No,No,No
+TJ,1.93,Authoritarian,President,,,No restriction,0.65,0.574,0.942,0.969,0.112,,Yes,1.56,52.0,25.0,Legalized 1998,No,,No,No,No
+TZ,5.41,Hybrid regime,President,,,To save the mothers life,0.707,0.703,0.921,0.97,0.235,,unclear,3.27,17.0,-120.0,Illegal - 1998,No,Life in prison,No,No,No
+TH,4.63,Hybrid regime,Prime Minister,Not Free,,To preserve physical/mental health,0.71,0.787,0.992,0.978,0.084,,Yes,5.81,52.0,131.0,Legalized 1957,No,,Pending,No,Pending
+BS,0.0,Unknown,Prime Minister,,,To preserve physical health,0.725,0.857,1.0,0.98,0.064,,No,4.09,51.0,50.0,Legalized 1991,No,,No,No,No
+GM,4.31,Hybrid regime,President,Partly Free,,To preserve physical/mental health,0.644,0.607,0.891,0.968,0.112,,No,2.44,10.0,-139.0,Illegal - 1934 (updated 2014),No,Unclear,No,No,No
+TL,7.19,Flawed democracy,,,,To save the mothers life,,,,,,,Uncertain,,33.0,10.0,Legalized 1975,No,,No,No,No
+TG,3.1,Authoritarian,President,,,To preserve physical health,0.683,0.787,0.782,0.979,0.185,,No,3.15,18.0,-45.0,Illegal - 2015,No,3 yrs prison,No,No,No
+TO,0.0,Unknown,Prime Minister,,,Prohibited altogether,,,,,,,No,,47.0,-155.0,Illegal - 1988,No,10 yrs or whipping,No,No,No
+TT,7.16,Flawed democracy,Prime Minister,,,To preserve physical/mental health,,,,,,,,4.7,37.0,71.0,Legalized 2018,No,,No,No,No
+TN,6.41,Flawed democracy,President,Partly Free,Partially legal,No restriction,0.649,0.445,0.97,0.969,0.212,,Yes,3.38,19.0,-91.0,Illegal - 2010,No,3 yrs prison + fines,No,No,No
+TR,4.37,Hybrid regime,President,Not Free,,No restriction,0.638,0.486,0.975,0.967,0.123,,Yes,3.94,32.0,40.0,Legalized 1858,No,,No,No,No
+TM,1.72,Authoritarian,President,,Partially legal,No restriction,,,,,,,Yes,,36.0,-65.0,Illegal - 2019,No,5 yrs + psych treatment,No,No,No
+TV,0.0,Unknown,Prime Minister,,,To save the mothers life,,,,,,,,,36.0,-75.0,Illegal - 1965,No,14 yrs prison,No,No,No
+UG,5.2,Hybrid regime,President,Partly Free,,To save the mothers life,0.717,0.692,0.898,0.98,0.296,,No,3.63,13.0,-92.0,Illegal - 2000,No,Unclear,No,No,No
+UA,5.69,Hybrid regime,President,Partly Free,,No restriction,0.714,0.732,1.0,0.978,0.147,,Yes,2.91,47.0,80.0,Legalized 1991,No,,No,No,No
+AE,2.76,Authoritarian,President,Not Free,Illegal,To save the mothers life,0.716,0.51,0.987,0.963,0.403,,Yes,,10.0,-134.0,Illegal - 1987 (updated 2016),Possible,varies (14 yrs to death),No,No,No
+GB,8.53,Full democracy,Prime Minister,Free,Partially legal,To preserve health/on socioeconomic grounds,0.775,0.716,0.999,0.966,0.419,,No,8.34,84.0,347.0,Legalized (various 1967-1982),No,,Legalized 2005,Legalized 2014,Legalized 2005-2013
+US,7.96,Flawed democracy,President,Free,,Varies by state,0.763,0.754,1.0,0.97,0.329,,De jure,7.42,82.0,267.0,Legalized (various 1962-2003),No,,Varied,Legalized 2015,Legalized 2015
+US,7.96,Flawed democracy,President,Free,,Varies by state,0.763,0.754,1.0,0.97,0.329,,De jure,,,264.0,Legalized 1985,No,,No,Legalized 2015,Legalized 2015
+UY,8.38,Full democracy,President,,,No restriction,0.702,0.69,1.0,0.98,0.14,,De jure,7.9,86.0,306.0,Legalized 1934,No,,Legalized 2008,Legalized 2013,Legalized 2009
+UZ,2.01,Authoritarian,President,Not Free,,No restriction,,,,,,,Yes,3.68,40.0,-65.0,Illegal - 1994,No,3 yrs prison,No,No,No
+VU,0.0,Unknown,Prime Minister,,,To preserve physical health,0.625,0.576,0.947,0.975,0.0,,,,71.0,,Legal - never illegal,No,,No,No,No
+VE,3.16,Authoritarian,President,Not Free,,To save the mothers life,0.699,0.617,0.998,0.98,0.199,,Yes,5.51,50.0,34.0,Legalized 1836,No,,No,No,No
+VN,3.08,Authoritarian,General Secretary of the Communist Party,Not Free,,No restriction,0.701,0.765,0.982,0.945,0.113,,Yes,4.99,52.0,54.0,Legal - never illegal,No,,No,No,No
+PS,4.39,Hybrid regime,,,Partially legal,,,,,,,,,3.2,16.0,-106.0,Varied,No,10 yrs prison (Gaza only),No,No,No
+YE,1.95,Authoritarian,President,,Illegal,To save the mothers life,0.492,0.282,0.717,0.968,0.001,,No,3.41,,-128.0,Illegal - 1994,Yes,"Death (males), 3 yrs (females)",No,No,No
+ZM,5.61,Hybrid regime,President,Partly Free,,To preserve health/on socioeconomic grounds,0.726,0.804,0.938,0.98,0.18,,No,2.04,18.0,-104.0,Illegal - 1933,No,14 yrs prison,No,No,No
+ZW,3.16,Authoritarian,President,Partly Free,,To preserve physical health,0.732,0.763,0.977,0.98,0.21,,No,1.57,27.0,-52.0,Illegal - 2004,No,1 yr prison + fines,No,No,No
+TW,,,,,,To preserve health/on socioeconomic grounds,,,,,,,Yes,5.74,66.0,188.0,Legalized 1912,No,,Legalized 2015,Legalized 2019,Related & second-parent only
+HK,,,,,,To preserve health/on socioeconomic grounds,,,,,,,,6.38,,99.0,Legalized 1991,No,,No,No,No
+CW,,,,,,,,,,,,,No,,,50.0,Legalized 1869,No,,No,No,No
+BM,,,,,,,,,,,,,No,,,,Legalized 1994,No,,No,No,Legalized 2015
+PR,,,,,,,,,,,,,,7.52,,210.0,Legalized 2003,No,,No,Legalized 2016,Legalized 2018
+GP,,,,,,,,,,,,,,,,,Legalized 1816,No,,Legalized 1999,Legalized 2013,Legalized 2013
+MQ,,,,,,,,,,,,,,,,,Legalized 1815,No,,Legalized 1999,Legalized 2013,Legalized 2013
+YT,,,,,,,,,,,,,,,,,Legal - never illegal,No,,Legalized 2006,Legalized 2013,Legalized 2013
+GF,,,,,,,,,,,,,,,,,Legalized 1817,No,,Legalized 1999,Legalized 2013,Legalized 2013
+PF,,,,,,,,,,,,,,,,,Legal - never illegal,No,,No,Legalized 2013,Legalized 2013
+NC,,,,,,,,,,,,,,,,,Legal - never illegal,No,,Legalized 2009,Legalized 2013,Legalized 2013
+GU,,,,,,,,,,,,,,,,289.0,Legalized 1977,No,,No,Legalized 2015,Legalized 2015
+AW,,,,,,,,,,,,,,,,138.0,Legalized 1869,No,,Legalized 2016,No,No
+IM,,,,,,,,,,,,,,,90.0,,Legalized 1992,No,,Legalized 2010,Legalized 2016,Legalized 2011
+KY,,,,,,,,,,,,,,,,59.0,Legalized 2001,No,,Legalized 2020,No,No
+GL,,,,,,,,,,,,,,,,,Legalized 1933,No,,Replaced,Legalized 2016,Legalized 2016
+FO,,,,,,,,,,,,,,,,,Legalized 1933,No,,No,Legalized 2017,Legalized 2017
+MP,,,,,,,,,,,,,,,,85.0,Legalized 1983,No,,No,Legalized 2015,Legalized 2015
+TC,,,,,,,,,,,,,,,,50.0,Legalized 2001,No,,No,No,No
+SX,,,,,,,,,,,,,,,,75.0,Legalized 1869,No,,No,No,No
+AS,,,,,,,,,,,,,,,,,Legalized 1980,No,,No,No,No
+GI,,,,,,,,,,,,,,,,,Legalized 1993,No,,Legalized 2014,Legalized 2016,Legalized 2014
+MF,,,,,,,,,,,,,,,,,Legalized 1791,No,,Legalized 1999,Legalized 2013,Legalized 2013
+CK,,,,,,,,,,,,,,,,,Illegal - 1969,No,varies,No,No,No
+AI,,,,,,,,,,,,,,,,,Legalized 2001,No,,No,No,No
+WF,,,,,,,,,,,,,,,,,Legal - never illegal,No,,Legalized 2009,Legalized 2013,Legalized 2013
+BL,,,,,,,,,,,,,,,,,Legalized 1878,No,,Legalized 1999,Legalized 2013,Legalized 2013
+PM,,,,,,,,,,,,,,,,,Legalized 1814,No,,No,Legalized 2013,Legalized 2013
+MS,,,,,,,,,,,,,,,,,Legalized 2001,No,,No,No,No
+FK,,,,,,,,,,,,,,,,,Legalized 1989,No,,Legalized 2017,Legalized 2017,Legalized 2017
+NU,,,,,,,,,,,,,,,,,Legalized 2007,No,,No,No,No
+TK,,,,,,,,,,,,,,,,,Legalized 2007,No,,No,No,No
+VA,,,,,,,,,,,,,,,56.0,,Legalized 1890,No,,No,No,No
