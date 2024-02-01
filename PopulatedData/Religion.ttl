@@ -1,0 +1,4841 @@
+@prefix glo: <http://www.dei.unipd.it/database2/LinkedinJobPosting#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+glo:religion_AD a glo:Religion ;
+    glo:belongsToCountry glo:country_AD ;
+    glo:country "AD"^^xsd:string ;
+    glo:unaffiliated "8.8"^^xsd:float .
+
+glo:religion_AE a glo:Religion ;
+    glo:atheist 0 ;
+    glo:belongsToCountry glo:country_AE ;
+    glo:country "AE"^^xsd:string ;
+    glo:nonReligious 45 ;
+    glo:unaffiliated "1.1"^^xsd:float .
+
+glo:religion_AF a glo:Religion ;
+    glo:belongsToCountry glo:country_AF ;
+    glo:country "AF"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_AG a glo:Religion ;
+    glo:belongsToCountry glo:country_AG ;
+    glo:country "AG"^^xsd:string ;
+    glo:unaffiliated "1.7"^^xsd:float .
+
+glo:religion_AI a glo:Religion ;
+    glo:belongsToCountry glo:country_AI ;
+    glo:country "AI"^^xsd:string ;
+    glo:unaffiliated "4.0"^^xsd:float .
+
+glo:religion_AL a glo:Religion ;
+    glo:belongsToCountry glo:country_AL ;
+    glo:combined 39 ;
+    glo:country "AL"^^xsd:string ;
+    glo:religion "Atheist"^^xsd:string,
+        "Bektashism"^^xsd:string,
+        "Believers without denomination"^^xsd:string,
+        "Catholic"^^xsd:string,
+        "Evangelical"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Orthodox"^^xsd:string,
+        "Other"^^xsd:string,
+        "Other Christians"^^xsd:string,
+        "Refused to answer"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string ;
+    glo:unaffiliated "1.4"^^xsd:float ;
+    glo:value 602,
+        1919,
+        3797,
+        58628,
+        68022,
+        69995,
+        153630,
+        188992,
+        280921,
+        386024,
+        1587608,
+        2800138 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_AM a glo:Religion ;
+    glo:atheist 2 ;
+    glo:belongsToCountry glo:country_AM ;
+    glo:combined 6 ;
+    glo:country "AM"^^xsd:string ;
+    glo:nonReligious 7 ;
+    glo:religion "Armenian Apostolic"^^xsd:string,
+        "Armenian Orthodox"^^xsd:string,
+        "Catholic"^^xsd:string,
+        "Evangelical"^^xsd:string,
+        "Molokai"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Other"^^xsd:string,
+        "Pagan"^^xsd:string,
+        "Shar-fadinian"^^xsd:string,
+        "Yeshiva's witness"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "1.3"^^xsd:float ;
+    glo:value 1422,
+        1450,
+        2617,
+        2638,
+        2784,
+        2817,
+        2872,
+        3776,
+        4112,
+        4894,
+        5434,
+        5911,
+        6686,
+        7157,
+        7532,
+        7888,
+        8695,
+        12297,
+        12595,
+        12609,
+        13843,
+        16983,
+        17128,
+        17245,
+        25204,
+        29280,
+        34373,
+        43433,
+        43781,
+        87214,
+        1342448,
+        1454071,
+        2796519 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_AO a glo:Religion ;
+    glo:belongsToCountry glo:country_AO ;
+    glo:country "AO"^^xsd:string ;
+    glo:unaffiliated "5.1"^^xsd:float .
+
+glo:religion_AR a glo:Religion ;
+    glo:atheist 9 ;
+    glo:belongsToCountry glo:country_AR ;
+    glo:combined 34 ;
+    glo:country "AR"^^xsd:string ;
+    glo:nonReligious 23 ;
+    glo:unaffiliated "12.2"^^xsd:float .
+
+glo:religion_AS a glo:Religion ;
+    glo:belongsToCountry glo:country_AS ;
+    glo:country "AS"^^xsd:string ;
+    glo:unaffiliated "0.7"^^xsd:float .
+
+glo:religion_AT a glo:Religion ;
+    glo:atheist 13 ;
+    glo:belongsToCountry glo:country_AT ;
+    glo:combined 53 ;
+    glo:country "AT"^^xsd:string ;
+    glo:nonReligious 38 ;
+    glo:unaffiliated "13.5"^^xsd:float .
+
+glo:religion_AU a glo:Religion ;
+    glo:belongsToCountry glo:country_AU ;
+    glo:combined 63 ;
+    glo:country "AU"^^xsd:string ;
+    glo:religion "Anglican"^^xsd:string,
+        "Assyrian Apostolic"^^xsd:string,
+        "Australian Aboriginal Traditional Religion"^^xsd:string,
+        "Baha'i"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Brethren"^^xsd:string,
+        "Buddhist"^^xsd:string,
+        "Catholic"^^xsd:string,
+        "Chinese Religions"^^xsd:string,
+        "Christian nfd"^^xsd:string,
+        "Church of Christ"^^xsd:string,
+        "Druze"^^xsd:string,
+        "Eastern Orthodox"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Islam "^^xsd:string,
+        "Japanese Religions"^^xsd:string,
+        "Jehovah's Witnesses"^^xsd:string,
+        "Judaism"^^xsd:string,
+        "Latter Day Saints"^^xsd:string,
+        "Lutheran"^^xsd:string,
+        "Nature and earth based religions"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Specified"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Oriental Orthodox"^^xsd:string,
+        "Other Christians"^^xsd:string,
+        "Other Protestant"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Pentecostal"^^xsd:string,
+        "Presbyterian and Reformed"^^xsd:string,
+        "Salvation Army"^^xsd:string,
+        "Seventh Day Adventist"^^xsd:string,
+        "Sikh"^^xsd:string,
+        "Spiritualist"^^xsd:string,
+        "Theism, nec"^^xsd:string,
+        "Total"^^xsd:string,
+        "United Church"^^xsd:string,
+        "Zoroastrianism"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "24.2"^^xsd:float ;
+    glo:value 627,
+        1013,
+        1155,
+        1386,
+        1394,
+        1579,
+        1595,
+        1640,
+        2268,
+        2287,
+        2541,
+        2883,
+        2973,
+        3166,
+        3560,
+        3802,
+        3882,
+        5116,
+        5151,
+        5472,
+        6548,
+        7157,
+        7362,
+        8083,
+        8387,
+        10532,
+        10588,
+        10810,
+        11200,
+        11553,
+        11966,
+        13705,
+        17921,
+        18893,
+        19753,
+        20117,
+        20373,
+        20888,
+        21732,
+        22085,
+        26401,
+        27603,
+        28313,
+        28330,
+        28744,
+        30067,
+        31457,
+        31910,
+        32083,
+        33761,
+        34258,
+        37480,
+        37674,
+        41261,
+        42229,
+        47060,
+        48156,
+        49688,
+        50274,
+        59770,
+        60162,
+        60240,
+        63002,
+        63249,
+        72296,
+        85636,
+        97334,
+        107152,
+        109726,
+        119067,
+        127073,
+        128258,
+        132865,
+        148463,
+        166187,
+        170401,
+        186312,
+        219925,
+        227267,
+        237984,
+        240186,
+        249024,
+        251014,
+        251932,
+        275536,
+        278398,
+        284674,
+        287700,
+        288793,
+        311817,
+        352499,
+        470939,
+        476291,
+        476639,
+        528979,
+        563072,
+        589155,
+        599517,
+        859728,
+        979922,
+        1065794,
+        1730112,
+        1839650,
+        1949795,
+        2242678,
+        2554108,
+        2607250,
+        2832016,
+        3679907,
+        4796786,
+        5439266,
+        10634012,
+        10873707,
+        21507719 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_AW a glo:Religion ;
+    glo:belongsToCountry glo:country_AW ;
+    glo:country "AW"^^xsd:string ;
+    glo:religion "Adventist"^^xsd:string,
+        "Anglican"^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Jewish"^^xsd:string,
+        "Methodist"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Other Religions and Persuasions"^^xsd:string,
+        "Pagan"^^xsd:string,
+        "Protestant"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "6.0"^^xsd:float ;
+    glo:value 152,
+        183,
+        202,
+        233,
+        267,
+        283,
+        349,
+        354,
+        420,
+        450,
+        512,
+        515,
+        531,
+        683,
+        880,
+        932,
+        1020,
+        1230,
+        1469,
+        1703,
+        2521,
+        2698,
+        3104,
+        5282,
+        5625,
+        6580,
+        11862,
+        36506,
+        39959,
+        48241,
+        53243,
+        76464,
+        101484 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_AZ a glo:Religion ;
+    glo:belongsToCountry glo:country_AZ ;
+    glo:combined 64 ;
+    glo:country "AZ"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_BA a glo:Religion ;
+    glo:atheist 5 ;
+    glo:belongsToCountry glo:country_BA ;
+    glo:combined 22 ;
+    glo:country "BA"^^xsd:string ;
+    glo:nonReligious 19 ;
+    glo:unaffiliated "2.5"^^xsd:float .
+
+glo:religion_BB a glo:Religion ;
+    glo:belongsToCountry glo:country_BB ;
+    glo:country "BB"^^xsd:string ;
+    glo:unaffiliated "1.9"^^xsd:float .
+
+glo:religion_BD a glo:Religion ;
+    glo:belongsToCountry glo:country_BD ;
+    glo:combined 19 ;
+    glo:country "BD"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_BE a glo:Religion ;
+    glo:atheist 27 ;
+    glo:belongsToCountry glo:country_BE ;
+    glo:combined 29 ;
+    glo:country "BE"^^xsd:string ;
+    glo:nonReligious 33 ;
+    glo:unaffiliated "29.0"^^xsd:float .
+
+glo:religion_BF a glo:Religion ;
+    glo:belongsToCountry glo:country_BF ;
+    glo:country "BF"^^xsd:string ;
+    glo:unaffiliated "0.4"^^xsd:float .
+
+glo:religion_BG a glo:Religion ;
+    glo:atheist 9 ;
+    glo:belongsToCountry glo:country_BG ;
+    glo:combined 39 ;
+    glo:country "BG"^^xsd:string ;
+    glo:nonReligious 29 ;
+    glo:religion "Armeno-Gregorian"^^xsd:string,
+        "Catholic"^^xsd:string,
+        "Eastern Orthodox"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Specified"^^xsd:string,
+        "Other"^^xsd:string,
+        "Protestant"^^xsd:string,
+        "Total"^^xsd:string,
+        "Unknown"^^xsd:string,
+        "Yiddish"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "4.2"^^xsd:float ;
+    glo:value 333,
+        373,
+        706,
+        831,
+        884,
+        1715,
+        4254,
+        4769,
+        9023,
+        24317,
+        24628,
+        27999,
+        36477,
+        48945,
+        64476,
+        117954,
+        154310,
+        193133,
+        216765,
+        272264,
+        287658,
+        289481,
+        409898,
+        577139,
+        793178,
+        813091,
+        1606269,
+        2056187,
+        2317948,
+        3586571,
+        3777999,
+        4374135,
+        7364570 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_BH a glo:Religion ;
+    glo:belongsToCountry glo:country_BH ;
+    glo:country "BH"^^xsd:string ;
+    glo:religion "Muslim"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "1.9"^^xsd:float ;
+    glo:value 110404,
+        257279,
+        355753,
+        367683,
+        466157,
+        511135,
+        768414,
+        866888,
+        1234571 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_BI a glo:Religion ;
+    glo:belongsToCountry glo:country_BI ;
+    glo:country "BI"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_BJ a glo:Religion ;
+    glo:belongsToCountry glo:country_BJ ;
+    glo:country "BJ"^^xsd:string ;
+    glo:unaffiliated "5.0"^^xsd:float .
+
+glo:religion_BM a glo:Religion ;
+    glo:belongsToCountry glo:country_BM ;
+    glo:country "BM"^^xsd:string ;
+    glo:religion "African Methodist Episcopal Church"^^xsd:string,
+        "Anglican"^^xsd:string,
+        "Baha'i"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Brethren"^^xsd:string,
+        "Church of God"^^xsd:string,
+        "Ethiopian Orthodox"^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Jewish"^^xsd:string,
+        "Lutheran"^^xsd:string,
+        "Methodist"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "Non-denominational"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Other"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Pentecostal"^^xsd:string,
+        "Presbyterian"^^xsd:string,
+        "Rastafarian"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Salvation Army"^^xsd:string,
+        "Seventh Day Adventist"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "19.4"^^xsd:float ;
+    glo:value 46,
+        49,
+        66,
+        69,
+        78,
+        105,
+        118,
+        124,
+        135,
+        146,
+        163,
+        212,
+        251,
+        253,
+        260,
+        290,
+        311,
+        333,
+        352,
+        356,
+        362,
+        397,
+        434,
+        446,
+        517,
+        555,
+        588,
+        616,
+        629,
+        652,
+        702,
+        708,
+        712,
+        746,
+        778,
+        786,
+        825,
+        850,
+        924,
+        1001,
+        1300,
+        1322,
+        1407,
+        1527,
+        1747,
+        1937,
+        2070,
+        2246,
+        2329,
+        2336,
+        2368,
+        2406,
+        2941,
+        3091,
+        4273,
+        4399,
+        4513,
+        4637,
+        4703,
+        5006,
+        5309,
+        5497,
+        5625,
+        6460,
+        9340,
+        10138,
+        11466,
+        30858,
+        33379,
+        64237 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_BN a glo:Religion ;
+    glo:belongsToCountry glo:country_BN ;
+    glo:country "BN"^^xsd:string ;
+    glo:religion "Buddhist"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "0.4"^^xsd:float ;
+    glo:value 8147,
+        10273,
+        14098,
+        16716,
+        16738,
+        17438,
+        18420,
+        30814,
+        34176,
+        150545,
+        159417,
+        190228,
+        203144,
+        309962,
+        393372 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_BO a glo:Religion ;
+    glo:atheist 4 ;
+    glo:belongsToCountry glo:country_BO ;
+    glo:country "BO"^^xsd:string ;
+    glo:nonReligious 28 ;
+    glo:unaffiliated "4.1"^^xsd:float .
+
+glo:religion_BR a glo:Religion ;
+    glo:belongsToCountry glo:country_BR ;
+    glo:combined 17 ;
+    glo:country "BR"^^xsd:string ;
+    glo:religion "Adventist"^^xsd:string,
+        "Assembly of God"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Brasilian Apostolic Catholic"^^xsd:string,
+        "Buddhist"^^xsd:string,
+        "Candomble"^^xsd:string,
+        "Christian Congregation of Brazil"^^xsd:string,
+        "Espiritia"^^xsd:string,
+        "God is Love"^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Jewish"^^xsd:string,
+        "Lutheran"^^xsd:string,
+        "Messianica"^^xsd:string,
+        "Methodist"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Declared"^^xsd:string,
+        "Not Specified"^^xsd:string,
+        "Orthodox Catholic"^^xsd:string,
+        "Other Evangelical Pentecostal"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Other Traditional Evangelical"^^xsd:string,
+        "Presbyterian"^^xsd:string,
+        "Roman Apostolic Catholic"^^xsd:string,
+        "Spiritualist"^^xsd:string,
+        "Total"^^xsd:string,
+        "Umbanda"^^xsd:string,
+        "Universal of the Kingdom of God"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "7.9"^^xsd:float ;
+    glo:value 24857,
+        36882,
+        41980,
+        53444,
+        53885,
+        61736,
+        61739,
+        65727,
+        65844,
+        80733,
+        86630,
+        96485,
+        103716,
+        107329,
+        110403,
+        131571,
+        133563,
+        145452,
+        149047,
+        167363,
+        182119,
+        191891,
+        225213,
+        241941,
+        243966,
+        278770,
+        282011,
+        302807,
+        340791,
+        340938,
+        365250,
+        405424,
+        407331,
+        480133,
+        482382,
+        515785,
+        517116,
+        560781,
+        579466,
+        643598,
+        704376,
+        756203,
+        813742,
+        845383,
+        856695,
+        910196,
+        921209,
+        999498,
+        1043064,
+        1060218,
+        1117040,
+        1229416,
+        1393208,
+        1561071,
+        1581701,
+        1605823,
+        1873243,
+        1953260,
+        2118029,
+        2267176,
+        2289634,
+        3505004,
+        3723853,
+        3848876,
+        4162583,
+        4542810,
+        5195803,
+        5586520,
+        6253004,
+        6727891,
+        8047813,
+        9082507,
+        9358386,
+        12314410,
+        15335510,
+        61180316,
+        62099856,
+        93406990,
+        97348809,
+        123280172,
+        190755799 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_BS a glo:Religion ;
+    glo:belongsToCountry glo:country_BS ;
+    glo:country "BS"^^xsd:string ;
+    glo:religion "Anglican"^^xsd:string,
+        "Assembly of God"^^xsd:string,
+        "Baha'i"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Brethren"^^xsd:string,
+        "Church of God"^^xsd:string,
+        "Greek Church"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Islam "^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Jewish"^^xsd:string,
+        "Lutheran"^^xsd:string,
+        "Methodist"^^xsd:string,
+        "Mormon"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Other Christians"^^xsd:string,
+        "Other Non-Christians"^^xsd:string,
+        "Pentecostal"^^xsd:string,
+        "Presbyterian"^^xsd:string,
+        "Rastafarian"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Seventh Day Adventist"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "3.1"^^xsd:float ;
+    glo:value 31,
+        34,
+        65,
+        79,
+        93,
+        107,
+        112,
+        120,
+        132,
+        135,
+        169,
+        188,
+        191,
+        199,
+        207,
+        212,
+        221,
+        228,
+        235,
+        301,
+        306,
+        326,
+        376,
+        402,
+        428,
+        447,
+        670,
+        728,
+        790,
+        1148,
+        1249,
+        1648,
+        2114,
+        2397,
+        2601,
+        2733,
+        3048,
+        3101,
+        3631,
+        3762,
+        3960,
+        4433,
+        4617,
+        5781,
+        5897,
+        6561,
+        6615,
+        6732,
+        7432,
+        8009,
+        9050,
+        12512,
+        14372,
+        15441,
+        16986,
+        19736,
+        20452,
+        21478,
+        21835,
+        23094,
+        24912,
+        31358,
+        41214,
+        42287,
+        48006,
+        58356,
+        64144,
+        122500,
+        170257,
+        181204,
+        351461 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_BT a glo:Religion ;
+    glo:belongsToCountry glo:country_BT ;
+    glo:country "BT"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_BW a glo:Religion ;
+    glo:belongsToCountry glo:country_BW ;
+    glo:country "BW"^^xsd:string ;
+    glo:religion "Badimo"^^xsd:string,
+        "Baha'i"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Other"^^xsd:string,
+        "Rastafarian"^^xsd:string,
+        "Total"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "20.6"^^xsd:float ;
+    glo:value 511,
+        573,
+        888,
+        970,
+        1104,
+        1461,
+        1476,
+        1519,
+        2030,
+        2074,
+        2253,
+        3729,
+        4375,
+        6566,
+        10941,
+        22832,
+        37781,
+        60613,
+        80067,
+        145349,
+        225416,
+        269497,
+        277606,
+        515891,
+        547103,
+        655646,
+        988957,
+        1035947,
+        1171537,
+        2024904 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_BY a glo:Religion ;
+    glo:belongsToCountry glo:country_BY ;
+    glo:country "BY"^^xsd:string ;
+    glo:unaffiliated "28.6"^^xsd:float .
+
+glo:religion_BZ a glo:Religion ;
+    glo:belongsToCountry glo:country_BZ ;
+    glo:country "BZ"^^xsd:string ;
+    glo:religion "Adventist"^^xsd:string,
+        "Anglican"^^xsd:string,
+        "Baha'i"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Mennonite"^^xsd:string,
+        "Methodist"^^xsd:string,
+        "Mormon"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "Nazarene"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Specified"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Pentecostal"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Salvation Army"^^xsd:string,
+        "Seventh Day Adventist"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "8.9"^^xsd:float ;
+    glo:value 98,
+        118,
+        138,
+        186,
+        199,
+        214,
+        216,
+        279,
+        375,
+        379,
+        400,
+        423,
+        429,
+        441,
+        567,
+        622,
+        650,
+        654,
+        683,
+        820,
+        932,
+        1096,
+        1333,
+        2028,
+        2303,
+        3083,
+        4293,
+        4572,
+        4852,
+        4885,
+        5386,
+        5504,
+        5977,
+        6076,
+        6116,
+        7420,
+        7645,
+        8293,
+        9145,
+        9266,
+        9457,
+        11620,
+        12053,
+        12845,
+        13840,
+        14276,
+        15065,
+        15136,
+        17559,
+        20873,
+        27121,
+        28976,
+        29102,
+        49975,
+        63281,
+        66175,
+        129456,
+        161226,
+        161227,
+        322453 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_CA a glo:Religion ;
+    glo:atheist 10 ;
+    glo:belongsToCountry glo:country_CA ;
+    glo:combined 57 ;
+    glo:country "CA"^^xsd:string ;
+    glo:nonReligious 43 ;
+    glo:religion "Aboriginal spirituality"^^xsd:string,
+        "Adventist"^^xsd:string,
+        "Agnostic"^^xsd:string,
+        "Anglican"^^xsd:string,
+        "Antiochian Orthodox Christian"^^xsd:string,
+        "Apostolic Christian Church"^^xsd:string,
+        "Armenian Orthodox"^^xsd:string,
+        "Associated Gospel"^^xsd:string,
+        "Atheist"^^xsd:string,
+        "Baha'i"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Brethren in Christ"^^xsd:string,
+        "Buddhist"^^xsd:string,
+        "Canadian Reformed Church"^^xsd:string,
+        "Charismatic Renewal"^^xsd:string,
+        "Christadelphian"^^xsd:string,
+        "Christian Congregational"^^xsd:string,
+        "Christian Reformed Church"^^xsd:string,
+        "Christian and Mission Alliance"^^xsd:string,
+        "Christian or Plymouth Brethren"^^xsd:string,
+        "Christians, n.i.e."^^xsd:string,
+        "Church of Christ"^^xsd:string,
+        "Church of God"^^xsd:string,
+        "Church of Jesus Christ of Latter-day Saints"^^xsd:string,
+        "Church of Nazarene"^^xsd:string,
+        "Coptic Orthodox"^^xsd:string,
+        "Doukhobors"^^xsd:string,
+        "Dutch Reformed"^^xsd:string,
+        "Evangelical"^^xsd:string,
+        "Evangelical Free Church"^^xsd:string,
+        "Evangelical Missionary Church"^^xsd:string,
+        "Free Methodists"^^xsd:string,
+        "Gnostic"^^xsd:string,
+        "Greek Orthodox"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Humanist"^^xsd:string,
+        "Interdenominational"^^xsd:string,
+        "Islam "^^xsd:string,
+        "Jains"^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Jewish"^^xsd:string,
+        "Lutheran"^^xsd:string,
+        "Mennonite"^^xsd:string,
+        "Methodist"^^xsd:string,
+        "Mission de l'Esprit Saint"^^xsd:string,
+        "Moravian"^^xsd:string,
+        "New Age"^^xsd:string,
+        "New Apostolic"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Non-denominational"^^xsd:string,
+        "Other Catholic"^^xsd:string,
+        "Other Christians"^^xsd:string,
+        "Other Orthodox Churches"^^xsd:string,
+        "Other Reformed Church"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Pagan"^^xsd:string,
+        "Pentecostal"^^xsd:string,
+        "Presbyterian"^^xsd:string,
+        "Protestant nfd"^^xsd:string,
+        "Quakers"^^xsd:string,
+        "Rastafarian"^^xsd:string,
+        "Reorganized Church of Latter-day Saints"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Romanian Orthodox"^^xsd:string,
+        "Russian Orthodox"^^xsd:string,
+        "Salvation Army"^^xsd:string,
+        "Satanist"^^xsd:string,
+        "Scientology"^^xsd:string,
+        "Serbian Orthodox"^^xsd:string,
+        "Shinto"^^xsd:string,
+        "Sikh"^^xsd:string,
+        "Spiritualist"^^xsd:string,
+        "Swedenborgian (New Church)"^^xsd:string,
+        "Taoist"^^xsd:string,
+        "Total"^^xsd:string,
+        "Ukrainian Catholic"^^xsd:string,
+        "Ukrainian Orthodox"^^xsd:string,
+        "Unitarian"^^xsd:string,
+        "United Church"^^xsd:string,
+        "Unity-New Thought-Pantheist"^^xsd:string,
+        "Vineyard Christian Fellowship"^^xsd:string,
+        "Wesleyan"^^xsd:string,
+        "Worldwide Church of God"^^xsd:string,
+        "Zoroastrian"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "23.7"^^xsd:float ;
+    glo:value 240,
+        250,
+        265,
+        275,
+        300,
+        370,
+        435,
+        460,
+        520,
+        565,
+        600,
+        640,
+        650,
+        675,
+        685,
+        740,
+        745,
+        760,
+        785,
+        790,
+        795,
+        840,
+        860,
+        870,
+        905,
+        915,
+        995,
+        1045,
+        1050,
+        1060,
+        1140,
+        1165,
+        1220,
+        1230,
+        1320,
+        1345,
+        1355,
+        1505,
+        1580,
+        1585,
+        1595,
+        1600,
+        1625,
+        1640,
+        1645,
+        1700,
+        1745,
+        1810,
+        1815,
+        1880,
+        1960,
+        1995,
+        2135,
+        2170,
+        2215,
+        2225,
+        2290,
+        2455,
+        2510,
+        2545,
+        2565,
+        2570,
+        2610,
+        2725,
+        2730,
+        2825,
+        2985,
+        3000,
+        3015,
+        3050,
+        3085,
+        3090,
+        3120,
+        3160,
+        3300,
+        3320,
+        3450,
+        3455,
+        3460,
+        3550,
+        3625,
+        3635,
+        3740,
+        3945,
+        4190,
+        4315,
+        4355,
+        4690,
+        4940,
+        5020,
+        5060,
+        5170,
+        5220,
+        5370,
+        5590,
+        5700,
+        5860,
+        6130,
+        6145,
+        6255,
+        6345,
+        6545,
+        6775,
+        6940,
+        6955,
+        7085,
+        7220,
+        7290,
+        7820,
+        7845,
+        8410,
+        8595,
+        8615,
+        9015,
+        9160,
+        9490,
+        9540,
+        9785,
+        10120,
+        10255,
+        10555,
+        10850,
+        10920,
+        11050,
+        11355,
+        11610,
+        11730,
+        12490,
+        12995,
+        13290,
+        13730,
+        14330,
+        14420,
+        14435,
+        15125,
+        15270,
+        15740,
+        15815,
+        16255,
+        17900,
+        18110,
+        18945,
+        19525,
+        20540,
+        22750,
+        22780,
+        22965,
+        23510,
+        23550,
+        23845,
+        24065,
+        25170,
+        25245,
+        26620,
+        27175,
+        28865,
+        29965,
+        30170,
+        30775,
+        31805,
+        32155,
+        33135,
+        33240,
+        34210,
+        36280,
+        36750,
+        36970,
+        43595,
+        43835,
+        48675,
+        48810,
+        49995,
+        50720,
+        51790,
+        53685,
+        55380,
+        61495,
+        64940,
+        65395,
+        66940,
+        70955,
+        76285,
+        87370,
+        91820,
+        92650,
+        105365,
+        107165,
+        110105,
+        110145,
+        113110,
+        137780,
+        161265,
+        168235,
+        168465,
+        179195,
+        198365,
+        217845,
+        218950,
+        220255,
+        220270,
+        221525,
+        225530,
+        229435,
+        247530,
+        250430,
+        253425,
+        256660,
+        260850,
+        261670,
+        289295,
+        293910,
+        329500,
+        341935,
+        366830,
+        454960,
+        472385,
+        478180,
+        478705,
+        497960,
+        513390,
+        540555,
+        550965,
+        635840,
+        706180,
+        752945,
+        769390,
+        878900,
+        912545,
+        1053945,
+        1095070,
+        1475565,
+        1631845,
+        2007610,
+        3589685,
+        4172510,
+        6126990,
+        6601890,
+        7762200,
+        12728880,
+        16163115,
+        16689210,
+        32852325 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_CD a glo:Religion ;
+    glo:belongsToCountry glo:country_CD ;
+    glo:combined 17 ;
+    glo:country "CD"^^xsd:string ;
+    glo:unaffiliated "1.8"^^xsd:float .
+
+glo:religion_CF a glo:Religion ;
+    glo:belongsToCountry glo:country_CF ;
+    glo:country "CF"^^xsd:string ;
+    glo:unaffiliated "1.0"^^xsd:float .
+
+glo:religion_CG a glo:Religion ;
+    glo:belongsToCountry glo:country_CG ;
+    glo:country "CG"^^xsd:string ;
+    glo:unaffiliated "9.0"^^xsd:float .
+
+glo:religion_CH a glo:Religion ;
+    glo:atheist 19 ;
+    glo:belongsToCountry glo:country_CH ;
+    glo:country "CH"^^xsd:string ;
+    glo:nonReligious 36 ;
+    glo:religion "Islam "^^xsd:string,
+        "Judaism"^^xsd:string,
+        "No Afiliation"^^xsd:string,
+        "Other Christians"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Reformed Churches"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Total"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "11.9"^^xsd:float ;
+    glo:value 7749,
+        9014,
+        16763,
+        36846,
+        37831,
+        43393,
+        43912,
+        80758,
+        81224,
+        148590,
+        168333,
+        172368,
+        200365,
+        320958,
+        368698,
+        621133,
+        735662,
+        856349,
+        973794,
+        1222756,
+        1309461,
+        1356795,
+        1830143,
+        2532217,
+        3237894,
+        3349662,
+        6587556 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_CI a glo:Religion ;
+    glo:atheist 2 ;
+    glo:belongsToCountry glo:country_CI ;
+    glo:country "CI"^^xsd:string ;
+    glo:nonReligious 13 ;
+    glo:unaffiliated "8.0"^^xsd:float .
+
+glo:religion_CK a glo:Religion ;
+    glo:belongsToCountry glo:country_CK ;
+    glo:country "CK"^^xsd:string ;
+    glo:religion "Apostolic"^^xsd:string,
+        "Assembly of God"^^xsd:string,
+        "Cook Islands Christian Church"^^xsd:string,
+        "Latter Day Saints"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Seventh Day Adventist"^^xsd:string,
+        "Total"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "3.2"^^xsd:float ;
+    glo:value 142,
+        146,
+        164,
+        181,
+        260,
+        297,
+        310,
+        314,
+        323,
+        342,
+        380,
+        461,
+        557,
+        559,
+        578,
+        612,
+        642,
+        656,
+        841,
+        1190,
+        1201,
+        1258,
+        1282,
+        2540,
+        3623,
+        3733,
+        7356,
+        7484,
+        7490,
+        14974 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_CL a glo:Religion ;
+    glo:belongsToCountry glo:country_CL ;
+    glo:country "CL"^^xsd:string ;
+    glo:unaffiliated "8.6"^^xsd:float .
+
+glo:religion_CM a glo:Religion ;
+    glo:atheist 5 ;
+    glo:belongsToCountry glo:country_CM ;
+    glo:country "CM"^^xsd:string ;
+    glo:nonReligious 12 ;
+    glo:unaffiliated "5.3"^^xsd:float .
+
+glo:religion_CN a glo:Religion ;
+    glo:belongsToCountry glo:country_CN ;
+    glo:combined 90 ;
+    glo:country "CN"^^xsd:string ;
+    glo:unaffiliated "15.4"^^xsd:float,
+        "52.2"^^xsd:float .
+
+glo:religion_CR a glo:Religion ;
+    glo:belongsToCountry glo:country_CR ;
+    glo:country "CR"^^xsd:string ;
+    glo:unaffiliated "7.9"^^xsd:float .
+
+glo:religion_CU a glo:Religion ;
+    glo:belongsToCountry glo:country_CU ;
+    glo:country "CU"^^xsd:string ;
+    glo:unaffiliated "23.0"^^xsd:float .
+
+glo:religion_CV a glo:Religion ;
+    glo:belongsToCountry glo:country_CV ;
+    glo:country "CV"^^xsd:string ;
+    glo:unaffiliated "9.1"^^xsd:float .
+
+glo:religion_CY a glo:Religion ;
+    glo:belongsToCountry glo:country_CY ;
+    glo:country "CY"^^xsd:string ;
+    glo:unaffiliated "1.2"^^xsd:float .
+
+glo:religion_CZ a glo:Religion ;
+    glo:atheist 30 ;
+    glo:belongsToCountry glo:country_CZ ;
+    glo:combined 72 ;
+    glo:country "CZ"^^xsd:string ;
+    glo:nonReligious 41 ;
+    glo:religion "Atheist"^^xsd:string,
+        "Brethren"^^xsd:string,
+        "Catholic"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Czechoslovak Hussite Church"^^xsd:string,
+        "Evangelical"^^xsd:string,
+        "Jehovah's Witnesses"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Specified"^^xsd:string,
+        "Old Catholic Church"^^xsd:string,
+        "Orthodox"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Seventh Day Adventist"^^xsd:string,
+        "Silesian Evangelical Church"^^xsd:string,
+        "Total"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "76.4"^^xsd:float ;
+    glo:value 360,
+        698,
+        738,
+        992,
+        1058,
+        1730,
+        3304,
+        3588,
+        4087,
+        4156,
+        4570,
+        4664,
+        4976,
+        5219,
+        5221,
+        5341,
+        5889,
+        7391,
+        7728,
+        8158,
+        9377,
+        9883,
+        10063,
+        10470,
+        10865,
+        13069,
+        15150,
+        20533,
+        22214,
+        24079,
+        29644,
+        39229,
+        51858,
+        101695,
+        107333,
+        209028,
+        316694,
+        388674,
+        467493,
+        614970,
+        705368,
+        1082463,
+        1765197,
+        1838898,
+        2310094,
+        2352361,
+        3604095,
+        4662455,
+        5109766,
+        5326794,
+        10436560 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_DE a glo:Religion ;
+    glo:atheist 20 ;
+    glo:belongsToCountry glo:country_DE ;
+    glo:combined 60 ;
+    glo:country "DE"^^xsd:string ;
+    glo:nonReligious 38 ;
+    glo:religion "Other"^^xsd:string,
+        "Protestant"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "24.7"^^xsd:float ;
+    glo:value 10531664,
+        11298612,
+        12767992,
+        12837677,
+        15468085,
+        17315665,
+        23369341,
+        24066604,
+        32783750,
+        39145941,
+        41073754,
+        80219695 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_DJ a glo:Religion ;
+    glo:belongsToCountry glo:country_DJ ;
+    glo:country "DJ"^^xsd:string ;
+    glo:unaffiliated "0.2"^^xsd:float .
+
+glo:religion_DK a glo:Religion ;
+    glo:belongsToCountry glo:country_DK ;
+    glo:combined 61 ;
+    glo:country "DK"^^xsd:string ;
+    glo:unaffiliated "11.8"^^xsd:float .
+
+glo:religion_DM a glo:Religion ;
+    glo:belongsToCountry glo:country_DM ;
+    glo:country "DM"^^xsd:string ;
+    glo:unaffiliated "0.5"^^xsd:float .
+
+glo:religion_DO a glo:Religion ;
+    glo:belongsToCountry glo:country_DO ;
+    glo:country "DO"^^xsd:string ;
+    glo:unaffiliated "10.9"^^xsd:float .
+
+glo:religion_DZ a glo:Religion ;
+    glo:belongsToCountry glo:country_DZ ;
+    glo:country "DZ"^^xsd:string ;
+    glo:unaffiliated "1.8"^^xsd:float .
+
+glo:religion_EC a glo:Religion ;
+    glo:atheist 3 ;
+    glo:belongsToCountry glo:country_EC ;
+    glo:combined 18 ;
+    glo:country "EC"^^xsd:string ;
+    glo:nonReligious 18 ;
+    glo:unaffiliated "5.5"^^xsd:float .
+
+glo:religion_EE a glo:Religion ;
+    glo:belongsToCountry glo:country_EE ;
+    glo:combined 60 ;
+    glo:country "EE"^^xsd:string ;
+    glo:religion "Adventist"^^xsd:string,
+        "Apostolic"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Buddhist"^^xsd:string,
+        "Charismatic Episcopal Church"^^xsd:string,
+        "Christian Free Congregations"^^xsd:string,
+        "Church of Charismatic Fellowship"^^xsd:string,
+        "Church of Christian Fellowship"^^xsd:string,
+        "Estonian Ancient Belief"^^xsd:string,
+        "Hare Rama Hare Krishna"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Judaism"^^xsd:string,
+        "Lutheran"^^xsd:string,
+        "Methodist"^^xsd:string,
+        "Mormon"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "New Age"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Specified"^^xsd:string,
+        "Old Believers"^^xsd:string,
+        "Orthodox"^^xsd:string,
+        "Other Christians"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Pagan"^^xsd:string,
+        "Pentecostal"^^xsd:string,
+        "Refused to answer"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Russian Catholic Orthodox Church"^^xsd:string,
+        "Satanist"^^xsd:string,
+        "Spiritualist"^^xsd:string,
+        "Taara or Earth Believer"^^xsd:string,
+        "Taoist"^^xsd:string,
+        "Total"^^xsd:string,
+        "Ukrainian Greek-Catholic Church"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "59.6"^^xsd:float ;
+    glo:value 29,
+        37,
+        50,
+        51,
+        53,
+        55,
+        62,
+        65,
+        66,
+        71,
+        79,
+        80,
+        81,
+        86,
+        88,
+        91,
+        95,
+        97,
+        99,
+        100,
+        120,
+        121,
+        124,
+        132,
+        142,
+        144,
+        157,
+        159,
+        160,
+        176,
+        179,
+        183,
+        184,
+        185,
+        192,
+        260,
+        269,
+        272,
+        291,
+        341,
+        355,
+        413,
+        525,
+        546,
+        599,
+        685,
+        695,
+        701,
+        703,
+        781,
+        791,
+        813,
+        832,
+        835,
+        972,
+        1098,
+        1108,
+        1145,
+        1154,
+        1183,
+        1194,
+        1224,
+        1228,
+        1354,
+        1497,
+        1498,
+        1508,
+        1748,
+        1804,
+        1855,
+        1876,
+        1899,
+        2189,
+        2605,
+        2625,
+        2755,
+        2972,
+        3009,
+        3938,
+        4501,
+        4507,
+        10788,
+        13100,
+        23888,
+        35116,
+        67011,
+        70111,
+        73397,
+        87105,
+        108513,
+        109762,
+        157216,
+        176773,
+        295369,
+        297219,
+        497638,
+        592588,
+        596926,
+        1094564 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_EG a glo:Religion ;
+    glo:belongsToCountry glo:country_EG ;
+    glo:country "EG"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_EH a glo:Religion ;
+    glo:belongsToCountry glo:country_EH ;
+    glo:country "EH"^^xsd:string ;
+    glo:unaffiliated "0.4"^^xsd:float .
+
+glo:religion_ER a glo:Religion ;
+    glo:belongsToCountry glo:country_ER ;
+    glo:country "ER"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_ES a glo:Religion ;
+    glo:atheist 19 ;
+    glo:belongsToCountry glo:country_ES ;
+    glo:combined 57 ;
+    glo:country "ES"^^xsd:string ;
+    glo:nonReligious 39 ;
+    glo:unaffiliated "19.0"^^xsd:float .
+
+glo:religion_ET a glo:Religion ;
+    glo:atheist 0 ;
+    glo:belongsToCountry glo:country_ET ;
+    glo:country "ET"^^xsd:string ;
+    glo:nonReligious 6 ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_FI a glo:Religion ;
+    glo:belongsToCountry glo:country_FI ;
+    glo:combined 55 ;
+    glo:country "FI"^^xsd:string ;
+    glo:religion "Adventist"^^xsd:string,
+        "Baha'i"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Catholic"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Free Church in Finland"^^xsd:string,
+        "Islam "^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Jewish"^^xsd:string,
+        "Latter Day Saints"^^xsd:string,
+        "Lutheran"^^xsd:string,
+        "Methodist"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Orthodox"^^xsd:string,
+        "Other Lutheran Churches"^^xsd:string,
+        "Other Orthodox Churches"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "17.6"^^xsd:float ;
+    glo:value 3,
+        7,
+        10,
+        274,
+        294,
+        554,
+        568,
+        592,
+        616,
+        643,
+        658,
+        749,
+        1000,
+        1106,
+        1208,
+        1250,
+        1301,
+        1303,
+        1402,
+        1498,
+        1520,
+        1727,
+        2128,
+        2356,
+        2402,
+        3225,
+        3295,
+        3648,
+        4261,
+        4278,
+        5097,
+        5132,
+        5543,
+        6644,
+        7573,
+        7841,
+        8227,
+        9393,
+        10640,
+        10867,
+        14485,
+        19094,
+        25924,
+        32525,
+        58449,
+        441875,
+        590554,
+        1032429,
+        1986310,
+        2220882,
+        2638416,
+        2736860,
+        4207192,
+        5375276 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_FJ a glo:Religion ;
+    glo:belongsToCountry glo:country_FJ ;
+    glo:combined 8 ;
+    glo:country "FJ"^^xsd:string ;
+    glo:unaffiliated "0.8"^^xsd:float .
+
+glo:religion_FK a glo:Religion ;
+    glo:belongsToCountry glo:country_FK ;
+    glo:country "FK"^^xsd:string ;
+    glo:unaffiliated "31.5"^^xsd:float .
+
+glo:religion_FM a glo:Religion ;
+    glo:belongsToCountry glo:country_FM ;
+    glo:country "FM"^^xsd:string ;
+    glo:unaffiliated "0.9"^^xsd:float .
+
+glo:religion_FO a glo:Religion ;
+    glo:belongsToCountry glo:country_FO ;
+    glo:country "FO"^^xsd:string ;
+    glo:unaffiliated "1.7"^^xsd:float .
+
+glo:religion_FR a glo:Religion ;
+    glo:atheist 32 ;
+    glo:belongsToCountry glo:country_FR ;
+    glo:combined 50 ;
+    glo:country "FR"^^xsd:string ;
+    glo:nonReligious 35 ;
+    glo:unaffiliated "2.0"^^xsd:float,
+        "28.0"^^xsd:float .
+
+glo:religion_GA a glo:Religion ;
+    glo:belongsToCountry glo:country_GA ;
+    glo:country "GA"^^xsd:string ;
+    glo:unaffiliated "5.6"^^xsd:float .
+
+glo:religion_GB a glo:Religion ;
+    glo:atheist 17 ;
+    glo:belongsToCountry glo:country_GB ;
+    glo:combined 69 ;
+    glo:country "GB"^^xsd:string ;
+    glo:nonReligious 49 ;
+    glo:religion "Buddhist"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Jewish"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Specified"^^xsd:string,
+        "Other"^^xsd:string,
+        "Sikh"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "3.9"^^xsd:float,
+        "21.3"^^xsd:float ;
+    glo:value 115825,
+        123120,
+        131313,
+        138255,
+        138464,
+        146925,
+        213485,
+        218944,
+        261584,
+        262750,
+        269568,
+        403430,
+        431988,
+        432429,
+        835418,
+        1333811,
+        1452824,
+        2216613,
+        2311710,
+        2786635,
+        4528323,
+        7360674,
+        8860835,
+        16221509,
+        17381584,
+        20202378,
+        31028143,
+        32154035,
+        37583962,
+        63182178 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_GD a glo:Religion ;
+    glo:belongsToCountry glo:country_GD ;
+    glo:country "GD"^^xsd:string ;
+    glo:unaffiliated "1.0"^^xsd:float .
+
+glo:religion_GE a glo:Religion ;
+    glo:atheist 0 ;
+    glo:belongsToCountry glo:country_GE ;
+    glo:country "GE"^^xsd:string ;
+    glo:nonReligious 8 ;
+    glo:unaffiliated "0.7"^^xsd:float .
+
+glo:religion_GF a glo:Religion ;
+    glo:belongsToCountry glo:country_GF ;
+    glo:country "GF"^^xsd:string ;
+    glo:unaffiliated "3.4"^^xsd:float .
+
+glo:religion_GH a glo:Religion ;
+    glo:atheist 1 ;
+    glo:belongsToCountry glo:country_GH ;
+    glo:combined 1 ;
+    glo:country "GH"^^xsd:string ;
+    glo:nonReligious 11 ;
+    glo:religion "Catholic"^^xsd:string,
+        "Islam "^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Other Christians"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Pentecostal"^^xsd:string,
+        "Protestant"^^xsd:string,
+        "Total"^^xsd:string,
+        "Traditional"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "4.2"^^xsd:float ;
+    glo:value 95064,
+        98850,
+        193914,
+        497838,
+        623892,
+        646380,
+        804239,
+        1270272,
+        1302077,
+        1331390,
+        1469481,
+        1571079,
+        1659917,
+        2132619,
+        2141886,
+        2203837,
+        2401559,
+        2800871,
+        3230996,
+        3240237,
+        3740555,
+        4345723,
+        4534178,
+        6980792,
+        12024845,
+        12633978,
+        24658823 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_GI a glo:Religion ;
+    glo:belongsToCountry glo:country_GI ;
+    glo:country "GI"^^xsd:string ;
+    glo:religion "Church of England"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Jewish"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Other"^^xsd:string,
+        "Other Christians"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "2.9"^^xsd:float ;
+    glo:value 22,
+        44,
+        172,
+        193,
+        292,
+        336,
+        365,
+        378,
+        385,
+        453,
+        614,
+        618,
+        628,
+        713,
+        763,
+        971,
+        1166,
+        1195,
+        1232,
+        1285,
+        1322,
+        2293,
+        2480,
+        11208,
+        12015,
+        16061,
+        16133,
+        23223,
+        32194 ;
+    glo:year "2012.0"^^xsd:gYear .
+
+glo:religion_GL a glo:Religion ;
+    glo:belongsToCountry glo:country_GL ;
+    glo:country "GL"^^xsd:string ;
+    glo:unaffiliated "2.5"^^xsd:float .
+
+glo:religion_GM a glo:Religion ;
+    glo:belongsToCountry glo:country_GM ;
+    glo:country "GM"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_GN a glo:Religion ;
+    glo:belongsToCountry glo:country_GN ;
+    glo:country "GN"^^xsd:string ;
+    glo:unaffiliated "1.8"^^xsd:float .
+
+glo:religion_GP a glo:Religion ;
+    glo:belongsToCountry glo:country_GP ;
+    glo:country "GP"^^xsd:string ;
+    glo:unaffiliated "2.5"^^xsd:float .
+
+glo:religion_GQ a glo:Religion ;
+    glo:belongsToCountry glo:country_GQ ;
+    glo:country "GQ"^^xsd:string ;
+    glo:unaffiliated "5.0"^^xsd:float .
+
+glo:religion_GR a glo:Religion ;
+    glo:atheist 12 ;
+    glo:belongsToCountry glo:country_GR ;
+    glo:combined 22 ;
+    glo:country "GR"^^xsd:string ;
+    glo:nonReligious 21 ;
+    glo:unaffiliated "6.1"^^xsd:float .
+
+glo:religion_GT a glo:Religion ;
+    glo:belongsToCountry glo:country_GT ;
+    glo:country "GT"^^xsd:string ;
+    glo:unaffiliated "4.1"^^xsd:float .
+
+glo:religion_GU a glo:Religion ;
+    glo:belongsToCountry glo:country_GU ;
+    glo:country "GU"^^xsd:string ;
+    glo:unaffiliated "1.7"^^xsd:float .
+
+glo:religion_GY a glo:Religion ;
+    glo:belongsToCountry glo:country_GY ;
+    glo:country "GY"^^xsd:string ;
+    glo:unaffiliated "2.0"^^xsd:float .
+
+glo:religion_HK a glo:Religion ;
+    glo:atheist 47 ;
+    glo:belongsToCountry glo:country_HK ;
+    glo:country "HK"^^xsd:string ;
+    glo:nonReligious 25 ;
+    glo:unaffiliated "56.1"^^xsd:float .
+
+glo:religion_HN a glo:Religion ;
+    glo:belongsToCountry glo:country_HN ;
+    glo:country "HN"^^xsd:string ;
+    glo:unaffiliated "10.5"^^xsd:float .
+
+glo:religion_HR a glo:Religion ;
+    glo:atheist 18 ;
+    glo:belongsToCountry glo:country_HR ;
+    glo:country "HR"^^xsd:string ;
+    glo:nonReligious 25 ;
+    glo:religion "Agnostic"^^xsd:string,
+        "Atheist"^^xsd:string,
+        "Catholic"^^xsd:string,
+        "Jewish"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "Not Declared"^^xsd:string,
+        "Oriental"^^xsd:string,
+        "Orthodox"^^xsd:string,
+        "Other Christians"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Protestant"^^xsd:string,
+        "Total"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "5.1"^^xsd:float ;
+    glo:value 253,
+        283,
+        536,
+        973,
+        1192,
+        1358,
+        1582,
+        2550,
+        2555,
+        5305,
+        5912,
+        6548,
+        6563,
+        7656,
+        8090,
+        12460,
+        12961,
+        14653,
+        15680,
+        16838,
+        29556,
+        32518,
+        33421,
+        46401,
+        46617,
+        62977,
+        71303,
+        89188,
+        92072,
+        93018,
+        100955,
+        163375,
+        190143,
+        1767226,
+        1929917,
+        2066335,
+        2218554,
+        3697143,
+        4284889 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_HT a glo:Religion ;
+    glo:belongsToCountry glo:country_HT ;
+    glo:country "HT"^^xsd:string ;
+    glo:unaffiliated "10.6"^^xsd:float .
+
+glo:religion_HU a glo:Religion ;
+    glo:atheist 13 ;
+    glo:belongsToCountry glo:country_HU ;
+    glo:country "HU"^^xsd:string ;
+    glo:nonReligious 34 ;
+    glo:religion "Adventist"^^xsd:string,
+        "Atheist"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Calvinist"^^xsd:string,
+        "Greek Catholic"^^xsd:string,
+        "Jewish"^^xsd:string,
+        "Lutheran"^^xsd:string,
+        "Not Declared"^^xsd:string,
+        "Orthodox"^^xsd:string,
+        "Other"^^xsd:string,
+        "Other Catholic"^^xsd:string,
+        "Other Protestant"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "18.6"^^xsd:float ;
+    glo:value 674,
+        683,
+        1357,
+        2517,
+        3696,
+        5471,
+        5494,
+        6213,
+        7497,
+        7870,
+        10341,
+        10965,
+        13710,
+        18211,
+        25925,
+        32376,
+        41438,
+        43068,
+        57773,
+        58301,
+        82807,
+        84506,
+        89613,
+        95493,
+        96369,
+        119600,
+        147386,
+        179176,
+        215093,
+        519968,
+        633486,
+        809833,
+        849190,
+        1153454,
+        1321216,
+        1377628,
+        1659023,
+        1670084,
+        2021305,
+        2698844,
+        3691389,
+        4718479,
+        5219149,
+        9937628 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_ID a glo:Religion ;
+    glo:atheist 0 ;
+    glo:belongsToCountry glo:country_ID ;
+    glo:combined 30 ;
+    glo:country "ID"^^xsd:string ;
+    glo:nonReligious 19 ;
+    glo:religion "Buddhist"^^xsd:string,
+        "Catholic"^^xsd:string,
+        "Confucian"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "Not Asked"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Other"^^xsd:string,
+        "Protestant"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float ;
+    glo:value 55585,
+        61506,
+        68685,
+        70897,
+        117091,
+        139582,
+        142254,
+        157363,
+        272049,
+        299617,
+        485069,
+        757118,
+        834157,
+        869097,
+        1703254,
+        1998527,
+        2013589,
+        3441643,
+        3466230,
+        4012116,
+        6907873,
+        8192547,
+        8335966,
+        16528513,
+        102980379,
+        104195783,
+        118010413,
+        119630913,
+        207176162,
+        237641326 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_IE a glo:Religion ;
+    glo:atheist 13 ;
+    glo:belongsToCountry glo:country_IE ;
+    glo:combined 56 ;
+    glo:country "IE"^^xsd:string ;
+    glo:nonReligious 42 ;
+    glo:religion "Agnostic"^^xsd:string,
+        "Apostolic"^^xsd:string,
+        "Atheist"^^xsd:string,
+        "Baha'i"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Brethren"^^xsd:string,
+        "Buddhist"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Church of Ireland"^^xsd:string,
+        "Evangelical"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Jewish"^^xsd:string,
+        "Lapsed Roman Catholic"^^xsd:string,
+        "Latter Day Saints"^^xsd:string,
+        "Lutheran"^^xsd:string,
+        "Methodist"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Orthodox"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Pantheism"^^xsd:string,
+        "Presbyterian"^^xsd:string,
+        "Protestant"^^xsd:string,
+        "Quakers"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "6.2"^^xsd:float ;
+    glo:value 159,
+        177,
+        254,
+        266,
+        336,
+        428,
+        497,
+        520,
+        546,
+        619,
+        665,
+        733,
+        866,
+        925,
+        985,
+        999,
+        1074,
+        1279,
+        1284,
+        1332,
+        1449,
+        1673,
+        1858,
+        1904,
+        1940,
+        1984,
+        2072,
+        2165,
+        2284,
+        2316,
+        2573,
+        2767,
+        3010,
+        3314,
+        3382,
+        3518,
+        3521,
+        3528,
+        3531,
+        3905,
+        3955,
+        4188,
+        4496,
+        4748,
+        5326,
+        5683,
+        6149,
+        6192,
+        6446,
+        6498,
+        6842,
+        7545,
+        7672,
+        8703,
+        10688,
+        12250,
+        12350,
+        14043,
+        14118,
+        19106,
+        21077,
+        21942,
+        22055,
+        23281,
+        24600,
+        28127,
+        33590,
+        39324,
+        41161,
+        45223,
+        49204,
+        63455,
+        65584,
+        72914,
+        112592,
+        129039,
+        157219,
+        269811,
+        1884192,
+        1977143,
+        2272699,
+        2315553,
+        3861335,
+        4588252 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_IL a glo:Religion ;
+    glo:belongsToCountry glo:country_IL ;
+    glo:combined 58 ;
+    glo:country "IL"^^xsd:string ;
+    glo:unaffiliated "3.1"^^xsd:float .
+
+glo:religion_IM a glo:Religion ;
+    glo:belongsToCountry glo:country_IM ;
+    glo:country "IM"^^xsd:string ;
+    glo:unaffiliated "15.2"^^xsd:float .
+
+glo:religion_IN a glo:Religion ;
+    glo:atheist 1 ;
+    glo:belongsToCountry glo:country_IN ;
+    glo:combined 5 ;
+    glo:country "IN"^^xsd:string ;
+    glo:nonReligious 18 ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_IQ a glo:Religion ;
+    glo:atheist 1 ;
+    glo:belongsToCountry glo:country_IQ ;
+    glo:combined 34 ;
+    glo:country "IQ"^^xsd:string ;
+    glo:nonReligious 13 ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_IR a glo:Religion ;
+    glo:belongsToCountry glo:country_IR ;
+    glo:combined 20 ;
+    glo:country "IR"^^xsd:string ;
+    glo:religion "Christian"^^xsd:string,
+        "Jewish"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "Not Specified"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Total"^^xsd:string,
+        "Zoroastrian"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float ;
+    glo:value 4260,
+        4496,
+        8756,
+        9578,
+        11391,
+        13880,
+        24116,
+        24985,
+        25271,
+        49101,
+        53777,
+        63927,
+        117704,
+        256321,
+        265899,
+        37140878,
+        37244000,
+        37542060,
+        37905669,
+        74682938,
+        75149669 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_IS a glo:Religion ;
+    glo:belongsToCountry glo:country_IS ;
+    glo:combined 49 ;
+    glo:country "IS"^^xsd:string ;
+    glo:unaffiliated "3.5"^^xsd:float .
+
+glo:religion_IT a glo:Religion ;
+    glo:atheist 11 ;
+    glo:belongsToCountry glo:country_IT ;
+    glo:combined 26 ;
+    glo:country "IT"^^xsd:string ;
+    glo:nonReligious 21 ;
+    glo:unaffiliated "12.4"^^xsd:float .
+
+glo:religion_JM a glo:Religion ;
+    glo:belongsToCountry glo:country_JM ;
+    glo:country "JM"^^xsd:string ;
+    glo:religion "Anglican"^^xsd:string,
+        "Baha'i"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Brethren"^^xsd:string,
+        "Church of God in Jamaica"^^xsd:string,
+        "Church of God of Prophecy"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Islam "^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Judaism"^^xsd:string,
+        "Methodist"^^xsd:string,
+        "Moravian"^^xsd:string,
+        "New Testament Church of God"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Specified"^^xsd:string,
+        "Other Church of God"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Pentecostal"^^xsd:string,
+        "Rastafarian"^^xsd:string,
+        "Revived"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Seventh Day Adventist"^^xsd:string,
+        "Total"^^xsd:string,
+        "United Church"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "17.2"^^xsd:float ;
+    glo:value 133,
+        136,
+        250,
+        256,
+        269,
+        460,
+        506,
+        768,
+        1051,
+        1071,
+        1511,
+        1839,
+        3706,
+        8608,
+        9743,
+        10230,
+        13417,
+        14039,
+        18351,
+        19258,
+        21290,
+        22270,
+        23647,
+        24051,
+        24104,
+        25322,
+        27306,
+        29028,
+        29553,
+        30230,
+        30704,
+        31173,
+        31368,
+        34310,
+        36309,
+        40685,
+        43362,
+        50843,
+        53413,
+        55419,
+        55601,
+        58010,
+        61403,
+        67851,
+        71014,
+        73956,
+        74995,
+        81178,
+        83826,
+        97986,
+        99448,
+        106035,
+        108302,
+        121264,
+        125831,
+        129557,
+        140755,
+        147271,
+        169000,
+        169378,
+        174931,
+        180626,
+        189589,
+        192128,
+        246790,
+        295209,
+        322202,
+        382399,
+        571988,
+        1324669,
+        1359587,
+        2684256 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_JO a glo:Religion ;
+    glo:atheist 0 ;
+    glo:belongsToCountry glo:country_JO ;
+    glo:country "JO"^^xsd:string ;
+    glo:nonReligious 22 ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_JP a glo:Religion ;
+    glo:atheist 30 ;
+    glo:belongsToCountry glo:country_JP ;
+    glo:combined 60 ;
+    glo:country "JP"^^xsd:string ;
+    glo:nonReligious 42 ;
+    glo:unaffiliated "57.0"^^xsd:float .
+
+glo:religion_KE a glo:Religion ;
+    glo:atheist 1 ;
+    glo:belongsToCountry glo:country_KE ;
+    glo:country "KE"^^xsd:string ;
+    glo:nonReligious 2 ;
+    glo:unaffiliated "2.5"^^xsd:float .
+
+glo:religion_KG a glo:Religion ;
+    glo:belongsToCountry glo:country_KG ;
+    glo:country "KG"^^xsd:string ;
+    glo:unaffiliated "0.4"^^xsd:float .
+
+glo:religion_KH a glo:Religion ;
+    glo:belongsToCountry glo:country_KH ;
+    glo:country "KH"^^xsd:string ;
+    glo:unaffiliated "0.2"^^xsd:float .
+
+glo:religion_KI a glo:Religion ;
+    glo:belongsToCountry glo:country_KI ;
+    glo:country "KI"^^xsd:string ;
+    glo:religion "Assembly of God"^^xsd:string,
+        "Baha'i"^^xsd:string,
+        "Catholic"^^xsd:string,
+        "Church of God"^^xsd:string,
+        "Kempsville Presbyterian Church"^^xsd:string,
+        "Mormon"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Other"^^xsd:string,
+        "Seventh Day Adventist"^^xsd:string,
+        "Te koaua"^^xsd:string,
+        "Total"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "0.8"^^xsd:float ;
+    glo:value 18,
+        33,
+        51,
+        54,
+        65,
+        93,
+        119,
+        125,
+        140,
+        164,
+        193,
+        196,
+        197,
+        202,
+        212,
+        219,
+        265,
+        360,
+        390,
+        421,
+        1007,
+        1078,
+        1147,
+        1175,
+        2085,
+        2322,
+        2342,
+        2460,
+        4802,
+        17045,
+        17483,
+        28322,
+        29181,
+        34528,
+        50796,
+        52262,
+        57503,
+        103058 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_KM a glo:Religion ;
+    glo:belongsToCountry glo:country_KM ;
+    glo:country "KM"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_KN a glo:Religion ;
+    glo:belongsToCountry glo:country_KN ;
+    glo:country "KN"^^xsd:string ;
+    glo:unaffiliated "1.6"^^xsd:float .
+
+glo:religion_KP a glo:Religion ;
+    glo:belongsToCountry glo:country_KP ;
+    glo:country "KP"^^xsd:string ;
+    glo:unaffiliated "71.3"^^xsd:float .
+
+glo:religion_KR a glo:Religion ;
+    glo:atheist 34 ;
+    glo:belongsToCountry glo:country_KR ;
+    glo:combined 60 ;
+    glo:country "KR"^^xsd:string ;
+    glo:nonReligious 27 ;
+    glo:unaffiliated "46.4"^^xsd:float .
+
+glo:religion_KW a glo:Religion ;
+    glo:belongsToCountry glo:country_KW ;
+    glo:country "KW"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_KY a glo:Religion ;
+    glo:belongsToCountry glo:country_KY ;
+    glo:country "KY"^^xsd:string ;
+    glo:religion "Anglican"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Church of God"^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Non-denominational"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Other"^^xsd:string,
+        "Pentecostal"^^xsd:string,
+        "Presbyterian and Reformed"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Seventh Day Adventist"^^xsd:string,
+        "Total"^^xsd:string,
+        "Wesleyan"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "9.4"^^xsd:float ;
+    glo:value 149,
+        186,
+        268,
+        335,
+        345,
+        613,
+        631,
+        703,
+        1117,
+        1134,
+        1335,
+        1436,
+        1470,
+        1759,
+        1846,
+        2046,
+        2100,
+        2146,
+        2156,
+        2207,
+        2251,
+        2394,
+        2456,
+        2542,
+        2714,
+        2907,
+        3015,
+        3710,
+        3892,
+        3916,
+        4035,
+        4541,
+        4750,
+        5116,
+        5171,
+        5858,
+        6601,
+        7745,
+        12459,
+        27218,
+        27817,
+        55036 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_KZ a glo:Religion ;
+    glo:atheist 5 ;
+    glo:belongsToCountry glo:country_KZ ;
+    glo:country "KZ"^^xsd:string ;
+    glo:nonReligious 14 ;
+    glo:unaffiliated "4.2"^^xsd:float .
+
+glo:religion_LA a glo:Religion ;
+    glo:belongsToCountry glo:country_LA ;
+    glo:country "LA"^^xsd:string ;
+    glo:unaffiliated "0.9"^^xsd:float .
+
+glo:religion_LB a glo:Religion ;
+    glo:belongsToCountry glo:country_LB ;
+    glo:combined 28 ;
+    glo:country "LB"^^xsd:string ;
+    glo:unaffiliated "0.3"^^xsd:float .
+
+glo:religion_LC a glo:Religion ;
+    glo:belongsToCountry glo:country_LC ;
+    glo:country "LC"^^xsd:string ;
+    glo:unaffiliated "6.0"^^xsd:float .
+
+glo:religion_LI a glo:Religion ;
+    glo:belongsToCountry glo:country_LI ;
+    glo:country "LI"^^xsd:string ;
+    glo:religion "Buddhist"^^xsd:string,
+        "Christian Orthodox"^^xsd:string,
+        "Islam "^^xsd:string,
+        "No Afiliation"^^xsd:string,
+        "Not Specified"^^xsd:string,
+        "Other"^^xsd:string,
+        "Other Christians"^^xsd:string,
+        "Other Protestant"^^xsd:string,
+        "Protestant Lutheran"^^xsd:string,
+        "Protestant Reformed"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:value 45,
+        57,
+        58,
+        59,
+        76,
+        90,
+        104,
+        110,
+        133,
+        148,
+        176,
+        226,
+        235,
+        239,
+        258,
+        369,
+        415,
+        461,
+        556,
+        830,
+        925,
+        966,
+        994,
+        1122,
+        1140,
+        1203,
+        1952,
+        1960,
+        2343,
+        13369,
+        14081,
+        17886,
+        18263,
+        27450,
+        36149 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_LK a glo:Religion ;
+    glo:belongsToCountry glo:country_LK ;
+    glo:country "LK"^^xsd:string ;
+    glo:religion "Buddhist"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Islam "^^xsd:string,
+        "Other"^^xsd:string,
+        "Other Christians"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float ;
+    glo:value 9440,
+        272568,
+        1237038,
+        1967227,
+        2554606,
+        14222844,
+        20263723 ;
+    glo:year "2012.0"^^xsd:gYear .
+
+glo:religion_LR a glo:Religion ;
+    glo:belongsToCountry glo:country_LR ;
+    glo:country "LR"^^xsd:string ;
+    glo:unaffiliated "1.4"^^xsd:float .
+
+glo:religion_LT a glo:Religion ;
+    glo:belongsToCountry glo:country_LT ;
+    glo:country "LT"^^xsd:string ;
+    glo:religion "Agnostic"^^xsd:string,
+        "Armenian Apostolic"^^xsd:string,
+        "Baha'i"^^xsd:string,
+        "Balts Believers"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Buddhist"^^xsd:string,
+        "Charismatic Evangelical Church"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Church of Christ"^^xsd:string,
+        "Church of Jesus Christ of Latter-day Saints"^^xsd:string,
+        "Church of Scientology"^^xsd:string,
+        "Evangelical Lutherans"^^xsd:string,
+        "Evangelical Reformists"^^xsd:string,
+        "Greek Catholic"^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Judaism"^^xsd:string,
+        "Karaite"^^xsd:string,
+        "Methodist"^^xsd:string,
+        "New Apostolic"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Old Believers"^^xsd:string,
+        "Orthodox"^^xsd:string,
+        "Other"^^xsd:string,
+        "Pentecostal"^^xsd:string,
+        "Protestant"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Seventh Day Adventist"^^xsd:string,
+        "Society for Krishna Consciousness"^^xsd:string,
+        "Sunni Muslims"^^xsd:string,
+        "Total"^^xsd:string,
+        "Word of Faith"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:value 12,
+        13,
+        14,
+        15,
+        25,
+        29,
+        48,
+        61,
+        68,
+        90,
+        129,
+        136,
+        138,
+        150,
+        155,
+        162,
+        172,
+        189,
+        206,
+        210,
+        214,
+        228,
+        234,
+        260,
+        302,
+        310,
+        335,
+        344,
+        356,
+        364,
+        371,
+        382,
+        388,
+        392,
+        396,
+        422,
+        516,
+        527,
+        543,
+        546,
+        549,
+        574,
+        591,
+        599,
+        626,
+        638,
+        679,
+        706,
+        762,
+        764,
+        774,
+        920,
+        931,
+        937,
+        995,
+        1078,
+        1162,
+        1206,
+        1229,
+        1310,
+        1336,
+        1565,
+        1852,
+        1990,
+        2128,
+        2727,
+        2893,
+        2927,
+        2990,
+        3838,
+        5118,
+        6731,
+        8227,
+        10149,
+        10248,
+        13082,
+        18376,
+        23330,
+        52947,
+        72242,
+        80926,
+        105744,
+        125189,
+        149997,
+        157760,
+        186670,
+        307757,
+        1060687,
+        1289791,
+        1402604,
+        1640825,
+        2350478,
+        3043429 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_LU a glo:Religion ;
+    glo:atheist 19 ;
+    glo:belongsToCountry glo:country_LU ;
+    glo:country "LU"^^xsd:string ;
+    glo:nonReligious 39 ;
+    glo:unaffiliated "26.8"^^xsd:float .
+
+glo:religion_LV a glo:Religion ;
+    glo:belongsToCountry glo:country_LV ;
+    glo:combined 52 ;
+    glo:country "LV"^^xsd:string ;
+    glo:unaffiliated "43.8"^^xsd:float .
+
+glo:religion_LY a glo:Religion ;
+    glo:atheist 0 ;
+    glo:belongsToCountry glo:country_LY ;
+    glo:country "LY"^^xsd:string ;
+    glo:nonReligious 25 ;
+    glo:unaffiliated "0.2"^^xsd:float .
+
+glo:religion_MA a glo:Religion ;
+    glo:belongsToCountry glo:country_MA ;
+    glo:country "MA"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_MC a glo:Religion ;
+    glo:belongsToCountry glo:country_MC ;
+    glo:country "MC"^^xsd:string ;
+    glo:unaffiliated "11.7"^^xsd:float .
+
+glo:religion_MD a glo:Religion ;
+    glo:atheist 4 ;
+    glo:belongsToCountry glo:country_MD ;
+    glo:country "MD"^^xsd:string ;
+    glo:nonReligious 10 ;
+    glo:unaffiliated "1.4"^^xsd:float .
+
+glo:religion_ME a glo:Religion ;
+    glo:belongsToCountry glo:country_ME ;
+    glo:country "ME"^^xsd:string ;
+    glo:religion "Adventist"^^xsd:string,
+        "Agnostic"^^xsd:string,
+        "Atheist"^^xsd:string,
+        "Buddhist"^^xsd:string,
+        "Catholic"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Christian Orthodox"^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "Not Declared"^^xsd:string,
+        "Other"^^xsd:string,
+        "Protestant"^^xsd:string,
+        "Total"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "3.2"^^xsd:float ;
+    glo:value 0,
+        37,
+        67,
+        71,
+        72,
+        78,
+        81,
+        118,
+        143,
+        145,
+        185,
+        266,
+        447,
+        451,
+        700,
+        760,
+        894,
+        1460,
+        3163,
+        3174,
+        3369,
+        4298,
+        6337,
+        7571,
+        7667,
+        8609,
+        9930,
+        11369,
+        16180,
+        21299,
+        58372,
+        60105,
+        118477,
+        219537,
+        227321,
+        306236,
+        313793,
+        446858,
+        620029 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_MG a glo:Religion ;
+    glo:belongsToCountry glo:country_MG ;
+    glo:country "MG"^^xsd:string ;
+    glo:unaffiliated "6.9"^^xsd:float .
+
+glo:religion_MH a glo:Religion ;
+    glo:belongsToCountry glo:country_MH ;
+    glo:country "MH"^^xsd:string ;
+    glo:unaffiliated "1.5"^^xsd:float .
+
+glo:religion_MK a glo:Religion ;
+    glo:atheist 2 ;
+    glo:belongsToCountry glo:country_MK ;
+    glo:combined 11 ;
+    glo:country "MK"^^xsd:string ;
+    glo:nonReligious 8 ;
+    glo:unaffiliated "1.4"^^xsd:float .
+
+glo:religion_ML a glo:Religion ;
+    glo:belongsToCountry glo:country_ML ;
+    glo:country "ML"^^xsd:string ;
+    glo:unaffiliated "2.7"^^xsd:float .
+
+glo:religion_MM a glo:Religion ;
+    glo:belongsToCountry glo:country_MM ;
+    glo:country "MM"^^xsd:string ;
+    glo:unaffiliated "0.5"^^xsd:float .
+
+glo:religion_MN a glo:Religion ;
+    glo:belongsToCountry glo:country_MN ;
+    glo:combined 29 ;
+    glo:country "MN"^^xsd:string ;
+    glo:religion "Buddhist"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Other"^^xsd:string,
+        "Shaman"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "35.9"^^xsd:float ;
+    glo:value 3335,
+        3598,
+        6933,
+        15135,
+        25346,
+        25982,
+        28702,
+        29000,
+        29828,
+        41117,
+        55174,
+        57702,
+        333616,
+        402070,
+        462683,
+        546674,
+        735686,
+        937271,
+        968698,
+        1009357,
+        1905969 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_MP a glo:Religion ;
+    glo:belongsToCountry glo:country_MP ;
+    glo:country "MP"^^xsd:string ;
+    glo:unaffiliated "1.0"^^xsd:float .
+
+glo:religion_MQ a glo:Religion ;
+    glo:belongsToCountry glo:country_MQ ;
+    glo:country "MQ"^^xsd:string ;
+    glo:unaffiliated "2.3"^^xsd:float .
+
+glo:religion_MR a glo:Religion ;
+    glo:belongsToCountry glo:country_MR ;
+    glo:country "MR"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_MS a glo:Religion ;
+    glo:belongsToCountry glo:country_MS ;
+    glo:country "MS"^^xsd:string ;
+    glo:unaffiliated "4.8"^^xsd:float .
+
+glo:religion_MT a glo:Religion ;
+    glo:belongsToCountry glo:country_MT ;
+    glo:country "MT"^^xsd:string ;
+    glo:unaffiliated "2.5"^^xsd:float .
+
+glo:religion_MU a glo:Religion ;
+    glo:belongsToCountry glo:country_MU ;
+    glo:country "MU"^^xsd:string ;
+    glo:religion "Adventist"^^xsd:string,
+        "Ahir"^^xsd:string,
+        "Ahmadhya"^^xsd:string,
+        "Apostolic"^^xsd:string,
+        "Arya Samajist"^^xsd:string,
+        "Arya Samajist, Other"^^xsd:string,
+        "Aryan"^^xsd:string,
+        "Assembly of God"^^xsd:string,
+        "Baha'i"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Buddhist"^^xsd:string,
+        "Chinese"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Christian Orthodox"^^xsd:string,
+        "Christian Tamil"^^xsd:string,
+        "Church of England"^^xsd:string,
+        "Eglise Chrétienne"^^xsd:string,
+        "Evangelical"^^xsd:string,
+        "Full Gospel Church"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Islam "^^xsd:string,
+        "Jewish"^^xsd:string,
+        "Kabir Panthis"^^xsd:string,
+        "La Voix de la Delivrance"^^xsd:string,
+        "Marathi & Marathi Hindu"^^xsd:string,
+        "Methodist"^^xsd:string,
+        "Mission Salut et Guerison"^^xsd:string,
+        "Mormon"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Other Chinese"^^xsd:string,
+        "Other Christians"^^xsd:string,
+        "Other Hindu"^^xsd:string,
+        "Other Muslims"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Peniel Tabernacle"^^xsd:string,
+        "Pentecostal"^^xsd:string,
+        "Presbyterian"^^xsd:string,
+        "Protestant"^^xsd:string,
+        "Puranic"^^xsd:string,
+        "Rajput"^^xsd:string,
+        "Revived"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Sanatanist"^^xsd:string,
+        "Tamil and Tamil Hindu"^^xsd:string,
+        "Telegu and Telegu Hindu"^^xsd:string,
+        "Total"^^xsd:string,
+        "Témoin de Jehovah"^^xsd:string,
+        "Unknown"^^xsd:string,
+        "Vaish"^^xsd:string,
+        "Vedic"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "0.6"^^xsd:float ;
+    glo:value 5,
+        6,
+        8,
+        9,
+        10,
+        13,
+        16,
+        17,
+        18,
+        21,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        32,
+        34,
+        36,
+        40,
+        42,
+        43,
+        45,
+        48,
+        49,
+        52,
+        53,
+        62,
+        63,
+        66,
+        68,
+        70,
+        72,
+        77,
+        91,
+        100,
+        108,
+        116,
+        121,
+        123,
+        134,
+        142,
+        155,
+        183,
+        199,
+        223,
+        239,
+        262,
+        271,
+        282,
+        321,
+        324,
+        326,
+        333,
+        338,
+        405,
+        414,
+        415,
+        454,
+        501,
+        619,
+        620,
+        645,
+        646,
+        655,
+        731,
+        743,
+        748,
+        868,
+        886,
+        905,
+        949,
+        983,
+        1140,
+        1180,
+        1190,
+        1241,
+        1265,
+        1267,
+        1372,
+        1398,
+        1416,
+        1747,
+        1799,
+        1835,
+        1984,
+        2064,
+        2172,
+        2173,
+        2320,
+        2364,
+        2788,
+        3040,
+        3127,
+        3191,
+        3237,
+        3580,
+        3731,
+        3772,
+        4108,
+        4428,
+        4584,
+        5000,
+        6318,
+        6817,
+        8692,
+        8772,
+        10097,
+        10557,
+        13512,
+        14297,
+        20654,
+        23240,
+        24534,
+        27809,
+        29186,
+        29992,
+        35082,
+        36954,
+        47774,
+        59178,
+        72036,
+        75190,
+        78315,
+        153505,
+        161178,
+        163633,
+        231799,
+        237514,
+        324811,
+        469313,
+        610848,
+        625969,
+        1236817 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_MV a glo:Religion ;
+    glo:belongsToCountry glo:country_MV ;
+    glo:country "MV"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_MW a glo:Religion ;
+    glo:belongsToCountry glo:country_MW ;
+    glo:country "MW"^^xsd:string ;
+    glo:unaffiliated "2.5"^^xsd:float .
+
+glo:religion_MX a glo:Religion ;
+    glo:atheist 6 ;
+    glo:belongsToCountry glo:country_MX ;
+    glo:combined 36 ;
+    glo:country "MX"^^xsd:string ;
+    glo:nonReligious 19 ;
+    glo:religion "Catholic"^^xsd:string,
+        "Church of God"^^xsd:string,
+        "Ethnic Churches"^^xsd:string,
+        "Historics"^^xsd:string,
+        "Islam "^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Judaism"^^xsd:string,
+        "Latter Day Saints"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Specified"^^xsd:string,
+        "Oriental"^^xsd:string,
+        "Other Evangelical Churches"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Pentecostal"^^xsd:string,
+        "Seventh Day Adventist"^^xsd:string,
+        "Spiritualist"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "4.7"^^xsd:float ;
+    glo:value 1392,
+        2368,
+        3760,
+        8840,
+        9034,
+        9345,
+        10602,
+        13765,
+        14074,
+        16236,
+        18185,
+        19636,
+        19759,
+        27839,
+        33492,
+        33984,
+        35995,
+        67476,
+        92038,
+        96288,
+        146813,
+        168119,
+        188326,
+        308407,
+        314932,
+        353471,
+        388481,
+        432263,
+        661878,
+        685197,
+        820744,
+        835019,
+        875889,
+        947002,
+        1508119,
+        1544390,
+        1561086,
+        1782021,
+        2239233,
+        2608656,
+        2986460,
+        3023313,
+        3052509,
+        5262546,
+        5595116,
+        45136800,
+        47787689,
+        54855231,
+        57481307,
+        92924489,
+        112336538 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_MY a glo:Religion ;
+    glo:belongsToCountry glo:country_MY ;
+    glo:country "MY"^^xsd:string ;
+    glo:religion "Buddhist"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Confucianism/Taoism and Other Traditional Chinese"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Islam "^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Total"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "0.7"^^xsd:float ;
+    glo:value 50886,
+        51960,
+        58660,
+        59799,
+        93876,
+        96537,
+        99698,
+        101655,
+        103188,
+        106226,
+        109546,
+        111759,
+        167064,
+        167186,
+        170110,
+        171782,
+        179763,
+        184936,
+        197064,
+        202763,
+        266884,
+        271765,
+        346827,
+        356718,
+        831321,
+        856540,
+        894517,
+        921154,
+        1255903,
+        1286351,
+        1293308,
+        1323851,
+        1725838,
+        1777694,
+        2542254,
+        2617159,
+        2631193,
+        2716774,
+        2815662,
+        2903709,
+        5446855,
+        5620483,
+        8227047,
+        8482941,
+        8622281,
+        8892853,
+        13356988,
+        13771497,
+        14127608,
+        14562638,
+        16849328,
+        17375794,
+        27484596,
+        28334135 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_MZ a glo:Religion ;
+    glo:belongsToCountry glo:country_MZ ;
+    glo:country "MZ"^^xsd:string ;
+    glo:unaffiliated "17.9"^^xsd:float .
+
+glo:religion_NC a glo:Religion ;
+    glo:belongsToCountry glo:country_NC ;
+    glo:country "NC"^^xsd:string ;
+    glo:unaffiliated "10.4"^^xsd:float .
+
+glo:religion_NE a glo:Religion ;
+    glo:belongsToCountry glo:country_NE ;
+    glo:country "NE"^^xsd:string ;
+    glo:religion "Animist"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Other"^^xsd:string,
+        "Total"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string ;
+    glo:unaffiliated "0.7"^^xsd:float ;
+    glo:value 2520,
+        23048,
+        34786,
+        42608,
+        56856,
+        16978889,
+        17138707 ;
+    glo:year "2012.0"^^xsd:gYear .
+
+glo:religion_NF a glo:Religion ;
+    glo:belongsToCountry glo:country_NF ;
+    glo:country "NF"^^xsd:string ;
+    glo:religion "Catholic"^^xsd:string,
+        "Church of England"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Seventh Day Adventist"^^xsd:string,
+        "Total"^^xsd:string,
+        "Uniting Church"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:value 27,
+        34,
+        61,
+        68,
+        82,
+        103,
+        125,
+        132,
+        145,
+        150,
+        162,
+        170,
+        228,
+        229,
+        270,
+        302,
+        307,
+        337,
+        418,
+        499,
+        755,
+        1082,
+        1220,
+        2302 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_NG a glo:Religion ;
+    glo:atheist 0 ;
+    glo:belongsToCountry glo:country_NG ;
+    glo:combined 2 ;
+    glo:country "NG"^^xsd:string ;
+    glo:nonReligious 20 ;
+    glo:unaffiliated "0.4"^^xsd:float .
+
+glo:religion_NI a glo:Religion ;
+    glo:belongsToCountry glo:country_NI ;
+    glo:country "NI"^^xsd:string ;
+    glo:unaffiliated "12.5"^^xsd:float .
+
+glo:religion_NL a glo:Religion ;
+    glo:atheist 19 ;
+    glo:belongsToCountry glo:country_NL ;
+    glo:country "NL"^^xsd:string ;
+    glo:nonReligious 41 ;
+    glo:unaffiliated "42.1"^^xsd:float .
+
+glo:religion_NO a glo:Religion ;
+    glo:belongsToCountry glo:country_NO ;
+    glo:combined 62 ;
+    glo:country "NO"^^xsd:string ;
+    glo:unaffiliated "10.1"^^xsd:float .
+
+glo:religion_NP a glo:Religion ;
+    glo:belongsToCountry glo:country_NP ;
+    glo:country "NP"^^xsd:string ;
+    glo:religion "Baha'i"^^xsd:string,
+        "Buddhist"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Islam "^^xsd:string,
+        "Jains"^^xsd:string,
+        "Kirati"^^xsd:string,
+        "Other"^^xsd:string,
+        "Sikh"^^xsd:string,
+        "Total"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "0.3"^^xsd:float ;
+    glo:value 286,
+        323,
+        576,
+        609,
+        707,
+        1283,
+        1550,
+        1664,
+        3214,
+        29099,
+        32482,
+        61581,
+        63867,
+        71121,
+        134988,
+        175470,
+        200229,
+        375699,
+        380117,
+        427052,
+        578571,
+        583799,
+        807169,
+        1139779,
+        1162370,
+        1256320,
+        2396099,
+        10470964,
+        11080528,
+        12849041,
+        13645463,
+        21551492,
+        26494504 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_NR a glo:Religion ;
+    glo:belongsToCountry glo:country_NR ;
+    glo:country "NR"^^xsd:string ;
+    glo:unaffiliated "4.5"^^xsd:float .
+
+glo:religion_NU a glo:Religion ;
+    glo:belongsToCountry glo:country_NU ;
+    glo:country "NU"^^xsd:string ;
+    glo:unaffiliated "3.3"^^xsd:float .
+
+glo:religion_NZ a glo:Religion ;
+    glo:belongsToCountry glo:country_NZ ;
+    glo:country "NZ"^^xsd:string ;
+    glo:unaffiliated "36.6"^^xsd:float .
+
+glo:religion_OM a glo:Religion ;
+    glo:belongsToCountry glo:country_OM ;
+    glo:country "OM"^^xsd:string ;
+    glo:unaffiliated "0.2"^^xsd:float .
+
+glo:religion_PA a glo:Religion ;
+    glo:belongsToCountry glo:country_PA ;
+    glo:combined 13 ;
+    glo:country "PA"^^xsd:string ;
+    glo:unaffiliated "4.8"^^xsd:float .
+
+glo:religion_PE a glo:Religion ;
+    glo:atheist 2 ;
+    glo:belongsToCountry glo:country_PE ;
+    glo:combined 23 ;
+    glo:country "PE"^^xsd:string ;
+    glo:nonReligious 19 ;
+    glo:unaffiliated "3.0"^^xsd:float .
+
+glo:religion_PF a glo:Religion ;
+    glo:belongsToCountry glo:country_PF ;
+    glo:country "PF"^^xsd:string ;
+    glo:unaffiliated "4.9"^^xsd:float .
+
+glo:religion_PG a glo:Religion ;
+    glo:belongsToCountry glo:country_PG ;
+    glo:combined 5 ;
+    glo:country "PG"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_PH a glo:Religion ;
+    glo:atheist 1 ;
+    glo:belongsToCountry glo:country_PH ;
+    glo:combined 9 ;
+    glo:country "PH"^^xsd:string ;
+    glo:nonReligious 27 ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_PK a glo:Religion ;
+    glo:atheist 0 ;
+    glo:belongsToCountry glo:country_PK ;
+    glo:combined 6 ;
+    glo:country "PK"^^xsd:string ;
+    glo:nonReligious 4 ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_PL a glo:Religion ;
+    glo:atheist 13 ;
+    glo:belongsToCountry glo:country_PL ;
+    glo:combined 10 ;
+    glo:country "PL"^^xsd:string ;
+    glo:nonReligious 29 ;
+    glo:religion "Baptist"^^xsd:string,
+        "Evangelic Augustan Confession"^^xsd:string,
+        "Greek Catholic"^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Old Catholic Church"^^xsd:string,
+        "Orthodox"^^xsd:string,
+        "Other"^^xsd:string,
+        "Pentecostal"^^xsd:string,
+        "Polish National Catholic Church"^^xsd:string,
+        "Refused to answer"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "5.6"^^xsd:float ;
+    glo:value 2738,
+        3206,
+        4122,
+        4683,
+        4788,
+        5172,
+        5945,
+        8806,
+        9961,
+        12090,
+        14076,
+        15920,
+        17479,
+        20359,
+        24583,
+        26166,
+        33268,
+        33399,
+        36014,
+        44942,
+        56490,
+        69281,
+        73691,
+        78203,
+        84786,
+        134693,
+        158477,
+        276399,
+        284538,
+        374189,
+        541402,
+        560937,
+        915590,
+        1337611,
+        1407225,
+        2744836,
+        15967673,
+        17363859,
+        18420389,
+        19624176,
+        33331533,
+        38044565 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_PM a glo:Religion ;
+    glo:belongsToCountry glo:country_PM ;
+    glo:country "PM"^^xsd:string ;
+    glo:unaffiliated "3.8"^^xsd:float .
+
+glo:religion_PR a glo:Religion ;
+    glo:belongsToCountry glo:country_PR ;
+    glo:country "PR"^^xsd:string ;
+    glo:unaffiliated "1.9"^^xsd:float .
+
+glo:religion_PS a glo:Religion ;
+    glo:atheist 0 ;
+    glo:belongsToCountry glo:country_PS ;
+    glo:combined 35 ;
+    glo:country "PS"^^xsd:string ;
+    glo:nonReligious 18 ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_PT a glo:Religion ;
+    glo:atheist 16 ;
+    glo:belongsToCountry glo:country_PT ;
+    glo:combined 38 ;
+    glo:country "PT"^^xsd:string ;
+    glo:nonReligious 29 ;
+    glo:religion "Catholic"^^xsd:string,
+        "Didn't answer"^^xsd:string,
+        "Jewish"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Orthodox"^^xsd:string,
+        "Other Christians"^^xsd:string,
+        "Other Non-Christians"^^xsd:string,
+        "Protestant"^^xsd:string,
+        "Total"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "4.4"^^xsd:float ;
+    glo:value 1363,
+        1698,
+        3061,
+        7668,
+        12972,
+        13701,
+        14895,
+        20640,
+        28253,
+        28297,
+        28596,
+        32507,
+        43064,
+        56550,
+        65735,
+        75571,
+        97603,
+        163338,
+        233382,
+        367309,
+        377565,
+        381950,
+        615332,
+        744874,
+        768330,
+        803999,
+        1572329,
+        3328220,
+        3953667,
+        5046600,
+        5515578,
+        7281887,
+        10562178 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_PW a glo:Religion ;
+    glo:belongsToCountry glo:country_PW ;
+    glo:country "PW"^^xsd:string ;
+    glo:unaffiliated "1.2"^^xsd:float .
+
+glo:religion_PY a glo:Religion ;
+    glo:belongsToCountry glo:country_PY ;
+    glo:country "PY"^^xsd:string ;
+    glo:unaffiliated "1.1"^^xsd:float .
+
+glo:religion_QA a glo:Religion ;
+    glo:belongsToCountry glo:country_QA ;
+    glo:country "QA"^^xsd:string ;
+    glo:unaffiliated "0.9"^^xsd:float .
+
+glo:religion_RO a glo:Religion ;
+    glo:atheist 6 ;
+    glo:belongsToCountry glo:country_RO ;
+    glo:combined 9 ;
+    glo:country "RO"^^xsd:string ;
+    glo:nonReligious 13 ;
+    glo:religion "Atheist"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Christian by Gospel"^^xsd:string,
+        "Christian of Old Rite"^^xsd:string,
+        "Evangelic Augustan Confession"^^xsd:string,
+        "Evangelical"^^xsd:string,
+        "Evangelical Lutherans"^^xsd:string,
+        "Greek Catholic"^^xsd:string,
+        "Mosaic"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Orthodox"^^xsd:string,
+        "Other"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Pentecostal"^^xsd:string,
+        "Reformat"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Seventh Day Adventist"^^xsd:string,
+        "Total"^^xsd:string,
+        "Unitarian"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float ;
+    glo:value 1693,
+        1826,
+        2501,
+        2898,
+        3519,
+        5399,
+        5731,
+        7174,
+        7777,
+        8340,
+        9522,
+        10646,
+        11140,
+        15012,
+        15181,
+        15376,
+        15514,
+        16035,
+        16523,
+        18917,
+        19838,
+        20168,
+        20743,
+        22657,
+        27234,
+        28395,
+        29291,
+        29652,
+        30557,
+        32558,
+        34685,
+        36832,
+        37364,
+        42495,
+        44112,
+        49868,
+        57686,
+        62982,
+        64337,
+        64598,
+        70561,
+        80032,
+        80944,
+        112850,
+        150593,
+        171728,
+        190586,
+        290487,
+        310445,
+        362314,
+        421573,
+        449201,
+        599080,
+        600932,
+        660659,
+        870774,
+        1259739,
+        7959905,
+        8347099,
+        9788577,
+        10333064,
+        16307004,
+        20121641 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_RS a glo:Religion ;
+    glo:atheist 3 ;
+    glo:belongsToCountry glo:country_RS ;
+    glo:combined 21 ;
+    glo:country "RS"^^xsd:string ;
+    glo:nonReligious 17 ;
+    glo:religion "Agnostic"^^xsd:string,
+        "Atheist"^^xsd:string,
+        "Catholic"^^xsd:string,
+        "Didn't answer"^^xsd:string,
+        "Eastern religion"^^xsd:string,
+        "Islam "^^xsd:string,
+        "Judaism"^^xsd:string,
+        "Other Christians"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Protestant"^^xsd:string,
+        "Serbian Orthodox"^^xsd:string,
+        "Total"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "3.3"^^xsd:float ;
+    glo:value 251,
+        327,
+        501,
+        578,
+        736,
+        758,
+        1018,
+        1237,
+        1776,
+        1824,
+        2186,
+        4010,
+        23199,
+        25095,
+        33370,
+        34373,
+        37914,
+        45680,
+        48294,
+        49649,
+        50065,
+        71284,
+        80053,
+        99714,
+        107792,
+        109833,
+        112943,
+        112995,
+        162655,
+        194302,
+        220735,
+        222828,
+        356957,
+        2959645,
+        3119751,
+        3499176,
+        3687686,
+        6079396,
+        7186862 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_RU a glo:Religion ;
+    glo:atheist 10 ;
+    glo:belongsToCountry glo:country_RU ;
+    glo:combined 30 ;
+    glo:country "RU"^^xsd:string ;
+    glo:nonReligious 8 ;
+    glo:unaffiliated "16.2"^^xsd:float .
+
+glo:religion_RW a glo:Religion ;
+    glo:belongsToCountry glo:country_RW ;
+    glo:country "RW"^^xsd:string ;
+    glo:unaffiliated "3.6"^^xsd:float .
+
+glo:religion_SA a glo:Religion ;
+    glo:belongsToCountry glo:country_SA ;
+    glo:country "SA"^^xsd:string ;
+    glo:unaffiliated "0.7"^^xsd:float .
+
+glo:religion_SB a glo:Religion ;
+    glo:belongsToCountry glo:country_SB ;
+    glo:country "SB"^^xsd:string ;
+    glo:unaffiliated "0.2"^^xsd:float .
+
+glo:religion_SC a glo:Religion ;
+    glo:belongsToCountry glo:country_SC ;
+    glo:country "SC"^^xsd:string ;
+    glo:unaffiliated "2.1"^^xsd:float .
+
+glo:religion_SD a glo:Religion ;
+    glo:belongsToCountry glo:country_SD ;
+    glo:country "SD"^^xsd:string ;
+    glo:unaffiliated "1.0"^^xsd:float .
+
+glo:religion_SE a glo:Religion ;
+    glo:atheist 26 ;
+    glo:belongsToCountry glo:country_SE ;
+    glo:combined 73 ;
+    glo:country "SE"^^xsd:string ;
+    glo:nonReligious 46 ;
+    glo:unaffiliated "27.0"^^xsd:float .
+
+glo:religion_SG a glo:Religion ;
+    glo:belongsToCountry glo:country_SG ;
+    glo:country "SG"^^xsd:string ;
+    glo:religion "Buddhist"^^xsd:string,
+        "Catholic"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Islam "^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Other Christians"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Sikh"^^xsd:string,
+        "Taoist"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "16.4"^^xsd:float ;
+    glo:value 5031,
+        5283,
+        5461,
+        5860,
+        10744,
+        10891,
+        76220,
+        81634,
+        100083,
+        119050,
+        153251,
+        157854,
+        166927,
+        172222,
+        196860,
+        219133,
+        225956,
+        231478,
+        248870,
+        253334,
+        278683,
+        315910,
+        339149,
+        350111,
+        457435,
+        500579,
+        527553,
+        532300,
+        569244,
+        1032879,
+        1517428,
+        1588321,
+        3105748 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_SI a glo:Religion ;
+    glo:atheist 31 ;
+    glo:belongsToCountry glo:country_SI ;
+    glo:combined 53 ;
+    glo:country "SI"^^xsd:string ;
+    glo:nonReligious 24 ;
+    glo:unaffiliated "18.0"^^xsd:float .
+
+glo:religion_SK a glo:Religion ;
+    glo:atheist 19 ;
+    glo:belongsToCountry glo:country_SK ;
+    glo:country "SK"^^xsd:string ;
+    glo:nonReligious 11 ;
+    glo:religion "Apostolic"^^xsd:string,
+        "Baha'i"^^xsd:string,
+        "Baptists Fraternity Union"^^xsd:string,
+        "Byzantine Catholic Church"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Church of Jesus Christ of Latter-day Saints"^^xsd:string,
+        "Czechoslovak Hussite Church"^^xsd:string,
+        "Evangelic Methodist Church"^^xsd:string,
+        "Evangelic of Augsburg Affiliation"^^xsd:string,
+        "Fraternity Church"^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Jewish"^^xsd:string,
+        "New Apostolic"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Old Catholic Church"^^xsd:string,
+        "Orthodox"^^xsd:string,
+        "Other"^^xsd:string,
+        "Reformed Christian"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Seventh Day Adventist"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "14.3"^^xsd:float ;
+    glo:value 74,
+        92,
+        166,
+        339,
+        411,
+        561,
+        726,
+        786,
+        815,
+        863,
+        872,
+        972,
+        996,
+        1065,
+        1136,
+        1309,
+        1602,
+        1606,
+        1662,
+        1687,
+        1782,
+        1794,
+        1824,
+        1999,
+        2721,
+        2915,
+        3110,
+        3396,
+        3486,
+        3560,
+        4160,
+        4852,
+        5476,
+        5831,
+        7159,
+        7720,
+        9883,
+        10063,
+        10328,
+        13457,
+        17222,
+        23340,
+        23415,
+        25718,
+        46452,
+        49133,
+        52345,
+        98797,
+        99649,
+        107222,
+        145418,
+        170832,
+        206871,
+        267750,
+        303687,
+        316250,
+        332965,
+        392397,
+        571437,
+        725362,
+        1576106,
+        1771171,
+        2627772,
+        2769264,
+        3347277,
+        5397036 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_SL a glo:Religion ;
+    glo:atheist 0 ;
+    glo:belongsToCountry glo:country_SL ;
+    glo:country "SL"^^xsd:string ;
+    glo:nonReligious 13 ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_SM a glo:Religion ;
+    glo:belongsToCountry glo:country_SM ;
+    glo:country "SM"^^xsd:string ;
+    glo:unaffiliated "7.2"^^xsd:float .
+
+glo:religion_SN a glo:Religion ;
+    glo:atheist 0 ;
+    glo:belongsToCountry glo:country_SN ;
+    glo:country "SN"^^xsd:string ;
+    glo:nonReligious 3 ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_SO a glo:Religion ;
+    glo:belongsToCountry glo:country_SO ;
+    glo:country "SO"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_SR a glo:Religion ;
+    glo:belongsToCountry glo:country_SR ;
+    glo:country "SR"^^xsd:string ;
+    glo:religion "Christian"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Islam "^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Other"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string ;
+    glo:unaffiliated "5.4"^^xsd:float ;
+    glo:value 17082,
+        66560,
+        75053,
+        120623,
+        262320,
+        541638 ;
+    glo:year "2012.0"^^xsd:gYear .
+
+glo:religion_SS a glo:Religion ;
+    glo:belongsToCountry glo:country_SS ;
+    glo:country "SS"^^xsd:string ;
+    glo:unaffiliated "0.5"^^xsd:float .
+
+glo:religion_ST a glo:Religion ;
+    glo:belongsToCountry glo:country_ST ;
+    glo:country "ST"^^xsd:string ;
+    glo:unaffiliated "12.6"^^xsd:float .
+
+glo:religion_SV a glo:Religion ;
+    glo:belongsToCountry glo:country_SV ;
+    glo:country "SV"^^xsd:string ;
+    glo:unaffiliated "11.0"^^xsd:float .
+
+glo:religion_SX a glo:Religion ;
+    glo:belongsToCountry glo:country_SX ;
+    glo:country "SX"^^xsd:string ;
+    glo:religion "Adventist"^^xsd:string,
+        "Anglican"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Buddhism/ Sikh"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Evangelical"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Islam/Judaism"^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Methodist"^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Other"^^xsd:string,
+        "Pentecostal"^^xsd:string,
+        "Protestant"^^xsd:string,
+        "Rastafarian"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Total"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:value 18,
+        35,
+        48,
+        53,
+        64,
+        88,
+        186,
+        192,
+        202,
+        238,
+        254,
+        334,
+        368,
+        377,
+        428,
+        450,
+        456,
+        476,
+        493,
+        534,
+        572,
+        630,
+        751,
+        756,
+        796,
+        834,
+        844,
+        903,
+        927,
+        988,
+        1027,
+        1142,
+        1236,
+        1387,
+        1512,
+        1564,
+        1585,
+        1748,
+        1782,
+        2103,
+        2224,
+        2654,
+        2852,
+        3346,
+        4954,
+        5201,
+        5933,
+        11134,
+        15868,
+        17741,
+        33609 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_SY a glo:Religion ;
+    glo:atheist 1 ;
+    glo:belongsToCountry glo:country_SY ;
+    glo:country "SY"^^xsd:string ;
+    glo:nonReligious 30 ;
+    glo:unaffiliated "2.0"^^xsd:float .
+
+glo:religion_SZ a glo:Religion ;
+    glo:belongsToCountry glo:country_SZ ;
+    glo:country "SZ"^^xsd:string ;
+    glo:unaffiliated "10.1"^^xsd:float .
+
+glo:religion_TD a glo:Religion ;
+    glo:belongsToCountry glo:country_TD ;
+    glo:country "TD"^^xsd:string ;
+    glo:unaffiliated "2.5"^^xsd:float .
+
+glo:religion_TG a glo:Religion ;
+    glo:belongsToCountry glo:country_TG ;
+    glo:country "TG"^^xsd:string ;
+    glo:unaffiliated "6.2"^^xsd:float .
+
+glo:religion_TH a glo:Religion ;
+    glo:atheist 4 ;
+    glo:belongsToCountry glo:country_TH ;
+    glo:combined 2 ;
+    glo:country "TH"^^xsd:string ;
+    glo:nonReligious 65 ;
+    glo:religion "Buddhist"^^xsd:string,
+        "Christian"^^xsd:string,
+        "Confucian"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Islam "^^xsd:string,
+        "No Religion"^^xsd:string,
+        "Other Religions"^^xsd:string,
+        "Total"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "0.3"^^xsd:float ;
+    glo:value 6121,
+        7127,
+        7817,
+        10597,
+        14944,
+        16718,
+        18589,
+        18598,
+        23210,
+        27533,
+        29766,
+        37156,
+        41808,
+        46122,
+        66922,
+        349510,
+        439866,
+        789376,
+        1612509,
+        1646831,
+        3259340,
+        30196344,
+        31550085,
+        32355032,
+        33626627,
+        61746429,
+        65981659 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_TJ a glo:Religion ;
+    glo:belongsToCountry glo:country_TJ ;
+    glo:country "TJ"^^xsd:string ;
+    glo:unaffiliated "1.5"^^xsd:float .
+
+glo:religion_TK a glo:Religion ;
+    glo:belongsToCountry glo:country_TK ;
+    glo:country "TK"^^xsd:string ;
+    glo:religion "Christian Congregational"^^xsd:string,
+        "New Age"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Other Christians"^^xsd:string,
+        "Presbyterian"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float ;
+    glo:value 0,
+        1,
+        2,
+        4,
+        6,
+        7,
+        12,
+        14,
+        20,
+        21,
+        32,
+        197,
+        221,
+        319,
+        346,
+        418,
+        563,
+        580,
+        665,
+        1143 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_TL a glo:Religion ;
+    glo:belongsToCountry glo:country_TL ;
+    glo:country "TL"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_TM a glo:Religion ;
+    glo:belongsToCountry glo:country_TM ;
+    glo:country "TM"^^xsd:string ;
+    glo:unaffiliated "0.5"^^xsd:float .
+
+glo:religion_TN a glo:Religion ;
+    glo:belongsToCountry glo:country_TN ;
+    glo:country "TN"^^xsd:string ;
+    glo:unaffiliated "0.2"^^xsd:float .
+
+glo:religion_TO a glo:Religion ;
+    glo:belongsToCountry glo:country_TO ;
+    glo:country "TO"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_TR a glo:Religion ;
+    glo:belongsToCountry glo:country_TR ;
+    glo:combined 12 ;
+    glo:country "TR"^^xsd:string ;
+    glo:unaffiliated "1.2"^^xsd:float .
+
+glo:religion_TT a glo:Religion ;
+    glo:belongsToCountry glo:country_TT ;
+    glo:country "TT"^^xsd:string ;
+    glo:religion "Anglican"^^xsd:string,
+        "Baptist"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Islam "^^xsd:string,
+        "Jehovah Witness"^^xsd:string,
+        "Methodist"^^xsd:string,
+        "Moravian"^^xsd:string,
+        "Not Stated"^^xsd:string,
+        "Orisha"^^xsd:string,
+        "Other"^^xsd:string,
+        "Pentecostal/ Evangelical/ Full Gospel"^^xsd:string,
+        "Presbyterian/ Congregational"^^xsd:string,
+        "Rastafarian"^^xsd:string,
+        "Roman Catholic"^^xsd:string,
+        "Seventh Day Adventist"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "1.9"^^xsd:float ;
+    glo:value 1044,
+        1728,
+        1797,
+        2571,
+        3526,
+        3615,
+        4232,
+        4416,
+        5638,
+        6280,
+        8501,
+        8648,
+        10572,
+        10949,
+        11918,
+        16249,
+        16723,
+        18270,
+        19450,
+        25961,
+        28195,
+        28842,
+        30813,
+        32972,
+        34892,
+        36341,
+        38654,
+        43072,
+        46114,
+        47881,
+        50052,
+        54156,
+        65705,
+        71486,
+        74462,
+        74994,
+        75313,
+        84571,
+        90953,
+        96166,
+        116051,
+        124049,
+        142576,
+        143095,
+        146798,
+        159033,
+        240100,
+        285671,
+        660196,
+        662349,
+        1322546 ;
+    glo:year "2011.0"^^xsd:gYear .
+
+glo:religion_TV a glo:Religion ;
+    glo:belongsToCountry glo:country_TV ;
+    glo:country "TV"^^xsd:string ;
+    glo:unaffiliated "1.3"^^xsd:float .
+
+glo:religion_TW a glo:Religion ;
+    glo:belongsToCountry glo:country_TW ;
+    glo:country "TW"^^xsd:string ;
+    glo:unaffiliated "12.7"^^xsd:float .
+
+glo:religion_TZ a glo:Religion ;
+    glo:belongsToCountry glo:country_TZ ;
+    glo:country "TZ"^^xsd:string ;
+    glo:unaffiliated "1.4"^^xsd:float .
+
+glo:religion_UA a glo:Religion ;
+    glo:belongsToCountry glo:country_UA ;
+    glo:combined 42 ;
+    glo:country "UA"^^xsd:string ;
+    glo:unaffiliated "14.7"^^xsd:float .
+
+glo:religion_UG a glo:Religion ;
+    glo:belongsToCountry glo:country_UG ;
+    glo:country "UG"^^xsd:string ;
+    glo:unaffiliated "0.5"^^xsd:float .
+
+glo:religion_US a glo:Religion ;
+    glo:atheist 7 ;
+    glo:belongsToCountry glo:country_US ;
+    glo:combined 39 ;
+    glo:country "US"^^xsd:string ;
+    glo:nonReligious 28 ;
+    glo:unaffiliated "3.7"^^xsd:float,
+        "16.4"^^xsd:float .
+
+glo:religion_UY a glo:Religion ;
+    glo:belongsToCountry glo:country_UY ;
+    glo:country "UY"^^xsd:string ;
+    glo:unaffiliated "40.7"^^xsd:float .
+
+glo:religion_UZ a glo:Religion ;
+    glo:belongsToCountry glo:country_UZ ;
+    glo:country "UZ"^^xsd:string ;
+    glo:unaffiliated "0.8"^^xsd:float .
+
+glo:religion_VA a glo:Religion ;
+    glo:belongsToCountry glo:country_VA ;
+    glo:country "VA"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_VC a glo:Religion ;
+    glo:belongsToCountry glo:country_VC ;
+    glo:country "VC"^^xsd:string ;
+    glo:unaffiliated "2.5"^^xsd:float .
+
+glo:religion_VE a glo:Religion ;
+    glo:belongsToCountry glo:country_VE ;
+    glo:country "VE"^^xsd:string ;
+    glo:unaffiliated "10.0"^^xsd:float .
+
+glo:religion_VN a glo:Religion ;
+    glo:atheist 9 ;
+    glo:belongsToCountry glo:country_VN ;
+    glo:combined 63 ;
+    glo:country "VN"^^xsd:string ;
+    glo:nonReligious 65 ;
+    glo:unaffiliated "29.6"^^xsd:float .
+
+glo:religion_VU a glo:Religion ;
+    glo:belongsToCountry glo:country_VU ;
+    glo:country "VU"^^xsd:string ;
+    glo:unaffiliated "1.2"^^xsd:float .
+
+glo:religion_WF a glo:Religion ;
+    glo:belongsToCountry glo:country_WF ;
+    glo:country "WF"^^xsd:string ;
+    glo:unaffiliated "0.6"^^xsd:float .
+
+glo:religion_WS a glo:Religion ;
+    glo:belongsToCountry glo:country_WS ;
+    glo:country "WS"^^xsd:string ;
+    glo:unaffiliated "2.5"^^xsd:float .
+
+glo:religion_YE a glo:Religion ;
+    glo:belongsToCountry glo:country_YE ;
+    glo:country "YE"^^xsd:string ;
+    glo:unaffiliated "0.1"^^xsd:float .
+
+glo:religion_YT a glo:Religion ;
+    glo:belongsToCountry glo:country_YT ;
+    glo:country "YT"^^xsd:string ;
+    glo:unaffiliated "0.2"^^xsd:float .
+
+glo:religion_ZA a glo:Religion ;
+    glo:belongsToCountry glo:country_ZA ;
+    glo:country "ZA"^^xsd:string ;
+    glo:unaffiliated "14.9"^^xsd:float .
+
+glo:religion_ZM a glo:Religion ;
+    glo:belongsToCountry glo:country_ZM ;
+    glo:country "ZM"^^xsd:string ;
+    glo:religion "Baha'i"^^xsd:string,
+        "Buddhist"^^xsd:string,
+        "Catholic"^^xsd:string,
+        "Hindu"^^xsd:string,
+        "Muslim"^^xsd:string,
+        "Other"^^xsd:string,
+        "Protestant"^^xsd:string,
+        "Total"^^xsd:string ;
+    glo:sex "Both Sexes"^^xsd:string,
+        "Female"^^xsd:string,
+        "Male"^^xsd:string ;
+    glo:unaffiliated "0.5"^^xsd:float ;
+    glo:value 1886,
+        1894,
+        1997,
+        2497,
+        3891,
+        4383,
+        4786,
+        4837,
+        9623,
+        29330,
+        32082,
+        61412,
+        78285,
+        123631,
+        129990,
+        146010,
+        224295,
+        253621,
+        1238491,
+        1294367,
+        2532858,
+        4567759,
+        4868472,
+        6117253,
+        6409061,
+        9436231,
+        12526314 ;
+    glo:year "2010.0"^^xsd:gYear .
+
+glo:religion_ZW a glo:Religion ;
+    glo:belongsToCountry glo:country_ZW ;
+    glo:country "ZW"^^xsd:string ;
+    glo:unaffiliated "7.9"^^xsd:float .
+
+glo:Religion rdfs:subClassOf glo:Situation .
+

@@ -1,0 +1,241 @@
+@prefix glo: <http://www.dei.unipd.it/database2/LinkedinJobPosting#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+glo:peopleBeauty_AF a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_AF ;
+    glo:country "AF"^^xsd:string ;
+    glo:mostBeautifulWomen 15 .
+
+glo:peopleBeauty_AM a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_AM ;
+    glo:country "AM"^^xsd:string ;
+    glo:mostHandsomeMen 14 .
+
+glo:peopleBeauty_AR a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_AR ;
+    glo:country "AR"^^xsd:string ;
+    glo:mostBeautifulWomen 10 .
+
+glo:peopleBeauty_AU a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_AU ;
+    glo:country "AU"^^xsd:string ;
+    glo:mostHandsomeMen 19 .
+
+glo:peopleBeauty_AZ a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_AZ ;
+    glo:country "AZ"^^xsd:string ;
+    glo:mostHandsomeMen 16 .
+
+glo:peopleBeauty_BG a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_BG ;
+    glo:country "BG"^^xsd:string ;
+    glo:mostBeautifulWomen 9 .
+
+glo:peopleBeauty_BO a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_BO ;
+    glo:country "BO"^^xsd:string ;
+    glo:mostBeautifulWomen 3 .
+
+glo:peopleBeauty_BR a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_BR ;
+    glo:country "BR"^^xsd:string ;
+    glo:mostBeautifulWomen 30 .
+
+glo:peopleBeauty_CA a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_CA ;
+    glo:country "CA"^^xsd:string ;
+    glo:mostBeautifulWomen 4 .
+
+glo:peopleBeauty_CO a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_CO ;
+    glo:country "CO"^^xsd:string ;
+    glo:mostBeautifulWomen 28 .
+
+glo:peopleBeauty_DE a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_DE ;
+    glo:country "DE"^^xsd:string ;
+    glo:mostHandsomeMen 8 .
+
+glo:peopleBeauty_DK a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_DK ;
+    glo:country "DK"^^xsd:string ;
+    glo:mostHandsomeMen 25 .
+
+glo:peopleBeauty_EG a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_EG ;
+    glo:country "EG"^^xsd:string ;
+    glo:mostBeautifulWomen 21 .
+
+glo:peopleBeauty_ES a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_ES ;
+    glo:country "ES"^^xsd:string ;
+    glo:mostBeautifulWomen 17 ;
+    glo:mostHandsomeMen 5 .
+
+glo:peopleBeauty_FR a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_FR ;
+    glo:country "FR"^^xsd:string ;
+    glo:mostBeautifulWomen 22 ;
+    glo:mostHandsomeMen 4 .
+
+glo:peopleBeauty_GB a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_GB ;
+    glo:country "GB"^^xsd:string ;
+    glo:mostBeautifulWomen 2 .
+
+glo:peopleBeauty_GH a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_GH ;
+    glo:country "GH"^^xsd:string ;
+    glo:mostBeautifulWomen 29 .
+
+glo:peopleBeauty_GR a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_GR ;
+    glo:country "GR"^^xsd:string ;
+    glo:mostHandsomeMen 6 .
+
+glo:peopleBeauty_ID a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_ID ;
+    glo:country "ID"^^xsd:string ;
+    glo:mostBeautifulWomen 27 ;
+    glo:mostHandsomeMen 23 .
+
+glo:peopleBeauty_IL a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_IL ;
+    glo:country "IL"^^xsd:string ;
+    glo:mostBeautifulWomen 26 .
+
+glo:peopleBeauty_IN a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_IN ;
+    glo:country "IN"^^xsd:string ;
+    glo:mostBeautifulWomen 5 ;
+    glo:mostHandsomeMen 24 .
+
+glo:peopleBeauty_IQ a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_IQ ;
+    glo:country "IQ"^^xsd:string ;
+    glo:mostHandsomeMen 20 .
+
+glo:peopleBeauty_IR a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_IR ;
+    glo:country "IR"^^xsd:string ;
+    glo:mostHandsomeMen 12 .
+
+glo:peopleBeauty_IT a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_IT ;
+    glo:country "IT"^^xsd:string ;
+    glo:mostBeautifulWomen 1 ;
+    glo:mostHandsomeMen 2 .
+
+glo:peopleBeauty_JM a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_JM ;
+    glo:country "JM"^^xsd:string ;
+    glo:mostBeautifulWomen 18 .
+
+glo:peopleBeauty_JO a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_JO ;
+    glo:country "JO"^^xsd:string ;
+    glo:mostHandsomeMen 10 .
+
+glo:peopleBeauty_KR a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_KR ;
+    glo:country "KR"^^xsd:string ;
+    glo:mostBeautifulWomen 12 ;
+    glo:mostHandsomeMen 17 .
+
+glo:peopleBeauty_LT a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_LT ;
+    glo:country "LT"^^xsd:string ;
+    glo:mostBeautifulWomen 19 .
+
+glo:peopleBeauty_MA a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_MA ;
+    glo:country "MA"^^xsd:string ;
+    glo:mostBeautifulWomen 24 .
+
+glo:peopleBeauty_NL a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_NL ;
+    glo:country "NL"^^xsd:string ;
+    glo:mostBeautifulWomen 7 .
+
+glo:peopleBeauty_NO a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_NO ;
+    glo:country "NO"^^xsd:string ;
+    glo:mostHandsomeMen 18 .
+
+glo:peopleBeauty_PH a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_PH ;
+    glo:country "PH"^^xsd:string ;
+    glo:mostBeautifulWomen 6 ;
+    glo:mostHandsomeMen 13 .
+
+glo:peopleBeauty_PK a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_PK ;
+    glo:country "PK"^^xsd:string ;
+    glo:mostBeautifulWomen 13 .
+
+glo:peopleBeauty_PL a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_PL ;
+    glo:country "PL"^^xsd:string ;
+    glo:mostBeautifulWomen 25 .
+
+glo:peopleBeauty_PT a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_PT ;
+    glo:country "PT"^^xsd:string ;
+    glo:mostHandsomeMen 21 .
+
+glo:peopleBeauty_RO a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_RO ;
+    glo:country "RO"^^xsd:string ;
+    glo:mostHandsomeMen 22 .
+
+glo:peopleBeauty_RU a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_RU ;
+    glo:country "RU"^^xsd:string ;
+    glo:mostBeautifulWomen 23 ;
+    glo:mostHandsomeMen 7 .
+
+glo:peopleBeauty_SE a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_SE ;
+    glo:country "SE"^^xsd:string ;
+    glo:mostBeautifulWomen 8 .
+
+glo:peopleBeauty_SY a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_SY ;
+    glo:country "SY"^^xsd:string ;
+    glo:mostHandsomeMen 1 .
+
+glo:peopleBeauty_TH a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_TH ;
+    glo:country "TH"^^xsd:string ;
+    glo:mostBeautifulWomen 16 .
+
+glo:peopleBeauty_TN a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_TN ;
+    glo:country "TN"^^xsd:string ;
+    glo:mostHandsomeMen 11 .
+
+glo:peopleBeauty_TR a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_TR ;
+    glo:country "TR"^^xsd:string ;
+    glo:mostBeautifulWomen 11 ;
+    glo:mostHandsomeMen 3 .
+
+glo:peopleBeauty_UA a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_UA ;
+    glo:country "UA"^^xsd:string ;
+    glo:mostBeautifulWomen 14 .
+
+glo:peopleBeauty_US a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_US ;
+    glo:country "US"^^xsd:string ;
+    glo:mostHandsomeMen 9 .
+
+glo:peopleBeauty_VE a glo:PeopleBeauty ;
+    glo:belongsToCountry glo:country_VE ;
+    glo:country "VE"^^xsd:string ;
+    glo:mostBeautifulWomen 20 ;
+    glo:mostHandsomeMen 15 .
+
+glo:PeopleBeauty rdfs:subClassOf glo:Situation .
+

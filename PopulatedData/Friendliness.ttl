@@ -1,0 +1,1088 @@
+@prefix glo: <http://www.dei.unipd.it/database2/LinkedinJobPosting#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+glo:friendliness_AD a glo:Friendliness ;
+    glo:belongsToCountry glo:country_AD ;
+    glo:country "AD"^^xsd:string .
+
+glo:friendliness_AE a glo:Friendliness ;
+    glo:belongsToCountry glo:country_AE ;
+    glo:country "AE"^^xsd:string ;
+    glo:homophobic 59 ;
+    glo:leastRacist 81 .
+
+glo:friendliness_AF a glo:Friendliness ;
+    glo:belongsToCountry glo:country_AF ;
+    glo:country "AF"^^xsd:string ;
+    glo:homophobic 2 .
+
+glo:friendliness_AL a glo:Friendliness ;
+    glo:belongsToCountry glo:country_AL ;
+    glo:country "AL"^^xsd:string ;
+    glo:homophobic 103 .
+
+glo:friendliness_AM a glo:Friendliness ;
+    glo:belongsToCountry glo:country_AM ;
+    glo:country "AM"^^xsd:string ;
+    glo:homophobic 51 .
+
+glo:friendliness_AO a glo:Friendliness ;
+    glo:belongsToCountry glo:country_AO ;
+    glo:country "AO"^^xsd:string ;
+    glo:homophobic 20 .
+
+glo:friendliness_AR a glo:Friendliness ;
+    glo:belongsToCountry glo:country_AR ;
+    glo:country "AR"^^xsd:string ;
+    glo:friendliest 26 ;
+    glo:homophobic 142 ;
+    glo:leastRacist 22 .
+
+glo:friendliness_AT a glo:Friendliness ;
+    glo:belongsToCountry glo:country_AT ;
+    glo:country "AT"^^xsd:string ;
+    glo:friendliest 64 ;
+    glo:homophobic 136 ;
+    glo:leastRacist 11 .
+
+glo:friendliness_AU a glo:Friendliness ;
+    glo:belongsToCountry glo:country_AU ;
+    glo:country "AU"^^xsd:string ;
+    glo:friendliest 37 ;
+    glo:homophobic 138 ;
+    glo:leastRacist 12 .
+
+glo:friendliness_AW a glo:Friendliness ;
+    glo:belongsToCountry glo:country_AW ;
+    glo:country "AW"^^xsd:string .
+
+glo:friendliness_AZ a glo:Friendliness ;
+    glo:belongsToCountry glo:country_AZ ;
+    glo:country "AZ"^^xsd:string ;
+    glo:homophobic 50 ;
+    glo:leastRacist 64 .
+
+glo:friendliness_BA a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BA ;
+    glo:country "BA"^^xsd:string ;
+    glo:homophobic 98 .
+
+glo:friendliness_BB a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BB ;
+    glo:country "BB"^^xsd:string ;
+    glo:homophobic 86 .
+
+glo:friendliness_BD a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BD ;
+    glo:country "BD"^^xsd:string ;
+    glo:homophobic 89 ;
+    glo:leastRacist 75 .
+
+glo:friendliness_BE a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BE ;
+    glo:country "BE"^^xsd:string ;
+    glo:friendliest 50 ;
+    glo:homophobic 152 ;
+    glo:leastRacist 8 .
+
+glo:friendliness_BF a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BF ;
+    glo:country "BF"^^xsd:string ;
+    glo:homophobic 54 .
+
+glo:friendliness_BG a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BG ;
+    glo:country "BG"^^xsd:string ;
+    glo:homophobic 100 ;
+    glo:leastRacist 29 .
+
+glo:friendliness_BH a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BH ;
+    glo:country "BH"^^xsd:string ;
+    glo:friendliest 5 ;
+    glo:homophobic 93 ;
+    glo:leastRacist 70 .
+
+glo:friendliness_BI a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BI ;
+    glo:country "BI"^^xsd:string ;
+    glo:homophobic 9 .
+
+glo:friendliness_BJ a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BJ ;
+    glo:country "BJ"^^xsd:string ;
+    glo:homophobic 46 .
+
+glo:friendliness_BN a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BN ;
+    glo:country "BN"^^xsd:string .
+
+glo:friendliness_BO a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BO ;
+    glo:country "BO"^^xsd:string ;
+    glo:homophobic 116 .
+
+glo:friendliness_BR a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BR ;
+    glo:country "BR"^^xsd:string ;
+    glo:friendliest 14 ;
+    glo:homophobic 139 ;
+    glo:leastRacist 20 .
+
+glo:friendliness_BS a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BS ;
+    glo:country "BS"^^xsd:string ;
+    glo:homophobic 107 .
+
+glo:friendliness_BT a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BT ;
+    glo:country "BT"^^xsd:string .
+
+glo:friendliness_BW a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BW ;
+    glo:country "BW"^^xsd:string ;
+    glo:homophobic 83 .
+
+glo:friendliness_BY a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BY ;
+    glo:country "BY"^^xsd:string ;
+    glo:homophobic 78 ;
+    glo:leastRacist 77 .
+
+glo:friendliness_BZ a glo:Friendliness ;
+    glo:belongsToCountry glo:country_BZ ;
+    glo:country "BZ"^^xsd:string .
+
+glo:friendliness_CA a glo:Friendliness ;
+    glo:belongsToCountry glo:country_CA ;
+    glo:country "CA"^^xsd:string ;
+    glo:friendliest 10 ;
+    glo:homophobic 148 ;
+    glo:leastRacist 2 .
+
+glo:friendliness_CD a glo:Friendliness ;
+    glo:belongsToCountry glo:country_CD ;
+    glo:country "CD"^^xsd:string ;
+    glo:homophobic 65 .
+
+glo:friendliness_CF a glo:Friendliness ;
+    glo:belongsToCountry glo:country_CF ;
+    glo:country "CF"^^xsd:string ;
+    glo:homophobic 40 .
+
+glo:friendliness_CH a glo:Friendliness ;
+    glo:belongsToCountry glo:country_CH ;
+    glo:country "CH"^^xsd:string ;
+    glo:friendliest 63 ;
+    glo:homophobic 143 ;
+    glo:leastRacist 6 .
+
+glo:friendliness_CI a glo:Friendliness ;
+    glo:belongsToCountry glo:country_CI ;
+    glo:country "CI"^^xsd:string ;
+    glo:homophobic 45 .
+
+glo:friendliness_CK a glo:Friendliness ;
+    glo:belongsToCountry glo:country_CK ;
+    glo:country "CK"^^xsd:string .
+
+glo:friendliness_CL a glo:Friendliness ;
+    glo:belongsToCountry glo:country_CL ;
+    glo:country "CL"^^xsd:string ;
+    glo:friendliest 49 ;
+    glo:homophobic 127 ;
+    glo:leastRacist 51 .
+
+glo:friendliness_CM a glo:Friendliness ;
+    glo:belongsToCountry glo:country_CM ;
+    glo:country "CM"^^xsd:string ;
+    glo:homophobic 25 ;
+    glo:leastRacist 30 .
+
+glo:friendliness_CN a glo:Friendliness ;
+    glo:belongsToCountry glo:country_CN ;
+    glo:country "CN"^^xsd:string ;
+    glo:friendliest 43 ;
+    glo:homophobic 80 ;
+    glo:leastRacist 57 .
+
+glo:friendliness_CO a glo:Friendliness ;
+    glo:belongsToCountry glo:country_CO ;
+    glo:country "CO"^^xsd:string ;
+    glo:friendliest 8 ;
+    glo:homophobic 141 ;
+    glo:leastRacist 54 .
+
+glo:friendliness_CR a glo:Friendliness ;
+    glo:belongsToCountry glo:country_CR ;
+    glo:country "CR"^^xsd:string ;
+    glo:friendliest 6 ;
+    glo:homophobic 123 ;
+    glo:leastRacist 28 .
+
+glo:friendliness_CU a glo:Friendliness ;
+    glo:belongsToCountry glo:country_CU ;
+    glo:country "CU"^^xsd:string .
+
+glo:friendliness_CW a glo:Friendliness ;
+    glo:belongsToCountry glo:country_CW ;
+    glo:country "CW"^^xsd:string .
+
+glo:friendliness_CY a glo:Friendliness ;
+    glo:belongsToCountry glo:country_CY ;
+    glo:country "CY"^^xsd:string ;
+    glo:friendliest 23 ;
+    glo:homophobic 122 .
+
+glo:friendliness_CZ a glo:Friendliness ;
+    glo:belongsToCountry glo:country_CZ ;
+    glo:country "CZ"^^xsd:string ;
+    glo:friendliest 62 ;
+    glo:homophobic 128 ;
+    glo:leastRacist 63 .
+
+glo:friendliness_DE a glo:Friendliness ;
+    glo:belongsToCountry glo:country_DE ;
+    glo:country "DE"^^xsd:string ;
+    glo:friendliest 47 ;
+    glo:homophobic 132 ;
+    glo:leastRacist 18 .
+
+glo:friendliness_DJ a glo:Friendliness ;
+    glo:belongsToCountry glo:country_DJ ;
+    glo:country "DJ"^^xsd:string ;
+    glo:homophobic 77 .
+
+glo:friendliness_DK a glo:Friendliness ;
+    glo:belongsToCountry glo:country_DK ;
+    glo:country "DK"^^xsd:string ;
+    glo:friendliest 60 ;
+    glo:homophobic 156 ;
+    glo:leastRacist 7 .
+
+glo:friendliness_DM a glo:Friendliness ;
+    glo:belongsToCountry glo:country_DM ;
+    glo:country "DM"^^xsd:string .
+
+glo:friendliness_DO a glo:Friendliness ;
+    glo:belongsToCountry glo:country_DO ;
+    glo:country "DO"^^xsd:string ;
+    glo:homophobic 102 ;
+    glo:leastRacist 36 .
+
+glo:friendliness_DZ a glo:Friendliness ;
+    glo:belongsToCountry glo:country_DZ ;
+    glo:country "DZ"^^xsd:string ;
+    glo:homophobic 31 ;
+    glo:leastRacist 59 .
+
+glo:friendliness_EC a glo:Friendliness ;
+    glo:belongsToCountry glo:country_EC ;
+    glo:country "EC"^^xsd:string ;
+    glo:friendliest 13 ;
+    glo:homophobic 131 ;
+    glo:leastRacist 56 .
+
+glo:friendliness_EE a glo:Friendliness ;
+    glo:belongsToCountry glo:country_EE ;
+    glo:country "EE"^^xsd:string ;
+    glo:homophobic 119 ;
+    glo:leastRacist 42 .
+
+glo:friendliness_EG a glo:Friendliness ;
+    glo:belongsToCountry glo:country_EG ;
+    glo:country "EG"^^xsd:string ;
+    glo:homophobic 29 ;
+    glo:leastRacist 45 .
+
+glo:friendliness_ER a glo:Friendliness ;
+    glo:belongsToCountry glo:country_ER ;
+    glo:country "ER"^^xsd:string ;
+    glo:homophobic 17 .
+
+glo:friendliness_ES a glo:Friendliness ;
+    glo:belongsToCountry glo:country_ES ;
+    glo:country "ES"^^xsd:string ;
+    glo:friendliest 17 ;
+    glo:homophobic 154 ;
+    glo:leastRacist 21 .
+
+glo:friendliness_ET a glo:Friendliness ;
+    glo:belongsToCountry glo:country_ET ;
+    glo:country "ET"^^xsd:string ;
+    glo:homophobic 32 .
+
+glo:friendliness_FI a glo:Friendliness ;
+    glo:belongsToCountry glo:country_FI ;
+    glo:country "FI"^^xsd:string ;
+    glo:friendliest 61 ;
+    glo:homophobic 153 ;
+    glo:leastRacist 9 .
+
+glo:friendliness_FJ a glo:Friendliness ;
+    glo:belongsToCountry glo:country_FJ ;
+    glo:country "FJ"^^xsd:string .
+
+glo:friendliness_FM a glo:Friendliness ;
+    glo:belongsToCountry glo:country_FM ;
+    glo:country "FM"^^xsd:string .
+
+glo:friendliness_FR a glo:Friendliness ;
+    glo:belongsToCountry glo:country_FR ;
+    glo:country "FR"^^xsd:string ;
+    glo:friendliest 55 ;
+    glo:homophobic 151 ;
+    glo:leastRacist 15 .
+
+glo:friendliness_GA a glo:Friendliness ;
+    glo:belongsToCountry glo:country_GA ;
+    glo:country "GA"^^xsd:string ;
+    glo:homophobic 47 .
+
+glo:friendliness_GB a glo:Friendliness ;
+    glo:belongsToCountry glo:country_GB ;
+    glo:country "GB"^^xsd:string ;
+    glo:friendliest 56 ;
+    glo:homophobic 149 ;
+    glo:leastRacist 16 .
+
+glo:friendliness_GD a glo:Friendliness ;
+    glo:belongsToCountry glo:country_GD ;
+    glo:country "GD"^^xsd:string .
+
+glo:friendliness_GE a glo:Friendliness ;
+    glo:belongsToCountry glo:country_GE ;
+    glo:country "GE"^^xsd:string ;
+    glo:homophobic 85 .
+
+glo:friendliness_GH a glo:Friendliness ;
+    glo:belongsToCountry glo:country_GH ;
+    glo:country "GH"^^xsd:string ;
+    glo:homophobic 24 ;
+    glo:leastRacist 33 .
+
+glo:friendliness_GM a glo:Friendliness ;
+    glo:belongsToCountry glo:country_GM ;
+    glo:country "GM"^^xsd:string ;
+    glo:homophobic 22 .
+
+glo:friendliness_GN a glo:Friendliness ;
+    glo:belongsToCountry glo:country_GN ;
+    glo:country "GN"^^xsd:string ;
+    glo:homophobic 7 .
+
+glo:friendliness_GQ a glo:Friendliness ;
+    glo:belongsToCountry glo:country_GQ ;
+    glo:country "GQ"^^xsd:string .
+
+glo:friendliness_GR a glo:Friendliness ;
+    glo:belongsToCountry glo:country_GR ;
+    glo:country "GR"^^xsd:string ;
+    glo:friendliest 32 ;
+    glo:homophobic 130 ;
+    glo:leastRacist 24 .
+
+glo:friendliness_GT a glo:Friendliness ;
+    glo:belongsToCountry glo:country_GT ;
+    glo:country "GT"^^xsd:string ;
+    glo:homophobic 110 ;
+    glo:leastRacist 76 .
+
+glo:friendliness_GU a glo:Friendliness ;
+    glo:belongsToCountry glo:country_GU ;
+    glo:country "GU"^^xsd:string .
+
+glo:friendliness_GW a glo:Friendliness ;
+    glo:belongsToCountry glo:country_GW ;
+    glo:country "GW"^^xsd:string ;
+    glo:homophobic 38 .
+
+glo:friendliness_GY a glo:Friendliness ;
+    glo:belongsToCountry glo:country_GY ;
+    glo:country "GY"^^xsd:string ;
+    glo:homophobic 63 .
+
+glo:friendliness_HK a glo:Friendliness ;
+    glo:belongsToCountry glo:country_HK ;
+    glo:country "HK"^^xsd:string ;
+    glo:friendliest 38 ;
+    glo:homophobic 101 .
+
+glo:friendliness_HN a glo:Friendliness ;
+    glo:belongsToCountry glo:country_HN ;
+    glo:country "HN"^^xsd:string ;
+    glo:homophobic 111 .
+
+glo:friendliness_HR a glo:Friendliness ;
+    glo:belongsToCountry glo:country_HR ;
+    glo:country "HR"^^xsd:string ;
+    glo:homophobic 126 ;
+    glo:leastRacist 62 .
+
+glo:friendliness_HT a glo:Friendliness ;
+    glo:belongsToCountry glo:country_HT ;
+    glo:country "HT"^^xsd:string ;
+    glo:homophobic 53 .
+
+glo:friendliness_HU a glo:Friendliness ;
+    glo:belongsToCountry glo:country_HU ;
+    glo:country "HU"^^xsd:string ;
+    glo:friendliest 58 ;
+    glo:homophobic 133 ;
+    glo:leastRacist 34 .
+
+glo:friendliness_ID a glo:Friendliness ;
+    glo:belongsToCountry glo:country_ID ;
+    glo:country "ID"^^xsd:string ;
+    glo:friendliest 21 ;
+    glo:homophobic 72 ;
+    glo:leastRacist 37 .
+
+glo:friendliness_IE a glo:Friendliness ;
+    glo:belongsToCountry glo:country_IE ;
+    glo:country "IE"^^xsd:string ;
+    glo:friendliest 30 ;
+    glo:homophobic 140 ;
+    glo:leastRacist 10 .
+
+glo:friendliness_IL a glo:Friendliness ;
+    glo:belongsToCountry glo:country_IL ;
+    glo:country "IL"^^xsd:string ;
+    glo:friendliest 24 ;
+    glo:homophobic 125 ;
+    glo:leastRacist 83 .
+
+glo:friendliness_IN a glo:Friendliness ;
+    glo:belongsToCountry glo:country_IN ;
+    glo:country "IN"^^xsd:string ;
+    glo:friendliest 34 ;
+    glo:homophobic 84 ;
+    glo:leastRacist 66 .
+
+glo:friendliness_IQ a glo:Friendliness ;
+    glo:belongsToCountry glo:country_IQ ;
+    glo:country "IQ"^^xsd:string ;
+    glo:homophobic 8 .
+
+glo:friendliness_IR a glo:Friendliness ;
+    glo:belongsToCountry glo:country_IR ;
+    glo:country "IR"^^xsd:string ;
+    glo:homophobic 26 ;
+    glo:leastRacist 84 .
+
+glo:friendliness_IS a glo:Friendliness ;
+    glo:belongsToCountry glo:country_IS ;
+    glo:country "IS"^^xsd:string .
+
+glo:friendliness_IT a glo:Friendliness ;
+    glo:belongsToCountry glo:country_IT ;
+    glo:country "IT"^^xsd:string ;
+    glo:friendliest 41 ;
+    glo:homophobic 121 ;
+    glo:leastRacist 17 .
+
+glo:friendliness_JM a glo:Friendliness ;
+    glo:belongsToCountry glo:country_JM ;
+    glo:country "JM"^^xsd:string ;
+    glo:homophobic 91 .
+
+glo:friendliness_JO a glo:Friendliness ;
+    glo:belongsToCountry glo:country_JO ;
+    glo:country "JO"^^xsd:string ;
+    glo:homophobic 42 ;
+    glo:leastRacist 44 .
+
+glo:friendliness_JP a glo:Friendliness ;
+    glo:belongsToCountry glo:country_JP ;
+    glo:country "JP"^^xsd:string ;
+    glo:friendliest 44 ;
+    glo:homophobic 104 ;
+    glo:leastRacist 40 .
+
+glo:friendliness_KE a glo:Friendliness ;
+    glo:belongsToCountry glo:country_KE ;
+    glo:country "KE"^^xsd:string ;
+    glo:friendliest 27 ;
+    glo:homophobic 27 ;
+    glo:leastRacist 32 .
+
+glo:friendliness_KG a glo:Friendliness ;
+    glo:belongsToCountry glo:country_KG ;
+    glo:country "KG"^^xsd:string ;
+    glo:homophobic 71 .
+
+glo:friendliness_KH a glo:Friendliness ;
+    glo:belongsToCountry glo:country_KH ;
+    glo:country "KH"^^xsd:string ;
+    glo:friendliest 4 ;
+    glo:homophobic 74 ;
+    glo:leastRacist 58 .
+
+glo:friendliness_KI a glo:Friendliness ;
+    glo:belongsToCountry glo:country_KI ;
+    glo:country "KI"^^xsd:string .
+
+glo:friendliness_KM a glo:Friendliness ;
+    glo:belongsToCountry glo:country_KM ;
+    glo:country "KM"^^xsd:string ;
+    glo:homophobic 36 .
+
+glo:friendliness_KN a glo:Friendliness ;
+    glo:belongsToCountry glo:country_KN ;
+    glo:country "KN"^^xsd:string .
+
+glo:friendliness_KR a glo:Friendliness ;
+    glo:belongsToCountry glo:country_KR ;
+    glo:country "KR"^^xsd:string ;
+    glo:friendliest 42 ;
+    glo:homophobic 75 ;
+    glo:leastRacist 60 .
+
+glo:friendliness_KW a glo:Friendliness ;
+    glo:belongsToCountry glo:country_KW ;
+    glo:country "KW"^^xsd:string ;
+    glo:friendliest 65 ;
+    glo:homophobic 43 .
+
+glo:friendliness_KY a glo:Friendliness ;
+    glo:belongsToCountry glo:country_KY ;
+    glo:country "KY"^^xsd:string .
+
+glo:friendliness_KZ a glo:Friendliness ;
+    glo:belongsToCountry glo:country_KZ ;
+    glo:country "KZ"^^xsd:string ;
+    glo:friendliest 28 ;
+    glo:homophobic 73 ;
+    glo:leastRacist 68 .
+
+glo:friendliness_LA a glo:Friendliness ;
+    glo:belongsToCountry glo:country_LA ;
+    glo:country "LA"^^xsd:string ;
+    glo:homophobic 60 .
+
+glo:friendliness_LB a glo:Friendliness ;
+    glo:belongsToCountry glo:country_LB ;
+    glo:country "LB"^^xsd:string ;
+    glo:homophobic 56 ;
+    glo:leastRacist 72 .
+
+glo:friendliness_LC a glo:Friendliness ;
+    glo:belongsToCountry glo:country_LC ;
+    glo:country "LC"^^xsd:string .
+
+glo:friendliness_LI a glo:Friendliness ;
+    glo:belongsToCountry glo:country_LI ;
+    glo:country "LI"^^xsd:string .
+
+glo:friendliness_LK a glo:Friendliness ;
+    glo:belongsToCountry glo:country_LK ;
+    glo:country "LK"^^xsd:string ;
+    glo:homophobic 70 ;
+    glo:leastRacist 78 .
+
+glo:friendliness_LR a glo:Friendliness ;
+    glo:belongsToCountry glo:country_LR ;
+    glo:country "LR"^^xsd:string ;
+    glo:homophobic 33 .
+
+glo:friendliness_LS a glo:Friendliness ;
+    glo:belongsToCountry glo:country_LS ;
+    glo:country "LS"^^xsd:string ;
+    glo:homophobic 61 .
+
+glo:friendliness_LT a glo:Friendliness ;
+    glo:belongsToCountry glo:country_LT ;
+    glo:country "LT"^^xsd:string ;
+    glo:homophobic 120 ;
+    glo:leastRacist 41 .
+
+glo:friendliness_LU a glo:Friendliness ;
+    glo:belongsToCountry glo:country_LU ;
+    glo:country "LU"^^xsd:string ;
+    glo:friendliest 39 ;
+    glo:leastRacist 14 .
+
+glo:friendliness_LV a glo:Friendliness ;
+    glo:belongsToCountry glo:country_LV ;
+    glo:country "LV"^^xsd:string ;
+    glo:homophobic 106 ;
+    glo:leastRacist 53 .
+
+glo:friendliness_LY a glo:Friendliness ;
+    glo:belongsToCountry glo:country_LY ;
+    glo:country "LY"^^xsd:string ;
+    glo:homophobic 28 .
+
+glo:friendliness_MA a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MA ;
+    glo:country "MA"^^xsd:string ;
+    glo:homophobic 13 ;
+    glo:leastRacist 38 .
+
+glo:friendliness_MC a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MC ;
+    glo:country "MC"^^xsd:string .
+
+glo:friendliness_MD a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MD ;
+    glo:country "MD"^^xsd:string ;
+    glo:homophobic 88 .
+
+glo:friendliness_ME a glo:Friendliness ;
+    glo:belongsToCountry glo:country_ME ;
+    glo:country "ME"^^xsd:string .
+
+glo:friendliness_MG a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MG ;
+    glo:country "MG"^^xsd:string ;
+    glo:homophobic 37 .
+
+glo:friendliness_MH a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MH ;
+    glo:country "MH"^^xsd:string .
+
+glo:friendliness_MK a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MK ;
+    glo:country "MK"^^xsd:string ;
+    glo:homophobic 96 .
+
+glo:friendliness_ML a glo:Friendliness ;
+    glo:belongsToCountry glo:country_ML ;
+    glo:country "ML"^^xsd:string ;
+    glo:homophobic 64 .
+
+glo:friendliness_MM a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MM ;
+    glo:country "MM"^^xsd:string ;
+    glo:friendliest 18 ;
+    glo:homophobic 41 ;
+    glo:leastRacist 82 .
+
+glo:friendliness_MN a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MN ;
+    glo:country "MN"^^xsd:string ;
+    glo:homophobic 90 .
+
+glo:friendliness_MP a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MP ;
+    glo:country "MP"^^xsd:string .
+
+glo:friendliness_MR a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MR ;
+    glo:country "MR"^^xsd:string ;
+    glo:homophobic 14 .
+
+glo:friendliness_MT a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MT ;
+    glo:country "MT"^^xsd:string ;
+    glo:friendliest 25 ;
+    glo:homophobic 145 .
+
+glo:friendliness_MU a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MU ;
+    glo:country "MU"^^xsd:string ;
+    glo:homophobic 92 .
+
+glo:friendliness_MV a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MV ;
+    glo:country "MV"^^xsd:string .
+
+glo:friendliness_MW a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MW ;
+    glo:country "MW"^^xsd:string ;
+    glo:homophobic 15 .
+
+glo:friendliness_MX a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MX ;
+    glo:country "MX"^^xsd:string ;
+    glo:friendliest 3 ;
+    glo:homophobic 134 ;
+    glo:leastRacist 27 .
+
+glo:friendliness_MY a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MY ;
+    glo:country "MY"^^xsd:string ;
+    glo:friendliest 22 ;
+    glo:homophobic 57 ;
+    glo:leastRacist 48 .
+
+glo:friendliness_MZ a glo:Friendliness ;
+    glo:belongsToCountry glo:country_MZ ;
+    glo:country "MZ"^^xsd:string ;
+    glo:homophobic 112 .
+
+glo:friendliness_NE a glo:Friendliness ;
+    glo:belongsToCountry glo:country_NE ;
+    glo:country "NE"^^xsd:string ;
+    glo:homophobic 30 .
+
+glo:friendliness_NG a glo:Friendliness ;
+    glo:belongsToCountry glo:country_NG ;
+    glo:country "NG"^^xsd:string ;
+    glo:friendliest 33 ;
+    glo:homophobic 6 .
+
+glo:friendliness_NI a glo:Friendliness ;
+    glo:belongsToCountry glo:country_NI ;
+    glo:country "NI"^^xsd:string ;
+    glo:homophobic 115 .
+
+glo:friendliness_NL a glo:Friendliness ;
+    glo:belongsToCountry glo:country_NL ;
+    glo:country "NL"^^xsd:string ;
+    glo:friendliest 35 ;
+    glo:homophobic 157 ;
+    glo:leastRacist 3 .
+
+glo:friendliness_NO a glo:Friendliness ;
+    glo:belongsToCountry glo:country_NO ;
+    glo:country "NO"^^xsd:string ;
+    glo:friendliest 48 ;
+    glo:homophobic 155 ;
+    glo:leastRacist 5 .
+
+glo:friendliness_NP a glo:Friendliness ;
+    glo:belongsToCountry glo:country_NP ;
+    glo:country "NP"^^xsd:string ;
+    glo:homophobic 76 .
+
+glo:friendliness_NR a glo:Friendliness ;
+    glo:belongsToCountry glo:country_NR ;
+    glo:country "NR"^^xsd:string .
+
+glo:friendliness_NZ a glo:Friendliness ;
+    glo:belongsToCountry glo:country_NZ ;
+    glo:country "NZ"^^xsd:string ;
+    glo:friendliest 31 ;
+    glo:homophobic 147 ;
+    glo:leastRacist 1 .
+
+glo:friendliness_OM a glo:Friendliness ;
+    glo:belongsToCountry glo:country_OM ;
+    glo:country "OM"^^xsd:string ;
+    glo:friendliest 7 ;
+    glo:homophobic 62 ;
+    glo:leastRacist 35 .
+
+glo:friendliness_PA a glo:Friendliness ;
+    glo:belongsToCountry glo:country_PA ;
+    glo:country "PA"^^xsd:string ;
+    glo:friendliest 46 ;
+    glo:homophobic 105 ;
+    glo:leastRacist 52 .
+
+glo:friendliness_PE a glo:Friendliness ;
+    glo:belongsToCountry glo:country_PE ;
+    glo:country "PE"^^xsd:string ;
+    glo:friendliest 12 ;
+    glo:homophobic 95 ;
+    glo:leastRacist 43 .
+
+glo:friendliness_PG a glo:Friendliness ;
+    glo:belongsToCountry glo:country_PG ;
+    glo:country "PG"^^xsd:string ;
+    glo:homophobic 39 .
+
+glo:friendliness_PH a glo:Friendliness ;
+    glo:belongsToCountry glo:country_PH ;
+    glo:country "PH"^^xsd:string ;
+    glo:friendliest 11 ;
+    glo:homophobic 114 ;
+    glo:leastRacist 61 .
+
+glo:friendliness_PK a glo:Friendliness ;
+    glo:belongsToCountry glo:country_PK ;
+    glo:country "PK"^^xsd:string ;
+    glo:homophobic 69 .
+
+glo:friendliness_PL a glo:Friendliness ;
+    glo:belongsToCountry glo:country_PL ;
+    glo:country "PL"^^xsd:string ;
+    glo:friendliest 54 ;
+    glo:homophobic 108 ;
+    glo:leastRacist 25 .
+
+glo:friendliness_PR a glo:Friendliness ;
+    glo:belongsToCountry glo:country_PR ;
+    glo:country "PR"^^xsd:string .
+
+glo:friendliness_PS a glo:Friendliness ;
+    glo:belongsToCountry glo:country_PS ;
+    glo:country "PS"^^xsd:string .
+
+glo:friendliness_PT a glo:Friendliness ;
+    glo:belongsToCountry glo:country_PT ;
+    glo:country "PT"^^xsd:string ;
+    glo:friendliest 1 ;
+    glo:homophobic 146 ;
+    glo:leastRacist 13 .
+
+glo:friendliness_PW a glo:Friendliness ;
+    glo:belongsToCountry glo:country_PW ;
+    glo:country "PW"^^xsd:string .
+
+glo:friendliness_PY a glo:Friendliness ;
+    glo:belongsToCountry glo:country_PY ;
+    glo:country "PY"^^xsd:string ;
+    glo:homophobic 81 .
+
+glo:friendliness_QA a glo:Friendliness ;
+    glo:belongsToCountry glo:country_QA ;
+    glo:country "QA"^^xsd:string ;
+    glo:friendliest 53 ;
+    glo:homophobic 5 ;
+    glo:leastRacist 86 .
+
+glo:friendliness_RO a glo:Friendliness ;
+    glo:belongsToCountry glo:country_RO ;
+    glo:country "RO"^^xsd:string ;
+    glo:friendliest 19 ;
+    glo:homophobic 124 ;
+    glo:leastRacist 50 .
+
+glo:friendliness_RS a glo:Friendliness ;
+    glo:belongsToCountry glo:country_RS ;
+    glo:country "RS"^^xsd:string ;
+    glo:homophobic 117 ;
+    glo:leastRacist 87 .
+
+glo:friendliness_RU a glo:Friendliness ;
+    glo:belongsToCountry glo:country_RU ;
+    glo:country "RU"^^xsd:string ;
+    glo:friendliest 52 ;
+    glo:homophobic 68 ;
+    glo:leastRacist 80 .
+
+glo:friendliness_RW a glo:Friendliness ;
+    glo:belongsToCountry glo:country_RW ;
+    glo:country "RW"^^xsd:string ;
+    glo:homophobic 52 .
+
+glo:friendliness_SA a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SA ;
+    glo:country "SA"^^xsd:string ;
+    glo:friendliest 59 ;
+    glo:homophobic 3 ;
+    glo:leastRacist 85 .
+
+glo:friendliness_SB a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SB ;
+    glo:country "SB"^^xsd:string .
+
+glo:friendliness_SC a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SC ;
+    glo:country "SC"^^xsd:string .
+
+glo:friendliness_SD a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SD ;
+    glo:country "SD"^^xsd:string ;
+    glo:homophobic 1 .
+
+glo:friendliness_SE a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SE ;
+    glo:country "SE"^^xsd:string ;
+    glo:friendliest 51 ;
+    glo:homophobic 158 ;
+    glo:leastRacist 4 .
+
+glo:friendliness_SG a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SG ;
+    glo:country "SG"^^xsd:string ;
+    glo:friendliest 40 ;
+    glo:homophobic 82 ;
+    glo:leastRacist 19 .
+
+glo:friendliness_SI a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SI ;
+    glo:country "SI"^^xsd:string ;
+    glo:homophobic 144 ;
+    glo:leastRacist 26 .
+
+glo:friendliness_SK a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SK ;
+    glo:country "SK"^^xsd:string ;
+    glo:homophobic 129 ;
+    glo:leastRacist 46 .
+
+glo:friendliness_SL a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SL ;
+    glo:country "SL"^^xsd:string ;
+    glo:homophobic 18 .
+
+glo:friendliness_SM a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SM ;
+    glo:country "SM"^^xsd:string .
+
+glo:friendliness_SN a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SN ;
+    glo:country "SN"^^xsd:string ;
+    glo:homophobic 12 .
+
+glo:friendliness_SO a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SO ;
+    glo:country "SO"^^xsd:string .
+
+glo:friendliness_SR a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SR ;
+    glo:country "SR"^^xsd:string ;
+    glo:homophobic 67 .
+
+glo:friendliness_SS a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SS ;
+    glo:country "SS"^^xsd:string ;
+    glo:homophobic 4 .
+
+glo:friendliness_SV a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SV ;
+    glo:country "SV"^^xsd:string ;
+    glo:homophobic 113 .
+
+glo:friendliness_SX a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SX ;
+    glo:country "SX"^^xsd:string .
+
+glo:friendliness_SY a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SY ;
+    glo:country "SY"^^xsd:string .
+
+glo:friendliness_SZ a glo:Friendliness ;
+    glo:belongsToCountry glo:country_SZ ;
+    glo:country "SZ"^^xsd:string ;
+    glo:homophobic 48 .
+
+glo:friendliness_TD a glo:Friendliness ;
+    glo:belongsToCountry glo:country_TD ;
+    glo:country "TD"^^xsd:string ;
+    glo:homophobic 11 .
+
+glo:friendliness_TG a glo:Friendliness ;
+    glo:belongsToCountry glo:country_TG ;
+    glo:country "TG"^^xsd:string ;
+    glo:homophobic 19 .
+
+glo:friendliness_TH a glo:Friendliness ;
+    glo:belongsToCountry glo:country_TH ;
+    glo:country "TH"^^xsd:string ;
+    glo:friendliest 20 ;
+    glo:homophobic 109 ;
+    glo:leastRacist 39 .
+
+glo:friendliness_TJ a glo:Friendliness ;
+    glo:belongsToCountry glo:country_TJ ;
+    glo:country "TJ"^^xsd:string ;
+    glo:homophobic 66 .
+
+glo:friendliness_TL a glo:Friendliness ;
+    glo:belongsToCountry glo:country_TL ;
+    glo:country "TL"^^xsd:string ;
+    glo:homophobic 87 .
+
+glo:friendliness_TM a glo:Friendliness ;
+    glo:belongsToCountry glo:country_TM ;
+    glo:country "TM"^^xsd:string ;
+    glo:homophobic 44 .
+
+glo:friendliness_TN a glo:Friendliness ;
+    glo:belongsToCountry glo:country_TN ;
+    glo:country "TN"^^xsd:string ;
+    glo:homophobic 10 ;
+    glo:leastRacist 31 .
+
+glo:friendliness_TO a glo:Friendliness ;
+    glo:belongsToCountry glo:country_TO ;
+    glo:country "TO"^^xsd:string .
+
+glo:friendliness_TR a glo:Friendliness ;
+    glo:belongsToCountry glo:country_TR ;
+    glo:country "TR"^^xsd:string ;
+    glo:friendliest 29 ;
+    glo:homophobic 58 ;
+    glo:leastRacist 55 .
+
+glo:friendliness_TV a glo:Friendliness ;
+    glo:belongsToCountry glo:country_TV ;
+    glo:country "TV"^^xsd:string .
+
+glo:friendliness_TW a glo:Friendliness ;
+    glo:belongsToCountry glo:country_TW ;
+    glo:country "TW"^^xsd:string ;
+    glo:friendliest 2 .
+
+glo:friendliness_TZ a glo:Friendliness ;
+    glo:belongsToCountry glo:country_TZ ;
+    glo:country "TZ"^^xsd:string ;
+    glo:homophobic 34 .
+
+glo:friendliness_UA a glo:Friendliness ;
+    glo:belongsToCountry glo:country_UA ;
+    glo:country "UA"^^xsd:string ;
+    glo:friendliest 45 ;
+    glo:homophobic 97 ;
+    glo:leastRacist 49 .
+
+glo:friendliness_UG a glo:Friendliness ;
+    glo:belongsToCountry glo:country_UG ;
+    glo:country "UG"^^xsd:string ;
+    glo:friendliest 16 ;
+    glo:homophobic 16 .
+
+glo:friendliness_US a glo:Friendliness ;
+    glo:belongsToCountry glo:country_US ;
+    glo:country "US"^^xsd:string ;
+    glo:friendliest 36 ;
+    glo:homophobic 135 ;
+    glo:leastRacist 73 .
+
+glo:friendliness_UY a glo:Friendliness ;
+    glo:belongsToCountry glo:country_UY ;
+    glo:country "UY"^^xsd:string ;
+    glo:homophobic 150 ;
+    glo:leastRacist 71 .
+
+glo:friendliness_UZ a glo:Friendliness ;
+    glo:belongsToCountry glo:country_UZ ;
+    glo:country "UZ"^^xsd:string ;
+    glo:homophobic 49 ;
+    glo:leastRacist 71 .
+
+glo:friendliness_VE a glo:Friendliness ;
+    glo:belongsToCountry glo:country_VE ;
+    glo:country "VE"^^xsd:string ;
+    glo:homophobic 99 .
+
+glo:friendliness_VN a glo:Friendliness ;
+    glo:belongsToCountry glo:country_VN ;
+    glo:country "VN"^^xsd:string ;
+    glo:friendliest 9 ;
+    glo:homophobic 94 ;
+    glo:leastRacist 65 .
+
+glo:friendliness_WS a glo:Friendliness ;
+    glo:belongsToCountry glo:country_WS ;
+    glo:country "WS"^^xsd:string .
+
+glo:friendliness_YE a glo:Friendliness ;
+    glo:belongsToCountry glo:country_YE ;
+    glo:country "YE"^^xsd:string ;
+    glo:homophobic 21 .
+
+glo:friendliness_ZA a glo:Friendliness ;
+    glo:belongsToCountry glo:country_ZA ;
+    glo:country "ZA"^^xsd:string ;
+    glo:friendliest 57 ;
+    glo:homophobic 137 ;
+    glo:leastRacist 23 .
+
+glo:friendliness_ZM a glo:Friendliness ;
+    glo:belongsToCountry glo:country_ZM ;
+    glo:country "ZM"^^xsd:string ;
+    glo:homophobic 35 .
+
+glo:friendliness_ZW a glo:Friendliness ;
+    glo:belongsToCountry glo:country_ZW ;
+    glo:country "ZW"^^xsd:string ;
+    glo:homophobic 23 .
+
+glo:Friendliness rdfs:subClassOf glo:Situation .
+

@@ -1,0 +1,1714 @@
+@prefix glo: <http://www.dei.unipd.it/database2/LinkedinJobPosting#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+glo:HighInflation a owl:Class ;
+    rdfs:subClassOf glo:Economy ;
+    owl:equivalentClass [ owl:intersectionOf [ a rdf:List ;
+                    rdf:first glo:Economy ;
+                    rdf:rest [ a rdf:List ;
+                            rdf:first [ a owl:Restriction ;
+                                    owl:onProperty glo:inflation ;
+                                    owl:someValuesFrom [ a rdfs:Datatype ;
+                                            owl:onDatatype xsd:float ;
+                                            owl:withRestrictions [ a rdf:List ;
+                                                    rdf:first [ a rdf:List ;
+                                                            xsd:minInclusive "20.0"^^xsd:float ] ;
+                                                    rdf:rest () ] ] ] ;
+                            rdf:rest () ] ] ] .
+
+glo:LowInflation a owl:Class ;
+    rdfs:subClassOf glo:Economy ;
+    owl:equivalentClass [ owl:intersectionOf [ a rdf:List ;
+                    rdf:first glo:Economy ;
+                    rdf:rest [ a rdf:List ;
+                            rdf:first [ a owl:Restriction ;
+                                    owl:onProperty glo:inflation ;
+                                    owl:someValuesFrom [ a rdfs:Datatype ;
+                                            owl:onDatatype xsd:float ;
+                                            owl:withRestrictions [ a rdf:List ;
+                                                    rdf:first [ a rdf:List ;
+                                                            xsd:maxExclusive "20.0"^^xsd:float ] ;
+                                                    rdf:rest () ] ] ] ;
+                            rdf:rest () ] ] ] .
+
+glo:economy_AD a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_AD ;
+    glo:country "AD"^^xsd:string ;
+    glo:gdp "3352030000.0"^^xsd:long .
+
+glo:economy_AE a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_AE ;
+    glo:country "AE"^^xsd:string ;
+    glo:gdp "508000000000.0"^^xsd:long ;
+    glo:inflation "4.82789"^^xsd:float ;
+    glo:taxRevenue "0.535446"^^xsd:float ;
+    glo:unemployment "2.754"^^xsd:float .
+
+glo:economy_AF a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_AF ;
+    glo:country "AF"^^xsd:string ;
+    glo:gdp "14583100000.0"^^xsd:long ;
+    glo:inflation "2.30237"^^xsd:float ;
+    glo:taxRevenue "9.89845"^^xsd:float ;
+    glo:unemployment "11.71"^^xsd:float .
+
+glo:economy_AG a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_AG ;
+    glo:country "AG"^^xsd:string ;
+    glo:gdp "1757600000.0"^^xsd:long ;
+    glo:inflation "7.53108"^^xsd:float .
+
+glo:economy_AL a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_AL ;
+    glo:country "AL"^^xsd:string ;
+    glo:gdp "18882100000.0"^^xsd:long ;
+    glo:inflation "6.7252"^^xsd:float ;
+    glo:taxRevenue "18.1986"^^xsd:float ;
+    glo:unemployment "11.808"^^xsd:float .
+
+glo:economy_AM a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_AM ;
+    glo:country "AM"^^xsd:string ;
+    glo:gdp "19502800000.0"^^xsd:long ;
+    glo:inflation "8.64091"^^xsd:float ;
+    glo:taxRevenue "22.0288"^^xsd:float ;
+    glo:unemployment "12.557"^^xsd:float .
+
+glo:economy_AO a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_AO ;
+    glo:country "AO"^^xsd:string ;
+    glo:gdp "107000000000.0"^^xsd:long ;
+    glo:inflation "25.7543"^^xsd:float ;
+    glo:taxRevenue "10.0904"^^xsd:float ;
+    glo:unemployment "10.209"^^xsd:float .
+
+glo:economy_AR a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_AR ;
+    glo:country "AR"^^xsd:string ;
+    glo:gdp "633000000000.0"^^xsd:long ;
+    glo:taxRevenue "11.4844"^^xsd:float ;
+    glo:unemployment "6.491"^^xsd:float .
+
+glo:economy_AT a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_AT ;
+    glo:country "AT"^^xsd:string ;
+    glo:gdp "471000000000.0"^^xsd:long ;
+    glo:inflation "8.54687"^^xsd:float ;
+    glo:taxRevenue "25.783"^^xsd:float ;
+    glo:unemployment "4.707"^^xsd:float .
+
+glo:economy_AU a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_AU ;
+    glo:country "AU"^^xsd:string ;
+    glo:gdp "1680000000000.0"^^xsd:long ;
+    glo:inflation "6.5941"^^xsd:float ;
+    glo:taxRevenue "23.1275"^^xsd:float ;
+    glo:unemployment "3.661"^^xsd:float .
+
+glo:economy_AZ a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_AZ ;
+    glo:country "AZ"^^xsd:string ;
+    glo:gdp "78721100000.0"^^xsd:long ;
+    glo:inflation "13.8523"^^xsd:float ;
+    glo:taxRevenue "13.4213"^^xsd:float ;
+    glo:unemployment "5.462"^^xsd:float .
+
+glo:economy_BA a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BA ;
+    glo:country "BA"^^xsd:string ;
+    glo:gdp "24527500000.0"^^xsd:long ;
+    glo:inflation "14.0208"^^xsd:float ;
+    glo:taxRevenue "19.1168"^^xsd:float ;
+    glo:unemployment "14.053"^^xsd:float .
+
+glo:economy_BB a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BB ;
+    glo:country "BB"^^xsd:string ;
+    glo:gdp "5637910000.0"^^xsd:long ;
+    glo:inflation "4.10029"^^xsd:float ;
+    glo:taxRevenue "27.4785"^^xsd:float ;
+    glo:unemployment "8.203"^^xsd:float .
+
+glo:economy_BD a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BD ;
+    glo:country "BD"^^xsd:string ;
+    glo:gdp "460000000000.0"^^xsd:long ;
+    glo:inflation "7.69695"^^xsd:float ;
+    glo:taxRevenue "7.64236"^^xsd:float ;
+    glo:unemployment "4.699"^^xsd:float .
+
+glo:economy_BE a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BE ;
+    glo:country "BE"^^xsd:string ;
+    glo:gdp "579000000000.0"^^xsd:long ;
+    glo:inflation "9.59751"^^xsd:float ;
+    glo:taxRevenue "23.3495"^^xsd:float ;
+    glo:unemployment "5.631"^^xsd:float .
+
+glo:economy_BF a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BF ;
+    glo:country "BF"^^xsd:string ;
+    glo:gdp "18884600000.0"^^xsd:long ;
+    glo:inflation "14.2902"^^xsd:float ;
+    glo:taxRevenue "15.9065"^^xsd:float ;
+    glo:unemployment "5.175"^^xsd:float .
+
+glo:economy_BG a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BG ;
+    glo:country "BG"^^xsd:string ;
+    glo:gdp "89040400000.0"^^xsd:long ;
+    glo:inflation "15.3253"^^xsd:float ;
+    glo:taxRevenue "20.6213"^^xsd:float ;
+    glo:unemployment "4.402"^^xsd:float .
+
+glo:economy_BH a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BH ;
+    glo:country "BH"^^xsd:string ;
+    glo:gdp "44390800000.0"^^xsd:long ;
+    glo:inflation "3.62574"^^xsd:float ;
+    glo:taxRevenue "4.21684"^^xsd:float ;
+    glo:unemployment "1.399"^^xsd:float .
+
+glo:economy_BI a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BI ;
+    glo:country "BI"^^xsd:string ;
+    glo:gdp "3073410000.0"^^xsd:long ;
+    glo:inflation "18.8009"^^xsd:float ;
+    glo:taxRevenue "13.5974"^^xsd:float ;
+    glo:unemployment "1.02"^^xsd:float .
+
+glo:economy_BJ a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BJ ;
+    glo:country "BJ"^^xsd:string ;
+    glo:gdp "17401700000.0"^^xsd:long ;
+    glo:inflation "1.35078"^^xsd:float ;
+    glo:taxRevenue "10.7891"^^xsd:float ;
+    glo:unemployment "1.654"^^xsd:float .
+
+glo:economy_BN a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BN ;
+    glo:country "BN"^^xsd:string ;
+    glo:gdp "16681500000.0"^^xsd:long ;
+    glo:inflation "3.68225"^^xsd:float ;
+    glo:unemployment "7.203"^^xsd:float .
+
+glo:economy_BO a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BO ;
+    glo:country "BO"^^xsd:string ;
+    glo:gdp "43068900000.0"^^xsd:long ;
+    glo:inflation "1.74633"^^xsd:float ;
+    glo:taxRevenue "16.9649"^^xsd:float ;
+    glo:unemployment "4.419"^^xsd:float .
+
+glo:economy_BR a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BR ;
+    glo:country "BR"^^xsd:string ;
+    glo:gdp "1920000000000.0"^^xsd:long ;
+    glo:inflation "9.28011"^^xsd:float ;
+    glo:taxRevenue "14.3168"^^xsd:float ;
+    glo:unemployment "9.461"^^xsd:float .
+
+glo:economy_BS a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BS ;
+    glo:country "BS"^^xsd:string ;
+    glo:gdp "12897400000.0"^^xsd:long ;
+    glo:inflation "5.60541"^^xsd:float ;
+    glo:taxRevenue "13.9812"^^xsd:float ;
+    glo:unemployment "10.056"^^xsd:float .
+
+glo:economy_BT a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BT ;
+    glo:country "BT"^^xsd:string ;
+    glo:gdp "2539550000.0"^^xsd:long ;
+    glo:inflation "5.63917"^^xsd:float ;
+    glo:taxRevenue "12.9842"^^xsd:float ;
+    glo:unemployment "3.604"^^xsd:float .
+
+glo:economy_BW a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BW ;
+    glo:country "BW"^^xsd:string ;
+    glo:gdp "20352300000.0"^^xsd:long ;
+    glo:inflation "11.6656"^^xsd:float ;
+    glo:taxRevenue "22.246"^^xsd:float ;
+    glo:unemployment "20.684"^^xsd:float .
+
+glo:economy_BY a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BY ;
+    glo:country "BY"^^xsd:string ;
+    glo:gdp "72793500000.0"^^xsd:long ;
+    glo:inflation "15.2097"^^xsd:float ;
+    glo:taxRevenue "12.0229"^^xsd:float ;
+    glo:unemployment "4.17"^^xsd:float .
+
+glo:economy_BZ a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_BZ ;
+    glo:country "BZ"^^xsd:string ;
+    glo:gdp "2824080000.0"^^xsd:long ;
+    glo:inflation "3.23564"^^xsd:float ;
+    glo:taxRevenue "21.1602"^^xsd:float ;
+    glo:unemployment "9.687"^^xsd:float .
+
+glo:economy_CA a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_CA ;
+    glo:country "CA"^^xsd:string ;
+    glo:gdp "2140000000000.0"^^xsd:long ;
+    glo:inflation "6.8028"^^xsd:float ;
+    glo:taxRevenue "13.2594"^^xsd:float ;
+    glo:unemployment "5.209"^^xsd:float .
+
+glo:economy_CD a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_CD ;
+    glo:country "CD"^^xsd:string ;
+    glo:gdp "58066000000.0"^^xsd:long ;
+    glo:inflation "2.88585"^^xsd:float ;
+    glo:taxRevenue "10.7041"^^xsd:float ;
+    glo:unemployment "4.987"^^xsd:float .
+
+glo:economy_CF a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_CF ;
+    glo:country "CF"^^xsd:string ;
+    glo:gdp "2382620000.0"^^xsd:long ;
+    glo:inflation "5.58317"^^xsd:float ;
+    glo:taxRevenue "8.20629"^^xsd:float ;
+    glo:unemployment "6.363"^^xsd:float .
+
+glo:economy_CG a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_CG ;
+    glo:country "CG"^^xsd:string ;
+    glo:gdp "14615500000.0"^^xsd:long ;
+    glo:inflation "3.04344"^^xsd:float ;
+    glo:taxRevenue "9.10708"^^xsd:float ;
+    glo:unemployment "21.795"^^xsd:float .
+
+glo:economy_CH a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_CH ;
+    glo:country "CH"^^xsd:string ;
+    glo:gdp "808000000000.0"^^xsd:long ;
+    glo:inflation "2.83503"^^xsd:float ;
+    glo:taxRevenue "10.2547"^^xsd:float ;
+    glo:unemployment "4.202"^^xsd:float .
+
+glo:economy_CI a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_CI ;
+    glo:country "CI"^^xsd:string ;
+    glo:gdp "70018700000.0"^^xsd:long ;
+    glo:inflation "5.27617"^^xsd:float ;
+    glo:taxRevenue "12.5591"^^xsd:float ;
+    glo:unemployment "2.637"^^xsd:float .
+
+glo:economy_CL a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_CL ;
+    glo:country "CL"^^xsd:string ;
+    glo:gdp "301000000000.0"^^xsd:long ;
+    glo:inflation "11.6439"^^xsd:float ;
+    glo:taxRevenue "19.5982"^^xsd:float ;
+    glo:unemployment "7.784"^^xsd:float .
+
+glo:economy_CM a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_CM ;
+    glo:country "CM"^^xsd:string ;
+    glo:gdp "44341600000.0"^^xsd:long ;
+    glo:inflation "6.24768"^^xsd:float ;
+    glo:taxRevenue "10.8706"^^xsd:float ;
+    glo:unemployment "4.001"^^xsd:float .
+
+glo:economy_CN a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_CN ;
+    glo:country "CN"^^xsd:string ;
+    glo:gdp "18000000000000.0"^^xsd:long ;
+    glo:inflation "1.97358"^^xsd:float ;
+    glo:taxRevenue "8.09063"^^xsd:float ;
+    glo:unemployment "4.886"^^xsd:float .
+
+glo:economy_CO a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_CO ;
+    glo:country "CO"^^xsd:string ;
+    glo:gdp "344000000000.0"^^xsd:long ;
+    glo:inflation "10.1772"^^xsd:float ;
+    glo:taxRevenue "14.4434"^^xsd:float ;
+    glo:unemployment "10.726"^^xsd:float .
+
+glo:economy_CR a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_CR ;
+    glo:country "CR"^^xsd:string ;
+    glo:gdp "68380800000.0"^^xsd:long ;
+    glo:inflation "8.27477"^^xsd:float ;
+    glo:taxRevenue "14.0738"^^xsd:float ;
+    glo:unemployment "11.453"^^xsd:float .
+
+glo:economy_CU a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_CU ;
+    glo:country "CU"^^xsd:string ;
+    glo:gdp "107000000000.0"^^xsd:long ;
+    glo:unemployment "1.386"^^xsd:float .
+
+glo:economy_CV a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_CV ;
+    glo:country "CV"^^xsd:string ;
+    glo:gdp "2314820000.0"^^xsd:long ;
+    glo:inflation "1.86215"^^xsd:float ;
+    glo:taxRevenue "17.8036"^^xsd:float ;
+    glo:unemployment "13.57"^^xsd:float .
+
+glo:economy_CY a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_CY ;
+    glo:country "CY"^^xsd:string ;
+    glo:gdp "28439100000.0"^^xsd:long ;
+    glo:inflation "8.39548"^^xsd:float ;
+    glo:taxRevenue "24.1123"^^xsd:float ;
+    glo:unemployment "6.976"^^xsd:float .
+
+glo:economy_CZ a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_CZ ;
+    glo:country "CZ"^^xsd:string ;
+    glo:gdp "291000000000.0"^^xsd:long ;
+    glo:inflation "15.1002"^^xsd:float ;
+    glo:taxRevenue "13.361"^^xsd:float ;
+    glo:unemployment "2.37"^^xsd:float .
+
+glo:economy_DE a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_DE ;
+    glo:country "DE"^^xsd:string ;
+    glo:gdp "4070000000000.0"^^xsd:long ;
+    glo:inflation "6.87257"^^xsd:float ;
+    glo:taxRevenue "11.2253"^^xsd:float ;
+    glo:unemployment "2.989"^^xsd:float .
+
+glo:economy_DJ a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_DJ ;
+    glo:country "DJ"^^xsd:string ;
+    glo:gdp "3515110000.0"^^xsd:long ;
+    glo:inflation "5.17981"^^xsd:float ;
+    glo:unemployment "27.929"^^xsd:float .
+
+glo:economy_DK a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_DK ;
+    glo:country "DK"^^xsd:string ;
+    glo:gdp "395000000000.0"^^xsd:long ;
+    glo:inflation "7.69657"^^xsd:float ;
+    glo:taxRevenue "35.4556"^^xsd:float ;
+    glo:unemployment "4.172"^^xsd:float .
+
+glo:economy_DM a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_DM ;
+    glo:country "DM"^^xsd:string ;
+    glo:gdp "612048000.0"^^xsd:long ;
+    glo:inflation "-0.727116"^^xsd:float .
+
+glo:economy_DO a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_DO ;
+    glo:country "DO"^^xsd:string ;
+    glo:gdp "114000000000.0"^^xsd:long ;
+    glo:inflation "8.81109"^^xsd:float ;
+    glo:taxRevenue "14.3774"^^xsd:float ;
+    glo:unemployment "7.121"^^xsd:float .
+
+glo:economy_DZ a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_DZ ;
+    glo:country "DZ"^^xsd:string ;
+    glo:gdp "192000000000.0"^^xsd:long ;
+    glo:inflation "9.26552"^^xsd:float ;
+    glo:unemployment "11.55"^^xsd:float .
+
+glo:economy_EC a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_EC ;
+    glo:country "EC"^^xsd:string ;
+    glo:gdp "115000000000.0"^^xsd:long ;
+    glo:inflation "3.46617"^^xsd:float ;
+    glo:taxRevenue "12.8574"^^xsd:float ;
+    glo:unemployment "3.955"^^xsd:float .
+
+glo:economy_EE a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_EE ;
+    glo:country "EE"^^xsd:string ;
+    glo:gdp "38100800000.0"^^xsd:long ;
+    glo:inflation "19.3983"^^xsd:float ;
+    glo:taxRevenue "21.4247"^^xsd:float ;
+    glo:unemployment "5.851"^^xsd:float .
+
+glo:economy_EG a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_EG ;
+    glo:country "EG"^^xsd:string ;
+    glo:gdp "477000000000.0"^^xsd:long ;
+    glo:inflation "13.8957"^^xsd:float ;
+    glo:taxRevenue "12.5192"^^xsd:float ;
+    glo:unemployment "6.959"^^xsd:float .
+
+glo:economy_ER a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_ER ;
+    glo:country "ER"^^xsd:string ;
+    glo:gdp "2065000000.0"^^xsd:long ;
+    glo:unemployment "6.618"^^xsd:float .
+
+glo:economy_ES a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_ES ;
+    glo:country "ES"^^xsd:string ;
+    glo:gdp "1400000000000.0"^^xsd:long ;
+    glo:inflation "8.39058"^^xsd:float ;
+    glo:taxRevenue "15.225"^^xsd:float ;
+    glo:unemployment "13.009"^^xsd:float .
+
+glo:economy_ET a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_ET ;
+    glo:country "ET"^^xsd:string ;
+    glo:gdp "127000000000.0"^^xsd:long ;
+    glo:inflation "26.8395"^^xsd:float ;
+    glo:taxRevenue "6.1963"^^xsd:float ;
+    glo:unemployment "4.018"^^xsd:float .
+
+glo:economy_FI a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_FI ;
+    glo:country "FI"^^xsd:string ;
+    glo:gdp "281000000000.0"^^xsd:long ;
+    glo:inflation "7.12351"^^xsd:float ;
+    glo:taxRevenue "20.6553"^^xsd:float ;
+    glo:unemployment "6.801"^^xsd:float .
+
+glo:economy_FJ a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_FJ ;
+    glo:country "FJ"^^xsd:string ;
+    glo:gdp "4943250000.0"^^xsd:long ;
+    glo:inflation "4.52019"^^xsd:float ;
+    glo:taxRevenue "15.9067"^^xsd:float ;
+    glo:unemployment "4.334"^^xsd:float .
+
+glo:economy_FM a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_FM ;
+    glo:country "FM"^^xsd:string ;
+    glo:gdp "427094000.0"^^xsd:long ;
+    glo:inflation "5.40874"^^xsd:float ;
+    glo:taxRevenue "6.42631"^^xsd:float .
+
+glo:economy_FR a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_FR ;
+    glo:country "FR"^^xsd:string ;
+    glo:gdp "2780000000000.0"^^xsd:long ;
+    glo:inflation "5.22237"^^xsd:float ;
+    glo:taxRevenue "23.9683"^^xsd:float ;
+    glo:unemployment "7.445"^^xsd:float .
+
+glo:economy_GA a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_GA ;
+    glo:country "GA"^^xsd:string ;
+    glo:gdp "21071700000.0"^^xsd:long ;
+    glo:inflation "4.23125"^^xsd:float ;
+    glo:taxRevenue "11.4795"^^xsd:float ;
+    glo:unemployment "21.469"^^xsd:float .
+
+glo:economy_GB a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_GB ;
+    glo:country "GB"^^xsd:string ;
+    glo:gdp "3070000000000.0"^^xsd:long ;
+    glo:inflation "7.92205"^^xsd:float ;
+    glo:taxRevenue "26.3807"^^xsd:float ;
+    glo:unemployment "3.571"^^xsd:float .
+
+glo:economy_GD a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_GD ;
+    glo:country "GD"^^xsd:string ;
+    glo:gdp "1256410000.0"^^xsd:long ;
+    glo:inflation "1.21951"^^xsd:float .
+
+glo:economy_GE a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_GE ;
+    glo:country "GE"^^xsd:string ;
+    glo:gdp "24605400000.0"^^xsd:long ;
+    glo:inflation "11.8982"^^xsd:float ;
+    glo:taxRevenue "21.7308"^^xsd:float ;
+    glo:unemployment "11.311"^^xsd:float .
+
+glo:economy_GH a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_GH ;
+    glo:country "GH"^^xsd:string ;
+    glo:gdp "72838800000.0"^^xsd:long ;
+    glo:inflation "31.2559"^^xsd:float ;
+    glo:taxRevenue "11.3404"^^xsd:float ;
+    glo:unemployment "3.867"^^xsd:float .
+
+glo:economy_GM a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_GM ;
+    glo:country "GM"^^xsd:string ;
+    glo:gdp "2273060000.0"^^xsd:long ;
+    glo:inflation "11.5131"^^xsd:float ;
+    glo:taxRevenue "18.2048"^^xsd:float ;
+    glo:unemployment "4.78"^^xsd:float .
+
+glo:economy_GN a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_GN ;
+    glo:country "GN"^^xsd:string ;
+    glo:gdp "21227700000.0"^^xsd:long ;
+    glo:inflation "10.493"^^xsd:float ;
+    glo:taxRevenue "10.8418"^^xsd:float ;
+    glo:unemployment "5.749"^^xsd:float .
+
+glo:economy_GQ a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_GQ ;
+    glo:country "GQ"^^xsd:string ;
+    glo:gdp "11813900000.0"^^xsd:long ;
+    glo:inflation "4.78672"^^xsd:float ;
+    glo:taxRevenue "5.37157"^^xsd:float ;
+    glo:unemployment "8.689"^^xsd:float .
+
+glo:economy_GR a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_GR ;
+    glo:country "GR"^^xsd:string ;
+    glo:gdp "219000000000.0"^^xsd:long ;
+    glo:inflation "9.64526"^^xsd:float ;
+    glo:taxRevenue "25.3409"^^xsd:float ;
+    glo:unemployment "12.162"^^xsd:float .
+
+glo:economy_GT a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_GT ;
+    glo:country "GT"^^xsd:string ;
+    glo:gdp "95003300000.0"^^xsd:long ;
+    glo:inflation "6.88513"^^xsd:float ;
+    glo:taxRevenue "11.613"^^xsd:float ;
+    glo:unemployment "2.569"^^xsd:float .
+
+glo:economy_GW a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_GW ;
+    glo:country "GW"^^xsd:string ;
+    glo:gdp "1633560000.0"^^xsd:long ;
+    glo:inflation "9.39384"^^xsd:float ;
+    glo:taxRevenue "9.46207"^^xsd:float ;
+    glo:unemployment "3.583"^^xsd:float .
+
+glo:economy_GY a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_GY ;
+    glo:country "GY"^^xsd:string ;
+    glo:gdp "15357500000.0"^^xsd:long ;
+    glo:inflation "5.03286"^^xsd:float ;
+    glo:unemployment "12.358"^^xsd:float .
+
+glo:economy_HN a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_HN ;
+    glo:country "HN"^^xsd:string ;
+    glo:gdp "31717700000.0"^^xsd:long ;
+    glo:inflation "9.08964"^^xsd:float ;
+    glo:taxRevenue "14.7654"^^xsd:float ;
+    glo:unemployment "7.099"^^xsd:float .
+
+glo:economy_HR a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_HR ;
+    glo:country "HR"^^xsd:string ;
+    glo:gdp "70964600000.0"^^xsd:long ;
+    glo:inflation "10.7806"^^xsd:float ;
+    glo:taxRevenue "152.18"^^xsd:float ;
+    glo:unemployment "6.746"^^xsd:float .
+
+glo:economy_HT a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_HT ;
+    glo:country "HT"^^xsd:string ;
+    glo:gdp "20253600000.0"^^xsd:long ;
+    glo:inflation "33.9839"^^xsd:float ;
+    glo:unemployment "14.836"^^xsd:float .
+
+glo:economy_HU a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_HU ;
+    glo:country "HU"^^xsd:string ;
+    glo:gdp "179000000000.0"^^xsd:long ;
+    glo:inflation "14.6081"^^xsd:float ;
+    glo:taxRevenue "21.4633"^^xsd:float ;
+    glo:unemployment "3.423"^^xsd:float .
+
+glo:economy_ID a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_ID ;
+    glo:country "ID"^^xsd:string ;
+    glo:gdp "1320000000000.0"^^xsd:long ;
+    glo:inflation "4.20946"^^xsd:float ;
+    glo:taxRevenue "9.09404"^^xsd:float ;
+    glo:unemployment "3.554"^^xsd:float .
+
+glo:economy_IE a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_IE ;
+    glo:country "IE"^^xsd:string ;
+    glo:gdp "529000000000.0"^^xsd:long ;
+    glo:inflation "7.80738"^^xsd:float ;
+    glo:taxRevenue "17.4769"^^xsd:float ;
+    glo:unemployment "4.362"^^xsd:float .
+
+glo:economy_IL a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_IL ;
+    glo:country "IL"^^xsd:string ;
+    glo:gdp "522000000000.0"^^xsd:long ;
+    glo:inflation "4.3936"^^xsd:float ;
+    glo:taxRevenue "24.6154"^^xsd:float ;
+    glo:unemployment "3.476"^^xsd:float .
+
+glo:economy_IN a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_IN ;
+    glo:country "IN"^^xsd:string ;
+    glo:gdp "3390000000000.0"^^xsd:long ;
+    glo:inflation "6.69903"^^xsd:float ;
+    glo:taxRevenue "12.0174"^^xsd:float ;
+    glo:unemployment "7.33"^^xsd:float .
+
+glo:economy_IQ a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_IQ ;
+    glo:country "IQ"^^xsd:string ;
+    glo:gdp "264000000000.0"^^xsd:long ;
+    glo:inflation "4.99477"^^xsd:float ;
+    glo:taxRevenue "1.34459"^^xsd:float ;
+    glo:unemployment "15.547"^^xsd:float .
+
+glo:economy_IR a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_IR ;
+    glo:country "IR"^^xsd:string ;
+    glo:gdp "389000000000.0"^^xsd:long ;
+    glo:inflation "43.389"^^xsd:float ;
+    glo:taxRevenue "7.35848"^^xsd:float ;
+    glo:unemployment "10.964"^^xsd:float .
+
+glo:economy_IS a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_IS ;
+    glo:country "IS"^^xsd:string ;
+    glo:gdp "27841600000.0"^^xsd:long ;
+    glo:inflation "8.30875"^^xsd:float ;
+    glo:taxRevenue "21.6184"^^xsd:float ;
+    glo:unemployment "3.809"^^xsd:float .
+
+glo:economy_IT a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_IT ;
+    glo:country "IT"^^xsd:string ;
+    glo:gdp "2010000000000.0"^^xsd:long ;
+    glo:inflation "8.20129"^^xsd:float ;
+    glo:taxRevenue "25.4105"^^xsd:float ;
+    glo:unemployment "8.094"^^xsd:float .
+
+glo:economy_JM a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_JM ;
+    glo:country "JM"^^xsd:string ;
+    glo:gdp "17097800000.0"^^xsd:long ;
+    glo:inflation "10.3496"^^xsd:float ;
+    glo:taxRevenue "25.7095"^^xsd:float ;
+    glo:unemployment "6.049"^^xsd:float .
+
+glo:economy_JO a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_JO ;
+    glo:country "JO"^^xsd:string ;
+    glo:gdp "47451500000.0"^^xsd:long ;
+    glo:inflation "4.22916"^^xsd:float ;
+    glo:taxRevenue "16.0253"^^xsd:float ;
+    glo:unemployment "17.874"^^xsd:float .
+
+glo:economy_JP a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_JP ;
+    glo:country "JP"^^xsd:string ;
+    glo:gdp "4230000000000.0"^^xsd:long ;
+    glo:inflation "2.4977"^^xsd:float ;
+    glo:taxRevenue "11.5908"^^xsd:float ;
+    glo:unemployment "2.641"^^xsd:float .
+
+glo:economy_KE a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_KE ;
+    glo:country "KE"^^xsd:string ;
+    glo:gdp "113000000000.0"^^xsd:long ;
+    glo:inflation "7.65687"^^xsd:float ;
+    glo:taxRevenue "13.2649"^^xsd:float ;
+    glo:unemployment "5.502"^^xsd:float .
+
+glo:economy_KG a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_KG ;
+    glo:country "KG"^^xsd:string ;
+    glo:gdp "10930600000.0"^^xsd:long ;
+    glo:inflation "13.9229"^^xsd:float ;
+    glo:taxRevenue "17.4506"^^xsd:float ;
+    glo:unemployment "4.567"^^xsd:float .
+
+glo:economy_KH a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_KH ;
+    glo:country "KH"^^xsd:string ;
+    glo:gdp "29956800000.0"^^xsd:long ;
+    glo:inflation "5.3437"^^xsd:float ;
+    glo:taxRevenue "16.3649"^^xsd:float ;
+    glo:unemployment "0.361"^^xsd:float .
+
+glo:economy_KI a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_KI ;
+    glo:country "KI"^^xsd:string ;
+    glo:gdp "223353000.0"^^xsd:long ;
+    glo:inflation "-1.81308"^^xsd:float ;
+    glo:taxRevenue "27.3756"^^xsd:float .
+
+glo:economy_KM a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_KM ;
+    glo:country "KM"^^xsd:string ;
+    glo:gdp "1242520000.0"^^xsd:long ;
+    glo:inflation "-4.29487"^^xsd:float ;
+    glo:unemployment "8.811"^^xsd:float .
+
+glo:economy_KN a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_KN ;
+    glo:country "KN"^^xsd:string ;
+    glo:gdp "961563000.0"^^xsd:long ;
+    glo:inflation "2.66739"^^xsd:float ;
+    glo:taxRevenue "15.0322"^^xsd:float .
+
+glo:economy_KP a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_KP ;
+    glo:country "KP"^^xsd:string ;
+    glo:unemployment "2.962"^^xsd:float .
+
+glo:economy_KR a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_KR ;
+    glo:country "KR"^^xsd:string ;
+    glo:gdp "1670000000000.0"^^xsd:long ;
+    glo:inflation "5.08789"^^xsd:float ;
+    glo:taxRevenue "16.8037"^^xsd:float ;
+    glo:unemployment "2.788"^^xsd:float .
+
+glo:economy_KW a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_KW ;
+    glo:country "KW"^^xsd:string ;
+    glo:gdp "185000000000.0"^^xsd:long ;
+    glo:inflation "3.42363"^^xsd:float ;
+    glo:taxRevenue "1.49244"^^xsd:float ;
+    glo:unemployment "2.482"^^xsd:float .
+
+glo:economy_KZ a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_KZ ;
+    glo:country "KZ"^^xsd:string ;
+    glo:gdp "221000000000.0"^^xsd:long ;
+    glo:inflation "8.04232"^^xsd:float ;
+    glo:taxRevenue "9.44711"^^xsd:float ;
+    glo:unemployment "5.008"^^xsd:float .
+
+glo:economy_LA a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_LA ;
+    glo:country "LA"^^xsd:string ;
+    glo:gdp "15724400000.0"^^xsd:long ;
+    glo:inflation "22.9562"^^xsd:float ;
+    glo:unemployment "2.633"^^xsd:float .
+
+glo:economy_LB a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_LB ;
+    glo:country "LB"^^xsd:string ;
+    glo:gdp "23131900000.0"^^xsd:long ;
+    glo:inflation "154.756"^^xsd:float ;
+    glo:taxRevenue "5.6848"^^xsd:float ;
+    glo:unemployment "12.635"^^xsd:float .
+
+glo:economy_LC a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_LC ;
+    glo:country "LC"^^xsd:string ;
+    glo:gdp "2065030000.0"^^xsd:long ;
+    glo:inflation "6.37815"^^xsd:float ;
+    glo:taxRevenue "18.2415"^^xsd:float ;
+    glo:unemployment "17.362"^^xsd:float .
+
+glo:economy_LI a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_LI ;
+    glo:country "LI"^^xsd:string ;
+    glo:gdp "7186430000.0"^^xsd:long .
+
+glo:economy_LK a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_LK ;
+    glo:country "LK"^^xsd:string ;
+    glo:gdp "74403600000.0"^^xsd:long ;
+    glo:inflation "49.7211"^^xsd:float ;
+    glo:taxRevenue "7.37503"^^xsd:float ;
+    glo:unemployment "6.705"^^xsd:float .
+
+glo:economy_LR a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_LR ;
+    glo:country "LR"^^xsd:string ;
+    glo:gdp "4001050000.0"^^xsd:long ;
+    glo:inflation "23.5635"^^xsd:float ;
+    glo:taxRevenue "12.4614"^^xsd:float ;
+    glo:unemployment "3.634"^^xsd:float .
+
+glo:economy_LS a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_LS ;
+    glo:country "LS"^^xsd:string ;
+    glo:gdp "2553460000.0"^^xsd:long ;
+    glo:inflation "8.2718"^^xsd:float ;
+    glo:taxRevenue "32.3901"^^xsd:float ;
+    glo:unemployment "18.039"^^xsd:float .
+
+glo:economy_LT a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_LT ;
+    glo:country "LT"^^xsd:string ;
+    glo:gdp "70334300000.0"^^xsd:long ;
+    glo:inflation "19.705"^^xsd:float ;
+    glo:taxRevenue "21.3937"^^xsd:float ;
+    glo:unemployment "5.569"^^xsd:float .
+
+glo:economy_LU a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_LU ;
+    glo:country "LU"^^xsd:string ;
+    glo:gdp "82274800000.0"^^xsd:long ;
+    glo:inflation "6.33601"^^xsd:float ;
+    glo:taxRevenue "26.1381"^^xsd:float ;
+    glo:unemployment "4.698"^^xsd:float .
+
+glo:economy_LV a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_LV ;
+    glo:country "LV"^^xsd:string ;
+    glo:gdp "41153900000.0"^^xsd:long ;
+    glo:inflation "17.3103"^^xsd:float ;
+    glo:taxRevenue "21.7669"^^xsd:float ;
+    glo:unemployment "6.429"^^xsd:float .
+
+glo:economy_LY a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_LY ;
+    glo:country "LY"^^xsd:string ;
+    glo:gdp "45752300000.0"^^xsd:long ;
+    glo:inflation "2.60582"^^xsd:float ;
+    glo:unemployment "20.68"^^xsd:float .
+
+glo:economy_MA a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_MA ;
+    glo:country "MA"^^xsd:string ;
+    glo:gdp "134000000000.0"^^xsd:long ;
+    glo:inflation "6.65704"^^xsd:float ;
+    glo:taxRevenue "19.549"^^xsd:float ;
+    glo:unemployment "10.494"^^xsd:float .
+
+glo:economy_MC a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_MC ;
+    glo:country "MC"^^xsd:string ;
+    glo:gdp "8596160000.0"^^xsd:long .
+
+glo:economy_MD a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_MD ;
+    glo:country "MD"^^xsd:string ;
+    glo:gdp "14420900000.0"^^xsd:long ;
+    glo:inflation "28.7373"^^xsd:float ;
+    glo:taxRevenue "18.3881"^^xsd:float ;
+    glo:unemployment "2.278"^^xsd:float .
+
+glo:economy_ME a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_ME ;
+    glo:country "ME"^^xsd:string ;
+    glo:gdp "6095980000.0"^^xsd:long ;
+    glo:inflation "13.0403"^^xsd:float ;
+    glo:unemployment "15.402"^^xsd:float .
+
+glo:economy_MG a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_MG ;
+    glo:country "MG"^^xsd:string ;
+    glo:gdp "14955000000.0"^^xsd:long ;
+    glo:inflation "8.16059"^^xsd:float ;
+    glo:taxRevenue "10.2385"^^xsd:float ;
+    glo:unemployment "2.142"^^xsd:float .
+
+glo:economy_MH a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_MH ;
+    glo:country "MH"^^xsd:string ;
+    glo:gdp "279668000.0"^^xsd:long ;
+    glo:taxRevenue "17.161"^^xsd:float .
+
+glo:economy_MK a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_MK ;
+    glo:country "MK"^^xsd:string ;
+    glo:gdp "13563100000.0"^^xsd:long ;
+    glo:inflation "14.2047"^^xsd:float ;
+    glo:taxRevenue "17.611"^^xsd:float ;
+    glo:unemployment "15.081"^^xsd:float .
+
+glo:economy_ML a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_ML ;
+    glo:country "ML"^^xsd:string ;
+    glo:gdp "18827200000.0"^^xsd:long ;
+    glo:inflation "3.9256"^^xsd:float ;
+    glo:taxRevenue "14.1645"^^xsd:float ;
+    glo:unemployment "2.762"^^xsd:float .
+
+glo:economy_MM a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_MM ;
+    glo:country "MM"^^xsd:string ;
+    glo:gdp "59364400000.0"^^xsd:long ;
+    glo:inflation "8.82507"^^xsd:float ;
+    glo:taxRevenue "6.43927"^^xsd:float ;
+    glo:unemployment "1.48"^^xsd:float .
+
+glo:economy_MN a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_MN ;
+    glo:country "MN"^^xsd:string ;
+    glo:gdp "16810900000.0"^^xsd:long ;
+    glo:inflation "15.148"^^xsd:float ;
+    glo:taxRevenue "16.9088"^^xsd:float ;
+    glo:unemployment "8.247"^^xsd:float .
+
+glo:economy_MR a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_MR ;
+    glo:country "MR"^^xsd:string ;
+    glo:gdp "10375500000.0"^^xsd:long ;
+    glo:inflation "9.52527"^^xsd:float ;
+    glo:unemployment "11.109"^^xsd:float .
+
+glo:economy_MT a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_MT ;
+    glo:country "MT"^^xsd:string ;
+    glo:gdp "17765300000.0"^^xsd:long ;
+    glo:inflation "6.15376"^^xsd:float ;
+    glo:taxRevenue "24.2326"^^xsd:float ;
+    glo:unemployment "2.813"^^xsd:float .
+
+glo:economy_MU a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_MU ;
+    glo:country "MU"^^xsd:string ;
+    glo:gdp "12898300000.0"^^xsd:long ;
+    glo:inflation "10.7738"^^xsd:float ;
+    glo:taxRevenue "18.277"^^xsd:float ;
+    glo:unemployment "7.234"^^xsd:float .
+
+glo:economy_MV a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_MV ;
+    glo:country "MV"^^xsd:string ;
+    glo:gdp "6189870000.0"^^xsd:long ;
+    glo:inflation "2.33314"^^xsd:float ;
+    glo:taxRevenue "9.10067"^^xsd:float ;
+    glo:unemployment "4.883"^^xsd:float .
+
+glo:economy_MW a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_MW ;
+    glo:country "MW"^^xsd:string ;
+    glo:gdp "13164700000.0"^^xsd:long ;
+    glo:inflation "20.954"^^xsd:float ;
+    glo:taxRevenue "11.3816"^^xsd:float ;
+    glo:unemployment "5.614"^^xsd:float .
+
+glo:economy_MX a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_MX ;
+    glo:country "MX"^^xsd:string ;
+    glo:gdp "1410000000000.0"^^xsd:long ;
+    glo:inflation "7.89628"^^xsd:float ;
+    glo:taxRevenue "13.872"^^xsd:float ;
+    glo:unemployment "3.308"^^xsd:float .
+
+glo:economy_MY a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_MY ;
+    glo:country "MY"^^xsd:string ;
+    glo:gdp "406000000000.0"^^xsd:long ;
+    glo:inflation "3.3787"^^xsd:float ;
+    glo:taxRevenue "11.2402"^^xsd:float ;
+    glo:unemployment "3.73"^^xsd:float .
+
+glo:economy_MZ a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_MZ ;
+    glo:country "MZ"^^xsd:string ;
+    glo:gdp "17851500000.0"^^xsd:long ;
+    glo:inflation "10.2794"^^xsd:float ;
+    glo:taxRevenue "23.312"^^xsd:float ;
+    glo:unemployment "3.906"^^xsd:float .
+
+glo:economy_NE a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_NE ;
+    glo:country "NE"^^xsd:string ;
+    glo:gdp "13969600000.0"^^xsd:long ;
+    glo:inflation "4.22622"^^xsd:float ;
+    glo:taxRevenue "11.7645"^^xsd:float ;
+    glo:unemployment "0.534"^^xsd:float .
+
+glo:economy_NG a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_NG ;
+    glo:country "NG"^^xsd:string ;
+    glo:gdp "477000000000.0"^^xsd:long ;
+    glo:inflation "18.8472"^^xsd:float ;
+    glo:unemployment "5.761"^^xsd:float .
+
+glo:economy_NI a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_NI ;
+    glo:country "NI"^^xsd:string ;
+    glo:gdp "15671600000.0"^^xsd:long ;
+    glo:inflation "10.4674"^^xsd:float ;
+    glo:taxRevenue "18.9048"^^xsd:float ;
+    glo:unemployment "5.565"^^xsd:float .
+
+glo:economy_NL a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_NL ;
+    glo:country "NL"^^xsd:string ;
+    glo:gdp "991000000000.0"^^xsd:long ;
+    glo:inflation "10.0012"^^xsd:float ;
+    glo:taxRevenue "24.7812"^^xsd:float ;
+    glo:unemployment "3.538"^^xsd:float .
+
+glo:economy_NO a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_NO ;
+    glo:country "NO"^^xsd:string ;
+    glo:gdp "579000000000.0"^^xsd:long ;
+    glo:inflation "5.76412"^^xsd:float ;
+    glo:taxRevenue "25.7469"^^xsd:float ;
+    glo:unemployment "3.171"^^xsd:float .
+
+glo:economy_NP a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_NP ;
+    glo:country "NP"^^xsd:string ;
+    glo:gdp "40828200000.0"^^xsd:long ;
+    glo:inflation "4.08791"^^xsd:float ;
+    glo:taxRevenue "17.4853"^^xsd:float ;
+    glo:unemployment "11.119"^^xsd:float .
+
+glo:economy_NR a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_NR ;
+    glo:country "NR"^^xsd:string ;
+    glo:gdp "150922000.0"^^xsd:long ;
+    glo:inflation "-0.124751"^^xsd:float ;
+    glo:taxRevenue "44.3468"^^xsd:float .
+
+glo:economy_NZ a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_NZ ;
+    glo:country "NZ"^^xsd:string ;
+    glo:gdp "247000000000.0"^^xsd:long ;
+    glo:inflation "7.17222"^^xsd:float ;
+    glo:taxRevenue "28.8432"^^xsd:float ;
+    glo:unemployment "3.253"^^xsd:float .
+
+glo:economy_OM a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_OM ;
+    glo:country "OM"^^xsd:string ;
+    glo:gdp "115000000000.0"^^xsd:long ;
+    glo:inflation "2.81184"^^xsd:float ;
+    glo:unemployment "2.327"^^xsd:float .
+
+glo:economy_PA a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_PA ;
+    glo:country "PA"^^xsd:string ;
+    glo:gdp "76522500000.0"^^xsd:long ;
+    glo:inflation "2.85748"^^xsd:float ;
+    glo:taxRevenue "8.04618"^^xsd:float ;
+    glo:unemployment "8.789"^^xsd:float .
+
+glo:economy_PE a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_PE ;
+    glo:country "PE"^^xsd:string ;
+    glo:gdp "243000000000.0"^^xsd:long ;
+    glo:inflation "8.33371"^^xsd:float ;
+    glo:taxRevenue "16.1102"^^xsd:float ;
+    glo:unemployment "3.661"^^xsd:float .
+
+glo:economy_PG a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_PG ;
+    glo:country "PG"^^xsd:string ;
+    glo:gdp "30633400000.0"^^xsd:long ;
+    glo:inflation "4.48359"^^xsd:float ;
+    glo:taxRevenue "11.8792"^^xsd:float ;
+    glo:unemployment "2.753"^^xsd:float .
+
+glo:economy_PH a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_PH ;
+    glo:country "PH"^^xsd:string ;
+    glo:gdp "404000000000.0"^^xsd:long ;
+    glo:inflation "5.82116"^^xsd:float ;
+    glo:taxRevenue "14.13"^^xsd:float ;
+    glo:unemployment "2.238"^^xsd:float .
+
+glo:economy_PK a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_PK ;
+    glo:country "PK"^^xsd:string ;
+    glo:gdp "377000000000.0"^^xsd:long ;
+    glo:inflation "19.8739"^^xsd:float ;
+    glo:taxRevenue "9.09687"^^xsd:float ;
+    glo:unemployment "6.416"^^xsd:float .
+
+glo:economy_PL a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_PL ;
+    glo:country "PL"^^xsd:string ;
+    glo:gdp "688000000000.0"^^xsd:long ;
+    glo:inflation "14.4295"^^xsd:float ;
+    glo:taxRevenue "19.2053"^^xsd:float ;
+    glo:unemployment "2.602"^^xsd:float .
+
+glo:economy_PS a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_PS ;
+    glo:country "PS"^^xsd:string ;
+    glo:gdp "19111900000.0"^^xsd:long ;
+    glo:inflation "1.23748"^^xsd:float ;
+    glo:taxRevenue "21.4746"^^xsd:float ;
+    glo:unemployment "25.724"^^xsd:float .
+
+glo:economy_PT a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_PT ;
+    glo:country "PT"^^xsd:string ;
+    glo:gdp "252000000000.0"^^xsd:long ;
+    glo:inflation "7.83269"^^xsd:float ;
+    glo:taxRevenue "22.1405"^^xsd:float ;
+    glo:unemployment "5.781"^^xsd:float .
+
+glo:economy_PW a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_PW ;
+    glo:country "PW"^^xsd:string ;
+    glo:gdp "217800000.0"^^xsd:long ;
+    glo:inflation "12.3527"^^xsd:float ;
+    glo:taxRevenue "18.5899"^^xsd:float .
+
+glo:economy_PY a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_PY ;
+    glo:country "PY"^^xsd:string ;
+    glo:gdp "41722300000.0"^^xsd:long ;
+    glo:inflation "9.76557"^^xsd:float ;
+    glo:taxRevenue "9.79425"^^xsd:float ;
+    glo:unemployment "6.886"^^xsd:float .
+
+glo:economy_QA a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_QA ;
+    glo:country "QA"^^xsd:string ;
+    glo:gdp "237000000000.0"^^xsd:long ;
+    glo:inflation "4.99528"^^xsd:float ;
+    glo:unemployment "0.095"^^xsd:float .
+
+glo:economy_RO a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_RO ;
+    glo:country "RO"^^xsd:string ;
+    glo:gdp "301000000000.0"^^xsd:long ;
+    glo:inflation "13.7955"^^xsd:float ;
+    glo:taxRevenue "14.9851"^^xsd:float ;
+    glo:unemployment "5.436"^^xsd:float .
+
+glo:economy_RS a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_RS ;
+    glo:country "RS"^^xsd:string ;
+    glo:gdp "63501800000.0"^^xsd:long ;
+    glo:inflation "11.9815"^^xsd:float ;
+    glo:taxRevenue "20.6203"^^xsd:float ;
+    glo:unemployment "9.473"^^xsd:float .
+
+glo:economy_RU a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_RU ;
+    glo:country "RU"^^xsd:string ;
+    glo:gdp "2240000000000.0"^^xsd:long ;
+    glo:inflation "6.69446"^^xsd:float ;
+    glo:taxRevenue "11.6476"^^xsd:float ;
+    glo:unemployment "4.72"^^xsd:float .
+
+glo:economy_RW a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_RW ;
+    glo:country "RW"^^xsd:string ;
+    glo:gdp "13312800000.0"^^xsd:long ;
+    glo:inflation "17.6892"^^xsd:float ;
+    glo:taxRevenue "15.0766"^^xsd:float ;
+    glo:unemployment "13.009"^^xsd:float .
+
+glo:economy_SA a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_SA ;
+    glo:country "SA"^^xsd:string ;
+    glo:gdp "1110000000000.0"^^xsd:long ;
+    glo:inflation "2.47407"^^xsd:float ;
+    glo:taxRevenue "8.23747"^^xsd:float ;
+    glo:unemployment "5.635"^^xsd:float .
+
+glo:economy_SB a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_SB ;
+    glo:country "SB"^^xsd:string ;
+    glo:gdp "1595710000.0"^^xsd:long ;
+    glo:inflation "5.51813"^^xsd:float ;
+    glo:taxRevenue "20.6681"^^xsd:float ;
+    glo:unemployment "1.543"^^xsd:float .
+
+glo:economy_SC a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_SC ;
+    glo:country "SC"^^xsd:string ;
+    glo:gdp "1588410000.0"^^xsd:long ;
+    glo:inflation "8.27686"^^xsd:float ;
+    glo:taxRevenue "32.4802"^^xsd:float .
+
+glo:economy_SD a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_SD ;
+    glo:country "SD"^^xsd:string ;
+    glo:gdp "51662200000.0"^^xsd:long ;
+    glo:inflation "138.808"^^xsd:float ;
+    glo:taxRevenue "7.39027"^^xsd:float ;
+    glo:unemployment "18.73"^^xsd:float .
+
+glo:economy_SE a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_SE ;
+    glo:country "SE"^^xsd:string ;
+    glo:gdp "586000000000.0"^^xsd:long ;
+    glo:inflation "8.36929"^^xsd:float ;
+    glo:taxRevenue "27.3368"^^xsd:float ;
+    glo:unemployment "7.358"^^xsd:float .
+
+glo:economy_SG a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_SG ;
+    glo:country "SG"^^xsd:string ;
+    glo:gdp "467000000000.0"^^xsd:long ;
+    glo:inflation "6.12106"^^xsd:float ;
+    glo:taxRevenue "13.1247"^^xsd:float ;
+    glo:unemployment "2.758"^^xsd:float .
+
+glo:economy_SI a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_SI ;
+    glo:country "SI"^^xsd:string ;
+    glo:gdp "62117800000.0"^^xsd:long ;
+    glo:inflation "8.8337"^^xsd:float ;
+    glo:taxRevenue "18.2955"^^xsd:float ;
+    glo:unemployment "4.18"^^xsd:float .
+
+glo:economy_SK a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_SK ;
+    glo:country "SK"^^xsd:string ;
+    glo:gdp "115000000000.0"^^xsd:long ;
+    glo:inflation "12.7741"^^xsd:float ;
+    glo:taxRevenue "19.2891"^^xsd:float ;
+    glo:unemployment "6.094"^^xsd:float .
+
+glo:economy_SL a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_SL ;
+    glo:country "SL"^^xsd:string ;
+    glo:gdp "3970340000.0"^^xsd:long ;
+    glo:inflation "27.2083"^^xsd:float ;
+    glo:unemployment "3.635"^^xsd:float .
+
+glo:economy_SM a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_SM ;
+    glo:country "SM"^^xsd:string ;
+    glo:gdp "1855380000.0"^^xsd:long ;
+    glo:inflation "1.04598"^^xsd:float ;
+    glo:taxRevenue "17.296"^^xsd:float .
+
+glo:economy_SN a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_SN ;
+    glo:country "SN"^^xsd:string ;
+    glo:gdp "27684400000.0"^^xsd:long ;
+    glo:inflation "9.69682"^^xsd:float ;
+    glo:taxRevenue "17.5194"^^xsd:float ;
+    glo:unemployment "3.434"^^xsd:float .
+
+glo:economy_SO a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_SO ;
+    glo:country "SO"^^xsd:string ;
+    glo:gdp "8126110000.0"^^xsd:long ;
+    glo:taxRevenue "7.87e-05"^^xsd:float ;
+    glo:unemployment "20.047"^^xsd:float .
+
+glo:economy_SR a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_SR ;
+    glo:country "SR"^^xsd:string ;
+    glo:gdp "3620660000.0"^^xsd:long ;
+    glo:inflation "52.446"^^xsd:float ;
+    glo:unemployment "8.639"^^xsd:float .
+
+glo:economy_SS a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_SS ;
+    glo:country "SS"^^xsd:string ;
+    glo:gdp "11997800000.0"^^xsd:long ;
+    glo:inflation "-6.68732"^^xsd:float ;
+    glo:unemployment "12.975"^^xsd:float .
+
+glo:economy_ST a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_ST ;
+    glo:country "ST"^^xsd:string ;
+    glo:gdp "546680000.0"^^xsd:long ;
+    glo:inflation "18.0056"^^xsd:float ;
+    glo:unemployment "15.318"^^xsd:float .
+
+glo:economy_SV a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_SV ;
+    glo:country "SV"^^xsd:string ;
+    glo:gdp "32488700000.0"^^xsd:long ;
+    glo:inflation "7.19862"^^xsd:float ;
+    glo:taxRevenue "19.4168"^^xsd:float ;
+    glo:unemployment "3.822"^^xsd:float .
+
+glo:economy_SY a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_SY ;
+    glo:country "SY"^^xsd:string ;
+    glo:gdp "11159300000.0"^^xsd:long ;
+    glo:inflation "36.7023"^^xsd:float ;
+    glo:unemployment "9.61"^^xsd:float .
+
+glo:economy_SZ a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_SZ ;
+    glo:country "SZ"^^xsd:string ;
+    glo:gdp "4854170000.0"^^xsd:long ;
+    glo:inflation "2.59802"^^xsd:float ;
+    glo:unemployment "24.389"^^xsd:float .
+
+glo:economy_TD a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_TD ;
+    glo:country "TD"^^xsd:string ;
+    glo:gdp "12704100000.0"^^xsd:long ;
+    glo:inflation "5.78803"^^xsd:float ;
+    glo:unemployment "1.412"^^xsd:float .
+
+glo:economy_TG a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_TG ;
+    glo:country "TG"^^xsd:string ;
+    glo:gdp "8126440000.0"^^xsd:long ;
+    glo:inflation "7.96757"^^xsd:float ;
+    glo:taxRevenue "13.5836"^^xsd:float ;
+    glo:unemployment "4.066"^^xsd:float .
+
+glo:economy_TH a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_TH ;
+    glo:country "TH"^^xsd:string ;
+    glo:gdp "495000000000.0"^^xsd:long ;
+    glo:inflation "6.07741"^^xsd:float ;
+    glo:taxRevenue "14.3241"^^xsd:float ;
+    glo:unemployment "0.862"^^xsd:float .
+
+glo:economy_TJ a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_TJ ;
+    glo:country "TJ"^^xsd:string ;
+    glo:gdp "10492100000.0"^^xsd:long ;
+    glo:inflation "6.00458"^^xsd:float ;
+    glo:taxRevenue "9.82102"^^xsd:float ;
+    glo:unemployment "7.828"^^xsd:float .
+
+glo:economy_TL a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_TL ;
+    glo:country "TL"^^xsd:string ;
+    glo:gdp "3163320000.0"^^xsd:long ;
+    glo:inflation "0.958813"^^xsd:float ;
+    glo:taxRevenue "15.1034"^^xsd:float ;
+    glo:unemployment "4.864"^^xsd:float .
+
+glo:economy_TM a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_TM ;
+    glo:country "TM"^^xsd:string ;
+    glo:gdp "45610600000.0"^^xsd:long ;
+    glo:unemployment "5.019"^^xsd:float .
+
+glo:economy_TN a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_TN ;
+    glo:country "TN"^^xsd:string ;
+    glo:gdp "46664900000.0"^^xsd:long ;
+    glo:inflation "8.30646"^^xsd:float ;
+    glo:taxRevenue "20.1155"^^xsd:float ;
+    glo:unemployment "16.124"^^xsd:float .
+
+glo:economy_TO a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_TO ;
+    glo:country "TO"^^xsd:string ;
+    glo:gdp "469228000.0"^^xsd:long ;
+    glo:inflation "10.9714"^^xsd:float ;
+    glo:unemployment "3.011"^^xsd:float .
+
+glo:economy_TR a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_TR ;
+    glo:country "TR"^^xsd:string ;
+    glo:gdp "906000000000.0"^^xsd:long ;
+    glo:inflation "72.3088"^^xsd:float ;
+    glo:taxRevenue "17.8818"^^xsd:float ;
+    glo:unemployment "10.03"^^xsd:float .
+
+glo:economy_TT a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_TT ;
+    glo:country "TT"^^xsd:string ;
+    glo:gdp "27899100000.0"^^xsd:long ;
+    glo:inflation "2.05923"^^xsd:float ;
+    glo:taxRevenue "19.5188"^^xsd:float ;
+    glo:unemployment "3.982"^^xsd:float .
+
+glo:economy_TV a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_TV ;
+    glo:country "TV"^^xsd:string ;
+    glo:gdp "60349400.0"^^xsd:long ;
+    glo:inflation "0.500581"^^xsd:float .
+
+glo:economy_TZ a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_TZ ;
+    glo:country "TZ"^^xsd:string ;
+    glo:gdp "75709300000.0"^^xsd:long ;
+    glo:inflation "4.35027"^^xsd:float ;
+    glo:taxRevenue "11.6951"^^xsd:float ;
+    glo:unemployment "2.762"^^xsd:float .
+
+glo:economy_UA a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_UA ;
+    glo:country "UA"^^xsd:string ;
+    glo:gdp "161000000000.0"^^xsd:long ;
+    glo:inflation "20.1836"^^xsd:float ;
+    glo:taxRevenue "19.0823"^^xsd:float ;
+    glo:unemployment "9.83"^^xsd:float .
+
+glo:economy_UG a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_UG ;
+    glo:country "UG"^^xsd:string ;
+    glo:gdp "45559200000.0"^^xsd:long ;
+    glo:inflation "7.19579"^^xsd:float ;
+    glo:taxRevenue "12.4589"^^xsd:float ;
+    glo:unemployment "4.28"^^xsd:float .
+
+glo:economy_US a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_US ;
+    glo:country "US"^^xsd:string ;
+    glo:gdp "25500000000000.0"^^xsd:long ;
+    glo:inflation "8.0028"^^xsd:float ;
+    glo:taxRevenue "11.2336"^^xsd:float ;
+    glo:unemployment "3.611"^^xsd:float .
+
+glo:economy_UY a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_UY ;
+    glo:country "UY"^^xsd:string ;
+    glo:gdp "71177100000.0"^^xsd:long ;
+    glo:inflation "9.10438"^^xsd:float ;
+    glo:taxRevenue "18.5155"^^xsd:float ;
+    glo:unemployment "7.841"^^xsd:float .
+
+glo:economy_UZ a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_UZ ;
+    glo:country "UZ"^^xsd:string ;
+    glo:gdp "80391900000.0"^^xsd:long ;
+    glo:inflation "11.4466"^^xsd:float ;
+    glo:taxRevenue "14.7859"^^xsd:float ;
+    glo:unemployment "6.006"^^xsd:float .
+
+glo:economy_VC a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_VC ;
+    glo:country "VC"^^xsd:string ;
+    glo:gdp "948559000.0"^^xsd:long ;
+    glo:inflation "5.6601"^^xsd:float ;
+    glo:taxRevenue "23.7996"^^xsd:float ;
+    glo:unemployment "18.975"^^xsd:float .
+
+glo:economy_VE a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_VE ;
+    glo:country "VE"^^xsd:string ;
+    glo:gdp "482000000000.0"^^xsd:long ;
+    glo:inflation "254.949"^^xsd:float ;
+    glo:unemployment "5.328"^^xsd:float .
+
+glo:economy_VN a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_VN ;
+    glo:country "VN"^^xsd:string ;
+    glo:gdp "409000000000.0"^^xsd:long ;
+    glo:inflation "3.15651"^^xsd:float ;
+    glo:unemployment "1.923"^^xsd:float .
+
+glo:economy_VU a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_VU ;
+    glo:country "VU"^^xsd:string ;
+    glo:gdp "983583000.0"^^xsd:long ;
+    glo:inflation "2.34328"^^xsd:float ;
+    glo:taxRevenue "14.0403"^^xsd:float ;
+    glo:unemployment "2.089"^^xsd:float .
+
+glo:economy_WS a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_WS ;
+    glo:country "WS"^^xsd:string ;
+    glo:gdp "832422000.0"^^xsd:long ;
+    glo:inflation "10.9619"^^xsd:float ;
+    glo:taxRevenue "25.0245"^^xsd:float ;
+    glo:unemployment "10.313"^^xsd:float .
+
+glo:economy_YE a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_YE ;
+    glo:country "YE"^^xsd:string ;
+    glo:gdp "21606200000.0"^^xsd:long ;
+    glo:inflation "8.10473"^^xsd:float ;
+    glo:unemployment "13.59"^^xsd:float .
+
+glo:economy_ZA a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_ZA ;
+    glo:country "ZA"^^xsd:string ;
+    glo:gdp "406000000000.0"^^xsd:long ;
+    glo:inflation "7.03973"^^xsd:float ;
+    glo:taxRevenue "25.9158"^^xsd:float ;
+    glo:unemployment "29.806"^^xsd:float .
+
+glo:economy_ZM a glo:Economy,
+        glo:lowInflation ;
+    glo:belongsToCountry glo:country_ZM ;
+    glo:country "ZM"^^xsd:string ;
+    glo:gdp "29784500000.0"^^xsd:long ;
+    glo:inflation "10.9932"^^xsd:float ;
+    glo:taxRevenue "16.7416"^^xsd:float ;
+    glo:unemployment "6.131"^^xsd:float .
+
+glo:economy_ZW a glo:Economy,
+        glo:highInflation ;
+    glo:belongsToCountry glo:country_ZW ;
+    glo:country "ZW"^^xsd:string ;
+    glo:gdp "20678100000.0"^^xsd:long ;
+    glo:inflation "104.705"^^xsd:float ;
+    glo:taxRevenue "7.21477"^^xsd:float ;
+    glo:unemployment "7.945"^^xsd:float .
+
+glo:Economy rdfs:subClassOf glo:Situation .
+

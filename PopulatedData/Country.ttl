@@ -1,7 +1,7 @@
 @prefix glo: <http://www.dei.unipd.it/database2/LinkedinJobPosting#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-glo:AD a glo:Country ;
+glo:country_AD a glo:Country ;
     glo:capitalCity "Andorra la Vella"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "AD"^^xsd:string ;
@@ -10,10 +10,10 @@ glo:AD a glo:Country ;
     glo:language "Catalan"^^xsd:string ;
     glo:latitude "42.5"^^xsd:float ;
     glo:longitude "1.5"^^xsd:float ;
-    glo:name "Andorra"^^xsd:string ;
-    glo:region "Southern Europe"^^xsd:string .
+    glo:region "Southern Europe"^^xsd:string ;
+    glo:shortName "Andorra"^^xsd:string .
 
-glo:AE a glo:Country ;
+glo:country_AE a glo:Country ;
     glo:capitalCity "Abu Dhabi"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "AE"^^xsd:string ;
@@ -22,10 +22,10 @@ glo:AE a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "24.0"^^xsd:float ;
     glo:longitude "54.0"^^xsd:float ;
-    glo:name "United Arab Emirates"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "United Arab Emirates"^^xsd:string .
 
-glo:AF a glo:Country ;
+glo:country_AF a glo:Country ;
     glo:capitalCity "Kabul"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "AF"^^xsd:string ;
@@ -34,10 +34,10 @@ glo:AF a glo:Country ;
     glo:language "Pashto"^^xsd:string ;
     glo:latitude "33.0"^^xsd:float ;
     glo:longitude "65.0"^^xsd:float ;
-    glo:name "Afghanistan"^^xsd:string ;
-    glo:region "Southern Asia"^^xsd:string .
+    glo:region "Southern Asia"^^xsd:string ;
+    glo:shortName "Afghanistan"^^xsd:string .
 
-glo:AG a glo:Country ;
+glo:country_AG a glo:Country ;
     glo:capitalCity "Saint John's"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "AG"^^xsd:string ;
@@ -46,10 +46,22 @@ glo:AG a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "17.05"^^xsd:float ;
     glo:longitude "-61.8"^^xsd:float ;
-    glo:name "Antigua and Barbuda"^^xsd:string ;
-    glo:region "Caribbean"^^xsd:string .
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Antigua and Barbuda"^^xsd:string .
 
-glo:AL a glo:Country ;
+glo:country_AI a glo:Country ;
+    glo:capitalCity "The Valley"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "AI"^^xsd:string ;
+    glo:currency "East Caribbean Dollar (XCD)"^^xsd:string ;
+    glo:fullName "Anguilla"^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:latitude "18.2206"^^xsd:float ;
+    glo:longitude "63.0686"^^xsd:float ;
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Anguilla"^^xsd:string .
+
+glo:country_AL a glo:Country ;
     glo:capitalCity "Tirana"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "AL"^^xsd:string ;
@@ -58,10 +70,10 @@ glo:AL a glo:Country ;
     glo:language "Albanian"^^xsd:string ;
     glo:latitude "41.0"^^xsd:float ;
     glo:longitude "20.0"^^xsd:float ;
-    glo:name "Albania"^^xsd:string ;
-    glo:region "Southern Europe"^^xsd:string .
+    glo:region "Southern Europe"^^xsd:string ;
+    glo:shortName "Albania"^^xsd:string .
 
-glo:AM a glo:Country ;
+glo:country_AM a glo:Country ;
     glo:capitalCity "Yerevan"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "AM"^^xsd:string ;
@@ -70,10 +82,10 @@ glo:AM a glo:Country ;
     glo:language "Armenian"^^xsd:string ;
     glo:latitude "40.0"^^xsd:float ;
     glo:longitude "45.0"^^xsd:float ;
-    glo:name "Armenia"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "Armenia"^^xsd:string .
 
-glo:AO a glo:Country ;
+glo:country_AO a glo:Country ;
     glo:capitalCity "Luanda"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "AO"^^xsd:string ;
@@ -82,10 +94,10 @@ glo:AO a glo:Country ;
     glo:language "Portuguese"^^xsd:string ;
     glo:latitude "-12.5"^^xsd:float ;
     glo:longitude "18.5"^^xsd:float ;
-    glo:name "Angola"^^xsd:string ;
-    glo:region "Middle Africa"^^xsd:string .
+    glo:region "Middle Africa"^^xsd:string ;
+    glo:shortName "Angola"^^xsd:string .
 
-glo:AR a glo:Country ;
+glo:country_AR a glo:Country ;
     glo:capitalCity "Buenos Aires"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "AR"^^xsd:string ;
@@ -94,10 +106,22 @@ glo:AR a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "-34.0"^^xsd:float ;
     glo:longitude "-64.0"^^xsd:float ;
-    glo:name "Argentina"^^xsd:string ;
-    glo:region "South America"^^xsd:string .
+    glo:region "South America"^^xsd:string ;
+    glo:shortName "Argentina"^^xsd:string .
 
-glo:AT a glo:Country ;
+glo:country_AS a glo:Country ;
+    glo:capitalCity "Pago Pago"^^xsd:string ;
+    glo:continent "Oceania"^^xsd:string ;
+    glo:country "AS"^^xsd:string ;
+    glo:currency "United States Dollar (USD)"^^xsd:string ;
+    glo:fullName "American Samoa"^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:latitude "14.2756"^^xsd:float ;
+    glo:longitude "170.7026"^^xsd:float ;
+    glo:region "Polynesia"^^xsd:string ;
+    glo:shortName "American Samoa"^^xsd:string .
+
+glo:country_AT a glo:Country ;
     glo:capitalCity "Vienna"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "AT"^^xsd:string ;
@@ -106,10 +130,10 @@ glo:AT a glo:Country ;
     glo:language "German"^^xsd:string ;
     glo:latitude "47.33333333"^^xsd:float ;
     glo:longitude "13.33333333"^^xsd:float ;
-    glo:name "Austria"^^xsd:string ;
-    glo:region "Western Europe"^^xsd:string .
+    glo:region "Western Europe"^^xsd:string ;
+    glo:shortName "Austria"^^xsd:string .
 
-glo:AU a glo:Country ;
+glo:country_AU a glo:Country ;
     glo:capitalCity "Canberra"^^xsd:string ;
     glo:continent "Oceania"^^xsd:string ;
     glo:country "AU"^^xsd:string ;
@@ -118,10 +142,22 @@ glo:AU a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "-27.0"^^xsd:float ;
     glo:longitude "133.0"^^xsd:float ;
-    glo:name "Australia"^^xsd:string ;
-    glo:region "Australia and New Zealand"^^xsd:string .
+    glo:region "Australia and New Zealand"^^xsd:string ;
+    glo:shortName "Australia"^^xsd:string .
 
-glo:AZ a glo:Country ;
+glo:country_AW a glo:Country ;
+    glo:capitalCity "Oranjestad"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "AW"^^xsd:string ;
+    glo:currency "Aruban Florin (AWG)"^^xsd:string ;
+    glo:fullName "Aruba"^^xsd:string ;
+    glo:language "Dutch"^^xsd:string ;
+    glo:latitude "12.5211"^^xsd:float ;
+    glo:longitude "69.9683"^^xsd:float ;
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Aruba"^^xsd:string .
+
+glo:country_AZ a glo:Country ;
     glo:capitalCity "Baku"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "AZ"^^xsd:string ;
@@ -130,10 +166,10 @@ glo:AZ a glo:Country ;
     glo:language "Azerbaijani language"^^xsd:string ;
     glo:latitude "40.5"^^xsd:float ;
     glo:longitude "47.5"^^xsd:float ;
-    glo:name "Azerbaijan"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "Azerbaijan"^^xsd:string .
 
-glo:BA a glo:Country ;
+glo:country_BA a glo:Country ;
     glo:capitalCity "Sarajevo"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "BA"^^xsd:string ;
@@ -142,10 +178,10 @@ glo:BA a glo:Country ;
     glo:language "Bosnian"^^xsd:string ;
     glo:latitude "44.0"^^xsd:float ;
     glo:longitude "18.0"^^xsd:float ;
-    glo:name "Bosnia and Herzegovina"^^xsd:string ;
-    glo:region "Southern Europe"^^xsd:string .
+    glo:region "Southern Europe"^^xsd:string ;
+    glo:shortName "Bosnia and Herzegovina"^^xsd:string .
 
-glo:BB a glo:Country ;
+glo:country_BB a glo:Country ;
     glo:capitalCity "Bridgetown"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "BB"^^xsd:string ;
@@ -154,10 +190,10 @@ glo:BB a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "13.16666666"^^xsd:float ;
     glo:longitude "-59.53333333"^^xsd:float ;
-    glo:name "Barbados"^^xsd:string ;
-    glo:region "Caribbean"^^xsd:string .
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Barbados"^^xsd:string .
 
-glo:BD a glo:Country ;
+glo:country_BD a glo:Country ;
     glo:capitalCity "Dhaka"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "BD"^^xsd:string ;
@@ -166,10 +202,10 @@ glo:BD a glo:Country ;
     glo:language "Bengali"^^xsd:string ;
     glo:latitude "24.0"^^xsd:float ;
     glo:longitude "90.0"^^xsd:float ;
-    glo:name "Bangladesh"^^xsd:string ;
-    glo:region "Southern Asia"^^xsd:string .
+    glo:region "Southern Asia"^^xsd:string ;
+    glo:shortName "Bangladesh"^^xsd:string .
 
-glo:BE a glo:Country ;
+glo:country_BE a glo:Country ;
     glo:capitalCity "Brussels"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "BE"^^xsd:string ;
@@ -178,10 +214,10 @@ glo:BE a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "50.83333333"^^xsd:float ;
     glo:longitude "4.0"^^xsd:float ;
-    glo:name "Belgium"^^xsd:string ;
-    glo:region "Western Europe"^^xsd:string .
+    glo:region "Western Europe"^^xsd:string ;
+    glo:shortName "Belgium"^^xsd:string .
 
-glo:BF a glo:Country ;
+glo:country_BF a glo:Country ;
     glo:capitalCity "Ouagadougou"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "BF"^^xsd:string ;
@@ -190,10 +226,10 @@ glo:BF a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "13.0"^^xsd:float ;
     glo:longitude "-2.0"^^xsd:float ;
-    glo:name "Burkina Faso"^^xsd:string ;
-    glo:region "Western Africa"^^xsd:string .
+    glo:region "Western Africa"^^xsd:string ;
+    glo:shortName "Burkina Faso"^^xsd:string .
 
-glo:BG a glo:Country ;
+glo:country_BG a glo:Country ;
     glo:capitalCity "Sofia"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "BG"^^xsd:string ;
@@ -202,10 +238,10 @@ glo:BG a glo:Country ;
     glo:language "Bulgarian"^^xsd:string ;
     glo:latitude "43.0"^^xsd:float ;
     glo:longitude "25.0"^^xsd:float ;
-    glo:name "Bulgaria"^^xsd:string ;
-    glo:region "Eastern Europe"^^xsd:string .
+    glo:region "Eastern Europe"^^xsd:string ;
+    glo:shortName "Bulgaria"^^xsd:string .
 
-glo:BH a glo:Country ;
+glo:country_BH a glo:Country ;
     glo:capitalCity "Manama"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "BH"^^xsd:string ;
@@ -214,10 +250,10 @@ glo:BH a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "26.0"^^xsd:float ;
     glo:longitude "50.55"^^xsd:float ;
-    glo:name "Bahrain"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "Bahrain"^^xsd:string .
 
-glo:BI a glo:Country ;
+glo:country_BI a glo:Country ;
     glo:capitalCity "Bujumbura"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "BI"^^xsd:string ;
@@ -226,10 +262,10 @@ glo:BI a glo:Country ;
     glo:language "Kirundi"^^xsd:string ;
     glo:latitude "-3.5"^^xsd:float ;
     glo:longitude "30.0"^^xsd:float ;
-    glo:name "Burundi"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Burundi"^^xsd:string .
 
-glo:BJ a glo:Country ;
+glo:country_BJ a glo:Country ;
     glo:capitalCity "Porto-Novo"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "BJ"^^xsd:string ;
@@ -238,10 +274,34 @@ glo:BJ a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "9.5"^^xsd:float ;
     glo:longitude "2.25"^^xsd:float ;
-    glo:name "Benin"^^xsd:string ;
-    glo:region "Western Africa"^^xsd:string .
+    glo:region "Western Africa"^^xsd:string ;
+    glo:shortName "Benin"^^xsd:string .
 
-glo:BN a glo:Country ;
+glo:country_BL a glo:Country ;
+    glo:capitalCity "Gustavia"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "BL"^^xsd:string ;
+    glo:currency "Euro"^^xsd:string ;
+    glo:fullName "Saint Barthélemy"^^xsd:string ;
+    glo:language "French"^^xsd:string ;
+    glo:latitude "17.8962"^^xsd:float ;
+    glo:longitude "62.8498"^^xsd:float ;
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Saint Barthélemy"^^xsd:string .
+
+glo:country_BM a glo:Country ;
+    glo:capitalCity "Hamilton"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "BM"^^xsd:string ;
+    glo:currency "Bermudian Dollar (BMD)"^^xsd:string ;
+    glo:fullName "Bermuda"^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:latitude "32.2949"^^xsd:float ;
+    glo:longitude "64.7839"^^xsd:float ;
+    glo:region "North Atlantic"^^xsd:string ;
+    glo:shortName "Bermuda"^^xsd:string .
+
+glo:country_BN a glo:Country ;
     glo:capitalCity "Bandar Seri Begawan"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "BN"^^xsd:string ;
@@ -250,10 +310,10 @@ glo:BN a glo:Country ;
     glo:language "Malay"^^xsd:string ;
     glo:latitude "4.5"^^xsd:float ;
     glo:longitude "114.6666667"^^xsd:float ;
-    glo:name "Brunei"^^xsd:string ;
-    glo:region "South-Eastern Asia"^^xsd:string .
+    glo:region "South-Eastern Asia"^^xsd:string ;
+    glo:shortName "Brunei"^^xsd:string .
 
-glo:BO a glo:Country ;
+glo:country_BO a glo:Country ;
     glo:capitalCity "Sucre"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "BO"^^xsd:string ;
@@ -262,11 +322,11 @@ glo:BO a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "-17.0"^^xsd:float ;
     glo:longitude "-65.0"^^xsd:float ;
-    glo:name "Bolivia"^^xsd:string ;
-    glo:region "South America"^^xsd:string .
+    glo:region "South America"^^xsd:string ;
+    glo:shortName "Bolivia"^^xsd:string .
 
-glo:BR a glo:Country ;
-    glo:capitalCity "Brasília"^^xsd:string ;
+glo:country_BR a glo:Country ;
+    glo:capitalCity "BrasÃ­lia"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "BR"^^xsd:string ;
     glo:currency "Brazilian real"^^xsd:string ;
@@ -274,10 +334,10 @@ glo:BR a glo:Country ;
     glo:language "Portuguese"^^xsd:string ;
     glo:latitude "-10.0"^^xsd:float ;
     glo:longitude "-55.0"^^xsd:float ;
-    glo:name "Brazil"^^xsd:string ;
-    glo:region "South America"^^xsd:string .
+    glo:region "South America"^^xsd:string ;
+    glo:shortName "Brazil"^^xsd:string .
 
-glo:BS a glo:Country ;
+glo:country_BS a glo:Country ;
     glo:capitalCity "Nassau"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "BS"^^xsd:string ;
@@ -286,10 +346,10 @@ glo:BS a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "24.25"^^xsd:float ;
     glo:longitude "-76.0"^^xsd:float ;
-    glo:name "The Bahamas"^^xsd:string ;
-    glo:region "Caribbean"^^xsd:string .
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "The Bahamas"^^xsd:string .
 
-glo:BT a glo:Country ;
+glo:country_BT a glo:Country ;
     glo:capitalCity "Thimphu"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "BT"^^xsd:string ;
@@ -298,10 +358,10 @@ glo:BT a glo:Country ;
     glo:language "Dzongkha"^^xsd:string ;
     glo:latitude "27.5"^^xsd:float ;
     glo:longitude "90.5"^^xsd:float ;
-    glo:name "Bhutan"^^xsd:string ;
-    glo:region "Southern Asia"^^xsd:string .
+    glo:region "Southern Asia"^^xsd:string ;
+    glo:shortName "Bhutan"^^xsd:string .
 
-glo:BW a glo:Country ;
+glo:country_BW a glo:Country ;
     glo:capitalCity "Gaborone"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "BW"^^xsd:string ;
@@ -310,10 +370,10 @@ glo:BW a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "-22.0"^^xsd:float ;
     glo:longitude "24.0"^^xsd:float ;
-    glo:name "Botswana"^^xsd:string ;
-    glo:region "Southern Africa"^^xsd:string .
+    glo:region "Southern Africa"^^xsd:string ;
+    glo:shortName "Botswana"^^xsd:string .
 
-glo:BY a glo:Country ;
+glo:country_BY a glo:Country ;
     glo:capitalCity "Minsk"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "BY"^^xsd:string ;
@@ -322,10 +382,10 @@ glo:BY a glo:Country ;
     glo:language "Russian"^^xsd:string ;
     glo:latitude "53.0"^^xsd:float ;
     glo:longitude "28.0"^^xsd:float ;
-    glo:name "Belarus"^^xsd:string ;
-    glo:region "Eastern Europe"^^xsd:string .
+    glo:region "Eastern Europe"^^xsd:string ;
+    glo:shortName "Belarus"^^xsd:string .
 
-glo:BZ a glo:Country ;
+glo:country_BZ a glo:Country ;
     glo:capitalCity "Belmopan"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "BZ"^^xsd:string ;
@@ -334,10 +394,10 @@ glo:BZ a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "17.25"^^xsd:float ;
     glo:longitude "-88.75"^^xsd:float ;
-    glo:name "Belize"^^xsd:string ;
-    glo:region "Central America"^^xsd:string .
+    glo:region "Central America"^^xsd:string ;
+    glo:shortName "Belize"^^xsd:string .
 
-glo:CA a glo:Country ;
+glo:country_CA a glo:Country ;
     glo:capitalCity "Ottawa"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "CA"^^xsd:string ;
@@ -346,10 +406,10 @@ glo:CA a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "60.0"^^xsd:float ;
     glo:longitude "-95.0"^^xsd:float ;
-    glo:name "Canada"^^xsd:string ;
-    glo:region "Northern America"^^xsd:string .
+    glo:region "Northern America"^^xsd:string ;
+    glo:shortName "Canada"^^xsd:string .
 
-glo:CD a glo:Country ;
+glo:country_CD a glo:Country ;
     glo:capitalCity "Kinshasa"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "CD"^^xsd:string ;
@@ -358,10 +418,10 @@ glo:CD a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "0.0"^^xsd:float ;
     glo:longitude "25.0"^^xsd:float ;
-    glo:name "The Democratic Republic of the Congo"^^xsd:string ;
-    glo:region "Middle Africa"^^xsd:string .
+    glo:region "Middle Africa"^^xsd:string ;
+    glo:shortName "The Democratic Republic of the Congo"^^xsd:string .
 
-glo:CF a glo:Country ;
+glo:country_CF a glo:Country ;
     glo:capitalCity "Bangui"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "CF"^^xsd:string ;
@@ -370,10 +430,10 @@ glo:CF a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "7.0"^^xsd:float ;
     glo:longitude "21.0"^^xsd:float ;
-    glo:name "Central African Republic"^^xsd:string ;
-    glo:region "Middle Africa"^^xsd:string .
+    glo:region "Middle Africa"^^xsd:string ;
+    glo:shortName "Central African Republic"^^xsd:string .
 
-glo:CG a glo:Country ;
+glo:country_CG a glo:Country ;
     glo:capitalCity "Brazzaville"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "CG"^^xsd:string ;
@@ -382,10 +442,10 @@ glo:CG a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "-1.0"^^xsd:float ;
     glo:longitude "15.0"^^xsd:float ;
-    glo:name "Congo"^^xsd:string ;
-    glo:region "Middle Africa"^^xsd:string .
+    glo:region "Middle Africa"^^xsd:string ;
+    glo:shortName "Congo"^^xsd:string .
 
-glo:CH a glo:Country ;
+glo:country_CH a glo:Country ;
     glo:capitalCity "Bern"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "CH"^^xsd:string ;
@@ -394,22 +454,34 @@ glo:CH a glo:Country ;
     glo:language "German"^^xsd:string ;
     glo:latitude "47.0"^^xsd:float ;
     glo:longitude "8.0"^^xsd:float ;
-    glo:name "Switzerland"^^xsd:string ;
-    glo:region "Western Europe"^^xsd:string .
+    glo:region "Western Europe"^^xsd:string ;
+    glo:shortName "Switzerland"^^xsd:string .
 
-glo:CI a glo:Country ;
+glo:country_CI a glo:Country ;
     glo:capitalCity "Yamoussoukro"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "CI"^^xsd:string ;
     glo:currency "West African CFA franc"^^xsd:string ;
-    glo:fullName "Republic of Côte d'Ivoire"^^xsd:string ;
+    glo:fullName "Republic of CÃ´te d'Ivoire"^^xsd:string ;
     glo:language "French"^^xsd:string ;
     glo:latitude "8.0"^^xsd:float ;
     glo:longitude "-5.0"^^xsd:float ;
-    glo:name "Côte d'Ivoire"^^xsd:string ;
-    glo:region "Western Africa"^^xsd:string .
+    glo:region "Western Africa"^^xsd:string ;
+    glo:shortName "CÃ´te d'Ivoire"^^xsd:string .
 
-glo:CL a glo:Country ;
+glo:country_CK a glo:Country ;
+    glo:capitalCity "Avarua"^^xsd:string ;
+    glo:continent "Oceania"^^xsd:string ;
+    glo:country "CK"^^xsd:string ;
+    glo:currency "Cook Islands Dollar (also uses New Zealand Dollar, NZD)"^^xsd:string ;
+    glo:fullName "Cook Islands"^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:latitude "21.2078"^^xsd:float ;
+    glo:longitude "159.775"^^xsd:float ;
+    glo:region "Polynesia"^^xsd:string ;
+    glo:shortName "Cook Islands"^^xsd:string .
+
+glo:country_CL a glo:Country ;
     glo:capitalCity "Santiago"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "CL"^^xsd:string ;
@@ -418,11 +490,11 @@ glo:CL a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "-30.0"^^xsd:float ;
     glo:longitude "-71.0"^^xsd:float ;
-    glo:name "Chile"^^xsd:string ;
-    glo:region "South America"^^xsd:string .
+    glo:region "South America"^^xsd:string ;
+    glo:shortName "Chile"^^xsd:string .
 
-glo:CM a glo:Country ;
-    glo:capitalCity "Yaoundé"^^xsd:string ;
+glo:country_CM a glo:Country ;
+    glo:capitalCity "YaoundÃ©"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "CM"^^xsd:string ;
     glo:currency "Central African CFA franc"^^xsd:string ;
@@ -430,10 +502,10 @@ glo:CM a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "6.0"^^xsd:float ;
     glo:longitude "12.0"^^xsd:float ;
-    glo:name "Cameroon"^^xsd:string ;
-    glo:region "Middle Africa"^^xsd:string .
+    glo:region "Middle Africa"^^xsd:string ;
+    glo:shortName "Cameroon"^^xsd:string .
 
-glo:CN a glo:Country ;
+glo:country_CN a glo:Country ;
     glo:capitalCity "Beijing"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "CN"^^xsd:string ;
@@ -442,11 +514,11 @@ glo:CN a glo:Country ;
     glo:language "Standard Chinese"^^xsd:string ;
     glo:latitude "35.0"^^xsd:float ;
     glo:longitude "105.0"^^xsd:float ;
-    glo:name "China"^^xsd:string ;
-    glo:region "Eastern Asia"^^xsd:string .
+    glo:region "Eastern Asia"^^xsd:string ;
+    glo:shortName "China"^^xsd:string .
 
-glo:CO a glo:Country ;
-    glo:capitalCity "Bogotá"^^xsd:string ;
+glo:country_CO a glo:Country ;
+    glo:capitalCity "BogotÃ¡"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "CO"^^xsd:string ;
     glo:currency "Colombian peso"^^xsd:string ;
@@ -454,11 +526,11 @@ glo:CO a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "4.0"^^xsd:float ;
     glo:longitude "-72.0"^^xsd:float ;
-    glo:name "Colombia"^^xsd:string ;
-    glo:region "South America"^^xsd:string .
+    glo:region "South America"^^xsd:string ;
+    glo:shortName "Colombia"^^xsd:string .
 
-glo:CR a glo:Country ;
-    glo:capitalCity "San José"^^xsd:string ;
+glo:country_CR a glo:Country ;
+    glo:capitalCity "San JosÃ©"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "CR"^^xsd:string ;
     glo:currency "Costa Rican colon"^^xsd:string ;
@@ -466,10 +538,10 @@ glo:CR a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "10.0"^^xsd:float ;
     glo:longitude "-84.0"^^xsd:float ;
-    glo:name "Costa Rica"^^xsd:string ;
-    glo:region "Central America"^^xsd:string .
+    glo:region "Central America"^^xsd:string ;
+    glo:shortName "Costa Rica"^^xsd:string .
 
-glo:CU a glo:Country ;
+glo:country_CU a glo:Country ;
     glo:capitalCity "Havana"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "CU"^^xsd:string ;
@@ -478,10 +550,10 @@ glo:CU a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "21.5"^^xsd:float ;
     glo:longitude "-80.0"^^xsd:float ;
-    glo:name "Cuba"^^xsd:string ;
-    glo:region "Caribbean"^^xsd:string .
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Cuba"^^xsd:string .
 
-glo:CV a glo:Country ;
+glo:country_CV a glo:Country ;
     glo:capitalCity "Praia"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "CV"^^xsd:string ;
@@ -490,10 +562,22 @@ glo:CV a glo:Country ;
     glo:language "Portuguese"^^xsd:string ;
     glo:latitude "16.0"^^xsd:float ;
     glo:longitude "-24.0"^^xsd:float ;
-    glo:name "Cabo Verde"^^xsd:string ;
-    glo:region "Western Africa"^^xsd:string .
+    glo:region "Western Africa"^^xsd:string ;
+    glo:shortName "Cabo Verde"^^xsd:string .
 
-glo:CY a glo:Country ;
+glo:country_CW a glo:Country ;
+    glo:capitalCity "Willemstad"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "CW"^^xsd:string ;
+    glo:currency "Netherlands Antillean Guilder (ANG)"^^xsd:string ;
+    glo:fullName "Curaçao"^^xsd:string ;
+    glo:language "Dutch"^^xsd:string ;
+    glo:latitude "12.1091"^^xsd:float ;
+    glo:longitude "68.9316"^^xsd:float ;
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Curaçao"^^xsd:string .
+
+glo:country_CY a glo:Country ;
     glo:capitalCity "Nicosia"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "CY"^^xsd:string ;
@@ -502,10 +586,10 @@ glo:CY a glo:Country ;
     glo:language "Greek"^^xsd:string ;
     glo:latitude "35.0"^^xsd:float ;
     glo:longitude "33.0"^^xsd:float ;
-    glo:name "Cyprus"^^xsd:string ;
-    glo:region "Southern Europe"^^xsd:string .
+    glo:region "Southern Europe"^^xsd:string ;
+    glo:shortName "Cyprus"^^xsd:string .
 
-glo:CZ a glo:Country ;
+glo:country_CZ a glo:Country ;
     glo:capitalCity "Prague"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "CZ"^^xsd:string ;
@@ -514,10 +598,10 @@ glo:CZ a glo:Country ;
     glo:language "Czech"^^xsd:string ;
     glo:latitude "49.75"^^xsd:float ;
     glo:longitude "15.5"^^xsd:float ;
-    glo:name "Czech Republic"^^xsd:string ;
-    glo:region "Eastern Europe"^^xsd:string .
+    glo:region "Eastern Europe"^^xsd:string ;
+    glo:shortName "Czech Republic"^^xsd:string .
 
-glo:DE a glo:Country ;
+glo:country_DE a glo:Country ;
     glo:capitalCity "Berlin"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "DE"^^xsd:string ;
@@ -526,10 +610,10 @@ glo:DE a glo:Country ;
     glo:language "German"^^xsd:string ;
     glo:latitude "51.0"^^xsd:float ;
     glo:longitude "9.0"^^xsd:float ;
-    glo:name "Germany"^^xsd:string ;
-    glo:region "Western Europe"^^xsd:string .
+    glo:region "Western Europe"^^xsd:string ;
+    glo:shortName "Germany"^^xsd:string .
 
-glo:DJ a glo:Country ;
+glo:country_DJ a glo:Country ;
     glo:capitalCity "Djibouti"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "DJ"^^xsd:string ;
@@ -538,10 +622,10 @@ glo:DJ a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "11.5"^^xsd:float ;
     glo:longitude "43.0"^^xsd:float ;
-    glo:name "Djibouti"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Djibouti"^^xsd:string .
 
-glo:DK a glo:Country ;
+glo:country_DK a glo:Country ;
     glo:capitalCity "Copenhagen"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "DK"^^xsd:string ;
@@ -550,10 +634,10 @@ glo:DK a glo:Country ;
     glo:language "Danish"^^xsd:string ;
     glo:latitude "56.0"^^xsd:float ;
     glo:longitude "10.0"^^xsd:float ;
-    glo:name "Denmark"^^xsd:string ;
-    glo:region "Northern Europe"^^xsd:string .
+    glo:region "Northern Europe"^^xsd:string ;
+    glo:shortName "Denmark"^^xsd:string .
 
-glo:DM a glo:Country ;
+glo:country_DM a glo:Country ;
     glo:capitalCity "Roseau"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "DM"^^xsd:string ;
@@ -562,10 +646,10 @@ glo:DM a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "15.41666666"^^xsd:float ;
     glo:longitude "-61.33333333"^^xsd:float ;
-    glo:name "Dominica"^^xsd:string ;
-    glo:region "Caribbean"^^xsd:string .
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Dominica"^^xsd:string .
 
-glo:DO a glo:Country ;
+glo:country_DO a glo:Country ;
     glo:capitalCity "Santo Domingo"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "DO"^^xsd:string ;
@@ -574,10 +658,10 @@ glo:DO a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "19.0"^^xsd:float ;
     glo:longitude "-70.66666666"^^xsd:float ;
-    glo:name "Dominican Republic"^^xsd:string ;
-    glo:region "Caribbean"^^xsd:string .
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Dominican Republic"^^xsd:string .
 
-glo:DZ a glo:Country ;
+glo:country_DZ a glo:Country ;
     glo:capitalCity "Algiers"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "DZ"^^xsd:string ;
@@ -586,10 +670,10 @@ glo:DZ a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "28.0"^^xsd:float ;
     glo:longitude "3.0"^^xsd:float ;
-    glo:name "Algeria"^^xsd:string ;
-    glo:region "Northern Africa"^^xsd:string .
+    glo:region "Northern Africa"^^xsd:string ;
+    glo:shortName "Algeria"^^xsd:string .
 
-glo:EC a glo:Country ;
+glo:country_EC a glo:Country ;
     glo:capitalCity "Quito"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "EC"^^xsd:string ;
@@ -598,10 +682,10 @@ glo:EC a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "-2.0"^^xsd:float ;
     glo:longitude "-77.5"^^xsd:float ;
-    glo:name "Ecuador"^^xsd:string ;
-    glo:region "South America"^^xsd:string .
+    glo:region "South America"^^xsd:string ;
+    glo:shortName "Ecuador"^^xsd:string .
 
-glo:EE a glo:Country ;
+glo:country_EE a glo:Country ;
     glo:capitalCity "Tallinn"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "EE"^^xsd:string ;
@@ -610,10 +694,10 @@ glo:EE a glo:Country ;
     glo:language "Estonian"^^xsd:string ;
     glo:latitude "59.0"^^xsd:float ;
     glo:longitude "26.0"^^xsd:float ;
-    glo:name "Estonia"^^xsd:string ;
-    glo:region "Northern Europe"^^xsd:string .
+    glo:region "Northern Europe"^^xsd:string ;
+    glo:shortName "Estonia"^^xsd:string .
 
-glo:EG a glo:Country ;
+glo:country_EG a glo:Country ;
     glo:capitalCity "Cairo"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "EG"^^xsd:string ;
@@ -622,10 +706,22 @@ glo:EG a glo:Country ;
     glo:language "Modern Standard Arabic"^^xsd:string ;
     glo:latitude "27.0"^^xsd:float ;
     glo:longitude "30.0"^^xsd:float ;
-    glo:name "Egypt"^^xsd:string ;
-    glo:region "Northern Africa"^^xsd:string .
+    glo:region "Northern Africa"^^xsd:string ;
+    glo:shortName "Egypt"^^xsd:string .
 
-glo:ER a glo:Country ;
+glo:country_EH a glo:Country ;
+    glo:capitalCity "Laayoune"^^xsd:string ;
+    glo:continent "Africa"^^xsd:string ;
+    glo:country "EH"^^xsd:string ;
+    glo:currency "Moroccan Dirham (MAD)"^^xsd:string ;
+    glo:fullName "Western Sahara"^^xsd:string ;
+    glo:language "Hassaniya Arabic"^^xsd:string ;
+    glo:latitude "27.1536"^^xsd:float ;
+    glo:longitude "13.2034"^^xsd:float ;
+    glo:region "North Africa"^^xsd:string ;
+    glo:shortName "Western Sahara"^^xsd:string .
+
+glo:country_ER a glo:Country ;
     glo:capitalCity "Asmara"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "ER"^^xsd:string ;
@@ -634,10 +730,10 @@ glo:ER a glo:Country ;
     glo:language "Tigrinya"^^xsd:string ;
     glo:latitude "15.0"^^xsd:float ;
     glo:longitude "39.0"^^xsd:float ;
-    glo:name "Eritrea"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Eritrea"^^xsd:string .
 
-glo:ES a glo:Country ;
+glo:country_ES a glo:Country ;
     glo:capitalCity "Madrid"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "ES"^^xsd:string ;
@@ -646,10 +742,10 @@ glo:ES a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "40.0"^^xsd:float ;
     glo:longitude "-4.0"^^xsd:float ;
-    glo:name "Spain"^^xsd:string ;
-    glo:region "Southern Europe"^^xsd:string .
+    glo:region "Southern Europe"^^xsd:string ;
+    glo:shortName "Spain"^^xsd:string .
 
-glo:ET a glo:Country ;
+glo:country_ET a glo:Country ;
     glo:capitalCity "Addis Ababa"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "ET"^^xsd:string ;
@@ -658,10 +754,10 @@ glo:ET a glo:Country ;
     glo:language "Amharic"^^xsd:string ;
     glo:latitude "8.0"^^xsd:float ;
     glo:longitude "38.0"^^xsd:float ;
-    glo:name "Ethiopia"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Ethiopia"^^xsd:string .
 
-glo:FI a glo:Country ;
+glo:country_FI a glo:Country ;
     glo:capitalCity "Helsinki"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "FI"^^xsd:string ;
@@ -670,10 +766,10 @@ glo:FI a glo:Country ;
     glo:language "Swedish"^^xsd:string ;
     glo:latitude "64.0"^^xsd:float ;
     glo:longitude "26.0"^^xsd:float ;
-    glo:name "Finland"^^xsd:string ;
-    glo:region "Northern Europe"^^xsd:string .
+    glo:region "Northern Europe"^^xsd:string ;
+    glo:shortName "Finland"^^xsd:string .
 
-glo:FJ a glo:Country ;
+glo:country_FJ a glo:Country ;
     glo:capitalCity "Suva"^^xsd:string ;
     glo:continent "Oceania"^^xsd:string ;
     glo:country "FJ"^^xsd:string ;
@@ -682,10 +778,22 @@ glo:FJ a glo:Country ;
     glo:language "Fiji Hindi"^^xsd:string ;
     glo:latitude "-18.0"^^xsd:float ;
     glo:longitude "175.0"^^xsd:float ;
-    glo:name "Fiji"^^xsd:string ;
-    glo:region "Melanesia"^^xsd:string .
+    glo:region "Melanesia"^^xsd:string ;
+    glo:shortName "Fiji"^^xsd:string .
 
-glo:FM a glo:Country ;
+glo:country_FK a glo:Country ;
+    glo:capitalCity "Stanley"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "FK"^^xsd:string ;
+    glo:currency "Falkland Islands Pound (FKP)"^^xsd:string ;
+    glo:fullName "Falkland Islands (Malvinas)"^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:latitude "51.6977"^^xsd:float ;
+    glo:longitude "57.8517"^^xsd:float ;
+    glo:region "South Atlantic"^^xsd:string ;
+    glo:shortName "Falkland Islands"^^xsd:string .
+
+glo:country_FM a glo:Country ;
     glo:capitalCity "Palikir"^^xsd:string ;
     glo:continent "Oceania"^^xsd:string ;
     glo:country "FM"^^xsd:string ;
@@ -694,10 +802,22 @@ glo:FM a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "6.91666666"^^xsd:float ;
     glo:longitude "158.25"^^xsd:float ;
-    glo:name "Micronesia"^^xsd:string ;
-    glo:region "Micronesia"^^xsd:string .
+    glo:region "Micronesia"^^xsd:string ;
+    glo:shortName "Micronesia"^^xsd:string .
 
-glo:FR a glo:Country ;
+glo:country_FO a glo:Country ;
+    glo:capitalCity "Tórshavn"^^xsd:string ;
+    glo:continent "Europe"^^xsd:string ;
+    glo:country "FO"^^xsd:string ;
+    glo:currency "Danish Krone (DKK)"^^xsd:string ;
+    glo:fullName "The Faroe Islands"^^xsd:string ;
+    glo:language "Faroese"^^xsd:string ;
+    glo:latitude "62.0079"^^xsd:float ;
+    glo:longitude "6.79"^^xsd:float ;
+    glo:region "North Atlantic"^^xsd:string ;
+    glo:shortName "Faroe Islands"^^xsd:string .
+
+glo:country_FR a glo:Country ;
     glo:capitalCity "Paris"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "FR"^^xsd:string ;
@@ -706,10 +826,10 @@ glo:FR a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "46.0"^^xsd:float ;
     glo:longitude "2.0"^^xsd:float ;
-    glo:name "France"^^xsd:string ;
-    glo:region "Western Europe"^^xsd:string .
+    glo:region "Western Europe"^^xsd:string ;
+    glo:shortName "France"^^xsd:string .
 
-glo:GA a glo:Country ;
+glo:country_GA a glo:Country ;
     glo:capitalCity "Libreville"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "GA"^^xsd:string ;
@@ -718,10 +838,10 @@ glo:GA a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "-1.0"^^xsd:float ;
     glo:longitude "11.75"^^xsd:float ;
-    glo:name "Gabon"^^xsd:string ;
-    glo:region "Middle Africa"^^xsd:string .
+    glo:region "Middle Africa"^^xsd:string ;
+    glo:shortName "Gabon"^^xsd:string .
 
-glo:GB a glo:Country ;
+glo:country_GB a glo:Country ;
     glo:capitalCity "London"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "GB"^^xsd:string ;
@@ -730,10 +850,10 @@ glo:GB a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "54.0"^^xsd:float ;
     glo:longitude "-2.0"^^xsd:float ;
-    glo:name "United Kingdom"^^xsd:string ;
-    glo:region "Northern Europe"^^xsd:string .
+    glo:region "Northern Europe"^^xsd:string ;
+    glo:shortName "United Kingdom"^^xsd:string .
 
-glo:GD a glo:Country ;
+glo:country_GD a glo:Country ;
     glo:capitalCity "St. George's"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "GD"^^xsd:string ;
@@ -742,10 +862,10 @@ glo:GD a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "12.11666666"^^xsd:float ;
     glo:longitude "-61.66666666"^^xsd:float ;
-    glo:name "Grenada"^^xsd:string ;
-    glo:region "Caribbean"^^xsd:string .
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Grenada"^^xsd:string .
 
-glo:GE a glo:Country ;
+glo:country_GE a glo:Country ;
     glo:capitalCity "Tbilisi"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "GE"^^xsd:string ;
@@ -754,10 +874,22 @@ glo:GE a glo:Country ;
     glo:language "Georgian"^^xsd:string ;
     glo:latitude "42.0"^^xsd:float ;
     glo:longitude "43.5"^^xsd:float ;
-    glo:name "Georgia"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "Georgia"^^xsd:string .
 
-glo:GH a glo:Country ;
+glo:country_GF a glo:Country ;
+    glo:capitalCity "Cayenne"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "GF"^^xsd:string ;
+    glo:currency "Euro"^^xsd:string ;
+    glo:fullName "French Guiana"^^xsd:string ;
+    glo:language "French"^^xsd:string ;
+    glo:latitude "4.9224"^^xsd:float ;
+    glo:longitude "52.3135"^^xsd:float ;
+    glo:region "South America"^^xsd:string ;
+    glo:shortName "French Guiana"^^xsd:string .
+
+glo:country_GH a glo:Country ;
     glo:capitalCity "Accra"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "GH"^^xsd:string ;
@@ -766,10 +898,34 @@ glo:GH a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "8.0"^^xsd:float ;
     glo:longitude "-2.0"^^xsd:float ;
-    glo:name "Ghana"^^xsd:string ;
-    glo:region "Western Africa"^^xsd:string .
+    glo:region "Western Africa"^^xsd:string ;
+    glo:shortName "Ghana"^^xsd:string .
 
-glo:GM a glo:Country ;
+glo:country_GI a glo:Country ;
+    glo:capitalCity "Gibraltar"^^xsd:string ;
+    glo:continent "Europe"^^xsd:string ;
+    glo:country "GI"^^xsd:string ;
+    glo:currency "Gibraltar Pound"^^xsd:string ;
+    glo:fullName "Gibraltar"^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:latitude "36.1408"^^xsd:float ;
+    glo:longitude "5.3536"^^xsd:float ;
+    glo:region "Europe"^^xsd:string ;
+    glo:shortName "Gibraltar"^^xsd:string .
+
+glo:country_GL a glo:Country ;
+    glo:capitalCity "Nuuk"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "GL"^^xsd:string ;
+    glo:currency "Danish Krone (DKK)"^^xsd:string ;
+    glo:fullName "Greenland"^^xsd:string ;
+    glo:language "Greenlandic"^^xsd:string ;
+    glo:latitude "64.1814"^^xsd:float ;
+    glo:longitude "51.6941"^^xsd:float ;
+    glo:region "Arctic"^^xsd:string ;
+    glo:shortName "Greenland"^^xsd:string .
+
+glo:country_GM a glo:Country ;
     glo:capitalCity "Banjul"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "GM"^^xsd:string ;
@@ -778,10 +934,10 @@ glo:GM a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "13.46666666"^^xsd:float ;
     glo:longitude "-16.56666666"^^xsd:float ;
-    glo:name "The Gambia"^^xsd:string ;
-    glo:region "Western Africa"^^xsd:string .
+    glo:region "Western Africa"^^xsd:string ;
+    glo:shortName "The Gambia"^^xsd:string .
 
-glo:GN a glo:Country ;
+glo:country_GN a glo:Country ;
     glo:capitalCity "Conakry"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "GN"^^xsd:string ;
@@ -790,10 +946,22 @@ glo:GN a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "11.0"^^xsd:float ;
     glo:longitude "-10.0"^^xsd:float ;
-    glo:name "Guinea"^^xsd:string ;
-    glo:region "Western Africa"^^xsd:string .
+    glo:region "Western Africa"^^xsd:string ;
+    glo:shortName "Guinea"^^xsd:string .
 
-glo:GQ a glo:Country ;
+glo:country_GP a glo:Country ;
+    glo:capitalCity "Basse-Terre"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "GP"^^xsd:string ;
+    glo:currency "Euro"^^xsd:string ;
+    glo:fullName "Guadeloupe"^^xsd:string ;
+    glo:language "French"^^xsd:string ;
+    glo:latitude "16.0145"^^xsd:float ;
+    glo:longitude "61.7068"^^xsd:float ;
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Guadeloupe"^^xsd:string .
+
+glo:country_GQ a glo:Country ;
     glo:capitalCity "Malabo"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "GQ"^^xsd:string ;
@@ -802,10 +970,10 @@ glo:GQ a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "2.0"^^xsd:float ;
     glo:longitude "10.0"^^xsd:float ;
-    glo:name "Equatorial Guinea"^^xsd:string ;
-    glo:region "Middle Africa"^^xsd:string .
+    glo:region "Middle Africa"^^xsd:string ;
+    glo:shortName "Equatorial Guinea"^^xsd:string .
 
-glo:GR a glo:Country ;
+glo:country_GR a glo:Country ;
     glo:capitalCity "Athens"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "GR"^^xsd:string ;
@@ -814,10 +982,10 @@ glo:GR a glo:Country ;
     glo:language "Greek"^^xsd:string ;
     glo:latitude "39.0"^^xsd:float ;
     glo:longitude "22.0"^^xsd:float ;
-    glo:name "Greece"^^xsd:string ;
-    glo:region "Southern Europe"^^xsd:string .
+    glo:region "Southern Europe"^^xsd:string ;
+    glo:shortName "Greece"^^xsd:string .
 
-glo:GT a glo:Country ;
+glo:country_GT a glo:Country ;
     glo:capitalCity "Guatemala City"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "GT"^^xsd:string ;
@@ -826,10 +994,22 @@ glo:GT a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "15.5"^^xsd:float ;
     glo:longitude "-90.25"^^xsd:float ;
-    glo:name "Guatemala"^^xsd:string ;
-    glo:region "Central America"^^xsd:string .
+    glo:region "Central America"^^xsd:string ;
+    glo:shortName "Guatemala"^^xsd:string .
 
-glo:GW a glo:Country ;
+glo:country_GU a glo:Country ;
+    glo:capitalCity "Hagåtña"^^xsd:string ;
+    glo:continent "Oceania"^^xsd:string ;
+    glo:country "GU"^^xsd:string ;
+    glo:currency "United States Dollar (USD)"^^xsd:string ;
+    glo:fullName "Guam"^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:latitude "13.4777"^^xsd:float ;
+    glo:longitude "144.7504"^^xsd:float ;
+    glo:region "Micronesia"^^xsd:string ;
+    glo:shortName "Guam"^^xsd:string .
+
+glo:country_GW a glo:Country ;
     glo:capitalCity "Bissau"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "GW"^^xsd:string ;
@@ -838,10 +1018,10 @@ glo:GW a glo:Country ;
     glo:language "Portuguese"^^xsd:string ;
     glo:latitude "12.0"^^xsd:float ;
     glo:longitude "-15.0"^^xsd:float ;
-    glo:name "Guinea-Bissau"^^xsd:string ;
-    glo:region "Western Africa"^^xsd:string .
+    glo:region "Western Africa"^^xsd:string ;
+    glo:shortName "Guinea-Bissau"^^xsd:string .
 
-glo:GY a glo:Country ;
+glo:country_GY a glo:Country ;
     glo:capitalCity "Georgetown"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "GY"^^xsd:string ;
@@ -850,10 +1030,22 @@ glo:GY a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "5.0"^^xsd:float ;
     glo:longitude "-59.0"^^xsd:float ;
-    glo:name "Guyana"^^xsd:string ;
-    glo:region "South America"^^xsd:string .
+    glo:region "South America"^^xsd:string ;
+    glo:shortName "Guyana"^^xsd:string .
 
-glo:HN a glo:Country ;
+glo:country_HK a glo:Country ;
+    glo:capitalCity "-"^^xsd:string ;
+    glo:continent "Asia"^^xsd:string ;
+    glo:country "HK"^^xsd:string ;
+    glo:currency "Hong Kong Dollar (HKD)"^^xsd:string ;
+    glo:fullName "Hong Kong"^^xsd:string ;
+    glo:language "Chinese"^^xsd:string ;
+    glo:latitude "22.3193"^^xsd:float ;
+    glo:longitude "114.1694"^^xsd:float ;
+    glo:region "East Asia"^^xsd:string ;
+    glo:shortName "Hong Kong"^^xsd:string .
+
+glo:country_HN a glo:Country ;
     glo:capitalCity "Tegucigalpa"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "HN"^^xsd:string ;
@@ -862,10 +1054,10 @@ glo:HN a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "15.0"^^xsd:float ;
     glo:longitude "-86.5"^^xsd:float ;
-    glo:name "Honduras"^^xsd:string ;
-    glo:region "Central America"^^xsd:string .
+    glo:region "Central America"^^xsd:string ;
+    glo:shortName "Honduras"^^xsd:string .
 
-glo:HR a glo:Country ;
+glo:country_HR a glo:Country ;
     glo:capitalCity "Zagreb"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "HR"^^xsd:string ;
@@ -874,10 +1066,10 @@ glo:HR a glo:Country ;
     glo:language "Croatian"^^xsd:string ;
     glo:latitude "45.16666666"^^xsd:float ;
     glo:longitude "15.5"^^xsd:float ;
-    glo:name "Croatia"^^xsd:string ;
-    glo:region "Southern Europe"^^xsd:string .
+    glo:region "Southern Europe"^^xsd:string ;
+    glo:shortName "Croatia"^^xsd:string .
 
-glo:HT a glo:Country ;
+glo:country_HT a glo:Country ;
     glo:capitalCity "Port-au-Prince"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "HT"^^xsd:string ;
@@ -886,10 +1078,10 @@ glo:HT a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "19.0"^^xsd:float ;
     glo:longitude "-72.41666666"^^xsd:float ;
-    glo:name "Haiti"^^xsd:string ;
-    glo:region "Caribbean"^^xsd:string .
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Haiti"^^xsd:string .
 
-glo:HU a glo:Country ;
+glo:country_HU a glo:Country ;
     glo:capitalCity "Budapest"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "HU"^^xsd:string ;
@@ -898,10 +1090,10 @@ glo:HU a glo:Country ;
     glo:language "Hungarian"^^xsd:string ;
     glo:latitude "47.0"^^xsd:float ;
     glo:longitude "20.0"^^xsd:float ;
-    glo:name "Hungary"^^xsd:string ;
-    glo:region "Eastern Europe"^^xsd:string .
+    glo:region "Eastern Europe"^^xsd:string ;
+    glo:shortName "Hungary"^^xsd:string .
 
-glo:ID a glo:Country ;
+glo:country_ID a glo:Country ;
     glo:capitalCity "Jakarta"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "ID"^^xsd:string ;
@@ -910,10 +1102,10 @@ glo:ID a glo:Country ;
     glo:language "Indonesian"^^xsd:string ;
     glo:latitude "-5.0"^^xsd:float ;
     glo:longitude "120.0"^^xsd:float ;
-    glo:name "Indonesia"^^xsd:string ;
-    glo:region "South-Eastern Asia"^^xsd:string .
+    glo:region "South-Eastern Asia"^^xsd:string ;
+    glo:shortName "Indonesia"^^xsd:string .
 
-glo:IE a glo:Country ;
+glo:country_IE a glo:Country ;
     glo:capitalCity "Dublin"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "IE"^^xsd:string ;
@@ -922,10 +1114,10 @@ glo:IE a glo:Country ;
     glo:language "Irish"^^xsd:string ;
     glo:latitude "53.0"^^xsd:float ;
     glo:longitude "-8.0"^^xsd:float ;
-    glo:name "Ireland"^^xsd:string ;
-    glo:region "Northern Europe"^^xsd:string .
+    glo:region "Northern Europe"^^xsd:string ;
+    glo:shortName "Ireland"^^xsd:string .
 
-glo:IL a glo:Country ;
+glo:country_IL a glo:Country ;
     glo:capitalCity "Jerusalem"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "IL"^^xsd:string ;
@@ -934,10 +1126,22 @@ glo:IL a glo:Country ;
     glo:language "Hebrew"^^xsd:string ;
     glo:latitude "31.5"^^xsd:float ;
     glo:longitude "34.75"^^xsd:float ;
-    glo:name "Israel"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "Israel"^^xsd:string .
 
-glo:IN a glo:Country ;
+glo:country_IM a glo:Country ;
+    glo:capitalCity "Douglas"^^xsd:string ;
+    glo:continent "Europe"^^xsd:string ;
+    glo:country "IM"^^xsd:string ;
+    glo:currency "Pound Sterling"^^xsd:string ;
+    glo:fullName "Isle of Man"^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:latitude "54.1523"^^xsd:float ;
+    glo:longitude "4.4861"^^xsd:float ;
+    glo:region "British Isles"^^xsd:string ;
+    glo:shortName "Isle of Man"^^xsd:string .
+
+glo:country_IN a glo:Country ;
     glo:capitalCity "New Delhi"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "IN"^^xsd:string ;
@@ -946,10 +1150,10 @@ glo:IN a glo:Country ;
     glo:language "Hindi"^^xsd:string ;
     glo:latitude "20.0"^^xsd:float ;
     glo:longitude "77.0"^^xsd:float ;
-    glo:name "India"^^xsd:string ;
-    glo:region "Southern Asia"^^xsd:string .
+    glo:region "Southern Asia"^^xsd:string ;
+    glo:shortName "India"^^xsd:string .
 
-glo:IQ a glo:Country ;
+glo:country_IQ a glo:Country ;
     glo:capitalCity "Baghdad"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "IQ"^^xsd:string ;
@@ -958,10 +1162,10 @@ glo:IQ a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "33.0"^^xsd:float ;
     glo:longitude "44.0"^^xsd:float ;
-    glo:name "Iraq"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "Iraq"^^xsd:string .
 
-glo:IR a glo:Country ;
+glo:country_IR a glo:Country ;
     glo:capitalCity "Tehran"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "IR"^^xsd:string ;
@@ -970,11 +1174,11 @@ glo:IR a glo:Country ;
     glo:language "Persian"^^xsd:string ;
     glo:latitude "32.0"^^xsd:float ;
     glo:longitude "53.0"^^xsd:float ;
-    glo:name "Iran"^^xsd:string ;
-    glo:region "Southern Asia"^^xsd:string .
+    glo:region "Southern Asia"^^xsd:string ;
+    glo:shortName "Iran"^^xsd:string .
 
-glo:IS a glo:Country ;
-    glo:capitalCity "Reykjavík"^^xsd:string ;
+glo:country_IS a glo:Country ;
+    glo:capitalCity "ReykjavÃ­k"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "IS"^^xsd:string ;
     glo:currency "Iceland krona"^^xsd:string ;
@@ -982,10 +1186,10 @@ glo:IS a glo:Country ;
     glo:language "Icelandic"^^xsd:string ;
     glo:latitude "65.0"^^xsd:float ;
     glo:longitude "-18.0"^^xsd:float ;
-    glo:name "Iceland"^^xsd:string ;
-    glo:region "Northern Europe"^^xsd:string .
+    glo:region "Northern Europe"^^xsd:string ;
+    glo:shortName "Iceland"^^xsd:string .
 
-glo:IT a glo:Country ;
+glo:country_IT a glo:Country ;
     glo:capitalCity "Rome"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "IT"^^xsd:string ;
@@ -994,10 +1198,10 @@ glo:IT a glo:Country ;
     glo:language "Italian"^^xsd:string ;
     glo:latitude "42.83333333"^^xsd:float ;
     glo:longitude "12.83333333"^^xsd:float ;
-    glo:name "Italy"^^xsd:string ;
-    glo:region "Southern Europe"^^xsd:string .
+    glo:region "Southern Europe"^^xsd:string ;
+    glo:shortName "Italy"^^xsd:string .
 
-glo:JM a glo:Country ;
+glo:country_JM a glo:Country ;
     glo:capitalCity "Kingston"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "JM"^^xsd:string ;
@@ -1006,10 +1210,10 @@ glo:JM a glo:Country ;
     glo:language "Jamaican English"^^xsd:string ;
     glo:latitude "18.25"^^xsd:float ;
     glo:longitude "-77.5"^^xsd:float ;
-    glo:name "Jamaica"^^xsd:string ;
-    glo:region "Caribbean"^^xsd:string .
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Jamaica"^^xsd:string .
 
-glo:JO a glo:Country ;
+glo:country_JO a glo:Country ;
     glo:capitalCity "Amman"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "JO"^^xsd:string ;
@@ -1018,10 +1222,10 @@ glo:JO a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "31.0"^^xsd:float ;
     glo:longitude "36.0"^^xsd:float ;
-    glo:name "Jordan"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "Jordan"^^xsd:string .
 
-glo:JP a glo:Country ;
+glo:country_JP a glo:Country ;
     glo:capitalCity "Tokyo"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "JP"^^xsd:string ;
@@ -1030,10 +1234,10 @@ glo:JP a glo:Country ;
     glo:language "Japanese"^^xsd:string ;
     glo:latitude "36.0"^^xsd:float ;
     glo:longitude "138.0"^^xsd:float ;
-    glo:name "Japan"^^xsd:string ;
-    glo:region "Eastern Asia"^^xsd:string .
+    glo:region "Eastern Asia"^^xsd:string ;
+    glo:shortName "Japan"^^xsd:string .
 
-glo:KE a glo:Country ;
+glo:country_KE a glo:Country ;
     glo:capitalCity "Nairobi"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "KE"^^xsd:string ;
@@ -1042,10 +1246,10 @@ glo:KE a glo:Country ;
     glo:language "Swahili"^^xsd:string ;
     glo:latitude "1.0"^^xsd:float ;
     glo:longitude "38.0"^^xsd:float ;
-    glo:name "Kenya"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Kenya"^^xsd:string .
 
-glo:KG a glo:Country ;
+glo:country_KG a glo:Country ;
     glo:capitalCity "Bishkek"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "KG"^^xsd:string ;
@@ -1054,10 +1258,10 @@ glo:KG a glo:Country ;
     glo:language "Russian"^^xsd:string ;
     glo:latitude "41.0"^^xsd:float ;
     glo:longitude "75.0"^^xsd:float ;
-    glo:name "Kyrgyz Republic"^^xsd:string ;
-    glo:region "Central Asia"^^xsd:string .
+    glo:region "Central Asia"^^xsd:string ;
+    glo:shortName "Kyrgyz Republic"^^xsd:string .
 
-glo:KH a glo:Country ;
+glo:country_KH a glo:Country ;
     glo:capitalCity "Phnom Penh"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "KH"^^xsd:string ;
@@ -1066,10 +1270,10 @@ glo:KH a glo:Country ;
     glo:language "Khmer language"^^xsd:string ;
     glo:latitude "13.0"^^xsd:float ;
     glo:longitude "105.0"^^xsd:float ;
-    glo:name "Cambodia"^^xsd:string ;
-    glo:region "South-Eastern Asia"^^xsd:string .
+    glo:region "South-Eastern Asia"^^xsd:string ;
+    glo:shortName "Cambodia"^^xsd:string .
 
-glo:KI a glo:Country ;
+glo:country_KI a glo:Country ;
     glo:capitalCity "South Tarawa"^^xsd:string ;
     glo:continent "Oceania"^^xsd:string ;
     glo:country "KI"^^xsd:string ;
@@ -1078,10 +1282,10 @@ glo:KI a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "1.41666666"^^xsd:float ;
     glo:longitude "173.0"^^xsd:float ;
-    glo:name "Kiribati"^^xsd:string ;
-    glo:region "Micronesia"^^xsd:string .
+    glo:region "Micronesia"^^xsd:string ;
+    glo:shortName "Kiribati"^^xsd:string .
 
-glo:KM a glo:Country ;
+glo:country_KM a glo:Country ;
     glo:capitalCity "Moroni"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "KM"^^xsd:string ;
@@ -1090,10 +1294,10 @@ glo:KM a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "-12.16666666"^^xsd:float ;
     glo:longitude "44.25"^^xsd:float ;
-    glo:name "Comoros"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Comoros"^^xsd:string .
 
-glo:KN a glo:Country ;
+glo:country_KN a glo:Country ;
     glo:capitalCity "Basseterre"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "KN"^^xsd:string ;
@@ -1102,10 +1306,10 @@ glo:KN a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "17.33333333"^^xsd:float ;
     glo:longitude "-62.75"^^xsd:float ;
-    glo:name "St. Kitts and Nevis"^^xsd:string ;
-    glo:region "Caribbean"^^xsd:string .
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "St. Kitts and Nevis"^^xsd:string .
 
-glo:KP a glo:Country ;
+glo:country_KP a glo:Country ;
     glo:capitalCity "Pyongyang"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "KP"^^xsd:string ;
@@ -1114,10 +1318,10 @@ glo:KP a glo:Country ;
     glo:language "Korean"^^xsd:string ;
     glo:latitude "40.0"^^xsd:float ;
     glo:longitude "127.0"^^xsd:float ;
-    glo:name "Democratic People's Republic of Korea"^^xsd:string ;
-    glo:region "Eastern Asia"^^xsd:string .
+    glo:region "Eastern Asia"^^xsd:string ;
+    glo:shortName "Democratic People's Republic of Korea"^^xsd:string .
 
-glo:KR a glo:Country ;
+glo:country_KR a glo:Country ;
     glo:capitalCity "Seoul"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "KR"^^xsd:string ;
@@ -1126,10 +1330,10 @@ glo:KR a glo:Country ;
     glo:language "Korean"^^xsd:string ;
     glo:latitude "37.0"^^xsd:float ;
     glo:longitude "127.5"^^xsd:float ;
-    glo:name "Korea"^^xsd:string ;
-    glo:region "Eastern Asia"^^xsd:string .
+    glo:region "Eastern Asia"^^xsd:string ;
+    glo:shortName "Korea"^^xsd:string .
 
-glo:KW a glo:Country ;
+glo:country_KW a glo:Country ;
     glo:capitalCity "Kuwait City"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "KW"^^xsd:string ;
@@ -1138,10 +1342,22 @@ glo:KW a glo:Country ;
     glo:language "Modern Standard Arabic"^^xsd:string ;
     glo:latitude "29.5"^^xsd:float ;
     glo:longitude "45.75"^^xsd:float ;
-    glo:name "Kuwait"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "Kuwait"^^xsd:string .
 
-glo:KZ a glo:Country ;
+glo:country_KY a glo:Country ;
+    glo:capitalCity "George Town"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "KY"^^xsd:string ;
+    glo:currency "Cayman Islands Dollar (KYD)"^^xsd:string ;
+    glo:fullName "The Cayman Islands"^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:latitude "19.3133"^^xsd:float ;
+    glo:longitude "81.2546"^^xsd:float ;
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Cayman Islands"^^xsd:string .
+
+glo:country_KZ a glo:Country ;
     glo:capitalCity "Astana"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "KZ"^^xsd:string ;
@@ -1150,10 +1366,10 @@ glo:KZ a glo:Country ;
     glo:language "Russian"^^xsd:string ;
     glo:latitude "48.0"^^xsd:float ;
     glo:longitude "68.0"^^xsd:float ;
-    glo:name "Kazakhstan"^^xsd:string ;
-    glo:region "Central Asia"^^xsd:string .
+    glo:region "Central Asia"^^xsd:string ;
+    glo:shortName "Kazakhstan"^^xsd:string .
 
-glo:LA a glo:Country ;
+glo:country_LA a glo:Country ;
     glo:capitalCity "Vientiane"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "LA"^^xsd:string ;
@@ -1162,10 +1378,10 @@ glo:LA a glo:Country ;
     glo:language "Lao"^^xsd:string ;
     glo:latitude "18.0"^^xsd:float ;
     glo:longitude "105.0"^^xsd:float ;
-    glo:name "Lao PDR"^^xsd:string ;
-    glo:region "South-Eastern Asia"^^xsd:string .
+    glo:region "South-Eastern Asia"^^xsd:string ;
+    glo:shortName "Lao PDR"^^xsd:string .
 
-glo:LB a glo:Country ;
+glo:country_LB a glo:Country ;
     glo:capitalCity "Beirut"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "LB"^^xsd:string ;
@@ -1174,10 +1390,10 @@ glo:LB a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "33.83333333"^^xsd:float ;
     glo:longitude "35.83333333"^^xsd:float ;
-    glo:name "Lebanon"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "Lebanon"^^xsd:string .
 
-glo:LC a glo:Country ;
+glo:country_LC a glo:Country ;
     glo:capitalCity "Castries"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "LC"^^xsd:string ;
@@ -1186,10 +1402,10 @@ glo:LC a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "13.88333333"^^xsd:float ;
     glo:longitude "-60.96666666"^^xsd:float ;
-    glo:name "St. Lucia"^^xsd:string ;
-    glo:region "Caribbean"^^xsd:string .
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "St. Lucia"^^xsd:string .
 
-glo:LI a glo:Country ;
+glo:country_LI a glo:Country ;
     glo:capitalCity "Vaduz"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "LI"^^xsd:string ;
@@ -1198,10 +1414,10 @@ glo:LI a glo:Country ;
     glo:language "German"^^xsd:string ;
     glo:latitude "47.26666666"^^xsd:float ;
     glo:longitude "9.53333333"^^xsd:float ;
-    glo:name "Liechtenstein"^^xsd:string ;
-    glo:region "Western Europe"^^xsd:string .
+    glo:region "Western Europe"^^xsd:string ;
+    glo:shortName "Liechtenstein"^^xsd:string .
 
-glo:LK a glo:Country ;
+glo:country_LK a glo:Country ;
     glo:capitalCity "Colombo"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "LK"^^xsd:string ;
@@ -1210,10 +1426,10 @@ glo:LK a glo:Country ;
     glo:language "Tamil"^^xsd:string ;
     glo:latitude "7.0"^^xsd:float ;
     glo:longitude "81.0"^^xsd:float ;
-    glo:name "Sri Lanka"^^xsd:string ;
-    glo:region "Southern Asia"^^xsd:string .
+    glo:region "Southern Asia"^^xsd:string ;
+    glo:shortName "Sri Lanka"^^xsd:string .
 
-glo:LR a glo:Country ;
+glo:country_LR a glo:Country ;
     glo:capitalCity "Monrovia"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "LR"^^xsd:string ;
@@ -1222,10 +1438,10 @@ glo:LR a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "6.5"^^xsd:float ;
     glo:longitude "-9.5"^^xsd:float ;
-    glo:name "Liberia"^^xsd:string ;
-    glo:region "Western Africa"^^xsd:string .
+    glo:region "Western Africa"^^xsd:string ;
+    glo:shortName "Liberia"^^xsd:string .
 
-glo:LS a glo:Country ;
+glo:country_LS a glo:Country ;
     glo:capitalCity "Maseru"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "LS"^^xsd:string ;
@@ -1234,10 +1450,10 @@ glo:LS a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "-29.5"^^xsd:float ;
     glo:longitude "28.5"^^xsd:float ;
-    glo:name "Lesotho"^^xsd:string ;
-    glo:region "Southern Africa"^^xsd:string .
+    glo:region "Southern Africa"^^xsd:string ;
+    glo:shortName "Lesotho"^^xsd:string .
 
-glo:LT a glo:Country ;
+glo:country_LT a glo:Country ;
     glo:capitalCity "Vilnius"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "LT"^^xsd:string ;
@@ -1246,10 +1462,10 @@ glo:LT a glo:Country ;
     glo:language "Lithuanian"^^xsd:string ;
     glo:latitude "56.0"^^xsd:float ;
     glo:longitude "24.0"^^xsd:float ;
-    glo:name "Lithuania"^^xsd:string ;
-    glo:region "Northern Europe"^^xsd:string .
+    glo:region "Northern Europe"^^xsd:string ;
+    glo:shortName "Lithuania"^^xsd:string .
 
-glo:LU a glo:Country ;
+glo:country_LU a glo:Country ;
     glo:capitalCity "Luxembourg"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "LU"^^xsd:string ;
@@ -1258,10 +1474,10 @@ glo:LU a glo:Country ;
     glo:language "Luxembourgish"^^xsd:string ;
     glo:latitude "49.75"^^xsd:float ;
     glo:longitude "6.16666666"^^xsd:float ;
-    glo:name "Luxembourg"^^xsd:string ;
-    glo:region "Western Europe"^^xsd:string .
+    glo:region "Western Europe"^^xsd:string ;
+    glo:shortName "Luxembourg"^^xsd:string .
 
-glo:LV a glo:Country ;
+glo:country_LV a glo:Country ;
     glo:capitalCity "Riga"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "LV"^^xsd:string ;
@@ -1270,10 +1486,10 @@ glo:LV a glo:Country ;
     glo:language "Latvian"^^xsd:string ;
     glo:latitude "57.0"^^xsd:float ;
     glo:longitude "25.0"^^xsd:float ;
-    glo:name "Latvia"^^xsd:string ;
-    glo:region "Northern Europe"^^xsd:string .
+    glo:region "Northern Europe"^^xsd:string ;
+    glo:shortName "Latvia"^^xsd:string .
 
-glo:LY a glo:Country ;
+glo:country_LY a glo:Country ;
     glo:capitalCity "Tripoli"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "LY"^^xsd:string ;
@@ -1282,10 +1498,10 @@ glo:LY a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "25.0"^^xsd:float ;
     glo:longitude "17.0"^^xsd:float ;
-    glo:name "Libya"^^xsd:string ;
-    glo:region "Northern Africa"^^xsd:string .
+    glo:region "Northern Africa"^^xsd:string ;
+    glo:shortName "Libya"^^xsd:string .
 
-glo:MA a glo:Country ;
+glo:country_MA a glo:Country ;
     glo:capitalCity "Rabat"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "MA"^^xsd:string ;
@@ -1294,10 +1510,10 @@ glo:MA a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "32.0"^^xsd:float ;
     glo:longitude "-5.0"^^xsd:float ;
-    glo:name "Morocco"^^xsd:string ;
-    glo:region "Northern Africa"^^xsd:string .
+    glo:region "Northern Africa"^^xsd:string ;
+    glo:shortName "Morocco"^^xsd:string .
 
-glo:MC a glo:Country ;
+glo:country_MC a glo:Country ;
     glo:capitalCity "Monaco"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "MC"^^xsd:string ;
@@ -1306,11 +1522,11 @@ glo:MC a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "43.73333333"^^xsd:float ;
     glo:longitude "7.4"^^xsd:float ;
-    glo:name "Monaco"^^xsd:string ;
-    glo:region "Western Europe"^^xsd:string .
+    glo:region "Western Europe"^^xsd:string ;
+    glo:shortName "Monaco"^^xsd:string .
 
-glo:MD a glo:Country ;
-    glo:capitalCity "Chișinău"^^xsd:string ;
+glo:country_MD a glo:Country ;
+    glo:capitalCity "ChiÈinÄu"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "MD"^^xsd:string ;
     glo:currency "Moldovan leu"^^xsd:string ;
@@ -1318,10 +1534,10 @@ glo:MD a glo:Country ;
     glo:language "Romanian"^^xsd:string ;
     glo:latitude "47.0"^^xsd:float ;
     glo:longitude "29.0"^^xsd:float ;
-    glo:name "Moldova"^^xsd:string ;
-    glo:region "Eastern Europe"^^xsd:string .
+    glo:region "Eastern Europe"^^xsd:string ;
+    glo:shortName "Moldova"^^xsd:string .
 
-glo:ME a glo:Country ;
+glo:country_ME a glo:Country ;
     glo:capitalCity "Podgorica"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "ME"^^xsd:string ;
@@ -1330,10 +1546,22 @@ glo:ME a glo:Country ;
     glo:language "Montenegrin language"^^xsd:string ;
     glo:latitude "42.5"^^xsd:float ;
     glo:longitude "19.3"^^xsd:float ;
-    glo:name "Montenegro"^^xsd:string ;
-    glo:region "Southern Europe"^^xsd:string .
+    glo:region "Southern Europe"^^xsd:string ;
+    glo:shortName "Montenegro"^^xsd:string .
 
-glo:MG a glo:Country ;
+glo:country_MF a glo:Country ;
+    glo:capitalCity "Marigot"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "MF"^^xsd:string ;
+    glo:currency "Euro"^^xsd:string ;
+    glo:fullName "Saint Martin (French part)"^^xsd:string ;
+    glo:language "French"^^xsd:string ;
+    glo:latitude "18.0708"^^xsd:float ;
+    glo:longitude "63.0501"^^xsd:float ;
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Saint Martin"^^xsd:string .
+
+glo:country_MG a glo:Country ;
     glo:capitalCity "Antananarivo"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "MG"^^xsd:string ;
@@ -1342,10 +1570,10 @@ glo:MG a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "-20.0"^^xsd:float ;
     glo:longitude "47.0"^^xsd:float ;
-    glo:name "Madagascar"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Madagascar"^^xsd:string .
 
-glo:MH a glo:Country ;
+glo:country_MH a glo:Country ;
     glo:capitalCity "Majuro"^^xsd:string ;
     glo:continent "Oceania"^^xsd:string ;
     glo:country "MH"^^xsd:string ;
@@ -1354,10 +1582,10 @@ glo:MH a glo:Country ;
     glo:language "Marshallese"^^xsd:string ;
     glo:latitude "9.0"^^xsd:float ;
     glo:longitude "168.0"^^xsd:float ;
-    glo:name "Marshall Islands"^^xsd:string ;
-    glo:region "Micronesia"^^xsd:string .
+    glo:region "Micronesia"^^xsd:string ;
+    glo:shortName "Marshall Islands"^^xsd:string .
 
-glo:MK a glo:Country ;
+glo:country_MK a glo:Country ;
     glo:capitalCity "Skopje"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "MK"^^xsd:string ;
@@ -1366,10 +1594,10 @@ glo:MK a glo:Country ;
     glo:language "Macedonian"^^xsd:string ;
     glo:latitude "41.83333333"^^xsd:float ;
     glo:longitude "22.0"^^xsd:float ;
-    glo:name "North Macedonia"^^xsd:string ;
-    glo:region "Southern Europe"^^xsd:string .
+    glo:region "Southern Europe"^^xsd:string ;
+    glo:shortName "North Macedonia"^^xsd:string .
 
-glo:ML a glo:Country ;
+glo:country_ML a glo:Country ;
     glo:capitalCity "Bamako"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "ML"^^xsd:string ;
@@ -1378,10 +1606,10 @@ glo:ML a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "17.0"^^xsd:float ;
     glo:longitude "-4.0"^^xsd:float ;
-    glo:name "Mali"^^xsd:string ;
-    glo:region "Western Africa"^^xsd:string .
+    glo:region "Western Africa"^^xsd:string ;
+    glo:shortName "Mali"^^xsd:string .
 
-glo:MM a glo:Country ;
+glo:country_MM a glo:Country ;
     glo:capitalCity "Naypyidaw"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "MM"^^xsd:string ;
@@ -1390,10 +1618,10 @@ glo:MM a glo:Country ;
     glo:language "Burmese"^^xsd:string ;
     glo:latitude "22.0"^^xsd:float ;
     glo:longitude "98.0"^^xsd:float ;
-    glo:name "Myanmar"^^xsd:string ;
-    glo:region "South-Eastern Asia"^^xsd:string .
+    glo:region "South-Eastern Asia"^^xsd:string ;
+    glo:shortName "Myanmar"^^xsd:string .
 
-glo:MN a glo:Country ;
+glo:country_MN a glo:Country ;
     glo:capitalCity "Ulan Bator"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "MN"^^xsd:string ;
@@ -1402,10 +1630,46 @@ glo:MN a glo:Country ;
     glo:language "Mongolian"^^xsd:string ;
     glo:latitude "46.0"^^xsd:float ;
     glo:longitude "105.0"^^xsd:float ;
-    glo:name "Mongolia"^^xsd:string ;
-    glo:region "Eastern Asia"^^xsd:string .
+    glo:region "Eastern Asia"^^xsd:string ;
+    glo:shortName "Mongolia"^^xsd:string .
 
-glo:MR a glo:Country ;
+glo:country_MO a glo:Country ;
+    glo:capitalCity "-"^^xsd:string ;
+    glo:continent "Asia"^^xsd:string ;
+    glo:country "MO"^^xsd:string ;
+    glo:currency "Macanese Pataca (MOP)"^^xsd:string ;
+    glo:fullName "The Macao Special Administrative Region (SAR) of the People's Republic of China"^^xsd:string ;
+    glo:language "Chinese"^^xsd:string ;
+    glo:latitude "22.1987"^^xsd:float ;
+    glo:longitude "113.5439"^^xsd:float ;
+    glo:region "East Asia"^^xsd:string ;
+    glo:shortName "Macao"^^xsd:string .
+
+glo:country_MP a glo:Country ;
+    glo:capitalCity "Saipan"^^xsd:string ;
+    glo:continent "Oceania"^^xsd:string ;
+    glo:country "MP"^^xsd:string ;
+    glo:currency "United States Dollar (USD)"^^xsd:string ;
+    glo:fullName "The Northern Mariana Islands"^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:latitude "15.1778"^^xsd:float ;
+    glo:longitude "145.7506"^^xsd:float ;
+    glo:region "Micronesia"^^xsd:string ;
+    glo:shortName "Northern Mariana Islands"^^xsd:string .
+
+glo:country_MQ a glo:Country ;
+    glo:capitalCity "Fort-de-France"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "MQ"^^xsd:string ;
+    glo:currency "Euro"^^xsd:string ;
+    glo:fullName "Martinique"^^xsd:string ;
+    glo:language "French"^^xsd:string ;
+    glo:latitude "14.6161"^^xsd:float ;
+    glo:longitude "61.0588"^^xsd:float ;
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Martinique"^^xsd:string .
+
+glo:country_MR a glo:Country ;
     glo:capitalCity "Nouakchott"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "MR"^^xsd:string ;
@@ -1414,10 +1678,22 @@ glo:MR a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "20.0"^^xsd:float ;
     glo:longitude "-12.0"^^xsd:float ;
-    glo:name "Mauritania"^^xsd:string ;
-    glo:region "Western Africa"^^xsd:string .
+    glo:region "Western Africa"^^xsd:string ;
+    glo:shortName "Mauritania"^^xsd:string .
 
-glo:MT a glo:Country ;
+glo:country_MS a glo:Country ;
+    glo:capitalCity "Plymouth"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "MS"^^xsd:string ;
+    glo:currency "East Caribbean Dollar (XCD)"^^xsd:string ;
+    glo:fullName "Montserrat"^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:latitude "16.7425"^^xsd:float ;
+    glo:longitude "62.1874"^^xsd:float ;
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Montserrat"^^xsd:string .
+
+glo:country_MT a glo:Country ;
     glo:capitalCity "Valletta"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "MT"^^xsd:string ;
@@ -1426,10 +1702,10 @@ glo:MT a glo:Country ;
     glo:language "Maltese"^^xsd:string ;
     glo:latitude "35.83333333"^^xsd:float ;
     glo:longitude "14.58333333"^^xsd:float ;
-    glo:name "Malta"^^xsd:string ;
-    glo:region "Southern Europe"^^xsd:string .
+    glo:region "Southern Europe"^^xsd:string ;
+    glo:shortName "Malta"^^xsd:string .
 
-glo:MU a glo:Country ;
+glo:country_MU a glo:Country ;
     glo:capitalCity "Port Louis"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "MU"^^xsd:string ;
@@ -1438,11 +1714,11 @@ glo:MU a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "-20.28333333"^^xsd:float ;
     glo:longitude "57.55"^^xsd:float ;
-    glo:name "Mauritius"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Mauritius"^^xsd:string .
 
-glo:MV a glo:Country ;
-    glo:capitalCity "Malé"^^xsd:string ;
+glo:country_MV a glo:Country ;
+    glo:capitalCity "MalÃ©"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "MV"^^xsd:string ;
     glo:currency "Maldivian rufiyaa"^^xsd:string ;
@@ -1450,10 +1726,10 @@ glo:MV a glo:Country ;
     glo:language "Divehi"^^xsd:string ;
     glo:latitude "3.25"^^xsd:float ;
     glo:longitude "73.0"^^xsd:float ;
-    glo:name "Maldives"^^xsd:string ;
-    glo:region "Southern Asia"^^xsd:string .
+    glo:region "Southern Asia"^^xsd:string ;
+    glo:shortName "Maldives"^^xsd:string .
 
-glo:MW a glo:Country ;
+glo:country_MW a glo:Country ;
     glo:capitalCity "Lilongwe"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "MW"^^xsd:string ;
@@ -1462,10 +1738,10 @@ glo:MW a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "-13.5"^^xsd:float ;
     glo:longitude "34.0"^^xsd:float ;
-    glo:name "Malawi"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Malawi"^^xsd:string .
 
-glo:MX a glo:Country ;
+glo:country_MX a glo:Country ;
     glo:capitalCity "Mexico City"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "MX"^^xsd:string ;
@@ -1474,10 +1750,10 @@ glo:MX a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "23.0"^^xsd:float ;
     glo:longitude "-102.0"^^xsd:float ;
-    glo:name "Mexico"^^xsd:string ;
-    glo:region "Central America"^^xsd:string .
+    glo:region "Central America"^^xsd:string ;
+    glo:shortName "Mexico"^^xsd:string .
 
-glo:MY a glo:Country ;
+glo:country_MY a glo:Country ;
     glo:capitalCity "Kuala Lumpur"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "MY"^^xsd:string ;
@@ -1486,10 +1762,10 @@ glo:MY a glo:Country ;
     glo:language "Malaysian language"^^xsd:string ;
     glo:latitude "2.5"^^xsd:float ;
     glo:longitude "112.5"^^xsd:float ;
-    glo:name "Malaysia"^^xsd:string ;
-    glo:region "South-Eastern Asia"^^xsd:string .
+    glo:region "South-Eastern Asia"^^xsd:string ;
+    glo:shortName "Malaysia"^^xsd:string .
 
-glo:MZ a glo:Country ;
+glo:country_MZ a glo:Country ;
     glo:capitalCity "Maputo"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "MZ"^^xsd:string ;
@@ -1498,10 +1774,22 @@ glo:MZ a glo:Country ;
     glo:language "Portuguese"^^xsd:string ;
     glo:latitude "-18.25"^^xsd:float ;
     glo:longitude "35.0"^^xsd:float ;
-    glo:name "Mozambique"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Mozambique"^^xsd:string .
 
-glo:NE a glo:Country ;
+glo:country_NC a glo:Country ;
+    glo:capitalCity "Nouméa"^^xsd:string ;
+    glo:continent "Oceania"^^xsd:string ;
+    glo:country "NC"^^xsd:string ;
+    glo:currency "CFP Franc (XPF)"^^xsd:string ;
+    glo:fullName "New Caledonia"^^xsd:string ;
+    glo:language "French"^^xsd:string ;
+    glo:latitude "22.2558"^^xsd:float ;
+    glo:longitude "166.4505"^^xsd:float ;
+    glo:region "Melanesia"^^xsd:string ;
+    glo:shortName "New Caledonia"^^xsd:string .
+
+glo:country_NE a glo:Country ;
     glo:capitalCity "Niamey"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "NE"^^xsd:string ;
@@ -1510,10 +1798,22 @@ glo:NE a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "16.0"^^xsd:float ;
     glo:longitude "8.0"^^xsd:float ;
-    glo:name "Niger"^^xsd:string ;
-    glo:region "Western Africa"^^xsd:string .
+    glo:region "Western Africa"^^xsd:string ;
+    glo:shortName "Niger"^^xsd:string .
 
-glo:NG a glo:Country ;
+glo:country_NF a glo:Country ;
+    glo:capitalCity "Kingston"^^xsd:string ;
+    glo:continent "Australia"^^xsd:string ;
+    glo:country "NF"^^xsd:string ;
+    glo:currency "Australian Dollar (AUD)"^^xsd:string ;
+    glo:fullName "Norfolk Island"^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:latitude "29.0408"^^xsd:float ;
+    glo:longitude "167.9547"^^xsd:float ;
+    glo:region "Oceania"^^xsd:string ;
+    glo:shortName "Norfolk Island"^^xsd:string .
+
+glo:country_NG a glo:Country ;
     glo:capitalCity "Abuja"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "NG"^^xsd:string ;
@@ -1522,10 +1822,10 @@ glo:NG a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "10.0"^^xsd:float ;
     glo:longitude "8.0"^^xsd:float ;
-    glo:name "Nigeria"^^xsd:string ;
-    glo:region "Western Africa"^^xsd:string .
+    glo:region "Western Africa"^^xsd:string ;
+    glo:shortName "Nigeria"^^xsd:string .
 
-glo:NI a glo:Country ;
+glo:country_NI a glo:Country ;
     glo:capitalCity "Managua"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "NI"^^xsd:string ;
@@ -1534,10 +1834,10 @@ glo:NI a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "13.0"^^xsd:float ;
     glo:longitude "-85.0"^^xsd:float ;
-    glo:name "Nicaragua"^^xsd:string ;
-    glo:region "Central America"^^xsd:string .
+    glo:region "Central America"^^xsd:string ;
+    glo:shortName "Nicaragua"^^xsd:string .
 
-glo:NL a glo:Country ;
+glo:country_NL a glo:Country ;
     glo:capitalCity "Amsterdam"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "NL"^^xsd:string ;
@@ -1546,10 +1846,10 @@ glo:NL a glo:Country ;
     glo:language "Dutch"^^xsd:string ;
     glo:latitude "52.5"^^xsd:float ;
     glo:longitude "5.75"^^xsd:float ;
-    glo:name "Netherlands"^^xsd:string ;
-    glo:region "Western Europe"^^xsd:string .
+    glo:region "Western Europe"^^xsd:string ;
+    glo:shortName "Netherlands"^^xsd:string .
 
-glo:NO a glo:Country ;
+glo:country_NO a glo:Country ;
     glo:capitalCity "Oslo"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "NO"^^xsd:string ;
@@ -1558,10 +1858,10 @@ glo:NO a glo:Country ;
     glo:language "Norwegian"^^xsd:string ;
     glo:latitude "62.0"^^xsd:float ;
     glo:longitude "10.0"^^xsd:float ;
-    glo:name "Norway"^^xsd:string ;
-    glo:region "Northern Europe"^^xsd:string .
+    glo:region "Northern Europe"^^xsd:string ;
+    glo:shortName "Norway"^^xsd:string .
 
-glo:NP a glo:Country ;
+glo:country_NP a glo:Country ;
     glo:capitalCity "Kathmandu"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "NP"^^xsd:string ;
@@ -1570,10 +1870,10 @@ glo:NP a glo:Country ;
     glo:language "Nepali"^^xsd:string ;
     glo:latitude "28.0"^^xsd:float ;
     glo:longitude "84.0"^^xsd:float ;
-    glo:name "Nepal"^^xsd:string ;
-    glo:region "Southern Asia"^^xsd:string .
+    glo:region "Southern Asia"^^xsd:string ;
+    glo:shortName "Nepal"^^xsd:string .
 
-glo:NR a glo:Country ;
+glo:country_NR a glo:Country ;
     glo:capitalCity "Yaren"^^xsd:string ;
     glo:continent "Oceania"^^xsd:string ;
     glo:country "NR"^^xsd:string ;
@@ -1582,10 +1882,22 @@ glo:NR a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "-0.53333333"^^xsd:float ;
     glo:longitude "166.9166667"^^xsd:float ;
-    glo:name "Nauru"^^xsd:string ;
-    glo:region "Micronesia"^^xsd:string .
+    glo:region "Micronesia"^^xsd:string ;
+    glo:shortName "Nauru"^^xsd:string .
 
-glo:NZ a glo:Country ;
+glo:country_NU a glo:Country ;
+    glo:capitalCity "Alofi"^^xsd:string ;
+    glo:continent "Oceania"^^xsd:string ;
+    glo:country "NU"^^xsd:string ;
+    glo:currency "New Zealand Dollar (NZD)"^^xsd:string ;
+    glo:fullName "Niue"^^xsd:string ;
+    glo:language "Niuean"^^xsd:string ;
+    glo:latitude "19.0544"^^xsd:float ;
+    glo:longitude "169.8672"^^xsd:float ;
+    glo:region "Oceania"^^xsd:string ;
+    glo:shortName "Niue"^^xsd:string .
+
+glo:country_NZ a glo:Country ;
     glo:capitalCity "Wellington"^^xsd:string ;
     glo:continent "Oceania"^^xsd:string ;
     glo:country "NZ"^^xsd:string ;
@@ -1594,10 +1906,10 @@ glo:NZ a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "-41.0"^^xsd:float ;
     glo:longitude "174.0"^^xsd:float ;
-    glo:name "New Zealand"^^xsd:string ;
-    glo:region "Australia and New Zealand"^^xsd:string .
+    glo:region "Australia and New Zealand"^^xsd:string ;
+    glo:shortName "New Zealand"^^xsd:string .
 
-glo:OM a glo:Country ;
+glo:country_OM a glo:Country ;
     glo:capitalCity "Muscat"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "OM"^^xsd:string ;
@@ -1606,10 +1918,10 @@ glo:OM a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "21.0"^^xsd:float ;
     glo:longitude "57.0"^^xsd:float ;
-    glo:name "Oman"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "Oman"^^xsd:string .
 
-glo:PA a glo:Country ;
+glo:country_PA a glo:Country ;
     glo:capitalCity "Panama City"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "PA"^^xsd:string ;
@@ -1618,10 +1930,10 @@ glo:PA a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "9.0"^^xsd:float ;
     glo:longitude "-80.0"^^xsd:float ;
-    glo:name "Panama"^^xsd:string ;
-    glo:region "Central America"^^xsd:string .
+    glo:region "Central America"^^xsd:string ;
+    glo:shortName "Panama"^^xsd:string .
 
-glo:PE a glo:Country ;
+glo:country_PE a glo:Country ;
     glo:capitalCity "Lima"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "PE"^^xsd:string ;
@@ -1630,10 +1942,22 @@ glo:PE a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "-10.0"^^xsd:float ;
     glo:longitude "-76.0"^^xsd:float ;
-    glo:name "Peru"^^xsd:string ;
-    glo:region "South America"^^xsd:string .
+    glo:region "South America"^^xsd:string ;
+    glo:shortName "Peru"^^xsd:string .
 
-glo:PG a glo:Country ;
+glo:country_PF a glo:Country ;
+    glo:capitalCity "Papeete"^^xsd:string ;
+    glo:continent "Oceania"^^xsd:string ;
+    glo:country "PF"^^xsd:string ;
+    glo:currency "CFP Franc (XPF)"^^xsd:string ;
+    glo:fullName "French Polynesia"^^xsd:string ;
+    glo:language "French"^^xsd:string ;
+    glo:latitude "17.6509"^^xsd:float ;
+    glo:longitude "149.426"^^xsd:float ;
+    glo:region "Polynesia"^^xsd:string ;
+    glo:shortName "French Polynesia"^^xsd:string .
+
+glo:country_PG a glo:Country ;
     glo:capitalCity "Port Moresby"^^xsd:string ;
     glo:continent "Oceania"^^xsd:string ;
     glo:country "PG"^^xsd:string ;
@@ -1642,10 +1966,10 @@ glo:PG a glo:Country ;
     glo:language "Tok Pisin"^^xsd:string ;
     glo:latitude "-6.0"^^xsd:float ;
     glo:longitude "147.0"^^xsd:float ;
-    glo:name "Papua New Guinea"^^xsd:string ;
-    glo:region "Melanesia"^^xsd:string .
+    glo:region "Melanesia"^^xsd:string ;
+    glo:shortName "Papua New Guinea"^^xsd:string .
 
-glo:PH a glo:Country ;
+glo:country_PH a glo:Country ;
     glo:capitalCity "Manila"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "PH"^^xsd:string ;
@@ -1654,10 +1978,10 @@ glo:PH a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "13.0"^^xsd:float ;
     glo:longitude "122.0"^^xsd:float ;
-    glo:name "Philippines"^^xsd:string ;
-    glo:region "South-Eastern Asia"^^xsd:string .
+    glo:region "South-Eastern Asia"^^xsd:string ;
+    glo:shortName "Philippines"^^xsd:string .
 
-glo:PK a glo:Country ;
+glo:country_PK a glo:Country ;
     glo:capitalCity "Islamabad"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "PK"^^xsd:string ;
@@ -1666,10 +1990,10 @@ glo:PK a glo:Country ;
     glo:language "Urdu"^^xsd:string ;
     glo:latitude "30.0"^^xsd:float ;
     glo:longitude "70.0"^^xsd:float ;
-    glo:name "Pakistan"^^xsd:string ;
-    glo:region "Southern Asia"^^xsd:string .
+    glo:region "Southern Asia"^^xsd:string ;
+    glo:shortName "Pakistan"^^xsd:string .
 
-glo:PL a glo:Country ;
+glo:country_PL a glo:Country ;
     glo:capitalCity "Warsaw"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "PL"^^xsd:string ;
@@ -1678,10 +2002,34 @@ glo:PL a glo:Country ;
     glo:language "Polish"^^xsd:string ;
     glo:latitude "52.0"^^xsd:float ;
     glo:longitude "20.0"^^xsd:float ;
-    glo:name "Poland"^^xsd:string ;
-    glo:region "Eastern Europe"^^xsd:string .
+    glo:region "Eastern Europe"^^xsd:string ;
+    glo:shortName "Poland"^^xsd:string .
 
-glo:PS a glo:Country ;
+glo:country_PM a glo:Country ;
+    glo:capitalCity "Saint-Pierre"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "PM"^^xsd:string ;
+    glo:currency "Euro"^^xsd:string ;
+    glo:fullName "Saint Pierre and Miquelon"^^xsd:string ;
+    glo:language "French"^^xsd:string ;
+    glo:latitude "46.9419"^^xsd:float ;
+    glo:longitude "56.2711"^^xsd:float ;
+    glo:region "North America"^^xsd:string ;
+    glo:shortName "Saint Pierre and Miquelon"^^xsd:string .
+
+glo:country_PR a glo:Country ;
+    glo:capitalCity "San Juan"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "PR"^^xsd:string ;
+    glo:currency "United States Dollar (USD)"^^xsd:string ;
+    glo:fullName "Puerto Rico"^^xsd:string ;
+    glo:language "Spanish"^^xsd:string ;
+    glo:latitude "18.4655"^^xsd:float ;
+    glo:longitude "66.1057"^^xsd:float ;
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Puerto Rico"^^xsd:string .
+
+glo:country_PS a glo:Country ;
     glo:capitalCity "Ramallah"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "PS"^^xsd:string ;
@@ -1690,10 +2038,10 @@ glo:PS a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "31.9"^^xsd:float ;
     glo:longitude "35.2"^^xsd:float ;
-    glo:name "West Bank and Gaza"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "West Bank and Gaza"^^xsd:string .
 
-glo:PT a glo:Country ;
+glo:country_PT a glo:Country ;
     glo:capitalCity "Lisbon"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "PT"^^xsd:string ;
@@ -1702,10 +2050,10 @@ glo:PT a glo:Country ;
     glo:language "Portuguese"^^xsd:string ;
     glo:latitude "39.5"^^xsd:float ;
     glo:longitude "-8.0"^^xsd:float ;
-    glo:name "Portugal"^^xsd:string ;
-    glo:region "Southern Europe"^^xsd:string .
+    glo:region "Southern Europe"^^xsd:string ;
+    glo:shortName "Portugal"^^xsd:string .
 
-glo:PW a glo:Country ;
+glo:country_PW a glo:Country ;
     glo:capitalCity "Ngerulmud"^^xsd:string ;
     glo:continent "Oceania"^^xsd:string ;
     glo:country "PW"^^xsd:string ;
@@ -1714,11 +2062,11 @@ glo:PW a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "7.5"^^xsd:float ;
     glo:longitude "134.5"^^xsd:float ;
-    glo:name "Palau"^^xsd:string ;
-    glo:region "Micronesia"^^xsd:string .
+    glo:region "Micronesia"^^xsd:string ;
+    glo:shortName "Palau"^^xsd:string .
 
-glo:PY a glo:Country ;
-    glo:capitalCity "Asunción"^^xsd:string ;
+glo:country_PY a glo:Country ;
+    glo:capitalCity "AsunciÃ³n"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "PY"^^xsd:string ;
     glo:currency "Paraguayan guarani"^^xsd:string ;
@@ -1726,10 +2074,10 @@ glo:PY a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "-23.0"^^xsd:float ;
     glo:longitude "-58.0"^^xsd:float ;
-    glo:name "Paraguay"^^xsd:string ;
-    glo:region "South America"^^xsd:string .
+    glo:region "South America"^^xsd:string ;
+    glo:shortName "Paraguay"^^xsd:string .
 
-glo:QA a glo:Country ;
+glo:country_QA a glo:Country ;
     glo:capitalCity "Doha"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "QA"^^xsd:string ;
@@ -1738,10 +2086,22 @@ glo:QA a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "25.5"^^xsd:float ;
     glo:longitude "51.25"^^xsd:float ;
-    glo:name "Qatar"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "Qatar"^^xsd:string .
 
-glo:RO a glo:Country ;
+glo:country_RE a glo:Country ;
+    glo:capitalCity "Saint-Denis"^^xsd:string ;
+    glo:continent "Africa"^^xsd:string ;
+    glo:country "RE"^^xsd:string ;
+    glo:currency "Euro"^^xsd:string ;
+    glo:fullName "Réunion"^^xsd:string ;
+    glo:language "French"^^xsd:string ;
+    glo:latitude "20.8789"^^xsd:float ;
+    glo:longitude "55.4481"^^xsd:float ;
+    glo:region "Indian Ocean"^^xsd:string ;
+    glo:shortName "Réunion"^^xsd:string .
+
+glo:country_RO a glo:Country ;
     glo:capitalCity "Bucharest"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "RO"^^xsd:string ;
@@ -1750,10 +2110,10 @@ glo:RO a glo:Country ;
     glo:language "Romanian"^^xsd:string ;
     glo:latitude "46.0"^^xsd:float ;
     glo:longitude "25.0"^^xsd:float ;
-    glo:name "Romania"^^xsd:string ;
-    glo:region "Eastern Europe"^^xsd:string .
+    glo:region "Eastern Europe"^^xsd:string ;
+    glo:shortName "Romania"^^xsd:string .
 
-glo:RS a glo:Country ;
+glo:country_RS a glo:Country ;
     glo:capitalCity "Belgrade"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "RS"^^xsd:string ;
@@ -1762,10 +2122,10 @@ glo:RS a glo:Country ;
     glo:language "Serbian"^^xsd:string ;
     glo:latitude "44.0"^^xsd:float ;
     glo:longitude "21.0"^^xsd:float ;
-    glo:name "Serbia"^^xsd:string ;
-    glo:region "Southern Europe"^^xsd:string .
+    glo:region "Southern Europe"^^xsd:string ;
+    glo:shortName "Serbia"^^xsd:string .
 
-glo:RU a glo:Country ;
+glo:country_RU a glo:Country ;
     glo:capitalCity "Moscow"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "RU"^^xsd:string ;
@@ -1774,10 +2134,10 @@ glo:RU a glo:Country ;
     glo:language "Russian"^^xsd:string ;
     glo:latitude "60.0"^^xsd:float ;
     glo:longitude "100.0"^^xsd:float ;
-    glo:name "Russia"^^xsd:string ;
-    glo:region "Eastern Europe"^^xsd:string .
+    glo:region "Eastern Europe"^^xsd:string ;
+    glo:shortName "Russia"^^xsd:string .
 
-glo:RW a glo:Country ;
+glo:country_RW a glo:Country ;
     glo:capitalCity "Kigali"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "RW"^^xsd:string ;
@@ -1786,10 +2146,10 @@ glo:RW a glo:Country ;
     glo:language "Swahili"^^xsd:string ;
     glo:latitude "-2.0"^^xsd:float ;
     glo:longitude "30.0"^^xsd:float ;
-    glo:name "Rwanda"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Rwanda"^^xsd:string .
 
-glo:SA a glo:Country ;
+glo:country_SA a glo:Country ;
     glo:capitalCity "Riyadh"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "SA"^^xsd:string ;
@@ -1798,10 +2158,10 @@ glo:SA a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "25.0"^^xsd:float ;
     glo:longitude "45.0"^^xsd:float ;
-    glo:name "Saudi Arabia"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "Saudi Arabia"^^xsd:string .
 
-glo:SB a glo:Country ;
+glo:country_SB a glo:Country ;
     glo:capitalCity "Honiara"^^xsd:string ;
     glo:continent "Oceania"^^xsd:string ;
     glo:country "SB"^^xsd:string ;
@@ -1810,10 +2170,10 @@ glo:SB a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "-8.0"^^xsd:float ;
     glo:longitude "159.0"^^xsd:float ;
-    glo:name "Solomon Islands"^^xsd:string ;
-    glo:region "Melanesia"^^xsd:string .
+    glo:region "Melanesia"^^xsd:string ;
+    glo:shortName "Solomon Islands"^^xsd:string .
 
-glo:SC a glo:Country ;
+glo:country_SC a glo:Country ;
     glo:capitalCity "Victoria"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "SC"^^xsd:string ;
@@ -1822,10 +2182,10 @@ glo:SC a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "-4.58333333"^^xsd:float ;
     glo:longitude "55.66666666"^^xsd:float ;
-    glo:name "Seychelles"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Seychelles"^^xsd:string .
 
-glo:SD a glo:Country ;
+glo:country_SD a glo:Country ;
     glo:capitalCity "Khartoum"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "SD"^^xsd:string ;
@@ -1834,10 +2194,10 @@ glo:SD a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "15.0"^^xsd:float ;
     glo:longitude "30.0"^^xsd:float ;
-    glo:name "Sudan"^^xsd:string ;
-    glo:region "Northern Africa"^^xsd:string .
+    glo:region "Northern Africa"^^xsd:string ;
+    glo:shortName "Sudan"^^xsd:string .
 
-glo:SE a glo:Country ;
+glo:country_SE a glo:Country ;
     glo:capitalCity "Stockholm"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "SE"^^xsd:string ;
@@ -1846,10 +2206,10 @@ glo:SE a glo:Country ;
     glo:language "Swedish"^^xsd:string ;
     glo:latitude "62.0"^^xsd:float ;
     glo:longitude "15.0"^^xsd:float ;
-    glo:name "Sweden"^^xsd:string ;
-    glo:region "Northern Europe"^^xsd:string .
+    glo:region "Northern Europe"^^xsd:string ;
+    glo:shortName "Sweden"^^xsd:string .
 
-glo:SG a glo:Country ;
+glo:country_SG a glo:Country ;
     glo:capitalCity "Singapore"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "SG"^^xsd:string ;
@@ -1858,10 +2218,19 @@ glo:SG a glo:Country ;
     glo:language "Malay"^^xsd:string ;
     glo:latitude "1.36666666"^^xsd:float ;
     glo:longitude "103.8"^^xsd:float ;
-    glo:name "Singapore"^^xsd:string ;
-    glo:region "South-Eastern Asia"^^xsd:string .
+    glo:region "South-Eastern Asia"^^xsd:string ;
+    glo:shortName "Singapore"^^xsd:string .
 
-glo:SI a glo:Country ;
+glo:country_SH a glo:Country ;
+    glo:continent "Africa"^^xsd:string ;
+    glo:country "SH"^^xsd:string ;
+    glo:currency "Saint Helena Pound (SHP)"^^xsd:string ;
+    glo:fullName "Saint Helena, Ascension and Tristan da Cunha"^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:region "South Atlantic Ocean"^^xsd:string ;
+    glo:shortName "Saint Helena, Ascension and Tristan da Cunha"^^xsd:string .
+
+glo:country_SI a glo:Country ;
     glo:capitalCity "Ljubljana"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "SI"^^xsd:string ;
@@ -1870,10 +2239,10 @@ glo:SI a glo:Country ;
     glo:language "Slovene language"^^xsd:string ;
     glo:latitude "46.11666666"^^xsd:float ;
     glo:longitude "14.81666666"^^xsd:float ;
-    glo:name "Slovenia"^^xsd:string ;
-    glo:region "Southern Europe"^^xsd:string .
+    glo:region "Southern Europe"^^xsd:string ;
+    glo:shortName "Slovenia"^^xsd:string .
 
-glo:SK a glo:Country ;
+glo:country_SK a glo:Country ;
     glo:capitalCity "Bratislava"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "SK"^^xsd:string ;
@@ -1882,10 +2251,10 @@ glo:SK a glo:Country ;
     glo:language "Slovak"^^xsd:string ;
     glo:latitude "48.66666666"^^xsd:float ;
     glo:longitude "19.5"^^xsd:float ;
-    glo:name "Slovak Republic"^^xsd:string ;
-    glo:region "Eastern Europe"^^xsd:string .
+    glo:region "Eastern Europe"^^xsd:string ;
+    glo:shortName "Slovak Republic"^^xsd:string .
 
-glo:SL a glo:Country ;
+glo:country_SL a glo:Country ;
     glo:capitalCity "Freetown"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "SL"^^xsd:string ;
@@ -1894,10 +2263,10 @@ glo:SL a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "8.5"^^xsd:float ;
     glo:longitude "-11.5"^^xsd:float ;
-    glo:name "Sierra Leone"^^xsd:string ;
-    glo:region "Western Africa"^^xsd:string .
+    glo:region "Western Africa"^^xsd:string ;
+    glo:shortName "Sierra Leone"^^xsd:string .
 
-glo:SM a glo:Country ;
+glo:country_SM a glo:Country ;
     glo:capitalCity "City of San Marino"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "SM"^^xsd:string ;
@@ -1906,10 +2275,10 @@ glo:SM a glo:Country ;
     glo:language "Italian"^^xsd:string ;
     glo:latitude "43.76666666"^^xsd:float ;
     glo:longitude "12.41666666"^^xsd:float ;
-    glo:name "San Marino"^^xsd:string ;
-    glo:region "Southern Europe"^^xsd:string .
+    glo:region "Southern Europe"^^xsd:string ;
+    glo:shortName "San Marino"^^xsd:string .
 
-glo:SN a glo:Country ;
+glo:country_SN a glo:Country ;
     glo:capitalCity "Dakar"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "SN"^^xsd:string ;
@@ -1918,10 +2287,10 @@ glo:SN a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "14.0"^^xsd:float ;
     glo:longitude "-14.0"^^xsd:float ;
-    glo:name "Senegal"^^xsd:string ;
-    glo:region "Western Africa"^^xsd:string .
+    glo:region "Western Africa"^^xsd:string ;
+    glo:shortName "Senegal"^^xsd:string .
 
-glo:SO a glo:Country ;
+glo:country_SO a glo:Country ;
     glo:capitalCity "Mogadishu"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "SO"^^xsd:string ;
@@ -1930,10 +2299,10 @@ glo:SO a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "10.0"^^xsd:float ;
     glo:longitude "49.0"^^xsd:float ;
-    glo:name "Somalia"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Somalia"^^xsd:string .
 
-glo:SR a glo:Country ;
+glo:country_SR a glo:Country ;
     glo:capitalCity "Paramaribo"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "SR"^^xsd:string ;
@@ -1942,10 +2311,10 @@ glo:SR a glo:Country ;
     glo:language "Dutch"^^xsd:string ;
     glo:latitude "4.0"^^xsd:float ;
     glo:longitude "-56.0"^^xsd:float ;
-    glo:name "Suriname"^^xsd:string ;
-    glo:region "South America"^^xsd:string .
+    glo:region "South America"^^xsd:string ;
+    glo:shortName "Suriname"^^xsd:string .
 
-glo:SS a glo:Country ;
+glo:country_SS a glo:Country ;
     glo:capitalCity "Juba"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "SS"^^xsd:string ;
@@ -1954,22 +2323,22 @@ glo:SS a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "7.0"^^xsd:float ;
     glo:longitude "30.0"^^xsd:float ;
-    glo:name "South Sudan"^^xsd:string ;
-    glo:region "Middle Africa"^^xsd:string .
+    glo:region "Middle Africa"^^xsd:string ;
+    glo:shortName "South Sudan"^^xsd:string .
 
-glo:ST a glo:Country ;
-    glo:capitalCity "São Tomé"^^xsd:string ;
+glo:country_ST a glo:Country ;
+    glo:capitalCity "SÃ£o TomÃ©"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "ST"^^xsd:string ;
-    glo:currency "São Tomé and Principe dobra"^^xsd:string ;
-    glo:fullName "Democratic Republic of São Tomé and Principe"^^xsd:string ;
+    glo:currency "SÃ£o TomÃ© and Principe dobra"^^xsd:string ;
+    glo:fullName "Democratic Republic of SÃ£o TomÃ© and Principe"^^xsd:string ;
     glo:language "Portuguese"^^xsd:string ;
     glo:latitude "1.0"^^xsd:float ;
     glo:longitude "7.0"^^xsd:float ;
-    glo:name "São Tomé and Principe"^^xsd:string ;
-    glo:region "Middle Africa"^^xsd:string .
+    glo:region "Middle Africa"^^xsd:string ;
+    glo:shortName "SÃ£o TomÃ© and Principe"^^xsd:string .
 
-glo:SV a glo:Country ;
+glo:country_SV a glo:Country ;
     glo:capitalCity "San Salvador"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "SV"^^xsd:string ;
@@ -1978,10 +2347,22 @@ glo:SV a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "13.83333333"^^xsd:float ;
     glo:longitude "-88.91666666"^^xsd:float ;
-    glo:name "El Salvador"^^xsd:string ;
-    glo:region "Central America"^^xsd:string .
+    glo:region "Central America"^^xsd:string ;
+    glo:shortName "El Salvador"^^xsd:string .
 
-glo:SY a glo:Country ;
+glo:country_SX a glo:Country ;
+    glo:capitalCity "Philipsburg"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "SX"^^xsd:string ;
+    glo:currency "Netherlands Antillean Guilder (ANG)"^^xsd:string ;
+    glo:fullName "Sint Maarten (Dutch part)"^^xsd:string ;
+    glo:language "Dutch"^^xsd:string ;
+    glo:latitude "18.0255"^^xsd:float ;
+    glo:longitude "63.0458"^^xsd:float ;
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Sint Maarten"^^xsd:string .
+
+glo:country_SY a glo:Country ;
     glo:capitalCity "Damascus"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "SY"^^xsd:string ;
@@ -1990,10 +2371,10 @@ glo:SY a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "35.0"^^xsd:float ;
     glo:longitude "38.0"^^xsd:float ;
-    glo:name "Syrian Arab Republic"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "Syrian Arab Republic"^^xsd:string .
 
-glo:SZ a glo:Country ;
+glo:country_SZ a glo:Country ;
     glo:capitalCity "Lobamba"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "SZ"^^xsd:string ;
@@ -2002,10 +2383,22 @@ glo:SZ a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "-26.5"^^xsd:float ;
     glo:longitude "31.5"^^xsd:float ;
-    glo:name "Eswatini"^^xsd:string ;
-    glo:region "Southern Africa"^^xsd:string .
+    glo:region "Southern Africa"^^xsd:string ;
+    glo:shortName "Eswatini"^^xsd:string .
 
-glo:TD a glo:Country ;
+glo:country_TC a glo:Country ;
+    glo:capitalCity "Cockburn Town"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "TC"^^xsd:string ;
+    glo:currency "United States Dollar (USD)"^^xsd:string ;
+    glo:fullName "The Turks and Caicos Islands"^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:latitude "21.4675"^^xsd:float ;
+    glo:longitude "71.1389"^^xsd:float ;
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Turks and Caicos Islands"^^xsd:string .
+
+glo:country_TD a glo:Country ;
     glo:capitalCity "N'Djamena"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "TD"^^xsd:string ;
@@ -2014,11 +2407,11 @@ glo:TD a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "15.0"^^xsd:float ;
     glo:longitude "19.0"^^xsd:float ;
-    glo:name "Chad"^^xsd:string ;
-    glo:region "Middle Africa"^^xsd:string .
+    glo:region "Middle Africa"^^xsd:string ;
+    glo:shortName "Chad"^^xsd:string .
 
-glo:TG a glo:Country ;
-    glo:capitalCity "Lomé"^^xsd:string ;
+glo:country_TG a glo:Country ;
+    glo:capitalCity "LomÃ©"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "TG"^^xsd:string ;
     glo:currency "West African CFA franc"^^xsd:string ;
@@ -2026,10 +2419,10 @@ glo:TG a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "8.0"^^xsd:float ;
     glo:longitude "1.16666666"^^xsd:float ;
-    glo:name "Togo"^^xsd:string ;
-    glo:region "Western Africa"^^xsd:string .
+    glo:region "Western Africa"^^xsd:string ;
+    glo:shortName "Togo"^^xsd:string .
 
-glo:TH a glo:Country ;
+glo:country_TH a glo:Country ;
     glo:capitalCity "Bangkok"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "TH"^^xsd:string ;
@@ -2038,10 +2431,10 @@ glo:TH a glo:Country ;
     glo:language "Thai"^^xsd:string ;
     glo:latitude "15.0"^^xsd:float ;
     glo:longitude "100.0"^^xsd:float ;
-    glo:name "Thailand"^^xsd:string ;
-    glo:region "South-Eastern Asia"^^xsd:string .
+    glo:region "South-Eastern Asia"^^xsd:string ;
+    glo:shortName "Thailand"^^xsd:string .
 
-glo:TJ a glo:Country ;
+glo:country_TJ a glo:Country ;
     glo:capitalCity "Dushanbe"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "TJ"^^xsd:string ;
@@ -2050,10 +2443,22 @@ glo:TJ a glo:Country ;
     glo:language "Persian"^^xsd:string ;
     glo:latitude "39.0"^^xsd:float ;
     glo:longitude "71.0"^^xsd:float ;
-    glo:name "Tajikistan"^^xsd:string ;
-    glo:region "Central Asia"^^xsd:string .
+    glo:region "Central Asia"^^xsd:string ;
+    glo:shortName "Tajikistan"^^xsd:string .
 
-glo:TL a glo:Country ;
+glo:country_TK a glo:Country ;
+    glo:capitalCity "-"^^xsd:string ;
+    glo:continent "Oceania"^^xsd:string ;
+    glo:country "TK"^^xsd:string ;
+    glo:currency "New Zealand Dollar (NZD)"^^xsd:string ;
+    glo:fullName "Tokelau"^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:latitude "9.2002"^^xsd:float ;
+    glo:longitude "171.8484"^^xsd:float ;
+    glo:region "Polynesia"^^xsd:string ;
+    glo:shortName "Tokelau"^^xsd:string .
+
+glo:country_TL a glo:Country ;
     glo:capitalCity "Dili"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "TL"^^xsd:string ;
@@ -2062,10 +2467,10 @@ glo:TL a glo:Country ;
     glo:language "Portuguese"^^xsd:string ;
     glo:latitude "-8.83333333"^^xsd:float ;
     glo:longitude "125.9166667"^^xsd:float ;
-    glo:name "Timor-Leste"^^xsd:string ;
-    glo:region "South-Eastern Asia"^^xsd:string .
+    glo:region "South-Eastern Asia"^^xsd:string ;
+    glo:shortName "Timor-Leste"^^xsd:string .
 
-glo:TM a glo:Country ;
+glo:country_TM a glo:Country ;
     glo:capitalCity "Ashgabat"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "TM"^^xsd:string ;
@@ -2074,10 +2479,10 @@ glo:TM a glo:Country ;
     glo:language "Turkmen"^^xsd:string ;
     glo:latitude "40.0"^^xsd:float ;
     glo:longitude "60.0"^^xsd:float ;
-    glo:name "Turkmenistan"^^xsd:string ;
-    glo:region "Central Asia"^^xsd:string .
+    glo:region "Central Asia"^^xsd:string ;
+    glo:shortName "Turkmenistan"^^xsd:string .
 
-glo:TN a glo:Country ;
+glo:country_TN a glo:Country ;
     glo:capitalCity "Tunis"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "TN"^^xsd:string ;
@@ -2086,10 +2491,10 @@ glo:TN a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "34.0"^^xsd:float ;
     glo:longitude "9.0"^^xsd:float ;
-    glo:name "Tunisia"^^xsd:string ;
-    glo:region "Northern Africa"^^xsd:string .
+    glo:region "Northern Africa"^^xsd:string ;
+    glo:shortName "Tunisia"^^xsd:string .
 
-glo:TO a glo:Country ;
+glo:country_TO a glo:Country ;
     glo:capitalCity "Nuku'alofa"^^xsd:string ;
     glo:continent "Oceania"^^xsd:string ;
     glo:country "TO"^^xsd:string ;
@@ -2098,10 +2503,10 @@ glo:TO a glo:Country ;
     glo:language "Tongan Language"^^xsd:string ;
     glo:latitude "-20.0"^^xsd:float ;
     glo:longitude "-175.0"^^xsd:float ;
-    glo:name "Tonga"^^xsd:string ;
-    glo:region "Polynesia"^^xsd:string .
+    glo:region "Polynesia"^^xsd:string ;
+    glo:shortName "Tonga"^^xsd:string .
 
-glo:TR a glo:Country ;
+glo:country_TR a glo:Country ;
     glo:capitalCity "Ankara"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "TR"^^xsd:string ;
@@ -2110,10 +2515,10 @@ glo:TR a glo:Country ;
     glo:language "Turkish"^^xsd:string ;
     glo:latitude "39.0"^^xsd:float ;
     glo:longitude "35.0"^^xsd:float ;
-    glo:name "Turkey"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "Turkey"^^xsd:string .
 
-glo:TT a glo:Country ;
+glo:country_TT a glo:Country ;
     glo:capitalCity "Port of Spain"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "TT"^^xsd:string ;
@@ -2122,10 +2527,10 @@ glo:TT a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "11.0"^^xsd:float ;
     glo:longitude "-61.0"^^xsd:float ;
-    glo:name "Trinidad and Tobago"^^xsd:string ;
-    glo:region "Caribbean"^^xsd:string .
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Trinidad and Tobago"^^xsd:string .
 
-glo:TV a glo:Country ;
+glo:country_TV a glo:Country ;
     glo:capitalCity "Funafuti"^^xsd:string ;
     glo:continent "Oceania"^^xsd:string ;
     glo:country "TV"^^xsd:string ;
@@ -2134,10 +2539,22 @@ glo:TV a glo:Country ;
     glo:language "Tuvaluan Language"^^xsd:string ;
     glo:latitude "-8.0"^^xsd:float ;
     glo:longitude "178.0"^^xsd:float ;
-    glo:name "Tuvalu"^^xsd:string ;
-    glo:region "Polynesia"^^xsd:string .
+    glo:region "Polynesia"^^xsd:string ;
+    glo:shortName "Tuvalu"^^xsd:string .
 
-glo:TZ a glo:Country ;
+glo:country_TW a glo:Country ;
+    glo:capitalCity "Taipei"^^xsd:string ;
+    glo:continent "Asia"^^xsd:string ;
+    glo:country "TW"^^xsd:string ;
+    glo:currency "New Taiwan Dollar (TWD)"^^xsd:string ;
+    glo:fullName "Taiwan, Province of China"^^xsd:string ;
+    glo:language "Mandarin"^^xsd:string ;
+    glo:latitude "25.033"^^xsd:float ;
+    glo:longitude "121.5654"^^xsd:float ;
+    glo:region "East Asia"^^xsd:string ;
+    glo:shortName "Taiwan"^^xsd:string .
+
+glo:country_TZ a glo:Country ;
     glo:capitalCity "Dodoma"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "TZ"^^xsd:string ;
@@ -2146,10 +2563,10 @@ glo:TZ a glo:Country ;
     glo:language "Swahili"^^xsd:string ;
     glo:latitude "-6.0"^^xsd:float ;
     glo:longitude "35.0"^^xsd:float ;
-    glo:name "Tanzania"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Tanzania"^^xsd:string .
 
-glo:UA a glo:Country ;
+glo:country_UA a glo:Country ;
     glo:capitalCity "Kiev"^^xsd:string ;
     glo:continent "Europe"^^xsd:string ;
     glo:country "UA"^^xsd:string ;
@@ -2158,10 +2575,10 @@ glo:UA a glo:Country ;
     glo:language "Ukrainian"^^xsd:string ;
     glo:latitude "49.0"^^xsd:float ;
     glo:longitude "32.0"^^xsd:float ;
-    glo:name "Ukraine"^^xsd:string ;
-    glo:region "Eastern Europe"^^xsd:string .
+    glo:region "Eastern Europe"^^xsd:string ;
+    glo:shortName "Ukraine"^^xsd:string .
 
-glo:UG a glo:Country ;
+glo:country_UG a glo:Country ;
     glo:capitalCity "Kampala"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "UG"^^xsd:string ;
@@ -2170,10 +2587,10 @@ glo:UG a glo:Country ;
     glo:language "Swahili"^^xsd:string ;
     glo:latitude "1.0"^^xsd:float ;
     glo:longitude "32.0"^^xsd:float ;
-    glo:name "Uganda"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Uganda"^^xsd:string .
 
-glo:US a glo:Country ;
+glo:country_US a glo:Country ;
     glo:capitalCity "Washington, D.C."^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "US"^^xsd:string ;
@@ -2182,10 +2599,10 @@ glo:US a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "38.0"^^xsd:float ;
     glo:longitude "-97.0"^^xsd:float ;
-    glo:name "United States"^^xsd:string ;
-    glo:region "Northern America"^^xsd:string .
+    glo:region "Northern America"^^xsd:string ;
+    glo:shortName "United States"^^xsd:string .
 
-glo:UY a glo:Country ;
+glo:country_UY a glo:Country ;
     glo:capitalCity "Montevideo"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "UY"^^xsd:string ;
@@ -2194,10 +2611,10 @@ glo:UY a glo:Country ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "-33.0"^^xsd:float ;
     glo:longitude "-56.0"^^xsd:float ;
-    glo:name "Uruguay"^^xsd:string ;
-    glo:region "South America"^^xsd:string .
+    glo:region "South America"^^xsd:string ;
+    glo:shortName "Uruguay"^^xsd:string .
 
-glo:UZ a glo:Country ;
+glo:country_UZ a glo:Country ;
     glo:capitalCity "Tashkent"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "UZ"^^xsd:string ;
@@ -2206,10 +2623,22 @@ glo:UZ a glo:Country ;
     glo:language "Uzbek"^^xsd:string ;
     glo:latitude "41.0"^^xsd:float ;
     glo:longitude "64.0"^^xsd:float ;
-    glo:name "Uzbekistan"^^xsd:string ;
-    glo:region "Central Asia"^^xsd:string .
+    glo:region "Central Asia"^^xsd:string ;
+    glo:shortName "Uzbekistan"^^xsd:string .
 
-glo:VC a glo:Country ;
+glo:country_VA a glo:Country ;
+    glo:capitalCity "Vatican City"^^xsd:string ;
+    glo:continent "Europe"^^xsd:string ;
+    glo:country "VA"^^xsd:string ;
+    glo:currency "Euro"^^xsd:string ;
+    glo:fullName "Holy See"^^xsd:string ;
+    glo:language "Latin"^^xsd:string ;
+    glo:latitude "41.9022"^^xsd:float ;
+    glo:longitude "12.4533"^^xsd:float ;
+    glo:region "Southern Europe"^^xsd:string ;
+    glo:shortName "Holy See"^^xsd:string .
+
+glo:country_VC a glo:Country ;
     glo:capitalCity "Kingstown"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "VC"^^xsd:string ;
@@ -2218,22 +2647,46 @@ glo:VC a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "13.25"^^xsd:float ;
     glo:longitude "-61.2"^^xsd:float ;
-    glo:name "St. Vincent and the Grenadines"^^xsd:string ;
-    glo:region "Caribbean"^^xsd:string .
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "St. Vincent and the Grenadines"^^xsd:string .
 
-glo:VE a glo:Country ;
+glo:country_VE a glo:Country ;
     glo:capitalCity "Caracas"^^xsd:string ;
     glo:continent "Americas"^^xsd:string ;
     glo:country "VE"^^xsd:string ;
     glo:currency "Venezuelan bolivar fuerte"^^xsd:string ;
-    glo:fullName "República Bolivariana de Venezuela"^^xsd:string ;
+    glo:fullName "RepÃºblica Bolivariana de Venezuela"^^xsd:string ;
     glo:language "Spanish"^^xsd:string ;
     glo:latitude "8.0"^^xsd:float ;
     glo:longitude "-66.0"^^xsd:float ;
-    glo:name "Venezuela"^^xsd:string ;
-    glo:region "South America"^^xsd:string .
+    glo:region "South America"^^xsd:string ;
+    glo:shortName "Venezuela"^^xsd:string .
 
-glo:VN a glo:Country ;
+glo:country_VG a glo:Country ;
+    glo:capitalCity "Road Town"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "VG"^^xsd:string ;
+    glo:currency "United States Dollar (USD)"^^xsd:string ;
+    glo:fullName "British Virgin Islands"^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:latitude "18.4314"^^xsd:float ;
+    glo:longitude "64.6231"^^xsd:float ;
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Virgin Islands (British)"^^xsd:string .
+
+glo:country_VI a glo:Country ;
+    glo:capitalCity "Charlotte Amalie"^^xsd:string ;
+    glo:continent "Americas"^^xsd:string ;
+    glo:country "VI"^^xsd:string ;
+    glo:currency "United States Dollar (USD)"^^xsd:string ;
+    glo:fullName "The United States Virgin Islands."^^xsd:string ;
+    glo:language "English"^^xsd:string ;
+    glo:latitude "18.3419"^^xsd:float ;
+    glo:longitude "64.9307"^^xsd:float ;
+    glo:region "Caribbean"^^xsd:string ;
+    glo:shortName "Virgin Islands (U.S.)"^^xsd:string .
+
+glo:country_VN a glo:Country ;
     glo:capitalCity "Hanoi"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "VN"^^xsd:string ;
@@ -2242,10 +2695,10 @@ glo:VN a glo:Country ;
     glo:language "Vietnamese"^^xsd:string ;
     glo:latitude "16.16666666"^^xsd:float ;
     glo:longitude "107.8333333"^^xsd:float ;
-    glo:name "Vietnam"^^xsd:string ;
-    glo:region "South-Eastern Asia"^^xsd:string .
+    glo:region "South-Eastern Asia"^^xsd:string ;
+    glo:shortName "Vietnam"^^xsd:string .
 
-glo:VU a glo:Country ;
+glo:country_VU a glo:Country ;
     glo:capitalCity "Port Vila"^^xsd:string ;
     glo:continent "Oceania"^^xsd:string ;
     glo:country "VU"^^xsd:string ;
@@ -2254,10 +2707,22 @@ glo:VU a glo:Country ;
     glo:language "French"^^xsd:string ;
     glo:latitude "-16.0"^^xsd:float ;
     glo:longitude "167.0"^^xsd:float ;
-    glo:name "Vanuatu"^^xsd:string ;
-    glo:region "Melanesia"^^xsd:string .
+    glo:region "Melanesia"^^xsd:string ;
+    glo:shortName "Vanuatu"^^xsd:string .
 
-glo:WS a glo:Country ;
+glo:country_WF a glo:Country ;
+    glo:capitalCity "Mata-Utu"^^xsd:string ;
+    glo:continent "Oceania"^^xsd:string ;
+    glo:country "WF"^^xsd:string ;
+    glo:currency "CFP Franc (XPF)"^^xsd:string ;
+    glo:fullName "Wallis and Futuna"^^xsd:string ;
+    glo:language "French"^^xsd:string ;
+    glo:latitude "13.2825"^^xsd:float ;
+    glo:longitude "176.1736"^^xsd:float ;
+    glo:region "Polynesia"^^xsd:string ;
+    glo:shortName "Wallis and Futuna"^^xsd:string .
+
+glo:country_WS a glo:Country ;
     glo:capitalCity "Apia"^^xsd:string ;
     glo:continent "Oceania"^^xsd:string ;
     glo:country "WS"^^xsd:string ;
@@ -2266,10 +2731,22 @@ glo:WS a glo:Country ;
     glo:language "Samoan"^^xsd:string ;
     glo:latitude "-13.58333333"^^xsd:float ;
     glo:longitude "-172.3333333"^^xsd:float ;
-    glo:name "Samoa"^^xsd:string ;
-    glo:region "Polynesia"^^xsd:string .
+    glo:region "Polynesia"^^xsd:string ;
+    glo:shortName "Samoa"^^xsd:string .
 
-glo:YE a glo:Country ;
+glo:country_XK a glo:Country ;
+    glo:capitalCity "Pristina"^^xsd:string ;
+    glo:continent "Europe"^^xsd:string ;
+    glo:country "XK"^^xsd:string ;
+    glo:currency "Euro"^^xsd:string ;
+    glo:fullName "Kosovo"^^xsd:string ;
+    glo:language "Albanian"^^xsd:string ;
+    glo:latitude "42.6629"^^xsd:float ;
+    glo:longitude "21.1655"^^xsd:float ;
+    glo:region "Balkans"^^xsd:string ;
+    glo:shortName "Kosovo"^^xsd:string .
+
+glo:country_YE a glo:Country ;
     glo:capitalCity "Sana'a"^^xsd:string ;
     glo:continent "Asia"^^xsd:string ;
     glo:country "YE"^^xsd:string ;
@@ -2278,10 +2755,22 @@ glo:YE a glo:Country ;
     glo:language "Arabic"^^xsd:string ;
     glo:latitude "15.0"^^xsd:float ;
     glo:longitude "48.0"^^xsd:float ;
-    glo:name "Yemen"^^xsd:string ;
-    glo:region "Western Asia"^^xsd:string .
+    glo:region "Western Asia"^^xsd:string ;
+    glo:shortName "Yemen"^^xsd:string .
 
-glo:ZA a glo:Country ;
+glo:country_YT a glo:Country ;
+    glo:capitalCity "Mamoudzou"^^xsd:string ;
+    glo:continent "Africa"^^xsd:string ;
+    glo:country "YT"^^xsd:string ;
+    glo:currency "Euro"^^xsd:string ;
+    glo:fullName "Mayotte"^^xsd:string ;
+    glo:language "French"^^xsd:string ;
+    glo:latitude "12.8297"^^xsd:float ;
+    glo:longitude "45.1662"^^xsd:float ;
+    glo:region "Indian Ocean"^^xsd:string ;
+    glo:shortName "Mayotte"^^xsd:string .
+
+glo:country_ZA a glo:Country ;
     glo:capitalCity "Pretoria"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "ZA"^^xsd:string ;
@@ -2290,10 +2779,10 @@ glo:ZA a glo:Country ;
     glo:language "Afrikaans"^^xsd:string ;
     glo:latitude "-29.0"^^xsd:float ;
     glo:longitude "24.0"^^xsd:float ;
-    glo:name "South Africa"^^xsd:string ;
-    glo:region "Southern Africa"^^xsd:string .
+    glo:region "Southern Africa"^^xsd:string ;
+    glo:shortName "South Africa"^^xsd:string .
 
-glo:ZM a glo:Country ;
+glo:country_ZM a glo:Country ;
     glo:capitalCity "Lusaka"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "ZM"^^xsd:string ;
@@ -2302,10 +2791,10 @@ glo:ZM a glo:Country ;
     glo:language "English"^^xsd:string ;
     glo:latitude "-15.0"^^xsd:float ;
     glo:longitude "30.0"^^xsd:float ;
-    glo:name "Zambia"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Zambia"^^xsd:string .
 
-glo:ZW a glo:Country ;
+glo:country_ZW a glo:Country ;
     glo:capitalCity "Harare"^^xsd:string ;
     glo:continent "Africa"^^xsd:string ;
     glo:country "ZW"^^xsd:string ;
@@ -2314,18 +2803,6 @@ glo:ZW a glo:Country ;
     glo:language "Shona"^^xsd:string ;
     glo:latitude "-20.0"^^xsd:float ;
     glo:longitude "30.0"^^xsd:float ;
-    glo:name "Zimbabwe"^^xsd:string ;
-    glo:region "Eastern Africa"^^xsd:string .
-
-glo:nan a glo:Country ;
-    glo:capitalCity "Windhoek"^^xsd:string ;
-    glo:continent "Africa"^^xsd:string ;
-    glo:country "nan"^^xsd:string ;
-    glo:currency "Namibian dollar"^^xsd:string ;
-    glo:fullName "Republic of Namibia"^^xsd:string ;
-    glo:language "English"^^xsd:string ;
-    glo:latitude "-22.0"^^xsd:float ;
-    glo:longitude "17.0"^^xsd:float ;
-    glo:name "Namibia"^^xsd:string ;
-    glo:region "Southern Africa"^^xsd:string .
+    glo:region "Eastern Africa"^^xsd:string ;
+    glo:shortName "Zimbabwe"^^xsd:string .
 
