@@ -28,7 +28,7 @@ The project is structured as follows:
 - **PopulatedData/**: Contains the Turtle (.ttl) files that represent the serialized RDF graph, one for each aspect of global livability.
 
 ## Technical Requirements
-To engage with the Global Livability Ontology, a basic understanding of Semantic Web technologies is beneficial. Familiarity with SPARQL for querying RDF data and experience with RDF libraries in programming languages such as Python can greatly enhance your ability to explore and analyze the data. Tools like Protégé for ontology editing for are also useful.
+To engage with the Global Livability Ontology, a basic understanding of Semantic Web technologies is beneficial. Familiarity with SPARQL for querying RDF data and experience with RDF libraries in programming languages such as Python can greatly enhance your ability to explore and analyze the data. Tools like Protégé for ontology editing for are also useful. Furthermore, incorporating GraphDB as part of the technical stack can provide a robust platform for managing, storing, and querying the ontology data. 
 
 ## Getting Started
 
@@ -36,6 +36,8 @@ To explore the Global Livability Ontology, clone this repository and browse thro
 
 ## Ontology
 In the development of our ontology, we carefully created 14 unique classes, along with one additional class specifically designed to hold detailed information about countries, such as their names and languages spoken. To fill these classes with meaningful data, we conducted a thorough search, identifying and combining 29 datasets that match the various attributes of each class in a way that makes logical sense.
+
+![](Images/OntologyModel.png)
 
 To link these classes together, we implemented a single object property, 'belongsToCountry,' which connects all the individual classes to the main Country class. This creates a well-organized and interconnected web of data. Additionally, for certain classes where it was relevant, we created subclasses to further categorize the data. These subclasses allow for the automatic sorting of instances into more specific groups based on the criteria we set. This method enhances the detail and precision of our ontology, enabling more sophisticated analysis and insights.
 
@@ -58,6 +60,9 @@ We also merge various datasets to enrich the information available for each coun
 
 ## Populating the Data
 The process of populating the RDF graph involves meticulously mapping and integrating data from each of our datasets into a coherent semantic structure. This involves creating RDF triples that link entities with their attributes and relationships according to our ontology. The populated data in the RDF graph is then serialized into Turtle format, making it ready for analysis. This structured approach allows us to capture the complexity of global living conditions in a format that is both rich in detail and flexible for querying.
+
+<img src="./Images/ClassHierarchy.png" width=400 height=400>
+<img src="./Images/Class%20Relationships.png" width=400 height=400>
 
 ## Serialization
 A key aspect of our project is the serialization of our integrated datasets into Turtle (.ttl) format. Turtle provides a more readable format for RDF data, making it easier for humans to understand and machines to process. This step is crucial for ensuring that our data is accessible and usable, allowing for the complex querying and analysis that sets our project apart.
