@@ -4,38 +4,1753 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-glo:HighAccessibility a owl:Class ;
-    rdfs:subClassOf glo:Accessibility ;
-    owl:equivalentClass [ owl:intersectionOf [ a rdf:List ;
-                    rdf:first glo:Accessibility ;
-                    rdf:rest [ a rdf:List ;
-                            rdf:first [ a owl:Restriction ;
-                                    owl:onProperty glo:electricity_access_pct ;
-                                    owl:someValuesFrom [ a rdfs:Datatype ;
-                                            owl:onDatatype xsd:float ;
-                                            owl:withRestrictions [ a rdf:List ;
-                                                    rdf:first [ a rdf:List ;
-                                                            xsd:minInclusive "60.0"^^xsd:float ] ;
-                                                    rdf:rest () ] ] ] ;
-                            rdf:rest [ a rdf:List ;
-                                    rdf:first [ a owl:Restriction ;
-                                            owl:onProperty glo:internet_pct ;
-                                            owl:someValuesFrom [ a rdfs:Datatype ;
-                                                    owl:onDatatype xsd:float ;
-                                                    owl:withRestrictions [ a rdf:List ;
-                                                            rdf:first [ a rdf:List ;
-                                                                    xsd:minInclusive "60.0"^^xsd:float ] ;
-                                                            rdf:rest () ] ] ] ;
-                                    rdf:rest [ a rdf:List ;
-                                            rdf:first [ a owl:Restriction ;
-                                                    owl:onProperty glo:BestHealthcareInTheWorldLegatumProsperityIndexHealthScore2023 ;
-                                                    owl:someValuesFrom [ a rdfs:Datatype ;
-                                                            owl:onDatatype xsd:float ;
-                                                            owl:withRestrictions [ a rdf:List ;
-                                                                    rdf:first [ a rdf:List ;
-                                                                            xsd:minInclusive "66.0"^^xsd:float ] ;
-                                                                    rdf:rest () ] ] ] ;
-                                            rdf:rest () ] ] ] ] ] .
+glo:accessibility_AD a glo:Accessibility ;
+    glo:belongsToCountry glo:country_AD ;
+    glo:country "AD"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "93.8975"^^xsd:float ;
+    glo:internetSpeed "156.9"^^xsd:float .
+
+glo:accessibility_AE a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_AE ;
+    glo:country "AE"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "78.38"^^xsd:float ;
+    glo:internet "100.0"^^xsd:float ;
+    glo:internetSpeed "235.72"^^xsd:float .
+
+glo:accessibility_AF a glo:Accessibility ;
+    glo:belongsToCountry glo:country_AF ;
+    glo:country "AF"^^xsd:string ;
+    glo:electricityAccess "97.7"^^xsd:float ;
+    glo:healthcare "50.91"^^xsd:float ;
+    glo:internet "18.4"^^xsd:float ;
+    glo:internetSpeed "3.07"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_AG a glo:Accessibility ;
+    glo:belongsToCountry glo:country_AG ;
+    glo:country "AG"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "95.6634"^^xsd:float ;
+    glo:internetSpeed "33.53"^^xsd:float .
+
+glo:accessibility_AL a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_AL ;
+    glo:country "AL"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "73.95"^^xsd:float ;
+    glo:internet "79.32"^^xsd:float ;
+    glo:internetSpeed "52.54"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_AM a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_AM ;
+    glo:country "AM"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "73.48"^^xsd:float ;
+    glo:internet "78.6123"^^xsd:float ;
+    glo:internetSpeed "45.31"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_AO a glo:Accessibility,
+        glo:MediumAccessibility ;
+    glo:belongsToCountry glo:country_AO ;
+    glo:country "AO"^^xsd:string ;
+    glo:electricityAccess "48.2239"^^xsd:float ;
+    glo:healthcare "49.88"^^xsd:float ;
+    glo:internet "32.6023"^^xsd:float ;
+    glo:internetSpeed "15.04"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_AR a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_AR ;
+    glo:country "AR"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "74.45"^^xsd:float ;
+    glo:internet "87.1507"^^xsd:float ;
+    glo:internetSpeed "75.39"^^xsd:float .
+
+glo:accessibility_AT a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_AT ;
+    glo:country "AT"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "80.23"^^xsd:float ;
+    glo:internet "92.5292"^^xsd:float ;
+    glo:internetSpeed "82.52"^^xsd:float .
+
+glo:accessibility_AU a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_AU ;
+    glo:country "AU"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "80.36"^^xsd:float ;
+    glo:internet "96.24"^^xsd:float ;
+    glo:internetSpeed "54.37"^^xsd:float .
+
+glo:accessibility_AZ a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_AZ ;
+    glo:country "AZ"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "71.25"^^xsd:float ;
+    glo:internet "86.0"^^xsd:float ;
+    glo:internetSpeed "30.48"^^xsd:float .
+
+glo:accessibility_BA a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_BA ;
+    glo:country "BA"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "70.5"^^xsd:float ;
+    glo:internet "75.6762"^^xsd:float ;
+    glo:internetSpeed "28.33"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_BB a glo:Accessibility ;
+    glo:belongsToCountry glo:country_BB ;
+    glo:country "BB"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "85.82"^^xsd:float ;
+    glo:internetSpeed "92.96"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_BD a glo:Accessibility ;
+    glo:belongsToCountry glo:country_BD ;
+    glo:country "BD"^^xsd:string ;
+    glo:electricityAccess "98.991"^^xsd:float ;
+    glo:healthcare "67.39"^^xsd:float ;
+    glo:internet "38.9174"^^xsd:float ;
+    glo:internetSpeed "38.65"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_BE a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_BE ;
+    glo:country "BE"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "80.6"^^xsd:float ;
+    glo:internet "92.79"^^xsd:float ;
+    glo:internetSpeed "90.59"^^xsd:float .
+
+glo:accessibility_BF a glo:Accessibility ;
+    glo:belongsToCountry glo:country_BF ;
+    glo:country "BF"^^xsd:string ;
+    glo:electricityAccess "18.9507"^^xsd:float ;
+    glo:healthcare "58.72"^^xsd:float ;
+    glo:internet "21.5798"^^xsd:float ;
+    glo:internetSpeed "43.3"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_BG a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_BG ;
+    glo:country "BG"^^xsd:string ;
+    glo:electricityAccess "99.8"^^xsd:float ;
+    glo:healthcare "74.11"^^xsd:float ;
+    glo:internet "75.2714"^^xsd:float ;
+    glo:internetSpeed "77.7"^^xsd:float .
+
+glo:accessibility_BH a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_BH ;
+    glo:country "BH"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "76.24"^^xsd:float ;
+    glo:internet "100.0"^^xsd:float ;
+    glo:internetSpeed "79.94"^^xsd:float .
+
+glo:accessibility_BI a glo:Accessibility ;
+    glo:belongsToCountry glo:country_BI ;
+    glo:country "BI"^^xsd:string ;
+    glo:electricityAccess "10.2338"^^xsd:float ;
+    glo:healthcare "58.16"^^xsd:float ;
+    glo:internet "5.80492"^^xsd:float ;
+    glo:internetSpeed "5.43"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_BJ a glo:Accessibility,
+        glo:MediumAccessibility ;
+    glo:belongsToCountry glo:country_BJ ;
+    glo:country "BJ"^^xsd:string ;
+    glo:electricityAccess "41.9736"^^xsd:float ;
+    glo:healthcare "53.5"^^xsd:float ;
+    glo:internet "33.9653"^^xsd:float ;
+    glo:internetSpeed "23.11"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_BM a glo:Accessibility,
+        glo:LowAccessibility ;
+    glo:belongsToCountry glo:country_BM ;
+    glo:country "BM"^^xsd:string ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_BN a glo:Accessibility ;
+    glo:belongsToCountry glo:country_BN ;
+    glo:country "BN"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "98.08"^^xsd:float ;
+    glo:internetSpeed "73.05"^^xsd:float .
+
+glo:accessibility_BO a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_BO ;
+    glo:country "BO"^^xsd:string ;
+    glo:electricityAccess "98.5562"^^xsd:float ;
+    glo:healthcare "66.02"^^xsd:float ;
+    glo:internet "65.9774"^^xsd:float ;
+    glo:internetSpeed "30.71"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_BR a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_BR ;
+    glo:country "BR"^^xsd:string ;
+    glo:electricityAccess "99.4621"^^xsd:float ;
+    glo:healthcare "71.68"^^xsd:float ;
+    glo:internet "80.69"^^xsd:float ;
+    glo:internetSpeed "136.92"^^xsd:float .
+
+glo:accessibility_BS a glo:Accessibility ;
+    glo:belongsToCountry glo:country_BS ;
+    glo:country "BS"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "94.2938"^^xsd:float ;
+    glo:internetSpeed "54.65"^^xsd:float .
+
+glo:accessibility_BT a glo:Accessibility ;
+    glo:belongsToCountry glo:country_BT ;
+    glo:country "BT"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "85.6369"^^xsd:float ;
+    glo:internetSpeed "12.01"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_BW a glo:Accessibility ;
+    glo:belongsToCountry glo:country_BW ;
+    glo:country "BW"^^xsd:string ;
+    glo:electricityAccess "73.7259"^^xsd:float ;
+    glo:healthcare "59.07"^^xsd:float ;
+    glo:internet "73.5"^^xsd:float ;
+    glo:internetSpeed "7.96"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_BY a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_BY ;
+    glo:country "BY"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "74.34"^^xsd:float ;
+    glo:internet "86.89"^^xsd:float ;
+    glo:internetSpeed "53.8"^^xsd:float .
+
+glo:accessibility_BZ a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_BZ ;
+    glo:country "BZ"^^xsd:string ;
+    glo:electricityAccess "97.6921"^^xsd:float ;
+    glo:healthcare "70.61"^^xsd:float ;
+    glo:internet "61.9942"^^xsd:float ;
+    glo:internetSpeed "44.77"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_CA a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_CA ;
+    glo:country "CA"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "78.88"^^xsd:float ;
+    glo:internet "92.834"^^xsd:float ;
+    glo:internetSpeed "165.67"^^xsd:float .
+
+glo:accessibility_CD a glo:Accessibility ;
+    glo:belongsToCountry glo:country_CD ;
+    glo:country "CD"^^xsd:string ;
+    glo:electricityAccess "20.7682"^^xsd:float ;
+    glo:healthcare "50.9"^^xsd:float ;
+    glo:internet "22.9016"^^xsd:float ;
+    glo:internetSpeed "26.86"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_CF a glo:Accessibility,
+        glo:LowAccessibility ;
+    glo:belongsToCountry glo:country_CF ;
+    glo:country "CF"^^xsd:string ;
+    glo:electricityAccess "15.6803"^^xsd:float ;
+    glo:healthcare "31.95"^^xsd:float ;
+    glo:internet "10.5826"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_CG a glo:Accessibility ;
+    glo:belongsToCountry glo:country_CG ;
+    glo:country "CG"^^xsd:string ;
+    glo:electricityAccess "49.6572"^^xsd:float ;
+    glo:healthcare "54.1"^^xsd:float ;
+    glo:internet "8.65"^^xsd:float ;
+    glo:internetSpeed "41.32"^^xsd:float .
+
+glo:accessibility_CH a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_CH ;
+    glo:country "CH"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "82.11"^^xsd:float ;
+    glo:internet "95.57"^^xsd:float ;
+    glo:internetSpeed "187.48"^^xsd:float .
+
+glo:accessibility_CI a glo:Accessibility ;
+    glo:belongsToCountry glo:country_CI ;
+    glo:country "CI"^^xsd:string ;
+    glo:electricityAccess "71.1368"^^xsd:float ;
+    glo:healthcare "51.81"^^xsd:float ;
+    glo:internet "45.4255"^^xsd:float ;
+    glo:internetSpeed "60.0"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_CL a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_CL ;
+    glo:country "CL"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "76.06"^^xsd:float ;
+    glo:internet "90.1934"^^xsd:float ;
+    glo:internetSpeed "248.65"^^xsd:float .
+
+glo:accessibility_CM a glo:Accessibility ;
+    glo:belongsToCountry glo:country_CM ;
+    glo:country "CM"^^xsd:string ;
+    glo:electricityAccess "65.4467"^^xsd:float ;
+    glo:healthcare "51.02"^^xsd:float ;
+    glo:internet "45.6022"^^xsd:float ;
+    glo:internetSpeed "10.34"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_CN a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_CN ;
+    glo:country "CN"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "83.11"^^xsd:float ;
+    glo:internet "73.05"^^xsd:float ;
+    glo:internetSpeed "230.39"^^xsd:float .
+
+glo:accessibility_CO a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_CO ;
+    glo:country "CO"^^xsd:string ;
+    glo:electricityAccess "99.9991"^^xsd:float ;
+    glo:healthcare "77.78"^^xsd:float ;
+    glo:internet "73.0284"^^xsd:float ;
+    glo:internetSpeed "111.65"^^xsd:float .
+
+glo:accessibility_CR a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_CR ;
+    glo:country "CR"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "79.09"^^xsd:float ;
+    glo:internet "82.75"^^xsd:float ;
+    glo:internetSpeed "79.9"^^xsd:float .
+
+glo:accessibility_CU a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_CU ;
+    glo:country "CU"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "79.53"^^xsd:float ;
+    glo:internet "71.1191"^^xsd:float ;
+    glo:internetSpeed "2.19"^^xsd:float .
+
+glo:accessibility_CV a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_CV ;
+    glo:country "CV"^^xsd:string ;
+    glo:electricityAccess "95.5214"^^xsd:float ;
+    glo:healthcare "72.75"^^xsd:float ;
+    glo:internet "69.7623"^^xsd:float ;
+    glo:internetSpeed "17.09"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_CY a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_CY ;
+    glo:country "CY"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "79.23"^^xsd:float ;
+    glo:internet "90.7595"^^xsd:float ;
+    glo:internetSpeed "61.26"^^xsd:float .
+
+glo:accessibility_CZ a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_CZ ;
+    glo:country "CZ"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "79.49"^^xsd:float ;
+    glo:internet "82.6706"^^xsd:float .
+
+glo:accessibility_DE a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_DE ;
+    glo:country "DE"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "81.41"^^xsd:float ;
+    glo:internet "91.4306"^^xsd:float ;
+    glo:internetSpeed "87.94"^^xsd:float .
+
+glo:accessibility_DJ a glo:Accessibility ;
+    glo:belongsToCountry glo:country_DJ ;
+    glo:country "DJ"^^xsd:string ;
+    glo:electricityAccess "65.4413"^^xsd:float ;
+    glo:healthcare "60.55"^^xsd:float ;
+    glo:internet "68.8632"^^xsd:float ;
+    glo:internetSpeed "19.05"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_DK a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_DK ;
+    glo:country "DK"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "81.07"^^xsd:float ;
+    glo:internet "98.8659"^^xsd:float ;
+    glo:internetSpeed "206.8"^^xsd:float .
+
+glo:accessibility_DM a glo:Accessibility ;
+    glo:belongsToCountry glo:country_DM ;
+    glo:country "DM"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "80.933"^^xsd:float ;
+    glo:internetSpeed "88.78"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_DO a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_DO ;
+    glo:country "DO"^^xsd:string ;
+    glo:electricityAccess "98.1"^^xsd:float ;
+    glo:healthcare "70.64"^^xsd:float ;
+    glo:internet "85.243"^^xsd:float ;
+    glo:internetSpeed "36.62"^^xsd:float .
+
+glo:accessibility_DZ a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_DZ ;
+    glo:country "DZ"^^xsd:string ;
+    glo:electricityAccess "99.7878"^^xsd:float ;
+    glo:healthcare "73.22"^^xsd:float ;
+    glo:internet "70.77"^^xsd:float ;
+    glo:internetSpeed "11.99"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_EC a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_EC ;
+    glo:country "EC"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "71.8"^^xsd:float ;
+    glo:internet "76.2029"^^xsd:float ;
+    glo:internetSpeed "74.33"^^xsd:float .
+
+glo:accessibility_EE a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_EE ;
+    glo:country "EE"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "77.71"^^xsd:float ;
+    glo:internet "91.04"^^xsd:float ;
+    glo:internetSpeed "76.46"^^xsd:float .
+
+glo:accessibility_EG a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_EG ;
+    glo:country "EG"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "67.2"^^xsd:float ;
+    glo:internet "72.06"^^xsd:float ;
+    glo:internetSpeed "61.22"^^xsd:float .
+
+glo:accessibility_EH a glo:Accessibility,
+        glo:LowAccessibility ;
+    glo:belongsToCountry glo:country_EH ;
+    glo:country "EH"^^xsd:string ;
+    glo:internetSpeed "20.25"^^xsd:float .
+
+glo:accessibility_ER a glo:Accessibility ;
+    glo:belongsToCountry glo:country_ER ;
+    glo:country "ER"^^xsd:string ;
+    glo:electricityAccess "52.514"^^xsd:float ;
+    glo:healthcare "57.49"^^xsd:float ;
+    glo:internet "21.7304"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_ES a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_ES ;
+    glo:country "ES"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "79.66"^^xsd:float ;
+    glo:internet "93.9"^^xsd:float ;
+    glo:internetSpeed "189.37"^^xsd:float .
+
+glo:accessibility_ET a glo:Accessibility ;
+    glo:belongsToCountry glo:country_ET ;
+    glo:country "ET"^^xsd:string ;
+    glo:electricityAccess "54.1884"^^xsd:float ;
+    glo:healthcare "60.91"^^xsd:float ;
+    glo:internet "16.6981"^^xsd:float ;
+    glo:internetSpeed "7.11"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_FI a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_FI ;
+    glo:country "FI"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "81.19"^^xsd:float ;
+    glo:internet "92.8081"^^xsd:float ;
+    glo:internetSpeed "102.43"^^xsd:float .
+
+glo:accessibility_FJ a glo:Accessibility ;
+    glo:belongsToCountry glo:country_FJ ;
+    glo:country "FJ"^^xsd:string ;
+    glo:electricityAccess "92.1"^^xsd:float ;
+    glo:internet "87.66"^^xsd:float ;
+    glo:internetSpeed "15.79"^^xsd:float .
+
+glo:accessibility_FK a glo:Accessibility,
+        glo:LowAccessibility ;
+    glo:belongsToCountry glo:country_FK ;
+    glo:country "FK"^^xsd:string ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_FM a glo:Accessibility ;
+    glo:belongsToCountry glo:country_FM ;
+    glo:country "FM"^^xsd:string ;
+    glo:electricityAccess "83.625"^^xsd:float ;
+    glo:internet "40.4096"^^xsd:float ;
+    glo:internetSpeed "13.07"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_FR a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_FR ;
+    glo:country "FR"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "80.46"^^xsd:float ;
+    glo:internet "86.0955"^^xsd:float ;
+    glo:internetSpeed "200.99"^^xsd:float .
+
+glo:accessibility_GA a glo:Accessibility ;
+    glo:belongsToCountry glo:country_GA ;
+    glo:country "GA"^^xsd:string ;
+    glo:electricityAccess "91.8064"^^xsd:float ;
+    glo:healthcare "56.07"^^xsd:float ;
+    glo:internet "71.7494"^^xsd:float ;
+    glo:internetSpeed "37.47"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_GB a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_GB ;
+    glo:country "GB"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "78.31"^^xsd:float ;
+    glo:internet "96.6802"^^xsd:float ;
+    glo:internetSpeed "84.93"^^xsd:float .
+
+glo:accessibility_GD a glo:Accessibility ;
+    glo:belongsToCountry glo:country_GD ;
+    glo:country "GD"^^xsd:string ;
+    glo:electricityAccess "93.7403"^^xsd:float ;
+    glo:internet "77.7672"^^xsd:float ;
+    glo:internetSpeed "76.85"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_GE a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_GE ;
+    glo:country "GE"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "70.64"^^xsd:float ;
+    glo:internet "76.4427"^^xsd:float ;
+    glo:internetSpeed "25.76"^^xsd:float .
+
+glo:accessibility_GH a glo:Accessibility ;
+    glo:belongsToCountry glo:country_GH ;
+    glo:country "GH"^^xsd:string ;
+    glo:electricityAccess "86.3"^^xsd:float ;
+    glo:healthcare "63.08"^^xsd:float ;
+    glo:internet "68.2"^^xsd:float ;
+    glo:internetSpeed "37.27"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_GL a glo:Accessibility,
+        glo:LowAccessibility ;
+    glo:belongsToCountry glo:country_GL ;
+    glo:country "GL"^^xsd:string ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_GM a glo:Accessibility ;
+    glo:belongsToCountry glo:country_GM ;
+    glo:country "GM"^^xsd:string ;
+    glo:electricityAccess "63.6974"^^xsd:float ;
+    glo:healthcare "56.18"^^xsd:float ;
+    glo:internet "32.9623"^^xsd:float ;
+    glo:internetSpeed "6.89"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_GN a glo:Accessibility,
+        glo:MediumAccessibility ;
+    glo:belongsToCountry glo:country_GN ;
+    glo:country "GN"^^xsd:string ;
+    glo:electricityAccess "46.8139"^^xsd:float ;
+    glo:healthcare "48.65"^^xsd:float ;
+    glo:internet "34.6801"^^xsd:float ;
+    glo:internetSpeed "9.32"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_GQ a glo:Accessibility ;
+    glo:belongsToCountry glo:country_GQ ;
+    glo:country "GQ"^^xsd:string ;
+    glo:electricityAccess "66.787"^^xsd:float ;
+    glo:healthcare "50.41"^^xsd:float ;
+    glo:internet "53.9224"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_GR a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_GR ;
+    glo:country "GR"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "77.43"^^xsd:float ;
+    glo:internet "78.4943"^^xsd:float ;
+    glo:internetSpeed "47.5"^^xsd:float .
+
+glo:accessibility_GT a glo:Accessibility ;
+    glo:belongsToCountry glo:country_GT ;
+    glo:country "GT"^^xsd:string ;
+    glo:electricityAccess "97.8657"^^xsd:float ;
+    glo:healthcare "68.33"^^xsd:float ;
+    glo:internet "50.8416"^^xsd:float ;
+    glo:internetSpeed "42.41"^^xsd:float .
+
+glo:accessibility_GW a glo:Accessibility,
+        glo:MediumAccessibility ;
+    glo:belongsToCountry glo:country_GW ;
+    glo:country "GW"^^xsd:string ;
+    glo:electricityAccess "35.7638"^^xsd:float ;
+    glo:healthcare "50.87"^^xsd:float ;
+    glo:internet "35.155"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_GY a glo:Accessibility ;
+    glo:belongsToCountry glo:country_GY ;
+    glo:country "GY"^^xsd:string ;
+    glo:electricityAccess "92.8982"^^xsd:float ;
+    glo:healthcare "62.47"^^xsd:float ;
+    glo:internet "84.7936"^^xsd:float ;
+    glo:internetSpeed "63.34"^^xsd:float .
+
+glo:accessibility_HK a glo:Accessibility ;
+    glo:belongsToCountry glo:country_HK ;
+    glo:country "HK"^^xsd:string ;
+    glo:healthcare "81.33"^^xsd:float ;
+    glo:internetSpeed "263.07"^^xsd:float .
+
+glo:accessibility_HN a glo:Accessibility ;
+    glo:belongsToCountry glo:country_HN ;
+    glo:country "HN"^^xsd:string ;
+    glo:electricityAccess "94.1316"^^xsd:float ;
+    glo:healthcare "69.1"^^xsd:float ;
+    glo:internet "48.0835"^^xsd:float ;
+    glo:internetSpeed "37.96"^^xsd:float .
+
+glo:accessibility_HR a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_HR ;
+    glo:country "HR"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "75.74"^^xsd:float ;
+    glo:internet "81.254"^^xsd:float ;
+    glo:internetSpeed "56.51"^^xsd:float .
+
+glo:accessibility_HT a glo:Accessibility,
+        glo:MediumAccessibility ;
+    glo:belongsToCountry glo:country_HT ;
+    glo:country "HT"^^xsd:string ;
+    glo:electricityAccess "47.1803"^^xsd:float ;
+    glo:healthcare "52.93"^^xsd:float ;
+    glo:internet "38.945"^^xsd:float ;
+    glo:internetSpeed "32.48"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_HU a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_HU ;
+    glo:country "HU"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "76.7"^^xsd:float ;
+    glo:internet "88.6408"^^xsd:float ;
+    glo:internetSpeed "149.85"^^xsd:float .
+
+glo:accessibility_ID a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_ID ;
+    glo:country "ID"^^xsd:string ;
+    glo:electricityAccess "99.21"^^xsd:float ;
+    glo:healthcare "71.13"^^xsd:float ;
+    glo:internet "62.1"^^xsd:float ;
+    glo:internetSpeed "28.28"^^xsd:float .
+
+glo:accessibility_IE a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_IE ;
+    glo:country "IE"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "80.04"^^xsd:float ;
+    glo:internet "95.1696"^^xsd:float ;
+    glo:internetSpeed "94.62"^^xsd:float .
+
+glo:accessibility_IL a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_IL ;
+    glo:country "IL"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "83.1"^^xsd:float ;
+    glo:internet "90.3"^^xsd:float ;
+    glo:internetSpeed "144.81"^^xsd:float .
+
+glo:accessibility_IN a glo:Accessibility ;
+    glo:belongsToCountry glo:country_IN ;
+    glo:country "IN"^^xsd:string ;
+    glo:electricityAccess "99.5725"^^xsd:float ;
+    glo:healthcare "66.16"^^xsd:float ;
+    glo:internet "46.31"^^xsd:float ;
+    glo:internetSpeed "55.8"^^xsd:float .
+
+glo:accessibility_IQ a glo:Accessibility ;
+    glo:belongsToCountry glo:country_IQ ;
+    glo:country "IQ"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "64.62"^^xsd:float ;
+    glo:internet "48.9172"^^xsd:float ;
+    glo:internetSpeed "31.67"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_IR a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_IR ;
+    glo:country "IR"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "74.93"^^xsd:float ;
+    glo:internet "78.6"^^xsd:float ;
+    glo:internetSpeed "13.03"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_IS a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_IS ;
+    glo:country "IS"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "82.72"^^xsd:float ;
+    glo:internet "99.687"^^xsd:float ;
+    glo:internetSpeed "204.8"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_IT a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_IT ;
+    glo:country "IT"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "80.9"^^xsd:float ;
+    glo:internet "74.8623"^^xsd:float ;
+    glo:internetSpeed "69.99"^^xsd:float .
+
+glo:accessibility_JM a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_JM ;
+    glo:country "JM"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "73.83"^^xsd:float ;
+    glo:internet "82.36"^^xsd:float ;
+    glo:internetSpeed "62.31"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_JO a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_JO ;
+    glo:country "JO"^^xsd:string ;
+    glo:electricityAccess "99.9"^^xsd:float ;
+    glo:healthcare "68.92"^^xsd:float ;
+    glo:internet "82.7556"^^xsd:float ;
+    glo:internetSpeed "109.58"^^xsd:float .
+
+glo:accessibility_JP a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_JP ;
+    glo:country "JP"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "86.5"^^xsd:float ;
+    glo:internet "82.9141"^^xsd:float ;
+    glo:internetSpeed "170.29"^^xsd:float .
+
+glo:accessibility_KE a glo:Accessibility ;
+    glo:belongsToCountry glo:country_KE ;
+    glo:country "KE"^^xsd:string ;
+    glo:electricityAccess "76.5424"^^xsd:float ;
+    glo:healthcare "65.21"^^xsd:float ;
+    glo:internet "28.7575"^^xsd:float ;
+    glo:internetSpeed "9.95"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_KG a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_KG ;
+    glo:country "KG"^^xsd:string ;
+    glo:electricityAccess "99.6737"^^xsd:float ;
+    glo:healthcare "72.46"^^xsd:float ;
+    glo:internet "77.9204"^^xsd:float ;
+    glo:internetSpeed "54.37"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_KH a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_KH ;
+    glo:country "KH"^^xsd:string ;
+    glo:electricityAccess "82.5017"^^xsd:float ;
+    glo:healthcare "70.58"^^xsd:float ;
+    glo:internet "60.1524"^^xsd:float ;
+    glo:internetSpeed "22.64"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_KI a glo:Accessibility ;
+    glo:belongsToCountry glo:country_KI ;
+    glo:country "KI"^^xsd:string ;
+    glo:electricityAccess "92.8336"^^xsd:float ;
+    glo:internet "53.627"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_KM a glo:Accessibility ;
+    glo:belongsToCountry glo:country_KM ;
+    glo:country "KM"^^xsd:string ;
+    glo:electricityAccess "87.9426"^^xsd:float ;
+    glo:healthcare "59.6"^^xsd:float ;
+    glo:internet "27.3369"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_KN a glo:Accessibility ;
+    glo:belongsToCountry glo:country_KN ;
+    glo:country "KN"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "79.4731"^^xsd:float ;
+    glo:internetSpeed "55.9"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_KP a glo:Accessibility ;
+    glo:belongsToCountry glo:country_KP ;
+    glo:country "KP"^^xsd:string ;
+    glo:electricityAccess "52.6306"^^xsd:float ;
+    glo:internet "0.0"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_KR a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_KR ;
+    glo:country "KR"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "84.8"^^xsd:float ;
+    glo:internet "97.5713"^^xsd:float ;
+    glo:internetSpeed "139.83"^^xsd:float .
+
+glo:accessibility_KW a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_KW ;
+    glo:country "KW"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "77.33"^^xsd:float ;
+    glo:internet "99.7"^^xsd:float ;
+    glo:internetSpeed "153.58"^^xsd:float .
+
+glo:accessibility_KZ a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_KZ ;
+    glo:country "KZ"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "72.23"^^xsd:float ;
+    glo:internet "90.92"^^xsd:float ;
+    glo:internetSpeed "47.53"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_LA a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_LA ;
+    glo:country "LA"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "66.38"^^xsd:float ;
+    glo:internet "62.0"^^xsd:float ;
+    glo:internetSpeed "32.82"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_LB a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_LB ;
+    glo:country "LB"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "68.65"^^xsd:float ;
+    glo:internet "86.589"^^xsd:float ;
+    glo:internetSpeed "8.27"^^xsd:float .
+
+glo:accessibility_LC a glo:Accessibility ;
+    glo:belongsToCountry glo:country_LC ;
+    glo:country "LC"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "78.0956"^^xsd:float ;
+    glo:internetSpeed "99.96"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_LI a glo:Accessibility ;
+    glo:belongsToCountry glo:country_LI ;
+    glo:country "LI"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "95.5694"^^xsd:float ;
+    glo:internetSpeed "152.22"^^xsd:float .
+
+glo:accessibility_LK a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_LK ;
+    glo:country "LK"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "76.58"^^xsd:float ;
+    glo:internet "66.6815"^^xsd:float ;
+    glo:internetSpeed "19.57"^^xsd:float .
+
+glo:accessibility_LR a glo:Accessibility ;
+    glo:belongsToCountry glo:country_LR ;
+    glo:country "LR"^^xsd:string ;
+    glo:electricityAccess "29.8482"^^xsd:float ;
+    glo:healthcare "48.64"^^xsd:float ;
+    glo:internet "33.6332"^^xsd:float ;
+    glo:internetSpeed "7.58"^^xsd:float .
+
+glo:accessibility_LS a glo:Accessibility ;
+    glo:belongsToCountry glo:country_LS ;
+    glo:country "LS"^^xsd:string ;
+    glo:electricityAccess "50.3775"^^xsd:float ;
+    glo:healthcare "41.3"^^xsd:float ;
+    glo:internet "47.983"^^xsd:float ;
+    glo:internetSpeed "22.46"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_LT a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_LT ;
+    glo:country "LT"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "74.43"^^xsd:float ;
+    glo:internet "86.9306"^^xsd:float ;
+    glo:internetSpeed "103.26"^^xsd:float .
+
+glo:accessibility_LU a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_LU ;
+    glo:country "LU"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "81.59"^^xsd:float ;
+    glo:internet "98.66"^^xsd:float ;
+    glo:internetSpeed "117.66"^^xsd:float .
+
+glo:accessibility_LV a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_LV ;
+    glo:country "LV"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "74.52"^^xsd:float ;
+    glo:internet "91.1796"^^xsd:float ;
+    glo:internetSpeed "81.01"^^xsd:float .
+
+glo:accessibility_LY a glo:Accessibility ;
+    glo:belongsToCountry glo:country_LY ;
+    glo:country "LY"^^xsd:string ;
+    glo:electricityAccess "70.2105"^^xsd:float ;
+    glo:healthcare "67.84"^^xsd:float ;
+    glo:internet "17.76"^^xsd:float ;
+    glo:internetSpeed "8.96"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_MA a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_MA ;
+    glo:country "MA"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "71.17"^^xsd:float ;
+    glo:internet "88.1303"^^xsd:float ;
+    glo:internetSpeed "24.78"^^xsd:float .
+
+glo:accessibility_MC a glo:Accessibility ;
+    glo:belongsToCountry glo:country_MC ;
+    glo:country "MC"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "86.0955"^^xsd:float ;
+    glo:internetSpeed "187.49"^^xsd:float .
+
+glo:accessibility_MD a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_MD ;
+    glo:country "MD"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "70.57"^^xsd:float ;
+    glo:internet "61.2878"^^xsd:float ;
+    glo:internetSpeed "108.2"^^xsd:float .
+
+glo:accessibility_ME a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_ME ;
+    glo:country "ME"^^xsd:string ;
+    glo:electricityAccess "99.7984"^^xsd:float ;
+    glo:healthcare "68.44"^^xsd:float ;
+    glo:internet "82.2197"^^xsd:float ;
+    glo:internetSpeed "68.38"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_MG a glo:Accessibility ;
+    glo:belongsToCountry glo:country_MG ;
+    glo:country "MG"^^xsd:string ;
+    glo:electricityAccess "35.1209"^^xsd:float ;
+    glo:healthcare "54.12"^^xsd:float ;
+    glo:internet "19.7302"^^xsd:float ;
+    glo:internetSpeed "21.44"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_MH a glo:Accessibility ;
+    glo:belongsToCountry glo:country_MH ;
+    glo:country "MH"^^xsd:string ;
+    glo:electricityAccess "99.7536"^^xsd:float ;
+    glo:internet "38.7012"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_MK a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_MK ;
+    glo:country "MK"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "72.63"^^xsd:float ;
+    glo:internet "83.0182"^^xsd:float ;
+    glo:internetSpeed "39.08"^^xsd:float .
+
+glo:accessibility_ML a glo:Accessibility,
+        glo:MediumAccessibility ;
+    glo:belongsToCountry glo:country_ML ;
+    glo:country "ML"^^xsd:string ;
+    glo:electricityAccess "53.3802"^^xsd:float ;
+    glo:healthcare "54.47"^^xsd:float ;
+    glo:internet "34.49"^^xsd:float ;
+    glo:internetSpeed "22.45"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_MM a glo:Accessibility ;
+    glo:belongsToCountry glo:country_MM ;
+    glo:country "MM"^^xsd:string ;
+    glo:electricityAccess "72.4668"^^xsd:float ;
+    glo:healthcare "66.74"^^xsd:float ;
+    glo:internet "44.0217"^^xsd:float ;
+    glo:internetSpeed "20.05"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_MN a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_MN ;
+    glo:country "MN"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "66.74"^^xsd:float ;
+    glo:internet "84.33"^^xsd:float ;
+    glo:internetSpeed "62.66"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_MO a glo:Accessibility,
+        glo:LowAccessibility ;
+    glo:belongsToCountry glo:country_MO ;
+    glo:country "MO"^^xsd:string ;
+    glo:internetSpeed "160.52"^^xsd:float .
+
+glo:accessibility_MR a glo:Accessibility,
+        glo:MediumAccessibility ;
+    glo:belongsToCountry glo:country_MR ;
+    glo:country "MR"^^xsd:string ;
+    glo:electricityAccess "47.6958"^^xsd:float ;
+    glo:healthcare "56.74"^^xsd:float ;
+    glo:internet "58.7582"^^xsd:float ;
+    glo:internetSpeed "18.09"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_MT a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_MT ;
+    glo:country "MT"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "80.54"^^xsd:float ;
+    glo:internet "87.4698"^^xsd:float ;
+    glo:internetSpeed "108.19"^^xsd:float .
+
+glo:accessibility_MU a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_MU ;
+    glo:country "MU"^^xsd:string ;
+    glo:electricityAccess "99.6"^^xsd:float ;
+    glo:healthcare "71.86"^^xsd:float ;
+    glo:internet "67.58"^^xsd:float ;
+    glo:internetSpeed "50.13"^^xsd:float .
+
+glo:accessibility_MV a glo:Accessibility ;
+    glo:belongsToCountry glo:country_MV ;
+    glo:country "MV"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "85.7606"^^xsd:float ;
+    glo:internetSpeed "13.24"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_MW a glo:Accessibility ;
+    glo:belongsToCountry glo:country_MW ;
+    glo:country "MW"^^xsd:string ;
+    glo:electricityAccess "14.1884"^^xsd:float ;
+    glo:healthcare "61.01"^^xsd:float ;
+    glo:internet "24.4056"^^xsd:float ;
+    glo:internetSpeed "18.74"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_MX a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_MX ;
+    glo:country "MX"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "73.09"^^xsd:float ;
+    glo:internet "75.6265"^^xsd:float ;
+    glo:internetSpeed "63.43"^^xsd:float .
+
+glo:accessibility_MY a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_MY ;
+    glo:country "MY"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "77.35"^^xsd:float ;
+    glo:internet "96.7514"^^xsd:float ;
+    glo:internetSpeed "110.8"^^xsd:float .
+
+glo:accessibility_MZ a glo:Accessibility ;
+    glo:belongsToCountry glo:country_MZ ;
+    glo:country "MZ"^^xsd:string ;
+    glo:electricityAccess "31.494"^^xsd:float ;
+    glo:healthcare "52.84"^^xsd:float ;
+    glo:internet "17.3728"^^xsd:float ;
+    glo:internetSpeed "12.88"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_NE a glo:Accessibility ;
+    glo:belongsToCountry glo:country_NE ;
+    glo:country "NE"^^xsd:string ;
+    glo:electricityAccess "18.6"^^xsd:float ;
+    glo:healthcare "54.6"^^xsd:float ;
+    glo:internet "22.3861"^^xsd:float ;
+    glo:internetSpeed "5.12"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_NG a glo:Accessibility,
+        glo:MediumAccessibility ;
+    glo:belongsToCountry glo:country_NG ;
+    glo:country "NG"^^xsd:string ;
+    glo:electricityAccess "59.5"^^xsd:float ;
+    glo:healthcare "50.12"^^xsd:float ;
+    glo:internet "55.3637"^^xsd:float ;
+    glo:internetSpeed "18.83"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_NI a glo:Accessibility ;
+    glo:belongsToCountry glo:country_NI ;
+    glo:country "NI"^^xsd:string ;
+    glo:electricityAccess "86.2915"^^xsd:float ;
+    glo:healthcare "72.1"^^xsd:float ;
+    glo:internet "57.1469"^^xsd:float ;
+    glo:internetSpeed "49.8"^^xsd:float .
+
+glo:accessibility_NL a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_NL ;
+    glo:country "NL"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "82.05"^^xsd:float ;
+    glo:internet "92.053"^^xsd:float ;
+    glo:internetSpeed "177.88"^^xsd:float .
+
+glo:accessibility_NO a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_NO ;
+    glo:country "NO"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "82.98"^^xsd:float ;
+    glo:internet "99.0"^^xsd:float ;
+    glo:internetSpeed "123.63"^^xsd:float .
+
+glo:accessibility_NP a glo:Accessibility ;
+    glo:belongsToCountry glo:country_NP ;
+    glo:country "NP"^^xsd:string ;
+    glo:electricityAccess "89.9"^^xsd:float ;
+    glo:healthcare "63.87"^^xsd:float ;
+    glo:internet "51.6314"^^xsd:float ;
+    glo:internetSpeed "56.26"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_NR a glo:Accessibility ;
+    glo:belongsToCountry glo:country_NR ;
+    glo:country "NR"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "83.9352"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_NZ a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_NZ ;
+    glo:country "NZ"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "79.84"^^xsd:float ;
+    glo:internet "95.9102"^^xsd:float ;
+    glo:internetSpeed "163.16"^^xsd:float .
+
+glo:accessibility_OM a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_OM ;
+    glo:country "OM"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "75.44"^^xsd:float ;
+    glo:internet "96.3801"^^xsd:float ;
+    glo:internetSpeed "67.64"^^xsd:float .
+
+glo:accessibility_PA a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_PA ;
+    glo:country "PA"^^xsd:string ;
+    glo:electricityAccess "95.2511"^^xsd:float ;
+    glo:healthcare "75.1"^^xsd:float ;
+    glo:internet "67.5097"^^xsd:float ;
+    glo:internetSpeed "148.76"^^xsd:float .
+
+glo:accessibility_PE a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_PE ;
+    glo:country "PE"^^xsd:string ;
+    glo:electricityAccess "95.6"^^xsd:float ;
+    glo:healthcare "75.81"^^xsd:float ;
+    glo:internet "71.1078"^^xsd:float ;
+    glo:internetSpeed "93.52"^^xsd:float .
+
+glo:accessibility_PG a glo:Accessibility ;
+    glo:belongsToCountry glo:country_PG ;
+    glo:country "PG"^^xsd:string ;
+    glo:electricityAccess "20.9166"^^xsd:float ;
+    glo:healthcare "52.87"^^xsd:float ;
+    glo:internet "32.0542"^^xsd:float ;
+    glo:internetSpeed "11.01"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_PH a glo:Accessibility ;
+    glo:belongsToCountry glo:country_PH ;
+    glo:country "PH"^^xsd:string ;
+    glo:electricityAccess "97.49"^^xsd:float ;
+    glo:healthcare "70.06"^^xsd:float ;
+    glo:internet "52.6757"^^xsd:float ;
+    glo:internetSpeed "91.08"^^xsd:float .
+
+glo:accessibility_PK a glo:Accessibility ;
+    glo:belongsToCountry glo:country_PK ;
+    glo:country "PK"^^xsd:string ;
+    glo:electricityAccess "94.9229"^^xsd:float ;
+    glo:healthcare "60.78"^^xsd:float ;
+    glo:internet "21.0372"^^xsd:float ;
+    glo:internetSpeed "13.71"^^xsd:float .
+
+glo:accessibility_PL a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_PL ;
+    glo:country "PL"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "76.31"^^xsd:float ;
+    glo:internet "85.3749"^^xsd:float ;
+    glo:internetSpeed "133.35"^^xsd:float .
+
+glo:accessibility_PS a glo:Accessibility ;
+    glo:belongsToCountry glo:country_PS ;
+    glo:country "PS"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "74.6"^^xsd:float ;
+    glo:internetSpeed "64.82"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_PT a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_PT ;
+    glo:country "PT"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "77.44"^^xsd:float ;
+    glo:internet "82.309"^^xsd:float ;
+    glo:internetSpeed "150.45"^^xsd:float .
+
+glo:accessibility_PW a glo:Accessibility ;
+    glo:belongsToCountry glo:country_PW ;
+    glo:country "PW"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "26.9703"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_PY a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_PY ;
+    glo:country "PY"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "70.84"^^xsd:float ;
+    glo:internet "77.0184"^^xsd:float ;
+    glo:internetSpeed "83.92"^^xsd:float .
+
+glo:accessibility_QA a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_QA ;
+    glo:country "QA"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "77.64"^^xsd:float ;
+    glo:internet "100.0"^^xsd:float ;
+    glo:internetSpeed "127.04"^^xsd:float .
+
+glo:accessibility_RO a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_RO ;
+    glo:country "RO"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "73.02"^^xsd:float ;
+    glo:internet "83.5904"^^xsd:float ;
+    glo:internetSpeed "191.36"^^xsd:float .
+
+glo:accessibility_RS a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_RS ;
+    glo:country "RS"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "71.93"^^xsd:float ;
+    glo:internet "81.1659"^^xsd:float ;
+    glo:internetSpeed "70.95"^^xsd:float .
+
+glo:accessibility_RU a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_RU ;
+    glo:country "RU"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "71.38"^^xsd:float ;
+    glo:internet "88.2138"^^xsd:float ;
+    glo:internetSpeed "81.95"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_RW a glo:Accessibility,
+        glo:MediumAccessibility ;
+    glo:belongsToCountry glo:country_RW ;
+    glo:country "RW"^^xsd:string ;
+    glo:electricityAccess "48.7004"^^xsd:float ;
+    glo:healthcare "64.6"^^xsd:float ;
+    glo:internet "30.4618"^^xsd:float ;
+    glo:internetSpeed "30.92"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_SA a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_SA ;
+    glo:country "SA"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "75.34"^^xsd:float ;
+    glo:internet "100.0"^^xsd:float ;
+    glo:internetSpeed "102.41"^^xsd:float .
+
+glo:accessibility_SB a glo:Accessibility ;
+    glo:belongsToCountry glo:country_SB ;
+    glo:country "SB"^^xsd:string ;
+    glo:electricityAccess "76.3475"^^xsd:float ;
+    glo:internet "36.132"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_SC a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_SC ;
+    glo:country "SC"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "77.44"^^xsd:float ;
+    glo:internet "81.5931"^^xsd:float ;
+    glo:internetSpeed "27.56"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_SD a glo:Accessibility ;
+    glo:belongsToCountry glo:country_SD ;
+    glo:country "SD"^^xsd:string ;
+    glo:electricityAccess "61.7677"^^xsd:float ;
+    glo:healthcare "60.55"^^xsd:float ;
+    glo:internet "28.4"^^xsd:float ;
+    glo:internetSpeed "8.36"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_SE a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_SE ;
+    glo:country "SE"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "82.28"^^xsd:float ;
+    glo:internet "88.3078"^^xsd:float ;
+    glo:internetSpeed "127.33"^^xsd:float .
+
+glo:accessibility_SG a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_SG ;
+    glo:country "SG"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "86.89"^^xsd:float ;
+    glo:internet "91.0994"^^xsd:float ;
+    glo:internetSpeed "264.15"^^xsd:float .
+
+glo:accessibility_SI a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_SI ;
+    glo:country "SI"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "79.88"^^xsd:float ;
+    glo:internet "89.004"^^xsd:float ;
+    glo:internetSpeed "88.68"^^xsd:float .
+
+glo:accessibility_SK a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_SK ;
+    glo:country "SK"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "76.74"^^xsd:float ;
+    glo:internet "88.9256"^^xsd:float ;
+    glo:internetSpeed "69.4"^^xsd:float .
+
+glo:accessibility_SL a glo:Accessibility ;
+    glo:belongsToCountry glo:country_SL ;
+    glo:country "SL"^^xsd:string ;
+    glo:electricityAccess "27.494"^^xsd:float ;
+    glo:healthcare "48.26"^^xsd:float ;
+    glo:internet "18.0"^^xsd:float ;
+    glo:internetSpeed "18.09"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_SM a glo:Accessibility ;
+    glo:belongsToCountry glo:country_SM ;
+    glo:country "SM"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "74.8623"^^xsd:float ;
+    glo:internetSpeed "70.82"^^xsd:float .
+
+glo:accessibility_SN a glo:Accessibility ;
+    glo:belongsToCountry glo:country_SN ;
+    glo:country "SN"^^xsd:string ;
+    glo:electricityAccess "67.9753"^^xsd:float ;
+    glo:healthcare "64.44"^^xsd:float ;
+    glo:internet "58.0548"^^xsd:float ;
+    glo:internetSpeed "21.75"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_SO a glo:Accessibility ;
+    glo:belongsToCountry glo:country_SO ;
+    glo:country "SO"^^xsd:string ;
+    glo:electricityAccess "49.324"^^xsd:float ;
+    glo:healthcare "44.38"^^xsd:float ;
+    glo:internet "2.00405"^^xsd:float ;
+    glo:internetSpeed "12.47"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_SR a glo:Accessibility ;
+    glo:belongsToCountry glo:country_SR ;
+    glo:country "SR"^^xsd:string ;
+    glo:electricityAccess "98.8233"^^xsd:float ;
+    glo:healthcare "60.8"^^xsd:float ;
+    glo:internet "65.9398"^^xsd:float ;
+    glo:internetSpeed "11.38"^^xsd:float .
+
+glo:accessibility_SS a glo:Accessibility,
+        glo:LowAccessibility ;
+    glo:belongsToCountry glo:country_SS ;
+    glo:country "SS"^^xsd:string ;
+    glo:electricityAccess "7.74776"^^xsd:float ;
+    glo:healthcare "35.69"^^xsd:float ;
+    glo:internet "6.5"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_ST a glo:Accessibility ;
+    glo:belongsToCountry glo:country_ST ;
+    glo:country "ST"^^xsd:string ;
+    glo:electricityAccess "78.4511"^^xsd:float ;
+    glo:healthcare "70.54"^^xsd:float ;
+    glo:internet "51.2041"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_SV a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_SV ;
+    glo:country "SV"^^xsd:string ;
+    glo:electricityAccess "97.89"^^xsd:float ;
+    glo:healthcare "69.35"^^xsd:float ;
+    glo:internet "62.8803"^^xsd:float ;
+    glo:internetSpeed "47.99"^^xsd:float .
+
+glo:accessibility_SY a glo:Accessibility ;
+    glo:belongsToCountry glo:country_SY ;
+    glo:country "SY"^^xsd:string ;
+    glo:electricityAccess "88.8245"^^xsd:float ;
+    glo:healthcare "67.16"^^xsd:float ;
+    glo:internet "35.78"^^xsd:float ;
+    glo:internetSpeed "4.06"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_SZ a glo:Accessibility ;
+    glo:belongsToCountry glo:country_SZ ;
+    glo:country "SZ"^^xsd:string ;
+    glo:electricityAccess "82.9032"^^xsd:float ;
+    glo:healthcare "48.43"^^xsd:float ;
+    glo:internet "58.9129"^^xsd:float .
+
+glo:accessibility_TD a glo:Accessibility,
+        glo:LowAccessibility ;
+    glo:belongsToCountry glo:country_TD ;
+    glo:country "TD"^^xsd:string ;
+    glo:electricityAccess "11.2686"^^xsd:float ;
+    glo:healthcare "39.17"^^xsd:float ;
+    glo:internet "17.8689"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_TG a glo:Accessibility,
+        glo:MediumAccessibility ;
+    glo:belongsToCountry glo:country_TG ;
+    glo:country "TG"^^xsd:string ;
+    glo:electricityAccess "55.7401"^^xsd:float ;
+    glo:healthcare "55.09"^^xsd:float ;
+    glo:internet "34.9841"^^xsd:float ;
+    glo:internetSpeed "28.74"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_TH a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_TH ;
+    glo:country "TH"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "78.92"^^xsd:float ;
+    glo:internet "85.27"^^xsd:float ;
+    glo:internetSpeed "218.94"^^xsd:float .
+
+glo:accessibility_TJ a glo:Accessibility ;
+    glo:belongsToCountry glo:country_TJ ;
+    glo:country "TJ"^^xsd:string ;
+    glo:electricityAccess "99.5655"^^xsd:float ;
+    glo:healthcare "72.46"^^xsd:float ;
+    glo:internet "21.96"^^xsd:float ;
+    glo:internetSpeed "20.77"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_TL a glo:Accessibility ;
+    glo:belongsToCountry glo:country_TL ;
+    glo:country "TL"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "39.4513"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_TM a glo:Accessibility ;
+    glo:belongsToCountry glo:country_TM ;
+    glo:country "TM"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "75.59"^^xsd:float ;
+    glo:internet "21.251"^^xsd:float ;
+    glo:internetSpeed "8.68"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_TN a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_TN ;
+    glo:country "TN"^^xsd:string ;
+    glo:electricityAccess "99.9"^^xsd:float ;
+    glo:healthcare "72.05"^^xsd:float ;
+    glo:internet "78.9897"^^xsd:float ;
+    glo:internetSpeed "8.81"^^xsd:float .
+
+glo:accessibility_TO a glo:Accessibility ;
+    glo:belongsToCountry glo:country_TO ;
+    glo:country "TO"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "71.5866"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_TR a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_TR ;
+    glo:country "TR"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "74.19"^^xsd:float ;
+    glo:internet "81.41"^^xsd:float ;
+    glo:internetSpeed "38.12"^^xsd:float .
+
+glo:accessibility_TT a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_TT ;
+    glo:country "TT"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "74.13"^^xsd:float ;
+    glo:internet "79.0"^^xsd:float ;
+    glo:internetSpeed "100.68"^^xsd:float .
+
+glo:accessibility_TV a glo:Accessibility ;
+    glo:belongsToCountry glo:country_TV ;
+    glo:country "TV"^^xsd:string ;
+    glo:electricityAccess "99.6824"^^xsd:float ;
+    glo:internet "71.5866"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_TW a glo:Accessibility ;
+    glo:belongsToCountry glo:country_TW ;
+    glo:country "TW"^^xsd:string ;
+    glo:healthcare "83.37"^^xsd:float ;
+    glo:internetSpeed "157.55"^^xsd:float .
+
+glo:accessibility_TZ a glo:Accessibility,
+        glo:MediumAccessibility ;
+    glo:belongsToCountry glo:country_TZ ;
+    glo:country "TZ"^^xsd:string ;
+    glo:electricityAccess "42.7434"^^xsd:float ;
+    glo:healthcare "60.07"^^xsd:float ;
+    glo:internet "31.6331"^^xsd:float ;
+    glo:internetSpeed "18.52"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_UA a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_UA ;
+    glo:country "UA"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "68.71"^^xsd:float ;
+    glo:internet "79.2183"^^xsd:float ;
+    glo:internetSpeed "72.42"^^xsd:float .
+
+glo:accessibility_UG a glo:Accessibility ;
+    glo:belongsToCountry glo:country_UG ;
+    glo:country "UG"^^xsd:string ;
+    glo:electricityAccess "45.2203"^^xsd:float ;
+    glo:healthcare "58.49"^^xsd:float ;
+    glo:internet "10.3424"^^xsd:float ;
+    glo:internetSpeed "12.65"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_US a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_US ;
+    glo:country "US"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "73.26"^^xsd:float ;
+    glo:internet "91.7532"^^xsd:float ;
+    glo:internetSpeed "215.72"^^xsd:float .
+
+glo:accessibility_UY a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_UY ;
+    glo:country "UY"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "77.98"^^xsd:float ;
+    glo:internet "90.0738"^^xsd:float ;
+    glo:internetSpeed "143.06"^^xsd:float .
+
+glo:accessibility_UZ a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_UZ ;
+    glo:country "UZ"^^xsd:string ;
+    glo:electricityAccess "99.9"^^xsd:float ;
+    glo:healthcare "76.28"^^xsd:float ;
+    glo:internet "76.5904"^^xsd:float ;
+    glo:internetSpeed "54.12"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_VA a glo:Accessibility,
+        glo:LowAccessibility ;
+    glo:belongsToCountry glo:country_VA ;
+    glo:country "VA"^^xsd:string ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_VC a glo:Accessibility ;
+    glo:belongsToCountry glo:country_VC ;
+    glo:country "VC"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:internet "84.9128"^^xsd:float ;
+    glo:internetSpeed "90.11"^^xsd:float .
+
+glo:accessibility_VE a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_VE ;
+    glo:country "VE"^^xsd:string ;
+    glo:electricityAccess "99.9877"^^xsd:float ;
+    glo:healthcare "69.61"^^xsd:float ;
+    glo:internet "61.6"^^xsd:float ;
+    glo:internetSpeed "37.43"^^xsd:float .
+
+glo:accessibility_VN a glo:Accessibility,
+        glo:HighAccessibility ;
+    glo:belongsToCountry glo:country_VN ;
+    glo:country "VN"^^xsd:string ;
+    glo:electricityAccess "100.0"^^xsd:float ;
+    glo:healthcare "76.99"^^xsd:float ;
+    glo:internet "74.21"^^xsd:float ;
+    glo:internetSpeed "104.08"^^xsd:float .
+
+glo:accessibility_VU a glo:Accessibility ;
+    glo:belongsToCountry glo:country_VU ;
+    glo:country "VU"^^xsd:string ;
+    glo:electricityAccess "70.0428"^^xsd:float ;
+    glo:internet "66.3357"^^xsd:float ;
+    glo:internetSpeed "10.76"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_WS a glo:Accessibility ;
+    glo:belongsToCountry glo:country_WS ;
+    glo:country "WS"^^xsd:string ;
+    glo:electricityAccess "98.3"^^xsd:float ;
+    glo:internet "78.2457"^^xsd:float .
+
+glo:accessibility_YE a glo:Accessibility ;
+    glo:belongsToCountry glo:country_YE ;
+    glo:country "YE"^^xsd:string ;
+    glo:electricityAccess "74.8772"^^xsd:float ;
+    glo:healthcare "57.45"^^xsd:float ;
+    glo:internet "26.7184"^^xsd:float ;
+    glo:internetSpeed "6.12"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_ZA a glo:Accessibility ;
+    glo:belongsToCountry glo:country_ZA ;
+    glo:country "ZA"^^xsd:string ;
+    glo:electricityAccess "89.3"^^xsd:float ;
+    glo:healthcare "59.9"^^xsd:float ;
+    glo:internet "72.3105"^^xsd:float ;
+    glo:internetSpeed "41.02"^^xsd:float .
+
+glo:accessibility_ZM a glo:Accessibility ;
+    glo:belongsToCountry glo:country_ZM ;
+    glo:country "ZM"^^xsd:string ;
+    glo:electricityAccess "46.6851"^^xsd:float ;
+    glo:healthcare "57.2"^^xsd:float ;
+    glo:internet "21.2315"^^xsd:float ;
+    glo:internetSpeed "22.01"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
+
+glo:accessibility_ZW a glo:Accessibility,
+        glo:MediumAccessibility ;
+    glo:belongsToCountry glo:country_ZW ;
+    glo:country "ZW"^^xsd:string ;
+    glo:electricityAccess "48.9799"^^xsd:float ;
+    glo:healthcare "55.46"^^xsd:float ;
+    glo:internet "34.814"^^xsd:float ;
+    glo:internetSpeed "10.01"^^xsd:float ;
+    glo:withoutMcDonalds "x"^^xsd:string .
 
 glo:LowAccessibility a owl:Class ;
     rdfs:subClassOf glo:Accessibility ;
@@ -112,1753 +1827,38 @@ glo:MediumAccessibility a owl:Class ;
                                                                             rdf:rest () ] ] ] ] ;
                                             rdf:rest () ] ] ] ] ] .
 
-glo:accessibility_AD a glo:Accessibility ;
-    glo:belongsToCountry glo:country_AD ;
-    glo:country "AD"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "93.8975"^^xsd:float ;
-    glo:internetSpeed "156.9"^^xsd:float .
-
-glo:accessibility_AE a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_AE ;
-    glo:country "AE"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "78.38"^^xsd:float ;
-    glo:internet "100.0"^^xsd:float ;
-    glo:internetSpeed "235.72"^^xsd:float .
-
-glo:accessibility_AF a glo:Accessibility ;
-    glo:belongsToCountry glo:country_AF ;
-    glo:country "AF"^^xsd:string ;
-    glo:electricityAccess "97.7"^^xsd:float ;
-    glo:healthcare "50.91"^^xsd:float ;
-    glo:internet "18.4"^^xsd:float ;
-    glo:internetSpeed "3.07"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_AG a glo:Accessibility ;
-    glo:belongsToCountry glo:country_AG ;
-    glo:country "AG"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "95.6634"^^xsd:float ;
-    glo:internetSpeed "33.53"^^xsd:float .
-
-glo:accessibility_AL a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_AL ;
-    glo:country "AL"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "73.95"^^xsd:float ;
-    glo:internet "79.32"^^xsd:float ;
-    glo:internetSpeed "52.54"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_AM a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_AM ;
-    glo:country "AM"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "73.48"^^xsd:float ;
-    glo:internet "78.6123"^^xsd:float ;
-    glo:internetSpeed "45.31"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_AO a glo:Accessibility,
-        glo:mediumAccessibility ;
-    glo:belongsToCountry glo:country_AO ;
-    glo:country "AO"^^xsd:string ;
-    glo:electricityAccess "48.2239"^^xsd:float ;
-    glo:healthcare "49.88"^^xsd:float ;
-    glo:internet "32.6023"^^xsd:float ;
-    glo:internetSpeed "15.04"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_AR a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_AR ;
-    glo:country "AR"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "74.45"^^xsd:float ;
-    glo:internet "87.1507"^^xsd:float ;
-    glo:internetSpeed "75.39"^^xsd:float .
-
-glo:accessibility_AT a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_AT ;
-    glo:country "AT"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "80.23"^^xsd:float ;
-    glo:internet "92.5292"^^xsd:float ;
-    glo:internetSpeed "82.52"^^xsd:float .
-
-glo:accessibility_AU a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_AU ;
-    glo:country "AU"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "80.36"^^xsd:float ;
-    glo:internet "96.24"^^xsd:float ;
-    glo:internetSpeed "54.37"^^xsd:float .
-
-glo:accessibility_AZ a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_AZ ;
-    glo:country "AZ"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "71.25"^^xsd:float ;
-    glo:internet "86.0"^^xsd:float ;
-    glo:internetSpeed "30.48"^^xsd:float .
-
-glo:accessibility_BA a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_BA ;
-    glo:country "BA"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "70.5"^^xsd:float ;
-    glo:internet "75.6762"^^xsd:float ;
-    glo:internetSpeed "28.33"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_BB a glo:Accessibility ;
-    glo:belongsToCountry glo:country_BB ;
-    glo:country "BB"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "85.82"^^xsd:float ;
-    glo:internetSpeed "92.96"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_BD a glo:Accessibility ;
-    glo:belongsToCountry glo:country_BD ;
-    glo:country "BD"^^xsd:string ;
-    glo:electricityAccess "98.991"^^xsd:float ;
-    glo:healthcare "67.39"^^xsd:float ;
-    glo:internet "38.9174"^^xsd:float ;
-    glo:internetSpeed "38.65"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_BE a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_BE ;
-    glo:country "BE"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "80.6"^^xsd:float ;
-    glo:internet "92.79"^^xsd:float ;
-    glo:internetSpeed "90.59"^^xsd:float .
-
-glo:accessibility_BF a glo:Accessibility ;
-    glo:belongsToCountry glo:country_BF ;
-    glo:country "BF"^^xsd:string ;
-    glo:electricityAccess "18.9507"^^xsd:float ;
-    glo:healthcare "58.72"^^xsd:float ;
-    glo:internet "21.5798"^^xsd:float ;
-    glo:internetSpeed "43.3"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_BG a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_BG ;
-    glo:country "BG"^^xsd:string ;
-    glo:electricityAccess "99.8"^^xsd:float ;
-    glo:healthcare "74.11"^^xsd:float ;
-    glo:internet "75.2714"^^xsd:float ;
-    glo:internetSpeed "77.7"^^xsd:float .
-
-glo:accessibility_BH a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_BH ;
-    glo:country "BH"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "76.24"^^xsd:float ;
-    glo:internet "100.0"^^xsd:float ;
-    glo:internetSpeed "79.94"^^xsd:float .
-
-glo:accessibility_BI a glo:Accessibility ;
-    glo:belongsToCountry glo:country_BI ;
-    glo:country "BI"^^xsd:string ;
-    glo:electricityAccess "10.2338"^^xsd:float ;
-    glo:healthcare "58.16"^^xsd:float ;
-    glo:internet "5.80492"^^xsd:float ;
-    glo:internetSpeed "5.43"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_BJ a glo:Accessibility,
-        glo:mediumAccessibility ;
-    glo:belongsToCountry glo:country_BJ ;
-    glo:country "BJ"^^xsd:string ;
-    glo:electricityAccess "41.9736"^^xsd:float ;
-    glo:healthcare "53.5"^^xsd:float ;
-    glo:internet "33.9653"^^xsd:float ;
-    glo:internetSpeed "23.11"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_BM a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_BM ;
-    glo:country "BM"^^xsd:string ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_BN a glo:Accessibility ;
-    glo:belongsToCountry glo:country_BN ;
-    glo:country "BN"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "98.08"^^xsd:float ;
-    glo:internetSpeed "73.05"^^xsd:float .
-
-glo:accessibility_BO a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_BO ;
-    glo:country "BO"^^xsd:string ;
-    glo:electricityAccess "98.5562"^^xsd:float ;
-    glo:healthcare "66.02"^^xsd:float ;
-    glo:internet "65.9774"^^xsd:float ;
-    glo:internetSpeed "30.71"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_BR a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_BR ;
-    glo:country "BR"^^xsd:string ;
-    glo:electricityAccess "99.4621"^^xsd:float ;
-    glo:healthcare "71.68"^^xsd:float ;
-    glo:internet "80.69"^^xsd:float ;
-    glo:internetSpeed "136.92"^^xsd:float .
-
-glo:accessibility_BS a glo:Accessibility ;
-    glo:belongsToCountry glo:country_BS ;
-    glo:country "BS"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "94.2938"^^xsd:float ;
-    glo:internetSpeed "54.65"^^xsd:float .
-
-glo:accessibility_BT a glo:Accessibility ;
-    glo:belongsToCountry glo:country_BT ;
-    glo:country "BT"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "85.6369"^^xsd:float ;
-    glo:internetSpeed "12.01"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_BW a glo:Accessibility ;
-    glo:belongsToCountry glo:country_BW ;
-    glo:country "BW"^^xsd:string ;
-    glo:electricityAccess "73.7259"^^xsd:float ;
-    glo:healthcare "59.07"^^xsd:float ;
-    glo:internet "73.5"^^xsd:float ;
-    glo:internetSpeed "7.96"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_BY a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_BY ;
-    glo:country "BY"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "74.34"^^xsd:float ;
-    glo:internet "86.89"^^xsd:float ;
-    glo:internetSpeed "53.8"^^xsd:float .
-
-glo:accessibility_BZ a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_BZ ;
-    glo:country "BZ"^^xsd:string ;
-    glo:electricityAccess "97.6921"^^xsd:float ;
-    glo:healthcare "70.61"^^xsd:float ;
-    glo:internet "61.9942"^^xsd:float ;
-    glo:internetSpeed "44.77"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_CA a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_CA ;
-    glo:country "CA"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "78.88"^^xsd:float ;
-    glo:internet "92.834"^^xsd:float ;
-    glo:internetSpeed "165.67"^^xsd:float .
-
-glo:accessibility_CD a glo:Accessibility ;
-    glo:belongsToCountry glo:country_CD ;
-    glo:country "CD"^^xsd:string ;
-    glo:electricityAccess "20.7682"^^xsd:float ;
-    glo:healthcare "50.9"^^xsd:float ;
-    glo:internet "22.9016"^^xsd:float ;
-    glo:internetSpeed "26.86"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_CF a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_CF ;
-    glo:country "CF"^^xsd:string ;
-    glo:electricityAccess "15.6803"^^xsd:float ;
-    glo:healthcare "31.95"^^xsd:float ;
-    glo:internet "10.5826"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_CG a glo:Accessibility ;
-    glo:belongsToCountry glo:country_CG ;
-    glo:country "CG"^^xsd:string ;
-    glo:electricityAccess "49.6572"^^xsd:float ;
-    glo:healthcare "54.1"^^xsd:float ;
-    glo:internet "8.65"^^xsd:float ;
-    glo:internetSpeed "41.32"^^xsd:float .
-
-glo:accessibility_CH a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_CH ;
-    glo:country "CH"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "82.11"^^xsd:float ;
-    glo:internet "95.57"^^xsd:float ;
-    glo:internetSpeed "187.48"^^xsd:float .
-
-glo:accessibility_CI a glo:Accessibility ;
-    glo:belongsToCountry glo:country_CI ;
-    glo:country "CI"^^xsd:string ;
-    glo:electricityAccess "71.1368"^^xsd:float ;
-    glo:healthcare "51.81"^^xsd:float ;
-    glo:internet "45.4255"^^xsd:float ;
-    glo:internetSpeed "60.0"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_CL a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_CL ;
-    glo:country "CL"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "76.06"^^xsd:float ;
-    glo:internet "90.1934"^^xsd:float ;
-    glo:internetSpeed "248.65"^^xsd:float .
-
-glo:accessibility_CM a glo:Accessibility ;
-    glo:belongsToCountry glo:country_CM ;
-    glo:country "CM"^^xsd:string ;
-    glo:electricityAccess "65.4467"^^xsd:float ;
-    glo:healthcare "51.02"^^xsd:float ;
-    glo:internet "45.6022"^^xsd:float ;
-    glo:internetSpeed "10.34"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_CN a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_CN ;
-    glo:country "CN"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "83.11"^^xsd:float ;
-    glo:internet "73.05"^^xsd:float ;
-    glo:internetSpeed "230.39"^^xsd:float .
-
-glo:accessibility_CO a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_CO ;
-    glo:country "CO"^^xsd:string ;
-    glo:electricityAccess "99.9991"^^xsd:float ;
-    glo:healthcare "77.78"^^xsd:float ;
-    glo:internet "73.0284"^^xsd:float ;
-    glo:internetSpeed "111.65"^^xsd:float .
-
-glo:accessibility_CR a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_CR ;
-    glo:country "CR"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "79.09"^^xsd:float ;
-    glo:internet "82.75"^^xsd:float ;
-    glo:internetSpeed "79.9"^^xsd:float .
-
-glo:accessibility_CU a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_CU ;
-    glo:country "CU"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "79.53"^^xsd:float ;
-    glo:internet "71.1191"^^xsd:float ;
-    glo:internetSpeed "2.19"^^xsd:float .
-
-glo:accessibility_CV a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_CV ;
-    glo:country "CV"^^xsd:string ;
-    glo:electricityAccess "95.5214"^^xsd:float ;
-    glo:healthcare "72.75"^^xsd:float ;
-    glo:internet "69.7623"^^xsd:float ;
-    glo:internetSpeed "17.09"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_CY a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_CY ;
-    glo:country "CY"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "79.23"^^xsd:float ;
-    glo:internet "90.7595"^^xsd:float ;
-    glo:internetSpeed "61.26"^^xsd:float .
-
-glo:accessibility_CZ a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_CZ ;
-    glo:country "CZ"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "79.49"^^xsd:float ;
-    glo:internet "82.6706"^^xsd:float .
-
-glo:accessibility_DE a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_DE ;
-    glo:country "DE"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "81.41"^^xsd:float ;
-    glo:internet "91.4306"^^xsd:float ;
-    glo:internetSpeed "87.94"^^xsd:float .
-
-glo:accessibility_DJ a glo:Accessibility ;
-    glo:belongsToCountry glo:country_DJ ;
-    glo:country "DJ"^^xsd:string ;
-    glo:electricityAccess "65.4413"^^xsd:float ;
-    glo:healthcare "60.55"^^xsd:float ;
-    glo:internet "68.8632"^^xsd:float ;
-    glo:internetSpeed "19.05"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_DK a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_DK ;
-    glo:country "DK"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "81.07"^^xsd:float ;
-    glo:internet "98.8659"^^xsd:float ;
-    glo:internetSpeed "206.8"^^xsd:float .
-
-glo:accessibility_DM a glo:Accessibility ;
-    glo:belongsToCountry glo:country_DM ;
-    glo:country "DM"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "80.933"^^xsd:float ;
-    glo:internetSpeed "88.78"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_DO a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_DO ;
-    glo:country "DO"^^xsd:string ;
-    glo:electricityAccess "98.1"^^xsd:float ;
-    glo:healthcare "70.64"^^xsd:float ;
-    glo:internet "85.243"^^xsd:float ;
-    glo:internetSpeed "36.62"^^xsd:float .
-
-glo:accessibility_DZ a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_DZ ;
-    glo:country "DZ"^^xsd:string ;
-    glo:electricityAccess "99.7878"^^xsd:float ;
-    glo:healthcare "73.22"^^xsd:float ;
-    glo:internet "70.77"^^xsd:float ;
-    glo:internetSpeed "11.99"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_EC a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_EC ;
-    glo:country "EC"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "71.8"^^xsd:float ;
-    glo:internet "76.2029"^^xsd:float ;
-    glo:internetSpeed "74.33"^^xsd:float .
-
-glo:accessibility_EE a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_EE ;
-    glo:country "EE"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "77.71"^^xsd:float ;
-    glo:internet "91.04"^^xsd:float ;
-    glo:internetSpeed "76.46"^^xsd:float .
-
-glo:accessibility_EG a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_EG ;
-    glo:country "EG"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "67.2"^^xsd:float ;
-    glo:internet "72.06"^^xsd:float ;
-    glo:internetSpeed "61.22"^^xsd:float .
-
-glo:accessibility_EH a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_EH ;
-    glo:country "EH"^^xsd:string ;
-    glo:internetSpeed "20.25"^^xsd:float .
-
-glo:accessibility_ER a glo:Accessibility ;
-    glo:belongsToCountry glo:country_ER ;
-    glo:country "ER"^^xsd:string ;
-    glo:electricityAccess "52.514"^^xsd:float ;
-    glo:healthcare "57.49"^^xsd:float ;
-    glo:internet "21.7304"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_ES a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_ES ;
-    glo:country "ES"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "79.66"^^xsd:float ;
-    glo:internet "93.9"^^xsd:float ;
-    glo:internetSpeed "189.37"^^xsd:float .
-
-glo:accessibility_ET a glo:Accessibility ;
-    glo:belongsToCountry glo:country_ET ;
-    glo:country "ET"^^xsd:string ;
-    glo:electricityAccess "54.1884"^^xsd:float ;
-    glo:healthcare "60.91"^^xsd:float ;
-    glo:internet "16.6981"^^xsd:float ;
-    glo:internetSpeed "7.11"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_FI a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_FI ;
-    glo:country "FI"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "81.19"^^xsd:float ;
-    glo:internet "92.8081"^^xsd:float ;
-    glo:internetSpeed "102.43"^^xsd:float .
-
-glo:accessibility_FJ a glo:Accessibility ;
-    glo:belongsToCountry glo:country_FJ ;
-    glo:country "FJ"^^xsd:string ;
-    glo:electricityAccess "92.1"^^xsd:float ;
-    glo:internet "87.66"^^xsd:float ;
-    glo:internetSpeed "15.79"^^xsd:float .
-
-glo:accessibility_FK a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_FK ;
-    glo:country "FK"^^xsd:string ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_FM a glo:Accessibility ;
-    glo:belongsToCountry glo:country_FM ;
-    glo:country "FM"^^xsd:string ;
-    glo:electricityAccess "83.625"^^xsd:float ;
-    glo:internet "40.4096"^^xsd:float ;
-    glo:internetSpeed "13.07"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_FR a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_FR ;
-    glo:country "FR"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "80.46"^^xsd:float ;
-    glo:internet "86.0955"^^xsd:float ;
-    glo:internetSpeed "200.99"^^xsd:float .
-
-glo:accessibility_GA a glo:Accessibility ;
-    glo:belongsToCountry glo:country_GA ;
-    glo:country "GA"^^xsd:string ;
-    glo:electricityAccess "91.8064"^^xsd:float ;
-    glo:healthcare "56.07"^^xsd:float ;
-    glo:internet "71.7494"^^xsd:float ;
-    glo:internetSpeed "37.47"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_GB a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_GB ;
-    glo:country "GB"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "78.31"^^xsd:float ;
-    glo:internet "96.6802"^^xsd:float ;
-    glo:internetSpeed "84.93"^^xsd:float .
-
-glo:accessibility_GD a glo:Accessibility ;
-    glo:belongsToCountry glo:country_GD ;
-    glo:country "GD"^^xsd:string ;
-    glo:electricityAccess "93.7403"^^xsd:float ;
-    glo:internet "77.7672"^^xsd:float ;
-    glo:internetSpeed "76.85"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_GE a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_GE ;
-    glo:country "GE"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "70.64"^^xsd:float ;
-    glo:internet "76.4427"^^xsd:float ;
-    glo:internetSpeed "25.76"^^xsd:float .
-
-glo:accessibility_GH a glo:Accessibility ;
-    glo:belongsToCountry glo:country_GH ;
-    glo:country "GH"^^xsd:string ;
-    glo:electricityAccess "86.3"^^xsd:float ;
-    glo:healthcare "63.08"^^xsd:float ;
-    glo:internet "68.2"^^xsd:float ;
-    glo:internetSpeed "37.27"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_GL a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_GL ;
-    glo:country "GL"^^xsd:string ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_GM a glo:Accessibility ;
-    glo:belongsToCountry glo:country_GM ;
-    glo:country "GM"^^xsd:string ;
-    glo:electricityAccess "63.6974"^^xsd:float ;
-    glo:healthcare "56.18"^^xsd:float ;
-    glo:internet "32.9623"^^xsd:float ;
-    glo:internetSpeed "6.89"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_GN a glo:Accessibility,
-        glo:mediumAccessibility ;
-    glo:belongsToCountry glo:country_GN ;
-    glo:country "GN"^^xsd:string ;
-    glo:electricityAccess "46.8139"^^xsd:float ;
-    glo:healthcare "48.65"^^xsd:float ;
-    glo:internet "34.6801"^^xsd:float ;
-    glo:internetSpeed "9.32"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_GQ a glo:Accessibility ;
-    glo:belongsToCountry glo:country_GQ ;
-    glo:country "GQ"^^xsd:string ;
-    glo:electricityAccess "66.787"^^xsd:float ;
-    glo:healthcare "50.41"^^xsd:float ;
-    glo:internet "53.9224"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_GR a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_GR ;
-    glo:country "GR"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "77.43"^^xsd:float ;
-    glo:internet "78.4943"^^xsd:float ;
-    glo:internetSpeed "47.5"^^xsd:float .
-
-glo:accessibility_GT a glo:Accessibility ;
-    glo:belongsToCountry glo:country_GT ;
-    glo:country "GT"^^xsd:string ;
-    glo:electricityAccess "97.8657"^^xsd:float ;
-    glo:healthcare "68.33"^^xsd:float ;
-    glo:internet "50.8416"^^xsd:float ;
-    glo:internetSpeed "42.41"^^xsd:float .
-
-glo:accessibility_GW a glo:Accessibility,
-        glo:mediumAccessibility ;
-    glo:belongsToCountry glo:country_GW ;
-    glo:country "GW"^^xsd:string ;
-    glo:electricityAccess "35.7638"^^xsd:float ;
-    glo:healthcare "50.87"^^xsd:float ;
-    glo:internet "35.155"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_GY a glo:Accessibility ;
-    glo:belongsToCountry glo:country_GY ;
-    glo:country "GY"^^xsd:string ;
-    glo:electricityAccess "92.8982"^^xsd:float ;
-    glo:healthcare "62.47"^^xsd:float ;
-    glo:internet "84.7936"^^xsd:float ;
-    glo:internetSpeed "63.34"^^xsd:float .
-
-glo:accessibility_HK a glo:Accessibility ;
-    glo:belongsToCountry glo:country_HK ;
-    glo:country "HK"^^xsd:string ;
-    glo:healthcare "81.33"^^xsd:float ;
-    glo:internetSpeed "263.07"^^xsd:float .
-
-glo:accessibility_HN a glo:Accessibility ;
-    glo:belongsToCountry glo:country_HN ;
-    glo:country "HN"^^xsd:string ;
-    glo:electricityAccess "94.1316"^^xsd:float ;
-    glo:healthcare "69.1"^^xsd:float ;
-    glo:internet "48.0835"^^xsd:float ;
-    glo:internetSpeed "37.96"^^xsd:float .
-
-glo:accessibility_HR a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_HR ;
-    glo:country "HR"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "75.74"^^xsd:float ;
-    glo:internet "81.254"^^xsd:float ;
-    glo:internetSpeed "56.51"^^xsd:float .
-
-glo:accessibility_HT a glo:Accessibility,
-        glo:mediumAccessibility ;
-    glo:belongsToCountry glo:country_HT ;
-    glo:country "HT"^^xsd:string ;
-    glo:electricityAccess "47.1803"^^xsd:float ;
-    glo:healthcare "52.93"^^xsd:float ;
-    glo:internet "38.945"^^xsd:float ;
-    glo:internetSpeed "32.48"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_HU a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_HU ;
-    glo:country "HU"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "76.7"^^xsd:float ;
-    glo:internet "88.6408"^^xsd:float ;
-    glo:internetSpeed "149.85"^^xsd:float .
-
-glo:accessibility_ID a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_ID ;
-    glo:country "ID"^^xsd:string ;
-    glo:electricityAccess "99.21"^^xsd:float ;
-    glo:healthcare "71.13"^^xsd:float ;
-    glo:internet "62.1"^^xsd:float ;
-    glo:internetSpeed "28.28"^^xsd:float .
-
-glo:accessibility_IE a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_IE ;
-    glo:country "IE"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "80.04"^^xsd:float ;
-    glo:internet "95.1696"^^xsd:float ;
-    glo:internetSpeed "94.62"^^xsd:float .
-
-glo:accessibility_IL a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_IL ;
-    glo:country "IL"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "83.1"^^xsd:float ;
-    glo:internet "90.3"^^xsd:float ;
-    glo:internetSpeed "144.81"^^xsd:float .
-
-glo:accessibility_IN a glo:Accessibility ;
-    glo:belongsToCountry glo:country_IN ;
-    glo:country "IN"^^xsd:string ;
-    glo:electricityAccess "99.5725"^^xsd:float ;
-    glo:healthcare "66.16"^^xsd:float ;
-    glo:internet "46.31"^^xsd:float ;
-    glo:internetSpeed "55.8"^^xsd:float .
-
-glo:accessibility_IQ a glo:Accessibility ;
-    glo:belongsToCountry glo:country_IQ ;
-    glo:country "IQ"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "64.62"^^xsd:float ;
-    glo:internet "48.9172"^^xsd:float ;
-    glo:internetSpeed "31.67"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_IR a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_IR ;
-    glo:country "IR"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "74.93"^^xsd:float ;
-    glo:internet "78.6"^^xsd:float ;
-    glo:internetSpeed "13.03"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_IS a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_IS ;
-    glo:country "IS"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "82.72"^^xsd:float ;
-    glo:internet "99.687"^^xsd:float ;
-    glo:internetSpeed "204.8"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_IT a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_IT ;
-    glo:country "IT"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "80.9"^^xsd:float ;
-    glo:internet "74.8623"^^xsd:float ;
-    glo:internetSpeed "69.99"^^xsd:float .
-
-glo:accessibility_JM a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_JM ;
-    glo:country "JM"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "73.83"^^xsd:float ;
-    glo:internet "82.36"^^xsd:float ;
-    glo:internetSpeed "62.31"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_JO a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_JO ;
-    glo:country "JO"^^xsd:string ;
-    glo:electricityAccess "99.9"^^xsd:float ;
-    glo:healthcare "68.92"^^xsd:float ;
-    glo:internet "82.7556"^^xsd:float ;
-    glo:internetSpeed "109.58"^^xsd:float .
-
-glo:accessibility_JP a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_JP ;
-    glo:country "JP"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "86.5"^^xsd:float ;
-    glo:internet "82.9141"^^xsd:float ;
-    glo:internetSpeed "170.29"^^xsd:float .
-
-glo:accessibility_KE a glo:Accessibility ;
-    glo:belongsToCountry glo:country_KE ;
-    glo:country "KE"^^xsd:string ;
-    glo:electricityAccess "76.5424"^^xsd:float ;
-    glo:healthcare "65.21"^^xsd:float ;
-    glo:internet "28.7575"^^xsd:float ;
-    glo:internetSpeed "9.95"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_KG a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_KG ;
-    glo:country "KG"^^xsd:string ;
-    glo:electricityAccess "99.6737"^^xsd:float ;
-    glo:healthcare "72.46"^^xsd:float ;
-    glo:internet "77.9204"^^xsd:float ;
-    glo:internetSpeed "54.37"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_KH a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_KH ;
-    glo:country "KH"^^xsd:string ;
-    glo:electricityAccess "82.5017"^^xsd:float ;
-    glo:healthcare "70.58"^^xsd:float ;
-    glo:internet "60.1524"^^xsd:float ;
-    glo:internetSpeed "22.64"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_KI a glo:Accessibility ;
-    glo:belongsToCountry glo:country_KI ;
-    glo:country "KI"^^xsd:string ;
-    glo:electricityAccess "92.8336"^^xsd:float ;
-    glo:internet "53.627"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_KM a glo:Accessibility ;
-    glo:belongsToCountry glo:country_KM ;
-    glo:country "KM"^^xsd:string ;
-    glo:electricityAccess "87.9426"^^xsd:float ;
-    glo:healthcare "59.6"^^xsd:float ;
-    glo:internet "27.3369"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_KN a glo:Accessibility ;
-    glo:belongsToCountry glo:country_KN ;
-    glo:country "KN"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "79.4731"^^xsd:float ;
-    glo:internetSpeed "55.9"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_KP a glo:Accessibility ;
-    glo:belongsToCountry glo:country_KP ;
-    glo:country "KP"^^xsd:string ;
-    glo:electricityAccess "52.6306"^^xsd:float ;
-    glo:internet "0.0"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_KR a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_KR ;
-    glo:country "KR"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "84.8"^^xsd:float ;
-    glo:internet "97.5713"^^xsd:float ;
-    glo:internetSpeed "139.83"^^xsd:float .
-
-glo:accessibility_KW a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_KW ;
-    glo:country "KW"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "77.33"^^xsd:float ;
-    glo:internet "99.7"^^xsd:float ;
-    glo:internetSpeed "153.58"^^xsd:float .
-
-glo:accessibility_KZ a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_KZ ;
-    glo:country "KZ"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "72.23"^^xsd:float ;
-    glo:internet "90.92"^^xsd:float ;
-    glo:internetSpeed "47.53"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_LA a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_LA ;
-    glo:country "LA"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "66.38"^^xsd:float ;
-    glo:internet "62.0"^^xsd:float ;
-    glo:internetSpeed "32.82"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_LB a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_LB ;
-    glo:country "LB"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "68.65"^^xsd:float ;
-    glo:internet "86.589"^^xsd:float ;
-    glo:internetSpeed "8.27"^^xsd:float .
-
-glo:accessibility_LC a glo:Accessibility ;
-    glo:belongsToCountry glo:country_LC ;
-    glo:country "LC"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "78.0956"^^xsd:float ;
-    glo:internetSpeed "99.96"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_LI a glo:Accessibility ;
-    glo:belongsToCountry glo:country_LI ;
-    glo:country "LI"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "95.5694"^^xsd:float ;
-    glo:internetSpeed "152.22"^^xsd:float .
-
-glo:accessibility_LK a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_LK ;
-    glo:country "LK"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "76.58"^^xsd:float ;
-    glo:internet "66.6815"^^xsd:float ;
-    glo:internetSpeed "19.57"^^xsd:float .
-
-glo:accessibility_LR a glo:Accessibility ;
-    glo:belongsToCountry glo:country_LR ;
-    glo:country "LR"^^xsd:string ;
-    glo:electricityAccess "29.8482"^^xsd:float ;
-    glo:healthcare "48.64"^^xsd:float ;
-    glo:internet "33.6332"^^xsd:float ;
-    glo:internetSpeed "7.58"^^xsd:float .
-
-glo:accessibility_LS a glo:Accessibility ;
-    glo:belongsToCountry glo:country_LS ;
-    glo:country "LS"^^xsd:string ;
-    glo:electricityAccess "50.3775"^^xsd:float ;
-    glo:healthcare "41.3"^^xsd:float ;
-    glo:internet "47.983"^^xsd:float ;
-    glo:internetSpeed "22.46"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_LT a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_LT ;
-    glo:country "LT"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "74.43"^^xsd:float ;
-    glo:internet "86.9306"^^xsd:float ;
-    glo:internetSpeed "103.26"^^xsd:float .
-
-glo:accessibility_LU a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_LU ;
-    glo:country "LU"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "81.59"^^xsd:float ;
-    glo:internet "98.66"^^xsd:float ;
-    glo:internetSpeed "117.66"^^xsd:float .
-
-glo:accessibility_LV a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_LV ;
-    glo:country "LV"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "74.52"^^xsd:float ;
-    glo:internet "91.1796"^^xsd:float ;
-    glo:internetSpeed "81.01"^^xsd:float .
-
-glo:accessibility_LY a glo:Accessibility ;
-    glo:belongsToCountry glo:country_LY ;
-    glo:country "LY"^^xsd:string ;
-    glo:electricityAccess "70.2105"^^xsd:float ;
-    glo:healthcare "67.84"^^xsd:float ;
-    glo:internet "17.76"^^xsd:float ;
-    glo:internetSpeed "8.96"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_MA a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_MA ;
-    glo:country "MA"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "71.17"^^xsd:float ;
-    glo:internet "88.1303"^^xsd:float ;
-    glo:internetSpeed "24.78"^^xsd:float .
-
-glo:accessibility_MC a glo:Accessibility ;
-    glo:belongsToCountry glo:country_MC ;
-    glo:country "MC"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "86.0955"^^xsd:float ;
-    glo:internetSpeed "187.49"^^xsd:float .
-
-glo:accessibility_MD a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_MD ;
-    glo:country "MD"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "70.57"^^xsd:float ;
-    glo:internet "61.2878"^^xsd:float ;
-    glo:internetSpeed "108.2"^^xsd:float .
-
-glo:accessibility_ME a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_ME ;
-    glo:country "ME"^^xsd:string ;
-    glo:electricityAccess "99.7984"^^xsd:float ;
-    glo:healthcare "68.44"^^xsd:float ;
-    glo:internet "82.2197"^^xsd:float ;
-    glo:internetSpeed "68.38"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_MG a glo:Accessibility ;
-    glo:belongsToCountry glo:country_MG ;
-    glo:country "MG"^^xsd:string ;
-    glo:electricityAccess "35.1209"^^xsd:float ;
-    glo:healthcare "54.12"^^xsd:float ;
-    glo:internet "19.7302"^^xsd:float ;
-    glo:internetSpeed "21.44"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_MH a glo:Accessibility ;
-    glo:belongsToCountry glo:country_MH ;
-    glo:country "MH"^^xsd:string ;
-    glo:electricityAccess "99.7536"^^xsd:float ;
-    glo:internet "38.7012"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_MK a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_MK ;
-    glo:country "MK"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "72.63"^^xsd:float ;
-    glo:internet "83.0182"^^xsd:float ;
-    glo:internetSpeed "39.08"^^xsd:float .
-
-glo:accessibility_ML a glo:Accessibility,
-        glo:mediumAccessibility ;
-    glo:belongsToCountry glo:country_ML ;
-    glo:country "ML"^^xsd:string ;
-    glo:electricityAccess "53.3802"^^xsd:float ;
-    glo:healthcare "54.47"^^xsd:float ;
-    glo:internet "34.49"^^xsd:float ;
-    glo:internetSpeed "22.45"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_MM a glo:Accessibility ;
-    glo:belongsToCountry glo:country_MM ;
-    glo:country "MM"^^xsd:string ;
-    glo:electricityAccess "72.4668"^^xsd:float ;
-    glo:healthcare "66.74"^^xsd:float ;
-    glo:internet "44.0217"^^xsd:float ;
-    glo:internetSpeed "20.05"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_MN a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_MN ;
-    glo:country "MN"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "66.74"^^xsd:float ;
-    glo:internet "84.33"^^xsd:float ;
-    glo:internetSpeed "62.66"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_MO a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_MO ;
-    glo:country "MO"^^xsd:string ;
-    glo:internetSpeed "160.52"^^xsd:float .
-
-glo:accessibility_MR a glo:Accessibility,
-        glo:mediumAccessibility ;
-    glo:belongsToCountry glo:country_MR ;
-    glo:country "MR"^^xsd:string ;
-    glo:electricityAccess "47.6958"^^xsd:float ;
-    glo:healthcare "56.74"^^xsd:float ;
-    glo:internet "58.7582"^^xsd:float ;
-    glo:internetSpeed "18.09"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_MT a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_MT ;
-    glo:country "MT"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "80.54"^^xsd:float ;
-    glo:internet "87.4698"^^xsd:float ;
-    glo:internetSpeed "108.19"^^xsd:float .
-
-glo:accessibility_MU a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_MU ;
-    glo:country "MU"^^xsd:string ;
-    glo:electricityAccess "99.6"^^xsd:float ;
-    glo:healthcare "71.86"^^xsd:float ;
-    glo:internet "67.58"^^xsd:float ;
-    glo:internetSpeed "50.13"^^xsd:float .
-
-glo:accessibility_MV a glo:Accessibility ;
-    glo:belongsToCountry glo:country_MV ;
-    glo:country "MV"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "85.7606"^^xsd:float ;
-    glo:internetSpeed "13.24"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_MW a glo:Accessibility ;
-    glo:belongsToCountry glo:country_MW ;
-    glo:country "MW"^^xsd:string ;
-    glo:electricityAccess "14.1884"^^xsd:float ;
-    glo:healthcare "61.01"^^xsd:float ;
-    glo:internet "24.4056"^^xsd:float ;
-    glo:internetSpeed "18.74"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_MX a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_MX ;
-    glo:country "MX"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "73.09"^^xsd:float ;
-    glo:internet "75.6265"^^xsd:float ;
-    glo:internetSpeed "63.43"^^xsd:float .
-
-glo:accessibility_MY a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_MY ;
-    glo:country "MY"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "77.35"^^xsd:float ;
-    glo:internet "96.7514"^^xsd:float ;
-    glo:internetSpeed "110.8"^^xsd:float .
-
-glo:accessibility_MZ a glo:Accessibility ;
-    glo:belongsToCountry glo:country_MZ ;
-    glo:country "MZ"^^xsd:string ;
-    glo:electricityAccess "31.494"^^xsd:float ;
-    glo:healthcare "52.84"^^xsd:float ;
-    glo:internet "17.3728"^^xsd:float ;
-    glo:internetSpeed "12.88"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_NE a glo:Accessibility ;
-    glo:belongsToCountry glo:country_NE ;
-    glo:country "NE"^^xsd:string ;
-    glo:electricityAccess "18.6"^^xsd:float ;
-    glo:healthcare "54.6"^^xsd:float ;
-    glo:internet "22.3861"^^xsd:float ;
-    glo:internetSpeed "5.12"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_NG a glo:Accessibility,
-        glo:mediumAccessibility ;
-    glo:belongsToCountry glo:country_NG ;
-    glo:country "NG"^^xsd:string ;
-    glo:electricityAccess "59.5"^^xsd:float ;
-    glo:healthcare "50.12"^^xsd:float ;
-    glo:internet "55.3637"^^xsd:float ;
-    glo:internetSpeed "18.83"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_NI a glo:Accessibility ;
-    glo:belongsToCountry glo:country_NI ;
-    glo:country "NI"^^xsd:string ;
-    glo:electricityAccess "86.2915"^^xsd:float ;
-    glo:healthcare "72.1"^^xsd:float ;
-    glo:internet "57.1469"^^xsd:float ;
-    glo:internetSpeed "49.8"^^xsd:float .
-
-glo:accessibility_NL a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_NL ;
-    glo:country "NL"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "82.05"^^xsd:float ;
-    glo:internet "92.053"^^xsd:float ;
-    glo:internetSpeed "177.88"^^xsd:float .
-
-glo:accessibility_NO a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_NO ;
-    glo:country "NO"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "82.98"^^xsd:float ;
-    glo:internet "99.0"^^xsd:float ;
-    glo:internetSpeed "123.63"^^xsd:float .
-
-glo:accessibility_NP a glo:Accessibility ;
-    glo:belongsToCountry glo:country_NP ;
-    glo:country "NP"^^xsd:string ;
-    glo:electricityAccess "89.9"^^xsd:float ;
-    glo:healthcare "63.87"^^xsd:float ;
-    glo:internet "51.6314"^^xsd:float ;
-    glo:internetSpeed "56.26"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_NR a glo:Accessibility ;
-    glo:belongsToCountry glo:country_NR ;
-    glo:country "NR"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "83.9352"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_NZ a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_NZ ;
-    glo:country "NZ"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "79.84"^^xsd:float ;
-    glo:internet "95.9102"^^xsd:float ;
-    glo:internetSpeed "163.16"^^xsd:float .
-
-glo:accessibility_OM a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_OM ;
-    glo:country "OM"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "75.44"^^xsd:float ;
-    glo:internet "96.3801"^^xsd:float ;
-    glo:internetSpeed "67.64"^^xsd:float .
-
-glo:accessibility_PA a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_PA ;
-    glo:country "PA"^^xsd:string ;
-    glo:electricityAccess "95.2511"^^xsd:float ;
-    glo:healthcare "75.1"^^xsd:float ;
-    glo:internet "67.5097"^^xsd:float ;
-    glo:internetSpeed "148.76"^^xsd:float .
-
-glo:accessibility_PE a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_PE ;
-    glo:country "PE"^^xsd:string ;
-    glo:electricityAccess "95.6"^^xsd:float ;
-    glo:healthcare "75.81"^^xsd:float ;
-    glo:internet "71.1078"^^xsd:float ;
-    glo:internetSpeed "93.52"^^xsd:float .
-
-glo:accessibility_PG a glo:Accessibility ;
-    glo:belongsToCountry glo:country_PG ;
-    glo:country "PG"^^xsd:string ;
-    glo:electricityAccess "20.9166"^^xsd:float ;
-    glo:healthcare "52.87"^^xsd:float ;
-    glo:internet "32.0542"^^xsd:float ;
-    glo:internetSpeed "11.01"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_PH a glo:Accessibility ;
-    glo:belongsToCountry glo:country_PH ;
-    glo:country "PH"^^xsd:string ;
-    glo:electricityAccess "97.49"^^xsd:float ;
-    glo:healthcare "70.06"^^xsd:float ;
-    glo:internet "52.6757"^^xsd:float ;
-    glo:internetSpeed "91.08"^^xsd:float .
-
-glo:accessibility_PK a glo:Accessibility ;
-    glo:belongsToCountry glo:country_PK ;
-    glo:country "PK"^^xsd:string ;
-    glo:electricityAccess "94.9229"^^xsd:float ;
-    glo:healthcare "60.78"^^xsd:float ;
-    glo:internet "21.0372"^^xsd:float ;
-    glo:internetSpeed "13.71"^^xsd:float .
-
-glo:accessibility_PL a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_PL ;
-    glo:country "PL"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "76.31"^^xsd:float ;
-    glo:internet "85.3749"^^xsd:float ;
-    glo:internetSpeed "133.35"^^xsd:float .
-
-glo:accessibility_PS a glo:Accessibility ;
-    glo:belongsToCountry glo:country_PS ;
-    glo:country "PS"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "74.6"^^xsd:float ;
-    glo:internetSpeed "64.82"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_PT a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_PT ;
-    glo:country "PT"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "77.44"^^xsd:float ;
-    glo:internet "82.309"^^xsd:float ;
-    glo:internetSpeed "150.45"^^xsd:float .
-
-glo:accessibility_PW a glo:Accessibility ;
-    glo:belongsToCountry glo:country_PW ;
-    glo:country "PW"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "26.9703"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_PY a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_PY ;
-    glo:country "PY"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "70.84"^^xsd:float ;
-    glo:internet "77.0184"^^xsd:float ;
-    glo:internetSpeed "83.92"^^xsd:float .
-
-glo:accessibility_QA a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_QA ;
-    glo:country "QA"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "77.64"^^xsd:float ;
-    glo:internet "100.0"^^xsd:float ;
-    glo:internetSpeed "127.04"^^xsd:float .
-
-glo:accessibility_RO a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_RO ;
-    glo:country "RO"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "73.02"^^xsd:float ;
-    glo:internet "83.5904"^^xsd:float ;
-    glo:internetSpeed "191.36"^^xsd:float .
-
-glo:accessibility_RS a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_RS ;
-    glo:country "RS"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "71.93"^^xsd:float ;
-    glo:internet "81.1659"^^xsd:float ;
-    glo:internetSpeed "70.95"^^xsd:float .
-
-glo:accessibility_RU a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_RU ;
-    glo:country "RU"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "71.38"^^xsd:float ;
-    glo:internet "88.2138"^^xsd:float ;
-    glo:internetSpeed "81.95"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_RW a glo:Accessibility,
-        glo:mediumAccessibility ;
-    glo:belongsToCountry glo:country_RW ;
-    glo:country "RW"^^xsd:string ;
-    glo:electricityAccess "48.7004"^^xsd:float ;
-    glo:healthcare "64.6"^^xsd:float ;
-    glo:internet "30.4618"^^xsd:float ;
-    glo:internetSpeed "30.92"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_SA a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_SA ;
-    glo:country "SA"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "75.34"^^xsd:float ;
-    glo:internet "100.0"^^xsd:float ;
-    glo:internetSpeed "102.41"^^xsd:float .
-
-glo:accessibility_SB a glo:Accessibility ;
-    glo:belongsToCountry glo:country_SB ;
-    glo:country "SB"^^xsd:string ;
-    glo:electricityAccess "76.3475"^^xsd:float ;
-    glo:internet "36.132"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_SC a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_SC ;
-    glo:country "SC"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "77.44"^^xsd:float ;
-    glo:internet "81.5931"^^xsd:float ;
-    glo:internetSpeed "27.56"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_SD a glo:Accessibility ;
-    glo:belongsToCountry glo:country_SD ;
-    glo:country "SD"^^xsd:string ;
-    glo:electricityAccess "61.7677"^^xsd:float ;
-    glo:healthcare "60.55"^^xsd:float ;
-    glo:internet "28.4"^^xsd:float ;
-    glo:internetSpeed "8.36"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_SE a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_SE ;
-    glo:country "SE"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "82.28"^^xsd:float ;
-    glo:internet "88.3078"^^xsd:float ;
-    glo:internetSpeed "127.33"^^xsd:float .
-
-glo:accessibility_SG a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_SG ;
-    glo:country "SG"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "86.89"^^xsd:float ;
-    glo:internet "91.0994"^^xsd:float ;
-    glo:internetSpeed "264.15"^^xsd:float .
-
-glo:accessibility_SI a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_SI ;
-    glo:country "SI"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "79.88"^^xsd:float ;
-    glo:internet "89.004"^^xsd:float ;
-    glo:internetSpeed "88.68"^^xsd:float .
-
-glo:accessibility_SK a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_SK ;
-    glo:country "SK"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "76.74"^^xsd:float ;
-    glo:internet "88.9256"^^xsd:float ;
-    glo:internetSpeed "69.4"^^xsd:float .
-
-glo:accessibility_SL a glo:Accessibility ;
-    glo:belongsToCountry glo:country_SL ;
-    glo:country "SL"^^xsd:string ;
-    glo:electricityAccess "27.494"^^xsd:float ;
-    glo:healthcare "48.26"^^xsd:float ;
-    glo:internet "18.0"^^xsd:float ;
-    glo:internetSpeed "18.09"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_SM a glo:Accessibility ;
-    glo:belongsToCountry glo:country_SM ;
-    glo:country "SM"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "74.8623"^^xsd:float ;
-    glo:internetSpeed "70.82"^^xsd:float .
-
-glo:accessibility_SN a glo:Accessibility ;
-    glo:belongsToCountry glo:country_SN ;
-    glo:country "SN"^^xsd:string ;
-    glo:electricityAccess "67.9753"^^xsd:float ;
-    glo:healthcare "64.44"^^xsd:float ;
-    glo:internet "58.0548"^^xsd:float ;
-    glo:internetSpeed "21.75"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_SO a glo:Accessibility ;
-    glo:belongsToCountry glo:country_SO ;
-    glo:country "SO"^^xsd:string ;
-    glo:electricityAccess "49.324"^^xsd:float ;
-    glo:healthcare "44.38"^^xsd:float ;
-    glo:internet "2.00405"^^xsd:float ;
-    glo:internetSpeed "12.47"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_SR a glo:Accessibility ;
-    glo:belongsToCountry glo:country_SR ;
-    glo:country "SR"^^xsd:string ;
-    glo:electricityAccess "98.8233"^^xsd:float ;
-    glo:healthcare "60.8"^^xsd:float ;
-    glo:internet "65.9398"^^xsd:float ;
-    glo:internetSpeed "11.38"^^xsd:float .
-
-glo:accessibility_SS a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_SS ;
-    glo:country "SS"^^xsd:string ;
-    glo:electricityAccess "7.74776"^^xsd:float ;
-    glo:healthcare "35.69"^^xsd:float ;
-    glo:internet "6.5"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_ST a glo:Accessibility ;
-    glo:belongsToCountry glo:country_ST ;
-    glo:country "ST"^^xsd:string ;
-    glo:electricityAccess "78.4511"^^xsd:float ;
-    glo:healthcare "70.54"^^xsd:float ;
-    glo:internet "51.2041"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_SV a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_SV ;
-    glo:country "SV"^^xsd:string ;
-    glo:electricityAccess "97.89"^^xsd:float ;
-    glo:healthcare "69.35"^^xsd:float ;
-    glo:internet "62.8803"^^xsd:float ;
-    glo:internetSpeed "47.99"^^xsd:float .
-
-glo:accessibility_SY a glo:Accessibility ;
-    glo:belongsToCountry glo:country_SY ;
-    glo:country "SY"^^xsd:string ;
-    glo:electricityAccess "88.8245"^^xsd:float ;
-    glo:healthcare "67.16"^^xsd:float ;
-    glo:internet "35.78"^^xsd:float ;
-    glo:internetSpeed "4.06"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_SZ a glo:Accessibility ;
-    glo:belongsToCountry glo:country_SZ ;
-    glo:country "SZ"^^xsd:string ;
-    glo:electricityAccess "82.9032"^^xsd:float ;
-    glo:healthcare "48.43"^^xsd:float ;
-    glo:internet "58.9129"^^xsd:float .
-
-glo:accessibility_TD a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_TD ;
-    glo:country "TD"^^xsd:string ;
-    glo:electricityAccess "11.2686"^^xsd:float ;
-    glo:healthcare "39.17"^^xsd:float ;
-    glo:internet "17.8689"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_TG a glo:Accessibility,
-        glo:mediumAccessibility ;
-    glo:belongsToCountry glo:country_TG ;
-    glo:country "TG"^^xsd:string ;
-    glo:electricityAccess "55.7401"^^xsd:float ;
-    glo:healthcare "55.09"^^xsd:float ;
-    glo:internet "34.9841"^^xsd:float ;
-    glo:internetSpeed "28.74"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_TH a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_TH ;
-    glo:country "TH"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "78.92"^^xsd:float ;
-    glo:internet "85.27"^^xsd:float ;
-    glo:internetSpeed "218.94"^^xsd:float .
-
-glo:accessibility_TJ a glo:Accessibility ;
-    glo:belongsToCountry glo:country_TJ ;
-    glo:country "TJ"^^xsd:string ;
-    glo:electricityAccess "99.5655"^^xsd:float ;
-    glo:healthcare "72.46"^^xsd:float ;
-    glo:internet "21.96"^^xsd:float ;
-    glo:internetSpeed "20.77"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_TL a glo:Accessibility ;
-    glo:belongsToCountry glo:country_TL ;
-    glo:country "TL"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "39.4513"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_TM a glo:Accessibility ;
-    glo:belongsToCountry glo:country_TM ;
-    glo:country "TM"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "75.59"^^xsd:float ;
-    glo:internet "21.251"^^xsd:float ;
-    glo:internetSpeed "8.68"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_TN a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_TN ;
-    glo:country "TN"^^xsd:string ;
-    glo:electricityAccess "99.9"^^xsd:float ;
-    glo:healthcare "72.05"^^xsd:float ;
-    glo:internet "78.9897"^^xsd:float ;
-    glo:internetSpeed "8.81"^^xsd:float .
-
-glo:accessibility_TO a glo:Accessibility ;
-    glo:belongsToCountry glo:country_TO ;
-    glo:country "TO"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "71.5866"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_TR a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_TR ;
-    glo:country "TR"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "74.19"^^xsd:float ;
-    glo:internet "81.41"^^xsd:float ;
-    glo:internetSpeed "38.12"^^xsd:float .
-
-glo:accessibility_TT a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_TT ;
-    glo:country "TT"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "74.13"^^xsd:float ;
-    glo:internet "79.0"^^xsd:float ;
-    glo:internetSpeed "100.68"^^xsd:float .
-
-glo:accessibility_TV a glo:Accessibility ;
-    glo:belongsToCountry glo:country_TV ;
-    glo:country "TV"^^xsd:string ;
-    glo:electricityAccess "99.6824"^^xsd:float ;
-    glo:internet "71.5866"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_TW a glo:Accessibility ;
-    glo:belongsToCountry glo:country_TW ;
-    glo:country "TW"^^xsd:string ;
-    glo:healthcare "83.37"^^xsd:float ;
-    glo:internetSpeed "157.55"^^xsd:float .
-
-glo:accessibility_TZ a glo:Accessibility,
-        glo:mediumAccessibility ;
-    glo:belongsToCountry glo:country_TZ ;
-    glo:country "TZ"^^xsd:string ;
-    glo:electricityAccess "42.7434"^^xsd:float ;
-    glo:healthcare "60.07"^^xsd:float ;
-    glo:internet "31.6331"^^xsd:float ;
-    glo:internetSpeed "18.52"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_UA a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_UA ;
-    glo:country "UA"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "68.71"^^xsd:float ;
-    glo:internet "79.2183"^^xsd:float ;
-    glo:internetSpeed "72.42"^^xsd:float .
-
-glo:accessibility_UG a glo:Accessibility ;
-    glo:belongsToCountry glo:country_UG ;
-    glo:country "UG"^^xsd:string ;
-    glo:electricityAccess "45.2203"^^xsd:float ;
-    glo:healthcare "58.49"^^xsd:float ;
-    glo:internet "10.3424"^^xsd:float ;
-    glo:internetSpeed "12.65"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_US a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_US ;
-    glo:country "US"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "73.26"^^xsd:float ;
-    glo:internet "91.7532"^^xsd:float ;
-    glo:internetSpeed "215.72"^^xsd:float .
-
-glo:accessibility_UY a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_UY ;
-    glo:country "UY"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "77.98"^^xsd:float ;
-    glo:internet "90.0738"^^xsd:float ;
-    glo:internetSpeed "143.06"^^xsd:float .
-
-glo:accessibility_UZ a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_UZ ;
-    glo:country "UZ"^^xsd:string ;
-    glo:electricityAccess "99.9"^^xsd:float ;
-    glo:healthcare "76.28"^^xsd:float ;
-    glo:internet "76.5904"^^xsd:float ;
-    glo:internetSpeed "54.12"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_VA a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_VA ;
-    glo:country "VA"^^xsd:string ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_VC a glo:Accessibility ;
-    glo:belongsToCountry glo:country_VC ;
-    glo:country "VC"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:internet "84.9128"^^xsd:float ;
-    glo:internetSpeed "90.11"^^xsd:float .
-
-glo:accessibility_VE a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_VE ;
-    glo:country "VE"^^xsd:string ;
-    glo:electricityAccess "99.9877"^^xsd:float ;
-    glo:healthcare "69.61"^^xsd:float ;
-    glo:internet "61.6"^^xsd:float ;
-    glo:internetSpeed "37.43"^^xsd:float .
-
-glo:accessibility_VN a glo:Accessibility,
-        glo:highAccessibility ;
-    glo:belongsToCountry glo:country_VN ;
-    glo:country "VN"^^xsd:string ;
-    glo:electricityAccess "100.0"^^xsd:float ;
-    glo:healthcare "76.99"^^xsd:float ;
-    glo:internet "74.21"^^xsd:float ;
-    glo:internetSpeed "104.08"^^xsd:float .
-
-glo:accessibility_VU a glo:Accessibility ;
-    glo:belongsToCountry glo:country_VU ;
-    glo:country "VU"^^xsd:string ;
-    glo:electricityAccess "70.0428"^^xsd:float ;
-    glo:internet "66.3357"^^xsd:float ;
-    glo:internetSpeed "10.76"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_WS a glo:Accessibility ;
-    glo:belongsToCountry glo:country_WS ;
-    glo:country "WS"^^xsd:string ;
-    glo:electricityAccess "98.3"^^xsd:float ;
-    glo:internet "78.2457"^^xsd:float .
-
-glo:accessibility_YE a glo:Accessibility ;
-    glo:belongsToCountry glo:country_YE ;
-    glo:country "YE"^^xsd:string ;
-    glo:electricityAccess "74.8772"^^xsd:float ;
-    glo:healthcare "57.45"^^xsd:float ;
-    glo:internet "26.7184"^^xsd:float ;
-    glo:internetSpeed "6.12"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_ZA a glo:Accessibility ;
-    glo:belongsToCountry glo:country_ZA ;
-    glo:country "ZA"^^xsd:string ;
-    glo:electricityAccess "89.3"^^xsd:float ;
-    glo:healthcare "59.9"^^xsd:float ;
-    glo:internet "72.3105"^^xsd:float ;
-    glo:internetSpeed "41.02"^^xsd:float .
-
-glo:accessibility_ZM a glo:Accessibility ;
-    glo:belongsToCountry glo:country_ZM ;
-    glo:country "ZM"^^xsd:string ;
-    glo:electricityAccess "46.6851"^^xsd:float ;
-    glo:healthcare "57.2"^^xsd:float ;
-    glo:internet "21.2315"^^xsd:float ;
-    glo:internetSpeed "22.01"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
-
-glo:accessibility_ZW a glo:Accessibility,
-        glo:mediumAccessibility ;
-    glo:belongsToCountry glo:country_ZW ;
-    glo:country "ZW"^^xsd:string ;
-    glo:electricityAccess "48.9799"^^xsd:float ;
-    glo:healthcare "55.46"^^xsd:float ;
-    glo:internet "34.814"^^xsd:float ;
-    glo:internetSpeed "10.01"^^xsd:float ;
-    glo:withoutMcDonalds "x"^^xsd:string .
+glo:HighAccessibility a owl:Class ;
+    rdfs:subClassOf glo:Accessibility ;
+    owl:equivalentClass [ owl:intersectionOf [ a rdf:List ;
+                    rdf:first glo:Accessibility ;
+                    rdf:rest [ a rdf:List ;
+                            rdf:first [ a owl:Restriction ;
+                                    owl:onProperty glo:electricity_access_pct ;
+                                    owl:someValuesFrom [ a rdfs:Datatype ;
+                                            owl:onDatatype xsd:float ;
+                                            owl:withRestrictions [ a rdf:List ;
+                                                    rdf:first [ a rdf:List ;
+                                                            xsd:minInclusive "60.0"^^xsd:float ] ;
+                                                    rdf:rest () ] ] ] ;
+                            rdf:rest [ a rdf:List ;
+                                    rdf:first [ a owl:Restriction ;
+                                            owl:onProperty glo:internet_pct ;
+                                            owl:someValuesFrom [ a rdfs:Datatype ;
+                                                    owl:onDatatype xsd:float ;
+                                                    owl:withRestrictions [ a rdf:List ;
+                                                            rdf:first [ a rdf:List ;
+                                                                    xsd:minInclusive "60.0"^^xsd:float ] ;
+                                                            rdf:rest () ] ] ] ;
+                                    rdf:rest [ a rdf:List ;
+                                            rdf:first [ a owl:Restriction ;
+                                                    owl:onProperty glo:BestHealthcareInTheWorldLegatumProsperityIndexHealthScore2023 ;
+                                                    owl:someValuesFrom [ a rdfs:Datatype ;
+                                                            owl:onDatatype xsd:float ;
+                                                            owl:withRestrictions [ a rdf:List ;
+                                                                    rdf:first [ a rdf:List ;
+                                                                            xsd:minInclusive "66.0"^^xsd:float ] ;
+                                                                    rdf:rest () ] ] ] ;
+                                            rdf:rest () ] ] ] ] ] .
 
 glo:Accessibility rdfs:subClassOf glo:Situation .
 
