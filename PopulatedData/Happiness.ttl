@@ -5,6 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 glo:happiness_AE a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_AE ;
     glo:country "AE"^^xsd:string ;
@@ -18,7 +19,7 @@ glo:happiness_AE a glo:Happiness,
     glo:suicideRate "6.4"^^xsd:float .
 
 glo:happiness_AF a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_AF ;
     glo:confidenceInNationalGovernment "0.255620003"^^xsd:float ;
     glo:country "AF"^^xsd:string ;
@@ -32,7 +33,7 @@ glo:happiness_AF a glo:Happiness,
     glo:suicideRate "4.1"^^xsd:float .
 
 glo:happiness_AG a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_AG ;
     glo:country "AG"^^xsd:string ;
     glo:suicideRate "0.4"^^xsd:float .
@@ -68,7 +69,7 @@ glo:happiness_AM a glo:Happiness,
     glo:suicideRate "3.3"^^xsd:float .
 
 glo:happiness_AO a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_AO ;
     glo:country "AO"^^xsd:string ;
     glo:suicideRate "6.1"^^xsd:float .
@@ -89,6 +90,7 @@ glo:happiness_AR a glo:Happiness,
     glo:suicideRate "8.4"^^xsd:float .
 
 glo:happiness_AT a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_AT ;
     glo:confidenceInNationalGovernment "0.61045897"^^xsd:float ;
@@ -104,6 +106,7 @@ glo:happiness_AT a glo:Happiness,
     glo:suicideRate "14.6"^^xsd:float .
 
 glo:happiness_AU a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_AU ;
     glo:confidenceInNationalGovernment "0.519226372"^^xsd:float ;
@@ -134,7 +137,7 @@ glo:happiness_BA a glo:Happiness,
     glo:suicideRate "10.9"^^xsd:float .
 
 glo:happiness_BB a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_BB ;
     glo:country "BB"^^xsd:string ;
     glo:suicideRate "0.6"^^xsd:float .
@@ -185,7 +188,7 @@ glo:happiness_BJ a glo:Happiness,
     glo:suicideRate "7.8"^^xsd:float .
 
 glo:happiness_BN a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_BN ;
     glo:country "BN"^^xsd:string ;
     glo:suicideRate "2.7"^^xsd:float .
@@ -206,6 +209,7 @@ glo:happiness_BO a glo:Happiness,
     glo:suicideRate "6.2"^^xsd:float .
 
 glo:happiness_BR a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_BR ;
     glo:confidenceInNationalGovernment "0.327099293"^^xsd:float ;
@@ -221,18 +225,19 @@ glo:happiness_BR a glo:Happiness,
     glo:suicideRate "6.9"^^xsd:float .
 
 glo:happiness_BS a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_BS ;
     glo:country "BS"^^xsd:string ;
     glo:suicideRate "3.5"^^xsd:float .
 
 glo:happiness_BZ a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_BZ ;
     glo:country "BZ"^^xsd:string ;
     glo:suicideRate "7.1"^^xsd:float .
 
 glo:happiness_CA a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_CA ;
     glo:confidenceInNationalGovernment "0.610411167"^^xsd:float ;
@@ -248,7 +253,7 @@ glo:happiness_CA a glo:Happiness,
     glo:suicideRate "11.8"^^xsd:float .
 
 glo:happiness_CD a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_CD ;
     glo:country "CD"^^xsd:string ;
     glo:suicideRate "6.7"^^xsd:float .
@@ -269,6 +274,7 @@ glo:happiness_CG a glo:Happiness,
     glo:suicideRate "6.5"^^xsd:float .
 
 glo:happiness_CH a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_CH ;
     glo:confidenceInNationalGovernment "0.837848067"^^xsd:float ;
@@ -299,6 +305,7 @@ glo:happiness_CI a glo:Happiness,
     glo:suicideRate "8.9"^^xsd:float .
 
 glo:happiness_CL a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_CL ;
     glo:confidenceInNationalGovernment "0.232144803"^^xsd:float ;
@@ -357,6 +364,7 @@ glo:happiness_CO a glo:Happiness,
     glo:suicideRate "3.9"^^xsd:float .
 
 glo:happiness_CR a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_CR ;
     glo:confidenceInNationalGovernment "0.315308332"^^xsd:float ;
@@ -372,18 +380,19 @@ glo:happiness_CR a glo:Happiness,
     glo:suicideRate "8.1"^^xsd:float .
 
 glo:happiness_CU a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_CU ;
     glo:country "CU"^^xsd:string ;
     glo:suicideRate "14.5"^^xsd:float .
 
 glo:happiness_CV a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_CV ;
     glo:country "CV"^^xsd:string ;
     glo:suicideRate "12.9"^^xsd:float .
 
 glo:happiness_CY a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_CY ;
     glo:confidenceInNationalGovernment "0.321940005"^^xsd:float ;
@@ -398,6 +407,7 @@ glo:happiness_CY a glo:Happiness,
     glo:suicideRate "3.6"^^xsd:float .
 
 glo:happiness_CZ a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_CZ ;
     glo:confidenceInNationalGovernment "0.284475416"^^xsd:float ;
@@ -413,6 +423,7 @@ glo:happiness_CZ a glo:Happiness,
     glo:suicideRate "12.2"^^xsd:float .
 
 glo:happiness_DE a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_DE ;
     glo:confidenceInNationalGovernment "0.604759932"^^xsd:float ;
@@ -428,12 +439,13 @@ glo:happiness_DE a glo:Happiness,
     glo:suicideRate "12.3"^^xsd:float .
 
 glo:happiness_DJ a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_DJ ;
     glo:country "DJ"^^xsd:string ;
     glo:suicideRate "9.6"^^xsd:float .
 
 glo:happiness_DK a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_DK ;
     glo:confidenceInNationalGovernment "0.651709735"^^xsd:float ;
@@ -449,6 +461,7 @@ glo:happiness_DK a glo:Happiness,
     glo:suicideRate "10.7"^^xsd:float .
 
 glo:happiness_DO a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_DO ;
     glo:confidenceInNationalGovernment "0.574958026"^^xsd:float ;
@@ -493,6 +506,7 @@ glo:happiness_EC a glo:Happiness,
     glo:suicideRate "7.6"^^xsd:float .
 
 glo:happiness_EE a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_EE ;
     glo:confidenceInNationalGovernment "0.519263983"^^xsd:float ;
@@ -523,12 +537,13 @@ glo:happiness_EG a glo:Happiness,
     glo:suicideRate "3.0"^^xsd:float .
 
 glo:happiness_ER a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_ER ;
     glo:country "ER"^^xsd:string ;
     glo:suicideRate "10.9"^^xsd:float .
 
 glo:happiness_ES a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_ES ;
     glo:confidenceInNationalGovernment "0.371703804"^^xsd:float ;
@@ -544,6 +559,7 @@ glo:happiness_ES a glo:Happiness,
     glo:suicideRate "7.7"^^xsd:float .
 
 glo:happiness_FI a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_FI ;
     glo:confidenceInNationalGovernment "0.713731229"^^xsd:float ;
@@ -559,18 +575,19 @@ glo:happiness_FI a glo:Happiness,
     glo:suicideRate "15.3"^^xsd:float .
 
 glo:happiness_FJ a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_FJ ;
     glo:country "FJ"^^xsd:string ;
     glo:suicideRate "9.0"^^xsd:float .
 
 glo:happiness_FM a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_FM ;
     glo:country "FM"^^xsd:string ;
     glo:suicideRate "28.2"^^xsd:float .
 
 glo:happiness_FR a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_FR ;
     glo:confidenceInNationalGovernment "0.433520496"^^xsd:float ;
@@ -601,6 +618,7 @@ glo:happiness_GA a glo:Happiness,
     glo:suicideRate "8.4"^^xsd:float .
 
 glo:happiness_GB a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_GB ;
     glo:confidenceInNationalGovernment "0.394753993"^^xsd:float ;
@@ -616,7 +634,7 @@ glo:happiness_GB a glo:Happiness,
     glo:suicideRate "7.9"^^xsd:float .
 
 glo:happiness_GD a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_GD ;
     glo:country "GD"^^xsd:string ;
     glo:suicideRate "0.7"^^xsd:float .
@@ -666,12 +684,13 @@ glo:happiness_GN a glo:Happiness,
     glo:suicideRate "7.0"^^xsd:float .
 
 glo:happiness_GQ a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_GQ ;
     glo:country "GQ"^^xsd:string ;
     glo:suicideRate "7.9"^^xsd:float .
 
 glo:happiness_GR a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_GR ;
     glo:confidenceInNationalGovernment "0.401736408"^^xsd:float ;
@@ -687,18 +706,19 @@ glo:happiness_GR a glo:Happiness,
     glo:suicideRate "5.1"^^xsd:float .
 
 glo:happiness_GW a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_GW ;
     glo:country "GW"^^xsd:string ;
     glo:suicideRate "7.0"^^xsd:float .
 
 glo:happiness_GY a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_GY ;
     glo:country "GY"^^xsd:string ;
     glo:suicideRate "40.3"^^xsd:float .
 
 glo:happiness_HN a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_HN ;
     glo:confidenceInNationalGovernment "0.226496547"^^xsd:float ;
@@ -714,6 +734,7 @@ glo:happiness_HN a glo:Happiness,
     glo:suicideRate "2.1"^^xsd:float .
 
 glo:happiness_HR a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_HR ;
     glo:confidenceInNationalGovernment "0.251287937"^^xsd:float ;
@@ -729,6 +750,7 @@ glo:happiness_HR a glo:Happiness,
     glo:suicideRate "16.4"^^xsd:float .
 
 glo:happiness_HU a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_HU ;
     glo:confidenceInNationalGovernment "0.416566133"^^xsd:float ;
@@ -759,6 +781,7 @@ glo:happiness_ID a glo:Happiness,
     glo:suicideRate "2.4"^^xsd:float .
 
 glo:happiness_IE a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_IE ;
     glo:confidenceInNationalGovernment "0.623389423"^^xsd:float ;
@@ -774,6 +797,7 @@ glo:happiness_IE a glo:Happiness,
     glo:suicideRate "9.6"^^xsd:float .
 
 glo:happiness_IL a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_IL ;
     glo:confidenceInNationalGovernment "0.439594686"^^xsd:float ;
@@ -789,7 +813,7 @@ glo:happiness_IL a glo:Happiness,
     glo:suicideRate "5.3"^^xsd:float .
 
 glo:happiness_IN a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_IN ;
     glo:confidenceInNationalGovernment "0.785475373"^^xsd:float ;
     glo:country "IN"^^xsd:string ;
@@ -834,6 +858,7 @@ glo:happiness_IR a glo:Happiness,
     glo:suicideRate "5.2"^^xsd:float .
 
 glo:happiness_IS a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_IS ;
     glo:confidenceInNationalGovernment "0.633886755"^^xsd:float ;
@@ -849,6 +874,7 @@ glo:happiness_IS a glo:Happiness,
     glo:suicideRate "11.9"^^xsd:float .
 
 glo:happiness_IT a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_IT ;
     glo:confidenceInNationalGovernment "0.354293913"^^xsd:float ;
@@ -879,7 +905,7 @@ glo:happiness_JM a glo:Happiness,
     glo:suicideRate "2.4"^^xsd:float .
 
 glo:happiness_JO a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_JO ;
     glo:confidenceInNationalGovernment "0.791178405"^^xsd:float ;
     glo:country "JO"^^xsd:string ;
@@ -894,6 +920,7 @@ glo:happiness_JO a glo:Happiness,
     glo:suicideRate "1.6"^^xsd:float .
 
 glo:happiness_JP a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_JP ;
     glo:confidenceInNationalGovernment "0.29078567"^^xsd:float ;
@@ -953,18 +980,19 @@ glo:happiness_KH a glo:Happiness,
     glo:suicideRate "4.9"^^xsd:float .
 
 glo:happiness_KI a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_KI ;
     glo:country "KI"^^xsd:string ;
     glo:suicideRate "28.3"^^xsd:float .
 
 glo:happiness_KP a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_KP ;
     glo:country "KP"^^xsd:string ;
     glo:suicideRate "9.4"^^xsd:float .
 
 glo:happiness_KR a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_KR ;
     glo:confidenceInNationalGovernment "0.433829188"^^xsd:float ;
@@ -980,6 +1008,7 @@ glo:happiness_KR a glo:Happiness,
     glo:suicideRate "28.6"^^xsd:float .
 
 glo:happiness_KZ a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_KZ ;
     glo:confidenceInNationalGovernment "0.535169721"^^xsd:float ;
@@ -1009,7 +1038,7 @@ glo:happiness_LA a glo:Happiness,
     glo:suicideRate "5.4"^^xsd:float .
 
 glo:happiness_LB a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_LB ;
     glo:confidenceInNationalGovernment "0.106694363"^^xsd:float ;
     glo:country "LB"^^xsd:string ;
@@ -1024,7 +1053,7 @@ glo:happiness_LB a glo:Happiness,
     glo:suicideRate "2.8"^^xsd:float .
 
 glo:happiness_LC a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_LC ;
     glo:country "LC"^^xsd:string ;
     glo:suicideRate "7.9"^^xsd:float .
@@ -1045,6 +1074,7 @@ glo:happiness_LK a glo:Happiness,
     glo:suicideRate "14.0"^^xsd:float .
 
 glo:happiness_LT a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_LT ;
     glo:confidenceInNationalGovernment "0.303830445"^^xsd:float ;
@@ -1060,6 +1090,7 @@ glo:happiness_LT a glo:Happiness,
     glo:suicideRate "26.1"^^xsd:float .
 
 glo:happiness_LV a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_LV ;
     glo:confidenceInNationalGovernment "0.294602394"^^xsd:float ;
@@ -1164,6 +1195,7 @@ glo:happiness_MN a glo:Happiness,
     glo:suicideRate "17.9"^^xsd:float .
 
 glo:happiness_MT a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_MT ;
     glo:confidenceInNationalGovernment "0.662024558"^^xsd:float ;
@@ -1193,7 +1225,7 @@ glo:happiness_MU a glo:Happiness,
     glo:suicideRate "9.5"^^xsd:float .
 
 glo:happiness_MW a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_MW ;
     glo:confidenceInNationalGovernment "0.514003277"^^xsd:float ;
     glo:country "MW"^^xsd:string ;
@@ -1253,6 +1285,7 @@ glo:happiness_NG a glo:Happiness,
     glo:suicideRate "3.5"^^xsd:float .
 
 glo:happiness_NI a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_NI ;
     glo:confidenceInNationalGovernment "0.589501441"^^xsd:float ;
@@ -1268,6 +1301,7 @@ glo:happiness_NI a glo:Happiness,
     glo:suicideRate "4.4"^^xsd:float .
 
 glo:happiness_NL a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_NL ;
     glo:confidenceInNationalGovernment "0.584738791"^^xsd:float ;
@@ -1283,6 +1317,7 @@ glo:happiness_NL a glo:Happiness,
     glo:suicideRate "11.8"^^xsd:float .
 
 glo:happiness_NO a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_NO ;
     glo:confidenceInNationalGovernment "0.773523211"^^xsd:float ;
@@ -1313,6 +1348,7 @@ glo:happiness_NP a glo:Happiness,
     glo:suicideRate "9.0"^^xsd:float .
 
 glo:happiness_NZ a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_NZ ;
     glo:confidenceInNationalGovernment "0.634897828"^^xsd:float ;
@@ -1328,12 +1364,13 @@ glo:happiness_NZ a glo:Happiness,
     glo:suicideRate "11.0"^^xsd:float .
 
 glo:happiness_OM a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_OM ;
     glo:country "OM"^^xsd:string ;
     glo:suicideRate "4.9"^^xsd:float .
 
 glo:happiness_PA a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_PA ;
     glo:confidenceInNationalGovernment "0.334807962"^^xsd:float ;
@@ -1364,7 +1401,7 @@ glo:happiness_PE a glo:Happiness,
     glo:suicideRate "2.8"^^xsd:float .
 
 glo:happiness_PG a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_PG ;
     glo:country "PG"^^xsd:string ;
     glo:suicideRate "3.0"^^xsd:float .
@@ -1414,6 +1451,7 @@ glo:happiness_PL a glo:Happiness,
     glo:suicideRate "11.3"^^xsd:float .
 
 glo:happiness_PT a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_PT ;
     glo:confidenceInNationalGovernment "0.576186419"^^xsd:float ;
@@ -1444,6 +1482,7 @@ glo:happiness_PY a glo:Happiness,
     glo:suicideRate "6.0"^^xsd:float .
 
 glo:happiness_RO a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_RO ;
     glo:confidenceInNationalGovernment "0.192293614"^^xsd:float ;
@@ -1459,6 +1498,7 @@ glo:happiness_RO a glo:Happiness,
     glo:suicideRate "9.7"^^xsd:float .
 
 glo:happiness_RS a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_RS ;
     glo:confidenceInNationalGovernment "0.605454803"^^xsd:float ;
@@ -1489,6 +1529,7 @@ glo:happiness_RU a glo:Happiness,
     glo:suicideRate "25.1"^^xsd:float .
 
 glo:happiness_SA a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_SA ;
     glo:country "SA"^^xsd:string ;
@@ -1502,24 +1543,25 @@ glo:happiness_SA a glo:Happiness,
     glo:suicideRate "6.0"^^xsd:float .
 
 glo:happiness_SB a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_SB ;
     glo:country "SB"^^xsd:string ;
     glo:suicideRate "14.7"^^xsd:float .
 
 glo:happiness_SC a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_SC ;
     glo:country "SC"^^xsd:string ;
     glo:suicideRate "8.1"^^xsd:float .
 
 glo:happiness_SD a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_SD ;
     glo:country "SD"^^xsd:string ;
     glo:suicideRate "3.8"^^xsd:float .
 
 glo:happiness_SE a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_SE ;
     glo:confidenceInNationalGovernment "0.6335361"^^xsd:float ;
@@ -1535,6 +1577,7 @@ glo:happiness_SE a glo:Happiness,
     glo:suicideRate "14.7"^^xsd:float .
 
 glo:happiness_SG a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_SG ;
     glo:confidenceInNationalGovernment "0.89762181"^^xsd:float ;
@@ -1549,6 +1592,7 @@ glo:happiness_SG a glo:Happiness,
     glo:suicideRate "11.2"^^xsd:float .
 
 glo:happiness_SI a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_SI ;
     glo:confidenceInNationalGovernment "0.339235812"^^xsd:float ;
@@ -1564,6 +1608,7 @@ glo:happiness_SI a glo:Happiness,
     glo:suicideRate "19.8"^^xsd:float .
 
 glo:happiness_SK a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_SK ;
     glo:confidenceInNationalGovernment "0.215807587"^^xsd:float ;
@@ -1579,7 +1624,7 @@ glo:happiness_SK a glo:Happiness,
     glo:suicideRate "12.1"^^xsd:float .
 
 glo:happiness_SL a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_SL ;
     glo:confidenceInNationalGovernment "0.753032207"^^xsd:float ;
     glo:country "SL"^^xsd:string ;
@@ -1609,18 +1654,19 @@ glo:happiness_SN a glo:Happiness,
     glo:suicideRate "6.0"^^xsd:float .
 
 glo:happiness_SR a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_SR ;
     glo:country "SR"^^xsd:string ;
     glo:suicideRate "25.4"^^xsd:float .
 
 glo:happiness_ST a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_ST ;
     glo:country "ST"^^xsd:string ;
     glo:suicideRate "1.5"^^xsd:float .
 
 glo:happiness_SV a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_SV ;
     glo:confidenceInNationalGovernment "0.702381134"^^xsd:float ;
@@ -1679,7 +1725,7 @@ glo:happiness_TJ a glo:Happiness,
     glo:suicideRate "4.3"^^xsd:float .
 
 glo:happiness_TL a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_TL ;
     glo:country "TL"^^xsd:string ;
     glo:suicideRate "3.7"^^xsd:float .
@@ -1700,7 +1746,7 @@ glo:happiness_TN a glo:Happiness,
     glo:suicideRate "3.3"^^xsd:float .
 
 glo:happiness_TO a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_TO ;
     glo:country "TO"^^xsd:string ;
     glo:suicideRate "3.8"^^xsd:float .
@@ -1721,6 +1767,7 @@ glo:happiness_TR a glo:Happiness,
     glo:suicideRate "2.4"^^xsd:float .
 
 glo:happiness_TW a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_TW ;
     glo:confidenceInNationalGovernment "0.437147856"^^xsd:float ;
@@ -1733,7 +1780,7 @@ glo:happiness_TW a glo:Happiness,
     glo:socialSupport "0.866297543"^^xsd:float .
 
 glo:happiness_TZ a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_TZ ;
     glo:confidenceInNationalGovernment "0.89139092"^^xsd:float ;
     glo:country "TZ"^^xsd:string ;
@@ -1778,6 +1825,7 @@ glo:happiness_UG a glo:Happiness,
     glo:suicideRate "4.6"^^xsd:float .
 
 glo:happiness_US a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_US ;
     glo:confidenceInNationalGovernment "0.404625207"^^xsd:float ;
@@ -1793,6 +1841,7 @@ glo:happiness_US a glo:Happiness,
     glo:suicideRate "16.1"^^xsd:float .
 
 glo:happiness_UY a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_UY ;
     glo:confidenceInNationalGovernment "0.485830873"^^xsd:float ;
@@ -1808,6 +1857,7 @@ glo:happiness_UY a glo:Happiness,
     glo:suicideRate "21.2"^^xsd:float .
 
 glo:happiness_UZ a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_UZ ;
     glo:confidenceInNationalGovernment "0.912673354"^^xsd:float ;
@@ -1823,7 +1873,7 @@ glo:happiness_UZ a glo:Happiness,
     glo:suicideRate "8.0"^^xsd:float .
 
 glo:happiness_VC a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_VC ;
     glo:country "VC"^^xsd:string ;
     glo:suicideRate "1.0"^^xsd:float .
@@ -1857,18 +1907,19 @@ glo:happiness_VN a glo:Happiness,
     glo:suicideRate "7.5"^^xsd:float .
 
 glo:happiness_VU a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_VU ;
     glo:country "VU"^^xsd:string ;
     glo:suicideRate "18.0"^^xsd:float .
 
 glo:happiness_WS a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_WS ;
     glo:country "WS"^^xsd:string ;
     glo:suicideRate "12.6"^^xsd:float .
 
 glo:happiness_XK a glo:Happiness,
+        glo:Happy,
         glo:VeryHappy ;
     glo:belongsToCountry glo:country_XK ;
     glo:confidenceInNationalGovernment "0.577198744"^^xsd:float ;
@@ -1896,7 +1947,7 @@ glo:happiness_ZA a glo:Happiness,
     glo:suicideRate "23.5"^^xsd:float .
 
 glo:happiness_ZM a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_ZM ;
     glo:confidenceInNationalGovernment "0.697677791"^^xsd:float ;
     glo:country "ZM"^^xsd:string ;
@@ -1911,7 +1962,7 @@ glo:happiness_ZM a glo:Happiness,
     glo:suicideRate "7.3"^^xsd:float .
 
 glo:happiness_ZW a glo:Happiness,
-        glo:Sad ;
+        glo:Unhappy ;
     glo:belongsToCountry glo:country_ZW ;
     glo:confidenceInNationalGovernment "0.665703177"^^xsd:float ;
     glo:country "ZW"^^xsd:string ;
@@ -1943,25 +1994,7 @@ glo:NotVeryHappy a owl:Class ;
                                                             rdf:rest () ] ] ] ] ;
                             rdf:rest () ] ] ] .
 
-glo:Happy a owl:Class ;
-    rdfs:subClassOf glo:Happiness ;
-    owl:equivalentClass [ owl:intersectionOf [ a rdf:List ;
-                    rdf:first glo:Happiness ;
-                    rdf:rest [ a rdf:List ;
-                            rdf:first [ a owl:Restriction ;
-                                    owl:onProperty glo:LifeLadder ;
-                                    owl:someValuesFrom [ a rdfs:Datatype ;
-                                            owl:onDatatype xsd:float ;
-                                            owl:withRestrictions [ a rdf:List ;
-                                                    rdf:first [ a rdf:List ;
-                                                            xsd:minInclusive "5.0"^^xsd:float ] ;
-                                                    rdf:rest [ a rdf:List ;
-                                                            rdf:first [ a rdf:List ;
-                                                                    xsd:maxExclusive "6.0"^^xsd:float ] ;
-                                                            rdf:rest () ] ] ] ] ;
-                            rdf:rest () ] ] ] .
-
-glo:Sad a owl:Class ;
+glo:Unhappy a owl:Class ;
     rdfs:subClassOf glo:Happiness ;
     owl:equivalentClass [ owl:intersectionOf [ a rdf:List ;
                     rdf:first glo:Happiness ;
@@ -1988,6 +2021,21 @@ glo:VeryHappy a owl:Class ;
                                             owl:withRestrictions ( [ a rdf:List ;
                                                         rdf:rest () ;
                                                         xsd:minInclusive "6.0"^^xsd:float ] ) ] ] ;
+                            rdf:rest () ] ] ] .
+
+glo:Happy a owl:Class ;
+    rdfs:subClassOf glo:Happiness ;
+    owl:equivalentClass [ owl:intersectionOf [ a rdf:List ;
+                    rdf:first glo:Happiness ;
+                    rdf:rest [ a rdf:List ;
+                            rdf:first [ a owl:Restriction ;
+                                    owl:onProperty glo:LifeLadder ;
+                                    owl:someValuesFrom [ a rdfs:Datatype ;
+                                            owl:onDatatype xsd:float ;
+                                            owl:withRestrictions [ a rdf:List ;
+                                                    rdf:first [ a rdf:List ;
+                                                            xsd:minInclusive "5.0"^^xsd:float ] ;
+                                                    rdf:rest () ] ] ] ;
                             rdf:rest () ] ] ] .
 
 glo:Happiness rdfs:subClassOf glo:Situation .

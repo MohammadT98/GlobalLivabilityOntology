@@ -40,6 +40,7 @@ glo:peace_AR a glo:Peace,
     glo:mostPeaceful "1.837"^^xsd:float .
 
 glo:peace_AT a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_AT ;
     glo:country "AT"^^xsd:string ;
@@ -110,6 +111,7 @@ glo:peace_BR a glo:Peace ;
     glo:mostPeaceful "2.462"^^xsd:float .
 
 glo:peace_BT a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_BT ;
     glo:country "BT"^^xsd:string ;
@@ -127,6 +129,7 @@ glo:peace_BY a glo:Peace ;
     glo:mostPeaceful "2.248"^^xsd:float .
 
 glo:peace_CA a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_CA ;
     glo:country "CA"^^xsd:string ;
@@ -149,6 +152,7 @@ glo:peace_CG a glo:Peace ;
     glo:mostPeaceful "2.21"^^xsd:float .
 
 glo:peace_CH a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_CH ;
     glo:country "CH"^^xsd:string ;
@@ -198,12 +202,14 @@ glo:peace_CY a glo:Peace,
     glo:mostPeaceful "1.904"^^xsd:float .
 
 glo:peace_CZ a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_CZ ;
     glo:country "CZ"^^xsd:string ;
     glo:mostPeaceful "1.379"^^xsd:float .
 
 glo:peace_DE a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_DE ;
     glo:country "DE"^^xsd:string ;
@@ -215,6 +221,7 @@ glo:peace_DJ a glo:Peace ;
     glo:mostPeaceful "2.196"^^xsd:float .
 
 glo:peace_DK a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_DK ;
     glo:country "DK"^^xsd:string ;
@@ -263,6 +270,7 @@ glo:peace_ET a glo:Peace ;
     glo:mostPeaceful "2.872"^^xsd:float .
 
 glo:peace_FI a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_FI ;
     glo:country "FI"^^xsd:string ;
@@ -339,6 +347,7 @@ glo:peace_HN a glo:Peace ;
     glo:mostPeaceful "2.265"^^xsd:float .
 
 glo:peace_HR a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_HR ;
     glo:country "HR"^^xsd:string ;
@@ -362,6 +371,7 @@ glo:peace_ID a glo:Peace,
     glo:mostPeaceful "1.829"^^xsd:float .
 
 glo:peace_IE a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_IE ;
     glo:country "IE"^^xsd:string ;
@@ -389,6 +399,7 @@ glo:peace_IR a glo:Peace ;
     glo:mostPeaceful "2.8"^^xsd:float .
 
 glo:peace_IS a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_IS ;
     glo:country "IS"^^xsd:string ;
@@ -413,6 +424,7 @@ glo:peace_JO a glo:Peace,
     glo:mostPeaceful "1.895"^^xsd:float .
 
 glo:peace_JP a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_JP ;
     glo:country "JP"^^xsd:string ;
@@ -595,6 +607,7 @@ glo:peace_NI a glo:Peace ;
     glo:mostPeaceful "2.294"^^xsd:float .
 
 glo:peace_NL a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_NL ;
     glo:country "NL"^^xsd:string ;
@@ -612,6 +625,7 @@ glo:peace_NP a glo:Peace ;
     glo:mostPeaceful "2.006"^^xsd:float .
 
 glo:peace_NZ a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_NZ ;
     glo:country "NZ"^^xsd:string ;
@@ -661,6 +675,7 @@ glo:peace_PS a glo:Peace ;
     glo:mostPeaceful "2.538"^^xsd:float .
 
 glo:peace_PT a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_PT ;
     glo:country "PT"^^xsd:string ;
@@ -719,12 +734,14 @@ glo:peace_SE a glo:Peace,
     glo:mostPeaceful "1.625"^^xsd:float .
 
 glo:peace_SG a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_SG ;
     glo:country "SG"^^xsd:string ;
     glo:mostPeaceful "1.332"^^xsd:float .
 
 glo:peace_SI a glo:Peace,
+        glo:Peaceful,
         glo:VeryPeaceful ;
     glo:belongsToCountry glo:country_SI ;
     glo:country "SI"^^xsd:string ;
@@ -930,11 +947,8 @@ glo:Peaceful a owl:Class ;
                                             owl:onDatatype xsd:float ;
                                             owl:withRestrictions [ a rdf:List ;
                                                     rdf:first [ a rdf:List ;
-                                                            xsd:minInclusive "1.0"^^xsd:float ] ;
-                                                    rdf:rest [ a rdf:List ;
-                                                            rdf:first [ a rdf:List ;
-                                                                    xsd:maxExclusive "2.0"^^xsd:float ] ;
-                                                            rdf:rest () ] ] ] ] ;
+                                                            xsd:maxExclusive "2.0"^^xsd:float ] ;
+                                                    rdf:rest () ] ] ] ;
                             rdf:rest () ] ] ] .
 
 glo:Peace rdfs:subClassOf glo:Situation .
