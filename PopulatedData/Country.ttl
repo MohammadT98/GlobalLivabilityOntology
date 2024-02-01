@@ -1,4 +1,4 @@
-@prefix glo: <http://www.dei.unipd.it/database2/LinkedinJobPosting#> .
+@prefix glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 glo:country_AD a glo:Country ;
