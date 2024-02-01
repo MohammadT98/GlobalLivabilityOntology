@@ -1,4 +1,4 @@
-@prefix glo: <http://www.dei.unipd.it/database2/LinkedinJobPosting#> .
+@prefix glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -7,6 +7,7 @@ glo:freedom_AD a glo:Freedom ;
     glo:belongsToCountry glo:country_AD ;
     glo:country "AD"^^xsd:string ;
     glo:currentLeadership "Head of Government"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string .
 
@@ -43,6 +44,7 @@ glo:freedom_AG a glo:Freedom ;
     glo:belongsToCountry glo:country_AG ;
     glo:country "AG"^^xsd:string ;
     glo:currentLeadership "Prime Minister"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
     glo:lgbtqMaxPenalty "15 yrs prison"^^xsd:string .
@@ -158,6 +160,7 @@ glo:freedom_BB a glo:Freedom ;
     glo:belongsToCountry glo:country_BB ;
     glo:country "BB"^^xsd:string ;
     glo:currentLeadership "Prime Minister"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:genderEquality "0.769"^^xsd:float ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
@@ -262,6 +265,7 @@ glo:freedom_BN a glo:Freedom ;
     glo:belongsToCountry glo:country_BN ;
     glo:country "BN"^^xsd:string ;
     glo:currentLeadership "Sultan and Prime Minister"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:genderEquality "0.678"^^xsd:float ;
     glo:lgbtqDeathPenalty "Yes"^^xsd:string ;
@@ -296,6 +300,7 @@ glo:freedom_BS a glo:Freedom ;
     glo:belongsToCountry glo:country_BS ;
     glo:country "BS"^^xsd:string ;
     glo:currentLeadership "Prime Minister"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:genderEquality "0.725"^^xsd:float ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
@@ -341,6 +346,7 @@ glo:freedom_BZ a glo:Freedom ;
     glo:belongsToCountry glo:country_BZ ;
     glo:country "BZ"^^xsd:string ;
     glo:currentLeadership "Prime Minister"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:genderEquality "0.699"^^xsd:float ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
@@ -560,6 +566,7 @@ glo:freedom_DM a glo:Freedom ;
     glo:belongsToCountry glo:country_DM ;
     glo:country "DM"^^xsd:string ;
     glo:currentLeadership "Prime Minister"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
     glo:lgbtqMaxPenalty "10 yrs + mental hospital"^^xsd:string .
@@ -693,6 +700,7 @@ glo:freedom_FM a glo:Freedom ;
     glo:belongsToCountry glo:country_FM ;
     glo:country "FM"^^xsd:string ;
     glo:currentLeadership "President"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string .
 
@@ -741,6 +749,7 @@ glo:freedom_GD a glo:Freedom ;
     glo:belongsToCountry glo:country_GD ;
     glo:country "GD"^^xsd:string ;
     glo:currentLeadership "Prime Minister"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
     glo:lgbtqMaxPenalty "10 yrs prison"^^xsd:string .
@@ -1106,6 +1115,7 @@ glo:freedom_KI a glo:Freedom ;
     glo:belongsToCountry glo:country_KI ;
     glo:country "KI"^^xsd:string ;
     glo:currentLeadership "President"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
     glo:lgbtqMaxPenalty "14 yrs prison"^^xsd:string .
@@ -1126,6 +1136,7 @@ glo:freedom_KN a glo:Freedom ;
     glo:abortionIsIllegal "To preserve physical/mental health"^^xsd:string ;
     glo:belongsToCountry glo:country_KN ;
     glo:country "KN"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
     glo:lgbtqMaxPenalty "10 yrs w/w-out hard labor"^^xsd:string .
@@ -1211,6 +1222,7 @@ glo:freedom_LC a glo:Freedom ;
     glo:abortionIsIllegal "To preserve physical/mental health"^^xsd:string ;
     glo:belongsToCountry glo:country_LC ;
     glo:country "LC"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
     glo:lgbtqMaxPenalty "10 yrs prison"^^xsd:string ;
@@ -1221,6 +1233,7 @@ glo:freedom_LI a glo:Freedom ;
     glo:belongsToCountry glo:country_LI ;
     glo:country "LI"^^xsd:string ;
     glo:currentLeadership "Regent"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string .
 
@@ -1325,6 +1338,7 @@ glo:freedom_MC a glo:Freedom ;
     glo:belongsToCountry glo:country_MC ;
     glo:country "MC"^^xsd:string ;
     glo:currentLeadership "Sovereign Prince"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string .
 
@@ -1371,6 +1385,7 @@ glo:freedom_MH a glo:Freedom ;
     glo:belongsToCountry glo:country_MH ;
     glo:country "MH"^^xsd:string ;
     glo:currentLeadership "President"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string .
 
@@ -1476,6 +1491,7 @@ glo:freedom_MV a glo:Freedom ;
     glo:belongsToCountry glo:country_MV ;
     glo:country "MV"^^xsd:string ;
     glo:currentLeadership "President"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:genderEquality "0.642"^^xsd:float ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
@@ -1612,6 +1628,7 @@ glo:freedom_NR a glo:Freedom ;
     glo:belongsToCountry glo:country_NR ;
     glo:country "NR"^^xsd:string ;
     glo:currentLeadership "President"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string .
 
@@ -1754,6 +1771,7 @@ glo:freedom_PW a glo:Freedom ;
     glo:belongsToCountry glo:country_PW ;
     glo:country "PW"^^xsd:string ;
     glo:currentLeadership "President"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string .
 
@@ -1847,6 +1865,7 @@ glo:freedom_SB a glo:Freedom ;
     glo:belongsToCountry glo:country_SB ;
     glo:country "SB"^^xsd:string ;
     glo:currentLeadership "Prime Minister"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
     glo:lgbtqMaxPenalty "14 yrs prison"^^xsd:string .
@@ -1856,6 +1875,7 @@ glo:freedom_SC a glo:Freedom ;
     glo:belongsToCountry glo:country_SC ;
     glo:country "SC"^^xsd:string ;
     glo:currentLeadership "President"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
     glo:mandatoryMilitaryService "No"^^xsd:string .
@@ -1935,6 +1955,7 @@ glo:freedom_SM a glo:Freedom ;
     glo:belongsToCountry glo:country_SM ;
     glo:country "SM"^^xsd:string ;
     glo:currentLeadership "Captain Regent"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
     glo:mandatoryMilitaryService "De jure"^^xsd:string .
@@ -1957,6 +1978,7 @@ glo:freedom_SO a glo:Freedom ;
     glo:belongsToCountry glo:country_SO ;
     glo:country "SO"^^xsd:string ;
     glo:currentLeadership "Prime Minister"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "Possible"^^xsd:string ;
     glo:lgbtqMaxPenalty "varies (3yrs to death)"^^xsd:string ;
@@ -1978,6 +2000,7 @@ glo:freedom_SS a glo:Freedom ;
     glo:belongsToCountry glo:country_SS ;
     glo:country "SS"^^xsd:string ;
     glo:currentLeadership "President"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
     glo:lgbtqMaxPenalty "10 yrs prison + fines"^^xsd:string ;
@@ -1988,6 +2011,7 @@ glo:freedom_ST a glo:Freedom ;
     glo:belongsToCountry glo:country_ST ;
     glo:country "ST"^^xsd:string ;
     glo:currentLeadership "President"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
     glo:mandatoryMilitaryService "De jure"^^xsd:string .
@@ -2129,6 +2153,7 @@ glo:freedom_TO a glo:Freedom ;
     glo:belongsToCountry glo:country_TO ;
     glo:country "TO"^^xsd:string ;
     glo:currentLeadership "Prime Minister"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
     glo:lgbtqMaxPenalty "10 yrs or whipping"^^xsd:string ;
@@ -2160,6 +2185,7 @@ glo:freedom_TV a glo:Freedom ;
     glo:belongsToCountry glo:country_TV ;
     glo:country "TV"^^xsd:string ;
     glo:currentLeadership "Prime Minister"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
     glo:lgbtqMaxPenalty "14 yrs prison"^^xsd:string .
@@ -2252,6 +2278,7 @@ glo:freedom_VC a glo:Freedom ;
     glo:abortionIsIllegal "To preserve health/on socioeconomic grounds"^^xsd:string ;
     glo:belongsToCountry glo:country_VC ;
     glo:country "VC"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
     glo:lgbtqMaxPenalty "10 yrs prison"^^xsd:string .
@@ -2285,6 +2312,7 @@ glo:freedom_VU a glo:Freedom ;
     glo:belongsToCountry glo:country_VU ;
     glo:country "VU"^^xsd:string ;
     glo:currentLeadership "Prime Minister"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:genderEquality "0.625"^^xsd:float ;
     glo:lgbtqDeathPenalty "No"^^xsd:string .
@@ -2299,6 +2327,7 @@ glo:freedom_WS a glo:Freedom ;
     glo:belongsToCountry glo:country_WS ;
     glo:country "WS"^^xsd:string ;
     glo:currentLeadership "Prime Minister"^^xsd:string ;
+    glo:democracy "0.0"^^xsd:float ;
     glo:democracyType "Unknown"^^xsd:string ;
     glo:lgbtqDeathPenalty "No"^^xsd:string ;
     glo:lgbtqMaxPenalty "varies"^^xsd:string .

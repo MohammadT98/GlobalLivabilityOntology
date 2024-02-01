@@ -1,4 +1,4 @@
-@prefix glo: <http://www.dei.unipd.it/database2/LinkedinJobPosting#> .
+@prefix glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
