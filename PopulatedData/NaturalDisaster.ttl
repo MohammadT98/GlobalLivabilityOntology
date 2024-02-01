@@ -1,0 +1,5288 @@
+@prefix glo: <http://www.dei.unipd.it/database2/LinkedinJobPosting#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+glo:naturalDisaster_AE a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_AE ;
+    glo:country "AE"^^xsd:string ;
+    glo:disasterType "Flood"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string ;
+    glo:year "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_AF a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_AF ;
+    glo:country "AF"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_AG a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_AG ;
+    glo:country "AG"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string ;
+    glo:year "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_AI a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_AI ;
+    glo:country "AI"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string ;
+    glo:year "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_AL a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_AL ;
+    glo:country "AL"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_AM a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_AM ;
+    glo:country "AM"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_AO a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_AO ;
+    glo:country "AO"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_AR a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_AR ;
+    glo:country "AR"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_AS a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_AS ;
+    glo:country "AS"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear .
+
+glo:naturalDisaster_AT a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_AT ;
+    glo:country "AT"^^xsd:string ;
+    glo:disasterType "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_AU a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_AU ;
+    glo:country "AU"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_AZ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_AZ ;
+    glo:country "AZ"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear .
+
+glo:naturalDisaster_BA a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BA ;
+    glo:country "BA"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_BB a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BB ;
+    glo:country "BB"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_BD a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BD ;
+    glo:country "BD"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_BE a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BE ;
+    glo:country "BE"^^xsd:string ;
+    glo:disasterType "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_BF a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BF ;
+    glo:country "BF"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_BG a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BG ;
+    glo:country "BG"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_BI a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BI ;
+    glo:country "BI"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_BJ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BJ ;
+    glo:country "BJ"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_BL a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BL ;
+    glo:country "BL"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string ;
+    glo:year "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_BM a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BM ;
+    glo:country "BM"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "SigDam"^^xsd:string ;
+    glo:year "2003.0"^^xsd:gYear .
+
+glo:naturalDisaster_BO a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BO ;
+    glo:country "BO"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_BR a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BR ;
+    glo:country "BR"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_BS a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BS ;
+    glo:country "BS"^^xsd:string ;
+    glo:disasterType "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_BT a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BT ;
+    glo:country "BT"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear .
+
+glo:naturalDisaster_BW a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BW ;
+    glo:country "BW"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_BY a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BY ;
+    glo:country "BY"^^xsd:string ;
+    glo:disasterType "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_BZ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_BZ ;
+    glo:country "BZ"^^xsd:string ;
+    glo:disasterType "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_CA a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_CA ;
+    glo:country "CA"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_CD a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_CD ;
+    glo:country "CD"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_CF a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_CF ;
+    glo:country "CF"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_CG a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_CG ;
+    glo:country "CG"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_CH a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_CH ;
+    glo:country "CH"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Mass movement (dry)"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_CI a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_CI ;
+    glo:country "CI"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_CK a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_CK ;
+    glo:country "CK"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear .
+
+glo:naturalDisaster_CL a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_CL ;
+    glo:country "CL"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_CM a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_CM ;
+    glo:country "CM"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_CN a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_CN ;
+    glo:country "CN"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Mass movement (dry)"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_CO a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_CO ;
+    glo:country "CO"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Mass movement (dry)"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_CR a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_CR ;
+    glo:country "CR"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_CU a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_CU ;
+    glo:country "CU"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_CV a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_CV ;
+    glo:country "CV"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear .
+
+glo:naturalDisaster_CY a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_CY ;
+    glo:country "CY"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear .
+
+glo:naturalDisaster_CZ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_CZ ;
+    glo:country "CZ"^^xsd:string ;
+    glo:disasterType "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_DE a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_DE ;
+    glo:country "DE"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_DJ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_DJ ;
+    glo:country "DJ"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_DK a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_DK ;
+    glo:country "DK"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear .
+
+glo:naturalDisaster_DM a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_DM ;
+    glo:country "DM"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2004.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_DO a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_DO ;
+    glo:country "DO"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_DZ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_DZ ;
+    glo:country "DZ"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_EC a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_EC ;
+    glo:country "EC"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Mass movement (dry)"^^xsd:string,
+        "Volcanic activity"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_EE a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_EE ;
+    glo:country "EE"^^xsd:string ;
+    glo:disasterType "Extreme temperature"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2005.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_EG a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_EG ;
+    glo:country "EG"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Mass movement (dry)"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_ER a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_ER ;
+    glo:country "ER"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_ES a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_ES ;
+    glo:country "ES"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_ET a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_ET ;
+    glo:country "ET"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Volcanic activity"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_FI a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_FI ;
+    glo:country "FI"^^xsd:string ;
+    glo:disasterType "Flood"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string ;
+    glo:year "2005.0"^^xsd:gYear .
+
+glo:naturalDisaster_FJ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_FJ ;
+    glo:country "FJ"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "Unknown"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_FM a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_FM ;
+    glo:country "FM"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_FR a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_FR ;
+    glo:country "FR"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_GA a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_GA ;
+    glo:country "GA"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear .
+
+glo:naturalDisaster_GB a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_GB ;
+    glo:country "GB"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_GD a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_GD ;
+    glo:country "GD"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Declar"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2004.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear .
+
+glo:naturalDisaster_GE a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_GE ;
+    glo:country "GE"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_GF a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_GF ;
+    glo:country "GF"^^xsd:string ;
+    glo:disasterType "Flood"^^xsd:string,
+        "Landslide"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_GH a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_GH ;
+    glo:country "GH"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_GM a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_GM ;
+    glo:country "GM"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_GN a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_GN ;
+    glo:country "GN"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_GP a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_GP ;
+    glo:country "GP"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2004.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_GQ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_GQ ;
+    glo:country "GQ"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string ;
+    glo:year "2004.0"^^xsd:gYear .
+
+glo:naturalDisaster_GR a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_GR ;
+    glo:country "GR"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_GT a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_GT ;
+    glo:country "GT"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Mass movement (dry)"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Unknown"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_GU a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_GU ;
+    glo:country "GU"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar/Int"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear .
+
+glo:naturalDisaster_GW a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_GW ;
+    glo:country "GW"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_GY a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_GY ;
+    glo:country "GY"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Flood"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_HK a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_HK ;
+    glo:country "HK"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_HN a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_HN ;
+    glo:country "HN"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_HR a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_HR ;
+    glo:country "HR"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_HT a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_HT ;
+    glo:country "HT"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_HU a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_HU ;
+    glo:country "HU"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_ID a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_ID ;
+    glo:country "ID"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_IE a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_IE ;
+    glo:country "IE"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Regional"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_IL a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_IL ;
+    glo:country "IL"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_IN a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_IN ;
+    glo:country "IN"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Glacial lake outburst"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Mass movement (dry)"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_IQ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_IQ ;
+    glo:country "IQ"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_IR a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_IR ;
+    glo:country "IR"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_IS a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_IS ;
+    glo:country "IS"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Volcanic activity"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "SigDis"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear .
+
+glo:naturalDisaster_IT a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_IT ;
+    glo:country "IT"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_JM a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_JM ;
+    glo:country "JM"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_JO a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_JO ;
+    glo:country "JO"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_JP a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_JP ;
+    glo:country "JP"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_KE a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_KE ;
+    glo:country "KE"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Landslide"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_KG a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_KG ;
+    glo:country "KG"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_KH a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_KH ;
+    glo:country "KH"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_KI a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_KI ;
+    glo:country "KI"^^xsd:string ;
+    glo:disasterType "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string ;
+    glo:year "2008.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear .
+
+glo:naturalDisaster_KM a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_KM ;
+    glo:country "KM"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_KN a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_KN ;
+    glo:country "KN"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string ;
+    glo:year "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_KP a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_KP ;
+    glo:country "KP"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_KR a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_KR ;
+    glo:country "KR"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_KW a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_KW ;
+    glo:country "KW"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_KY a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_KY ;
+    glo:country "KY"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear .
+
+glo:naturalDisaster_KZ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_KZ ;
+    glo:country "KZ"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_LA a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_LA ;
+    glo:country "LA"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_LB a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_LB ;
+    glo:country "LB"^^xsd:string ;
+    glo:disasterType "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_LC a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_LC ;
+    glo:country "LC"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2004.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_LK a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_LK ;
+    glo:country "LK"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_LR a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_LR ;
+    glo:country "LR"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear .
+
+glo:naturalDisaster_LS a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_LS ;
+    glo:country "LS"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_LT a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_LT ;
+    glo:country "LT"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_LU a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_LU ;
+    glo:country "LU"^^xsd:string ;
+    glo:disasterType "Extreme temperature"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2003.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_LV a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_LV ;
+    glo:country "LV"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_LY a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_LY ;
+    glo:country "LY"^^xsd:string ;
+    glo:disasterType "Flood"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2013.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_MA a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MA ;
+    glo:country "MA"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_MD a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MD ;
+    glo:country "MD"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_ME a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_ME ;
+    glo:country "ME"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_MF a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MF ;
+    glo:country "MF"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string ;
+    glo:year "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_MG a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MG ;
+    glo:country "MG"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_MH a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MH ;
+    glo:country "MH"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_MK a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MK ;
+    glo:country "MK"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_ML a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_ML ;
+    glo:country "ML"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_MM a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MM ;
+    glo:country "MM"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Mass movement (dry)"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_MN a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MN ;
+    glo:country "MN"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_MO a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MO ;
+    glo:country "MO"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_MP a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MP ;
+    glo:country "MP"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_MQ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MQ ;
+    glo:country "MQ"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2007.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_MR a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MR ;
+    glo:country "MR"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_MS a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MS ;
+    glo:country "MS"^^xsd:string ;
+    glo:disasterType "Volcanic activity"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string ;
+    glo:year "2006.0"^^xsd:gYear .
+
+glo:naturalDisaster_MU a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MU ;
+    glo:country "MU"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_MV a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MV ;
+    glo:country "MV"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2004.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_MW a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MW ;
+    glo:country "MW"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_MX a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MX ;
+    glo:country "MX"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_MY a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MY ;
+    glo:country "MY"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_MZ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_MZ ;
+    glo:country "MZ"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_NC a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_NC ;
+    glo:country "NC"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2003.0"^^xsd:gYear .
+
+glo:naturalDisaster_NE a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_NE ;
+    glo:country "NE"^^xsd:string ;
+    glo:disasterType "Animal accident"^^xsd:string,
+        "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_NG a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_NG ;
+    glo:country "NG"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_NI a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_NI ;
+    glo:country "NI"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_NL a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_NL ;
+    glo:country "NL"^^xsd:string ;
+    glo:disasterType "Extreme temperature"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_NO a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_NO ;
+    glo:country "NO"^^xsd:string ;
+    glo:disasterType "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_NP a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_NP ;
+    glo:country "NP"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_NU a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_NU ;
+    glo:country "NU"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "Declar"^^xsd:string ;
+    glo:year "2004.0"^^xsd:gYear .
+
+glo:naturalDisaster_NZ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_NZ ;
+    glo:country "NZ"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_OM a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_OM ;
+    glo:country "OM"^^xsd:string ;
+    glo:disasterType "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_PA a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_PA ;
+    glo:country "PA"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_PE a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_PE ;
+    glo:country "PE"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_PF a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_PF ;
+    glo:country "PF"^^xsd:string ;
+    glo:disasterType "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string ;
+    glo:year "2010.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_PG a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_PG ;
+    glo:country "PG"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Mass movement (dry)"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_PH a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_PH ;
+    glo:country "PH"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Mass movement (dry)"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_PK a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_PK ;
+    glo:country "PK"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Mass movement (dry)"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_PL a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_PL ;
+    glo:country "PL"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_PR a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_PR ;
+    glo:country "PR"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_PS a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_PS ;
+    glo:country "PS"^^xsd:string ;
+    glo:disasterType "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_PT a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_PT ;
+    glo:country "PT"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_PW a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_PW ;
+    glo:country "PW"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_PY a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_PY ;
+    glo:country "PY"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "SigDis"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_QA a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_QA ;
+    glo:country "QA"^^xsd:string ;
+    glo:disasterType "Flood"^^xsd:string ;
+    glo:entryCriteria "Waiting"^^xsd:string ;
+    glo:year "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_RE a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_RE ;
+    glo:country "RE"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_RO a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_RO ;
+    glo:country "RO"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_RS a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_RS ;
+    glo:country "RS"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_RU a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_RU ;
+    glo:country "RU"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Impact"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_RW a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_RW ;
+    glo:country "RW"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_SA a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SA ;
+    glo:country "SA"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_SB a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SB ;
+    glo:country "SB"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_SC a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SC ;
+    glo:country "SC"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear .
+
+glo:naturalDisaster_SD a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SD ;
+    glo:country "SD"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_SE a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SE ;
+    glo:country "SE"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_SG a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SG ;
+    glo:country "SG"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear .
+
+glo:naturalDisaster_SH a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SH ;
+    glo:country "SH"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear .
+
+glo:naturalDisaster_SI a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SI ;
+    glo:country "SI"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_SK a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SK ;
+    glo:country "SK"^^xsd:string ;
+    glo:disasterType "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_SL a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SL ;
+    glo:country "SL"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_SN a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SN ;
+    glo:country "SN"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_SO a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SO ;
+    glo:country "SO"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_SR a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SR ;
+    glo:country "SR"^^xsd:string ;
+    glo:disasterType "Flood"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string ;
+    glo:year "2006.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear .
+
+glo:naturalDisaster_SS a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SS ;
+    glo:country "SS"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_ST a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_ST ;
+    glo:country "ST"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string ;
+    glo:entryCriteria "Kill"^^xsd:string ;
+    glo:year "2005.0"^^xsd:gYear .
+
+glo:naturalDisaster_SV a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SV ;
+    glo:country "SV"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Unknown"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_SX a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SX ;
+    glo:country "SX"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string ;
+    glo:year "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_SY a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SY ;
+    glo:country "SY"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_SZ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_SZ ;
+    glo:country "SZ"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_TC a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_TC ;
+    glo:country "TC"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2004.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_TD a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_TD ;
+    glo:country "TD"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_TG a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_TG ;
+    glo:country "TG"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_TH a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_TH ;
+    glo:country "TH"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_TJ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_TJ ;
+    glo:country "TJ"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_TK a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_TK ;
+    glo:country "TK"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string ;
+    glo:year "2005.0"^^xsd:gYear .
+
+glo:naturalDisaster_TL a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_TL ;
+    glo:country "TL"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_TM a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_TM ;
+    glo:country "TM"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string ;
+    glo:entryCriteria "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear .
+
+glo:naturalDisaster_TN a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_TN ;
+    glo:country "TN"^^xsd:string ;
+    glo:disasterType "Flood"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2003.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_TO a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_TO ;
+    glo:country "TO"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_TR a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_TR ;
+    glo:country "TR"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_TT a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_TT ;
+    glo:country "TT"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear .
+
+glo:naturalDisaster_TV a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_TV ;
+    glo:country "TV"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string ;
+    glo:year "2011.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_TW a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_TW ;
+    glo:country "TW"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_TZ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_TZ ;
+    glo:country "TZ"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_UA a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_UA ;
+    glo:country "UA"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_UG a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_UG ;
+    glo:country "UG"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Insect infestation"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_US a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_US ;
+    glo:country "US"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_UY a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_UY ;
+    glo:country "UY"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_UZ a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_UZ ;
+    glo:country "UZ"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Flood"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_VC a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_VC ;
+    glo:country "VC"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Regional"^^xsd:string ;
+    glo:year "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_VE a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_VE ;
+    glo:country "VE"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_VG a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_VG ;
+    glo:country "VG"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string ;
+    glo:year "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_VI a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_VI ;
+    glo:country "VI"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Kill"^^xsd:string ;
+    glo:year "2004.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear .
+
+glo:naturalDisaster_VN a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_VN ;
+    glo:country "VN"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDis"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_VU a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_VU ;
+    glo:country "VU"^^xsd:string ;
+    glo:disasterType "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Declar/Int"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_WF a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_WF ;
+    glo:country "WF"^^xsd:string ;
+    glo:disasterType "Storm"^^xsd:string ;
+    glo:entryCriteria "Kill"^^xsd:string ;
+    glo:year "2012.0"^^xsd:gYear .
+
+glo:naturalDisaster_WS a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_WS ;
+    glo:country "WS"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string ;
+    glo:year "2001.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear .
+
+glo:naturalDisaster_YE a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_YE ;
+    glo:country "YE"^^xsd:string ;
+    glo:disasterType "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Volcanic activity"^^xsd:string ;
+    glo:entryCriteria "--"^^xsd:string,
+        "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_ZA a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_ZA ;
+    glo:country "ZA"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Earthquake"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Extreme temperature"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string,
+        "Wildfire"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Declar"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:naturalDisaster_ZM a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_ZM ;
+    glo:country "ZM"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Landslide"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2004.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2006.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2012.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2020.0"^^xsd:gYear .
+
+glo:naturalDisaster_ZW a glo:NaturalDisaster ;
+    glo:belongsToCountry glo:country_ZW ;
+    glo:country "ZW"^^xsd:string ;
+    glo:disasterType "Drought"^^xsd:string,
+        "Epidemic"^^xsd:string,
+        "Flood"^^xsd:string,
+        "Storm"^^xsd:string ;
+    glo:entryCriteria "Affect"^^xsd:string,
+        "Affected"^^xsd:string,
+        "Kill"^^xsd:string,
+        "SigDam"^^xsd:string,
+        "Waiting"^^xsd:string ;
+    glo:year "2000.0"^^xsd:gYear,
+        "2001.0"^^xsd:gYear,
+        "2002.0"^^xsd:gYear,
+        "2003.0"^^xsd:gYear,
+        "2005.0"^^xsd:gYear,
+        "2007.0"^^xsd:gYear,
+        "2008.0"^^xsd:gYear,
+        "2009.0"^^xsd:gYear,
+        "2010.0"^^xsd:gYear,
+        "2011.0"^^xsd:gYear,
+        "2013.0"^^xsd:gYear,
+        "2014.0"^^xsd:gYear,
+        "2015.0"^^xsd:gYear,
+        "2016.0"^^xsd:gYear,
+        "2017.0"^^xsd:gYear,
+        "2018.0"^^xsd:gYear,
+        "2019.0"^^xsd:gYear,
+        "2021.0"^^xsd:gYear .
+
+glo:NaturalDisaster rdfs:subClassOf glo:Situation .
+

@@ -1,0 +1,865 @@
+@prefix glo: <http://www.dei.unipd.it/database2/LinkedinJobPosting#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+glo:education_AE a glo:Education ;
+    glo:IQ 82 ;
+    glo:belongsToCountry glo:country_AE ;
+    glo:country "AE"^^xsd:string ;
+    glo:educationExpenditure 805 .
+
+glo:education_AF a glo:Education ;
+    glo:IQ 81 ;
+    glo:belongsToCountry glo:country_AF ;
+    glo:country "AF"^^xsd:string ;
+    glo:educationExpenditure 15 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_AL a glo:Education ;
+    glo:IQ 82 ;
+    glo:belongsToCountry glo:country_AL ;
+    glo:country "AL"^^xsd:string ;
+    glo:educationExpenditure 118 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_AM a glo:Education ;
+    glo:belongsToCountry glo:country_AM ;
+    glo:country "AM"^^xsd:string ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_AO a glo:Education ;
+    glo:belongsToCountry glo:country_AO ;
+    glo:country "AO"^^xsd:string ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_AR a glo:Education ;
+    glo:IQ 87 ;
+    glo:belongsToCountry glo:country_AR ;
+    glo:country "AR"^^xsd:string ;
+    glo:educationExpenditure 454 ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_AT a glo:Education ;
+    glo:IQ 99 ;
+    glo:belongsToCountry glo:country_AT ;
+    glo:country "AT"^^xsd:string ;
+    glo:educationExpenditure 2341 ;
+    glo:englishProficiency "Very High"^^xsd:string .
+
+glo:education_AU a glo:Education ;
+    glo:IQ 99 ;
+    glo:belongsToCountry glo:country_AU ;
+    glo:country "AU"^^xsd:string ;
+    glo:educationExpenditure 2343 .
+
+glo:education_AZ a glo:Education ;
+    glo:belongsToCountry glo:country_AZ ;
+    glo:country "AZ"^^xsd:string ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_BD a glo:Education ;
+    glo:IQ 75 ;
+    glo:belongsToCountry glo:country_BD ;
+    glo:country "BD"^^xsd:string ;
+    glo:educationExpenditure 20 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_BE a glo:Education ;
+    glo:IQ 98 ;
+    glo:belongsToCountry glo:country_BE ;
+    glo:country "BE"^^xsd:string ;
+    glo:educationExpenditure 2507 ;
+    glo:englishProficiency "Very High"^^xsd:string .
+
+glo:education_BG a glo:Education ;
+    glo:IQ 91 ;
+    glo:belongsToCountry glo:country_BG ;
+    glo:country "BG"^^xsd:string ;
+    glo:educationExpenditure 224 ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_BM a glo:Education ;
+    glo:IQ 92 ;
+    glo:belongsToCountry glo:country_BM ;
+    glo:country "BM"^^xsd:string ;
+    glo:educationExpenditure 1748 .
+
+glo:education_BN a glo:Education ;
+    glo:IQ 88 ;
+    glo:belongsToCountry glo:country_BN ;
+    glo:country "BN"^^xsd:string ;
+    glo:educationExpenditure 1020 .
+
+glo:education_BO a glo:Education ;
+    glo:IQ 79 ;
+    glo:belongsToCountry glo:country_BO ;
+    glo:country "BO"^^xsd:string ;
+    glo:educationExpenditure 156 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_BR a glo:Education ;
+    glo:IQ 83 ;
+    glo:belongsToCountry glo:country_BR ;
+    glo:country "BR"^^xsd:string ;
+    glo:educationExpenditure 427 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_BY a glo:Education ;
+    glo:belongsToCountry glo:country_BY ;
+    glo:country "BY"^^xsd:string ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_CA a glo:Education ;
+    glo:IQ 100 ;
+    glo:belongsToCountry glo:country_CA ;
+    glo:country "CA"^^xsd:string ;
+    glo:educationExpenditure 2052 .
+
+glo:education_CD a glo:Education ;
+    glo:belongsToCountry glo:country_CD ;
+    glo:country "CD"^^xsd:string ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_CG a glo:Education ;
+    glo:IQ 64 ;
+    glo:belongsToCountry glo:country_CG ;
+    glo:country "CG"^^xsd:string ;
+    glo:educationExpenditure 7 .
+
+glo:education_CH a glo:Education ;
+    glo:IQ 100 ;
+    glo:belongsToCountry glo:country_CH ;
+    glo:country "CH"^^xsd:string ;
+    glo:educationExpenditure 3550 ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_CI a glo:Education ;
+    glo:IQ 61 ;
+    glo:belongsToCountry glo:country_CI ;
+    glo:country "CI"^^xsd:string ;
+    glo:educationExpenditure 69 ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_CL a glo:Education ;
+    glo:IQ 88 ;
+    glo:belongsToCountry glo:country_CL ;
+    glo:country "CL"^^xsd:string ;
+    glo:educationExpenditure 482 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_CM a glo:Education ;
+    glo:IQ 67 ;
+    glo:belongsToCountry glo:country_CM ;
+    glo:country "CM"^^xsd:string ;
+    glo:educationExpenditure 36 ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_CN a glo:Education ;
+    glo:IQ 104 ;
+    glo:belongsToCountry glo:country_CN ;
+    glo:country "CN"^^xsd:string ;
+    glo:educationExpenditure 183 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_CO a glo:Education ;
+    glo:IQ 83 ;
+    glo:belongsToCountry glo:country_CO ;
+    glo:country "CO"^^xsd:string ;
+    glo:educationExpenditure 231 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_CR a glo:Education ;
+    glo:IQ 88 ;
+    glo:belongsToCountry glo:country_CR ;
+    glo:country "CR"^^xsd:string ;
+    glo:educationExpenditure 487 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_CU a glo:Education ;
+    glo:IQ 84 ;
+    glo:belongsToCountry glo:country_CU ;
+    glo:country "CU"^^xsd:string ;
+    glo:educationExpenditure 395 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_CZ a glo:Education ;
+    glo:IQ 96 ;
+    glo:belongsToCountry glo:country_CZ ;
+    glo:country "CZ"^^xsd:string ;
+    glo:educationExpenditure 712 ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_DE a glo:Education ;
+    glo:IQ 100 ;
+    glo:belongsToCountry glo:country_DE ;
+    glo:country "DE"^^xsd:string ;
+    glo:educationExpenditure 1883 ;
+    glo:englishProficiency "Very High"^^xsd:string .
+
+glo:education_DK a glo:Education ;
+    glo:IQ 98 ;
+    glo:belongsToCountry glo:country_DK ;
+    glo:country "DK"^^xsd:string ;
+    glo:educationExpenditure 4133 ;
+    glo:englishProficiency "Very High"^^xsd:string .
+
+glo:education_DO a glo:Education ;
+    glo:IQ 82 ;
+    glo:belongsToCountry glo:country_DO ;
+    glo:country "DO"^^xsd:string ;
+    glo:educationExpenditure 158 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_DZ a glo:Education ;
+    glo:IQ 77 ;
+    glo:belongsToCountry glo:country_DZ ;
+    glo:country "DZ"^^xsd:string ;
+    glo:educationExpenditure 253 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_EC a glo:Education ;
+    glo:IQ 79 ;
+    glo:belongsToCountry glo:country_EC ;
+    glo:country "EC"^^xsd:string ;
+    glo:educationExpenditure 199 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_EE a glo:Education ;
+    glo:IQ 100 ;
+    glo:belongsToCountry glo:country_EE ;
+    glo:country "EE"^^xsd:string ;
+    glo:educationExpenditure 749 ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_EG a glo:Education ;
+    glo:IQ 78 ;
+    glo:belongsToCountry glo:country_EG ;
+    glo:country "EG"^^xsd:string ;
+    glo:educationExpenditure 92 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_ES a glo:Education ;
+    glo:IQ 95 ;
+    glo:belongsToCountry glo:country_ES ;
+    glo:country "ES"^^xsd:string ;
+    glo:educationExpenditure 1176 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_ET a glo:Education ;
+    glo:IQ 67 ;
+    glo:belongsToCountry glo:country_ET ;
+    glo:country "ET"^^xsd:string ;
+    glo:educationExpenditure 21 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_FI a glo:Education ;
+    glo:IQ 101 ;
+    glo:belongsToCountry glo:country_FI ;
+    glo:country "FI"^^xsd:string ;
+    glo:educationExpenditure 2725 ;
+    glo:englishProficiency "Very High"^^xsd:string .
+
+glo:education_FR a glo:Education ;
+    glo:IQ 97 ;
+    glo:belongsToCountry glo:country_FR ;
+    glo:country "FR"^^xsd:string ;
+    glo:educationExpenditure 2042 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_GB a glo:Education ;
+    glo:IQ 99 ;
+    glo:belongsToCountry glo:country_GB ;
+    glo:country "GB"^^xsd:string ;
+    glo:educationExpenditure 2076 .
+
+glo:education_GE a glo:Education ;
+    glo:IQ 86 ;
+    glo:belongsToCountry glo:country_GE ;
+    glo:country "GE"^^xsd:string ;
+    glo:educationExpenditure 84 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_GH a glo:Education ;
+    glo:IQ 61 ;
+    glo:belongsToCountry glo:country_GH ;
+    glo:country "GH"^^xsd:string ;
+    glo:educationExpenditure 76 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_GL a glo:Education ;
+    glo:IQ 99 ;
+    glo:belongsToCountry glo:country_GL ;
+    glo:country "GL"^^xsd:string ;
+    glo:educationExpenditure 4518 .
+
+glo:education_GM a glo:Education ;
+    glo:IQ 55 ;
+    glo:belongsToCountry glo:country_GM ;
+    glo:country "GM"^^xsd:string ;
+    glo:educationExpenditure 14 .
+
+glo:education_GQ a glo:Education ;
+    glo:IQ 56 ;
+    glo:belongsToCountry glo:country_GQ ;
+    glo:country "GQ"^^xsd:string .
+
+glo:education_GR a glo:Education ;
+    glo:IQ 91 ;
+    glo:belongsToCountry glo:country_GR ;
+    glo:country "GR"^^xsd:string ;
+    glo:educationExpenditure 781 ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_GT a glo:Education ;
+    glo:IQ 55 ;
+    glo:belongsToCountry glo:country_GT ;
+    glo:country "GT"^^xsd:string ;
+    glo:educationExpenditure 92 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_HK a glo:Education ;
+    glo:belongsToCountry glo:country_HK ;
+    glo:country "HK"^^xsd:string ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_HN a glo:Education ;
+    glo:belongsToCountry glo:country_HN ;
+    glo:country "HN"^^xsd:string ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_HR a glo:Education ;
+    glo:IQ 95 ;
+    glo:belongsToCountry glo:country_HR ;
+    glo:country "HR"^^xsd:string ;
+    glo:educationExpenditure 505 ;
+    glo:englishProficiency "Very High"^^xsd:string .
+
+glo:education_HT a glo:Education ;
+    glo:belongsToCountry glo:country_HT ;
+    glo:country "HT"^^xsd:string ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_HU a glo:Education ;
+    glo:IQ 99 ;
+    glo:belongsToCountry glo:country_HU ;
+    glo:country "HU"^^xsd:string ;
+    glo:educationExpenditure 585 ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_ID a glo:Education ;
+    glo:IQ 80 ;
+    glo:belongsToCountry glo:country_ID ;
+    glo:country "ID"^^xsd:string ;
+    glo:educationExpenditure 79 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_IE a glo:Education ;
+    glo:IQ 95 ;
+    glo:belongsToCountry glo:country_IE ;
+    glo:country "IE"^^xsd:string ;
+    glo:educationExpenditure 2500 .
+
+glo:education_IL a glo:Education ;
+    glo:IQ 93 ;
+    glo:belongsToCountry glo:country_IL ;
+    glo:country "IL"^^xsd:string ;
+    glo:educationExpenditure 1811 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_IN a glo:Education ;
+    glo:IQ 77 ;
+    glo:belongsToCountry glo:country_IN ;
+    glo:country "IN"^^xsd:string ;
+    glo:educationExpenditure 47 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_IQ a glo:Education ;
+    glo:IQ 88 ;
+    glo:belongsToCountry glo:country_IQ ;
+    glo:country "IQ"^^xsd:string ;
+    glo:educationExpenditure 193 ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_IR a glo:Education ;
+    glo:IQ 81 ;
+    glo:belongsToCountry glo:country_IR ;
+    glo:country "IR"^^xsd:string ;
+    glo:educationExpenditure 176 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_IS a glo:Education ;
+    glo:IQ 99 ;
+    glo:belongsToCountry glo:country_IS ;
+    glo:country "IS"^^xsd:string ;
+    glo:educationExpenditure 3812 .
+
+glo:education_IT a glo:Education ;
+    glo:IQ 95 ;
+    glo:belongsToCountry glo:country_IT ;
+    glo:country "IT"^^xsd:string ;
+    glo:educationExpenditure 1380 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_JO a glo:Education ;
+    glo:belongsToCountry glo:country_JO ;
+    glo:country "JO"^^xsd:string ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_JP a glo:Education ;
+    glo:IQ 106 ;
+    glo:belongsToCountry glo:country_JP ;
+    glo:country "JP"^^xsd:string ;
+    glo:educationExpenditure 1340 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_KE a glo:Education ;
+    glo:IQ 74 ;
+    glo:belongsToCountry glo:country_KE ;
+    glo:country "KE"^^xsd:string ;
+    glo:educationExpenditure 62 .
+
+glo:education_KG a glo:Education ;
+    glo:belongsToCountry glo:country_KG ;
+    glo:country "KG"^^xsd:string ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_KH a glo:Education ;
+    glo:IQ 97 ;
+    glo:belongsToCountry glo:country_KH ;
+    glo:country "KH"^^xsd:string ;
+    glo:educationExpenditure 16 ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_KP a glo:Education ;
+    glo:IQ 100 ;
+    glo:belongsToCountry glo:country_KP ;
+    glo:country "KP"^^xsd:string .
+
+glo:education_KR a glo:Education ;
+    glo:IQ 103 ;
+    glo:belongsToCountry glo:country_KR ;
+    glo:country "KR"^^xsd:string ;
+    glo:educationExpenditure 1024 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_KW a glo:Education ;
+    glo:IQ 80 ;
+    glo:belongsToCountry glo:country_KW ;
+    glo:country "KW"^^xsd:string ;
+    glo:educationExpenditure 1990 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_KZ a glo:Education ;
+    glo:IQ 89 ;
+    glo:belongsToCountry glo:country_KZ ;
+    glo:country "KZ"^^xsd:string ;
+    glo:educationExpenditure 225 ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_LA a glo:Education ;
+    glo:IQ 83 ;
+    glo:belongsToCountry glo:country_LA ;
+    glo:country "LA"^^xsd:string ;
+    glo:educationExpenditure 32 ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_LB a glo:Education ;
+    glo:belongsToCountry glo:country_LB ;
+    glo:country "LB"^^xsd:string ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_LK a glo:Education ;
+    glo:IQ 85 ;
+    glo:belongsToCountry glo:country_LK ;
+    glo:country "LK"^^xsd:string ;
+    glo:educationExpenditure 55 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_LT a glo:Education ;
+    glo:IQ 95 ;
+    glo:belongsToCountry glo:country_LT ;
+    glo:country "LT"^^xsd:string ;
+    glo:educationExpenditure 550 ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_LU a glo:Education ;
+    glo:IQ 100 ;
+    glo:belongsToCountry glo:country_LU ;
+    glo:country "LU"^^xsd:string ;
+    glo:educationExpenditure 3665 ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_LV a glo:Education ;
+    glo:belongsToCountry glo:country_LV ;
+    glo:country "LV"^^xsd:string ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_LY a glo:Education ;
+    glo:belongsToCountry glo:country_LY ;
+    glo:country "LY"^^xsd:string ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_MA a glo:Education ;
+    glo:IQ 71 ;
+    glo:belongsToCountry glo:country_MA ;
+    glo:country "MA"^^xsd:string ;
+    glo:educationExpenditure 144 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_MD a glo:Education ;
+    glo:belongsToCountry glo:country_MD ;
+    glo:country "MD"^^xsd:string ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_ME a glo:Education ;
+    glo:IQ 85 ;
+    glo:belongsToCountry glo:country_ME ;
+    glo:country "ME"^^xsd:string .
+
+glo:education_MM a glo:Education ;
+    glo:IQ 89 ;
+    glo:belongsToCountry glo:country_MM ;
+    glo:country "MM"^^xsd:string ;
+    glo:educationExpenditure 14 ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_MN a glo:Education ;
+    glo:IQ 93 ;
+    glo:belongsToCountry glo:country_MN ;
+    glo:country "MN"^^xsd:string ;
+    glo:educationExpenditure 153 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_MO a glo:Education ;
+    glo:IQ 100 ;
+    glo:belongsToCountry glo:country_MO ;
+    glo:country "MO"^^xsd:string ;
+    glo:educationExpenditure 1448 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_MU a glo:Education ;
+    glo:IQ 87 ;
+    glo:belongsToCountry glo:country_MU ;
+    glo:country "MU"^^xsd:string ;
+    glo:educationExpenditure 310 .
+
+glo:education_MX a glo:Education ;
+    glo:IQ 87 ;
+    glo:belongsToCountry glo:country_MX ;
+    glo:country "MX"^^xsd:string ;
+    glo:educationExpenditure 437 ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_MY a glo:Education ;
+    glo:IQ 89 ;
+    glo:belongsToCountry glo:country_MY ;
+    glo:country "MY"^^xsd:string ;
+    glo:educationExpenditure 450 ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_MZ a glo:Education ;
+    glo:belongsToCountry glo:country_MZ ;
+    glo:country "MZ"^^xsd:string ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_NE a glo:Education ;
+    glo:IQ 69 ;
+    glo:belongsToCountry glo:country_NE ;
+    glo:country "NE"^^xsd:string ;
+    glo:educationExpenditure 15 .
+
+glo:education_NG a glo:Education ;
+    glo:IQ 68 ;
+    glo:belongsToCountry glo:country_NG ;
+    glo:country "NG"^^xsd:string ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_NI a glo:Education ;
+    glo:belongsToCountry glo:country_NI ;
+    glo:country "NI"^^xsd:string ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_NL a glo:Education ;
+    glo:IQ 101 ;
+    glo:belongsToCountry glo:country_NL ;
+    glo:country "NL"^^xsd:string ;
+    glo:educationExpenditure 2386 ;
+    glo:englishProficiency "Very High"^^xsd:string .
+
+glo:education_NO a glo:Education ;
+    glo:IQ 98 ;
+    glo:belongsToCountry glo:country_NO ;
+    glo:country "NO"^^xsd:string ;
+    glo:educationExpenditure 5436 ;
+    glo:englishProficiency "Very High"^^xsd:string .
+
+glo:education_NP a glo:Education ;
+    glo:IQ 51 ;
+    glo:belongsToCountry glo:country_NP ;
+    glo:country "NP"^^xsd:string ;
+    glo:educationExpenditure 22 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_NZ a glo:Education ;
+    glo:IQ 99 ;
+    glo:belongsToCountry glo:country_NZ ;
+    glo:country "NZ"^^xsd:string ;
+    glo:educationExpenditure 2083 .
+
+glo:education_OM a glo:Education ;
+    glo:IQ 80 ;
+    glo:belongsToCountry glo:country_OM ;
+    glo:country "OM"^^xsd:string ;
+    glo:educationExpenditure 798 ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_PA a glo:Education ;
+    glo:belongsToCountry glo:country_PA ;
+    glo:country "PA"^^xsd:string ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_PE a glo:Education ;
+    glo:belongsToCountry glo:country_PE ;
+    glo:country "PE"^^xsd:string ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_PH a glo:Education ;
+    glo:IQ 83 ;
+    glo:belongsToCountry glo:country_PH ;
+    glo:country "PH"^^xsd:string ;
+    glo:educationExpenditure 67 ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_PK a glo:Education ;
+    glo:IQ 81 ;
+    glo:belongsToCountry glo:country_PK ;
+    glo:country "PK"^^xsd:string ;
+    glo:educationExpenditure 27 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_PL a glo:Education ;
+    glo:IQ 96 ;
+    glo:belongsToCountry glo:country_PL ;
+    glo:country "PL"^^xsd:string ;
+    glo:educationExpenditure 545 ;
+    glo:englishProficiency "Very High"^^xsd:string .
+
+glo:education_PR a glo:Education ;
+    glo:IQ 82 ;
+    glo:belongsToCountry glo:country_PR ;
+    glo:country "PR"^^xsd:string ;
+    glo:educationExpenditure 1174 .
+
+glo:education_PT a glo:Education ;
+    glo:IQ 93 ;
+    glo:belongsToCountry glo:country_PT ;
+    glo:country "PT"^^xsd:string ;
+    glo:educationExpenditure 1005 ;
+    glo:englishProficiency "Very High"^^xsd:string .
+
+glo:education_PY a glo:Education ;
+    glo:belongsToCountry glo:country_PY ;
+    glo:country "PY"^^xsd:string ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_QA a glo:Education ;
+    glo:IQ 80 ;
+    glo:belongsToCountry glo:country_QA ;
+    glo:country "QA"^^xsd:string ;
+    glo:educationExpenditure 2331 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_RO a glo:Education ;
+    glo:IQ 88 ;
+    glo:belongsToCountry glo:country_RO ;
+    glo:country "RO"^^xsd:string ;
+    glo:educationExpenditure 249 ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_RS a glo:Education ;
+    glo:IQ 89 ;
+    glo:belongsToCountry glo:country_RS ;
+    glo:country "RS"^^xsd:string ;
+    glo:educationExpenditure 208 ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_RU a glo:Education ;
+    glo:IQ 96 ;
+    glo:belongsToCountry glo:country_RU ;
+    glo:country "RU"^^xsd:string ;
+    glo:educationExpenditure 338 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_RW a glo:Education ;
+    glo:belongsToCountry glo:country_RW ;
+    glo:country "RW"^^xsd:string ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_SA a glo:Education ;
+    glo:IQ 77 ;
+    glo:belongsToCountry glo:country_SA ;
+    glo:country "SA"^^xsd:string ;
+    glo:educationExpenditure 1265 ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_SD a glo:Education ;
+    glo:IQ 77 ;
+    glo:belongsToCountry glo:country_SD ;
+    glo:country "SD"^^xsd:string ;
+    glo:educationExpenditure 25 ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_SE a glo:Education ;
+    glo:IQ 98 ;
+    glo:belongsToCountry glo:country_SE ;
+    glo:country "SE"^^xsd:string ;
+    glo:educationExpenditure 3419 ;
+    glo:englishProficiency "Very High"^^xsd:string .
+
+glo:education_SG a glo:Education ;
+    glo:IQ 106 ;
+    glo:belongsToCountry glo:country_SG ;
+    glo:country "SG"^^xsd:string ;
+    glo:educationExpenditure 1428 ;
+    glo:englishProficiency "Very High"^^xsd:string .
+
+glo:education_SK a glo:Education ;
+    glo:belongsToCountry glo:country_SK ;
+    glo:country "SK"^^xsd:string ;
+    glo:englishProficiency "High"^^xsd:string .
+
+glo:education_SL a glo:Education ;
+    glo:IQ 52 ;
+    glo:belongsToCountry glo:country_SL ;
+    glo:country "SL"^^xsd:string ;
+    glo:educationExpenditure 16 .
+
+glo:education_SO a glo:Education ;
+    glo:IQ 69 ;
+    glo:belongsToCountry glo:country_SO ;
+    glo:country "SO"^^xsd:string ;
+    glo:educationExpenditure 1 ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_SV a glo:Education ;
+    glo:IQ 72 ;
+    glo:belongsToCountry glo:country_SV ;
+    glo:country "SV"^^xsd:string ;
+    glo:educationExpenditure 113 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_SY a glo:Education ;
+    glo:IQ 76 ;
+    glo:belongsToCountry glo:country_SY ;
+    glo:country "SY"^^xsd:string ;
+    glo:educationExpenditure 252 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_TD a glo:Education ;
+    glo:IQ 75 ;
+    glo:belongsToCountry glo:country_TD ;
+    glo:country "TD"^^xsd:string ;
+    glo:educationExpenditure 16 .
+
+glo:education_TH a glo:Education ;
+    glo:IQ 89 ;
+    glo:belongsToCountry glo:country_TH ;
+    glo:country "TH"^^xsd:string ;
+    glo:educationExpenditure 182 ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_TJ a glo:Education ;
+    glo:belongsToCountry glo:country_TJ ;
+    glo:country "TJ"^^xsd:string ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_TL a glo:Education ;
+    glo:IQ 74 ;
+    glo:belongsToCountry glo:country_TL ;
+    glo:country "TL"^^xsd:string ;
+    glo:educationExpenditure 54 .
+
+glo:education_TN a glo:Education ;
+    glo:belongsToCountry glo:country_TN ;
+    glo:country "TN"^^xsd:string ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_TR a glo:Education ;
+    glo:IQ 87 ;
+    glo:belongsToCountry glo:country_TR ;
+    glo:country "TR"^^xsd:string ;
+    glo:educationExpenditure 334 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_TW a glo:Education ;
+    glo:IQ 106 ;
+    glo:belongsToCountry glo:country_TW ;
+    glo:country "TW"^^xsd:string .
+
+glo:education_TZ a glo:Education ;
+    glo:belongsToCountry glo:country_TZ ;
+    glo:country "TZ"^^xsd:string ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_UA a glo:Education ;
+    glo:IQ 91 ;
+    glo:belongsToCountry glo:country_UA ;
+    glo:country "UA"^^xsd:string ;
+    glo:educationExpenditure 143 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_UG a glo:Education ;
+    glo:belongsToCountry glo:country_UG ;
+    glo:country "UG"^^xsd:string ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_US a glo:Education ;
+    glo:IQ 97 ;
+    glo:belongsToCountry glo:country_US ;
+    glo:country "US"^^xsd:string ;
+    glo:educationExpenditure 2608 .
+
+glo:education_UY a glo:Education ;
+    glo:belongsToCountry glo:country_UY ;
+    glo:country "UY"^^xsd:string ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_UZ a glo:Education ;
+    glo:belongsToCountry glo:country_UZ ;
+    glo:country "UZ"^^xsd:string ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_VE a glo:Education ;
+    glo:IQ 83 ;
+    glo:belongsToCountry glo:country_VE ;
+    glo:country "VE"^^xsd:string ;
+    glo:educationExpenditure 273 ;
+    glo:englishProficiency "Low"^^xsd:string .
+
+glo:education_VN a glo:Education ;
+    glo:IQ 91 ;
+    glo:belongsToCountry glo:country_VN ;
+    glo:country "VN"^^xsd:string ;
+    glo:educationExpenditure 76 ;
+    glo:englishProficiency "Moderate"^^xsd:string .
+
+glo:education_YE a glo:Education ;
+    glo:belongsToCountry glo:country_YE ;
+    glo:country "YE"^^xsd:string ;
+    glo:englishProficiency "Very low"^^xsd:string .
+
+glo:education_ZA a glo:Education ;
+    glo:IQ 69 ;
+    glo:belongsToCountry glo:country_ZA ;
+    glo:country "ZA"^^xsd:string ;
+    glo:educationExpenditure 336 ;
+    glo:englishProficiency "Very High"^^xsd:string .
+
+glo:education_ZW a glo:Education ;
+    glo:IQ 74 ;
+    glo:belongsToCountry glo:country_ZW ;
+    glo:country "ZW"^^xsd:string ;
+    glo:educationExpenditure 50 .
+
+glo:Education rdfs:subClassOf glo:Situation .
+
