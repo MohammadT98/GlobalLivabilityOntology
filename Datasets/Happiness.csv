@@ -1,4 +1,4 @@
-country,Life Ladder,Social support,Healthy life expectancy at birth,Freedom to make life choices,Generosity,Perceptions of corruption,Positive affect,Negative affect,Confidence in national government,suicide_rate
+country,LifeLadder,SocialSupport,HealthyLifeExpectancyAtBirth,FreedomToMakeLifeChoices,Generosity,PerceptionsOfCorruption,PositiveAffect,NegativeAffect,ConfidenceInNationalGovernment,SuicideRate
 BO,5.56862402,0.797810495,63.59999847,0.861731231,-0.054499056,0.812174439,0.721001804,0.403487325,0.385875583,6.2
 AF,2.436034441,0.454174697,54.54999924,0.394305944,,0.946299374,0.178885803,0.60671258,0.255620003,4.1
 AL,5.25548172,0.70188278,69.15000153,0.827452719,0.044741828,0.896126628,0.553830087,0.25365448,0.472924024,4.3
