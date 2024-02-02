@@ -1,0 +1,15 @@
+# Retrieve the names and languages of European countries characterized by high accessibility, a high happiness index, and low inflation rates.
+
+PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+select ?name ?language where { 
+	?country glo:shortName ?name;
+          glo:continent "Europe";
+          glo:language ?language.
+    ?happiness glo:belongsToCountry ?country;
+               a glo:VeryHappy.
+    ?accessibility glo:belongsToCountry ?country;
+                   a glo:HighAccessibility.
+    ?economy glo:belongsToCountry ?country;
+            a glo:LowInflation.
+}
+order by asc(?name)

@@ -1,0 +1,20 @@
+# Retrieve the continents with the highest number of conflicts.
+
+PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+select ?continent (SUM(?Conflits) as ?TotalConflits) where{
+	?country glo:shortName ?name;
+          glo:continent ?continent.
+    {select ?name (Count(?date) AS ?Conflits) where { 
+	?country glo:shortName ?name.
+    ?conflict glo:belongsToCountry ?country;
+               a glo:Conflict;
+               glo:date ?date.
+
+               
+}
+group by(?name)
+order by desc(?Conflits)
+}
+FILTER (?Conflits>5)
+}
+group by(?continent)

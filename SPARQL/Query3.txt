@@ -1,0 +1,13 @@
+# Retrieve the full names and currencies of peaceful Asian countries with high accessibility.
+
+PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+select ?name ?currency where { 
+	?country glo:fullName ?name;
+          glo:currency ?currency;
+          glo:continent "Asia".
+    ?peace glo:belongsToCountry ?country;
+                   a glo:Peaceful.
+    ?accessibility glo:belongsToCountry ?country;
+                  a glo:HighAccessibility.
+}
+order by asc(?name)

@@ -1,0 +1,22 @@
+# Is the average internet speed in European countries higher than in countries in the Americas?
+
+PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+ASK where{
+
+{
+    select (AVG(?internetSpeed) as ?EuropeInternetSpeed) where { 
+	?country glo:shortName ?name;
+          glo:continent "Europe".
+    ?accessibility glo:belongsToCountry ?country;
+                   a glo:Accessibility;
+                   glo:internetSpeed ?internetSpeed.}
+ }
+    {select (AVG(?internetSpeed) as ?AmericasInternetSpeed) where { 
+	?country glo:shortName ?name;
+          glo:continent "Americas".
+    ?accessibility glo:belongsToCountry ?country;
+                   a glo:Accessibility;
+                   glo:internetSpeed ?internetSpeed.}
+ }
+    FILTER (?EuropeInternetSpeed > ?AmericasInternetSpeed)
+}

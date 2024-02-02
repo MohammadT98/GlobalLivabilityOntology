@@ -1,0 +1,13 @@
+# Retrieve name of the countries in the Americas with the lowest incidence of natural disasters.
+
+PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+select ?name (COUNT(?year) as ?NumberOfDisasters) where { 
+	?country glo:shortName ?name;
+          glo:continent "Americas".
+    ?naturalDisaster glo:belongsToCountry ?country;
+                     glo:year ?year;
+                   a glo:NaturalDisaster;                  
+}
+Group by ?name
+order by asc(?NumberOfDisasters)
+limit 10

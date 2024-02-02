@@ -1,0 +1,12 @@
+# Retrieve name of the continents of countries that are considered dangerous for travel.
+
+PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+select ?continent (COUNT(?name) AS ?NumberofCountries) where { 
+	?country glo:shortName ?name;
+          glo:continent ?continent.
+    ?travel glo:belongsToCountry ?country;
+               a glo:Travel;
+               glo:worstToVisitTravel ?worstToVisit.
+}
+group by (?continent)
+order by desc(?NumberofCountries)
