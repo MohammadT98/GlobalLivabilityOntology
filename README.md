@@ -293,7 +293,7 @@ A key aspect of our project is the serialization of our integrated datasets into
 
 <img src="./Images/Yes.png" width=200 height=100>
 
-**8. Retrieve name of the continents of countries that are considered dangerous for travel.**
+**8. Retrieve the continents of countries that are considered dangerous for travel.**
 
     PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
     select ?continent (COUNT(?name) AS ?NumberofCountries) where { 
