@@ -1,0 +1,9 @@
+# Calculate the average inflation rate of European countries.
+
+PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+select (AVG(?inflation) as ?EuropeInflation) where { 
+	?country glo:continent "Europe".
+    ?economy glo:belongsToCountry ?country;
+            a glo:Economy;
+            glo:inflation ?inflation.
+}

@@ -1,0 +1,15 @@
+# Retrieve name of European countries with the least racism and high proficiency in English.
+
+PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+select ?name where { 
+	?country glo:shortName ?name;
+          glo:continent "Europe".
+    ?happiness glo:belongsToCountry ?country;
+               a glo:Education;
+               glo:englishProficiency "High".
+    ?friendliness glo:belongsToCountry ?country;
+               a glo:Friendliness;
+               glo:leastRacist ?leastRacist.
+}
+order by asc(?leastRacist)
+limit 4

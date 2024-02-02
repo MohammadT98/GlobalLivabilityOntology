@@ -1,0 +1,11 @@
+# Retrieve name of the countries known for having both the most beautiful women and the most handsome men.
+
+PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+select ?name where { 
+	?country glo:shortName ?name.
+    ?peopleBeauty glo:belongsToCountry ?country;
+               a glo:PeopleBeauty;
+               glo:mostBeautifulWomen ?mostBeautifulWomen;
+               glo:mostHandsomeMen ?mostHandsomeMen.              
+}
+order by asc(?mostBeautifulWomen)
