@@ -68,7 +68,304 @@ The process of populating the RDF graph involves meticulously mapping and integr
 A key aspect of our project is the serialization of our integrated datasets into Turtle (.ttl) format. Turtle provides a more readable format for RDF data, making it easier for humans to understand and machines to process. This step is crucial for ensuring that our data is accessible and usable, allowing for the complex querying and analysis that sets our project apart.
 
 ## Queries
+**1. Retrieve the names and languages of European countries characterized by high accessibility, a high happiness index, and low inflation rates.**
 
+    PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+    select ?name ?language where { 
+    	?country glo:shortName ?name;
+              glo:continent "Europe";
+              glo:language ?language.
+        ?happiness glo:belongsToCountry ?country;
+                   a glo:VeryHappy.
+        ?accessibility glo:belongsToCountry ?country;
+                       a glo:HighAccessibility.
+        ?economy glo:belongsToCountry ?country;
+                a glo:LowInflation.
+    }
+    order by asc(?name)
+***Result:***
+| Name            | Language         |
+|-----------------|------------------|
+| Austria         | German           |
+| Croatia         | Croatian         |
+| Cyprus          | Greek            |
+| Czech Republic  | Czech            |
+| Denmark         | Danish           |
+| Estonia         | Estonian         |
+| Finland         | Swedish          |
+| France          | French           |
+| Germany         | German           |
+| Greece          | Greek            |
+| Hungary         | Hungarian        |
+| Iceland         | Icelandic        |
+| Ireland         | Irish            |
+| Italy           | Italian          |
+| Latvia          | Latvian          |
+| Lithuania       | Lithuanian       |
+| Malta           | Maltese          |
+| Netherlands     | Dutch            |
+| Norway          | Norwegian        |
+| Portugal        | Portuguese       |
+| Romania         | Romanian         |
+| Serbia          | Serbian          |
+| Slovak Republic | Slovak           |
+| Slovenia        | Slovene language |
+| Spain           | Spanish          |
+| Sweden          | Swedish          |
+| Switzerland     | German           |
+| United Kingdom  | English          |
+
+**2. Calculate the average inflation rate of European countries.**
+
+    PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+    select (AVG(?inflation) as ?EuropeInflation) where { 
+    	?country glo:continent "Europe".
+        ?economy glo:belongsToCountry ?country;
+                a glo:Economy;
+                glo:inflation ?inflation.
+    }
+***Result:***
+| EuropeInflation |
+|----------|
+| 10.851866|
+
+**3. Retrieve the full names and currencies of peaceful Asian countries with high accessibility.**
+
+    PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+    select ?name ?currency where { 
+    	?country glo:fullName ?name;
+              glo:currency ?currency;
+              glo:continent "Asia".
+        ?peace glo:belongsToCountry ?country;
+                       a glo:Peaceful.
+        ?accessibility glo:belongsToCountry ?country;
+                      a glo:HighAccessibility.
+    }
+    order by asc(?name)
+***Result:***
+| Name                                | Currency           |
+|-------------------------------------|--------------------|
+| Hashemite Kingdom of Jordan         | Jordanian dinar    |
+| Japan                               | Japanese yen       |
+| Kingdom of Cambodia                 | Cambodian riel     |
+| Lao People's Democratic Republic    | Lao kip            |
+| Malaysia                            | Malaysian ringgit  |
+| Mongolia                            | Mongolian tugrik   |
+| Republic of Armenia                 | Armenian dram      |
+| Republic of Indonesia               | Indonesian rupiah  |
+| Republic of Kazakhstan              | Kazakh tenge       |
+| Republic of Korea                   | Korean won         |
+| Republic of Singapore               | Singapore dollar   |
+| Socialist Republic of Vietnam       | Vietnamese dong    |
+| State of Kuwait                     | Kuwaiti dinar      |
+| State of Qatar                      | Qatari riyal       |
+| Sultanate of Oman                   | Omani rial         |
+| United Arab Emirates                | U.A.E. dirham      |
+
+**4. Retrieve name of the countries in the Americas with the lowest incidence of natural disasters.**
+
+    PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+    select ?name (COUNT(?year) as ?NumberOfDisasters) where { 
+    	?country glo:shortName ?name;
+              glo:continent "Americas".
+        ?naturalDisaster glo:belongsToCountry ?country;
+                         glo:year ?year;
+                       a glo:NaturalDisaster;                  
+    }
+    Group by ?name
+    order by asc(?NumberOfDisasters)
+    limit 10
+
+***Result:***
+| Name                    | NumberOfDisasters |
+|-------------------------|-------------------|
+| Anguilla                | 1                 |
+| Saint Barthélemy        | 1                 |
+| Bermuda                 | 1                 |
+| St. Kitts and Nevis     | 1                 |
+| Saint Martin            | 1                 |
+| Montserrat              | 1                 |
+| Sint Maarten            | 1                 |
+| Virgin Islands (British)| 1                 |
+| Grenada                 | 2                 |
+| French Guiana           | 2                 |
+
+
+**5. Retrieve name of European countries with the least racism and high proficiency in English.**
+
+    PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+    select ?name where { 
+    	?country glo:shortName ?name;
+              glo:continent "Europe".
+        ?happiness glo:belongsToCountry ?country;
+                   a glo:Education;
+                   glo:englishProficiency "High".
+        ?friendliness glo:belongsToCountry ?country;
+                   a glo:Friendliness;
+                   glo:leastRacist ?leastRacist.
+    }
+    order by asc(?leastRacist)
+    limit 4
+
+***Result:***
+| Name                    |
+|-------------------------|
+| Switzerland             | 
+| Luxembourg              | 
+| Greece                  |
+| Bulgaria                |
+
+**6. Retrieve name of the countries outside of the Americas and Europe that do not have McDonald's and have poor internet speed.**
+
+    PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+    select ?name where { 
+    	?country glo:shortName ?name.
+        ?accessibility glo:belongsToCountry ?country;
+                       a glo:Accessibility;
+                       glo:withoutMcDonalds ?withoutMcDonalds;
+                       glo:internetSpeed ?internetSpeed.
+            FILTER NOT EXISTS{?country glo:continent "Americas","Europe"}
+            FILTER (?internetSpeed<"20"^^xsd:integer)
+    }
+    order by asc(?internetSpeed)
+
+***Result:***
+| Name                 |
+|----------------------|
+| Afghanistan          |
+| Syrian Arab Republic |
+| Niger                |
+| Burundi              |
+| Yemen                |
+| The Gambia           |
+| Ethiopia             |
+| Botswana             |
+| Sudan                |
+| Turkmenistan         |
+| Libya                |
+| Guinea               |
+| Kenya                |
+| Zimbabwe             |
+| Cameroon             |
+| Vanuatu              |
+| Papua New Guinea     |
+| Algeria              |
+| Bhutan               |
+| Somalia              |
+| Uganda               |
+| Mozambique           |
+| Iran                 |
+| Micronesia           |
+| Maldives             |
+| Angola               |
+| Cabo Verde           |
+| Mauritania           |
+| Sierra Leone         |
+| Tanzania             |
+| Malawi               |
+| Nigeria              |
+| Djibouti             |
+
+**7. Is the average internet speed in European countries higher than in countries in the Americas?**
+
+    PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+    ASK where{
+    
+    {
+        select (AVG(?internetSpeed) as ?EuropeInternetSpeed) where { 
+    	?country glo:shortName ?name;
+              glo:continent "Europe".
+        ?accessibility glo:belongsToCountry ?country;
+                       a glo:Accessibility;
+                       glo:internetSpeed ?internetSpeed.}
+     }
+        {select (AVG(?internetSpeed) as ?AmericasInternetSpeed) where { 
+    	?country glo:shortName ?name;
+              glo:continent "Americas".
+        ?accessibility glo:belongsToCountry ?country;
+                       a glo:Accessibility;
+                       glo:internetSpeed ?internetSpeed.}
+     }
+        FILTER (?EuropeInternetSpeed > ?AmericasInternetSpeed)
+    }
+***Result:***
+
+<img src="./Images/Yes.png" width=200 height=100>
+
+**8. Retrieve name of the continents of countries that are considered dangerous for travel.**
+
+    PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+    select ?continent (COUNT(?name) AS ?NumberofCountries) where { 
+    	?country glo:shortName ?name;
+              glo:continent ?continent.
+        ?travel glo:belongsToCountry ?country;
+                   a glo:Travel;
+                   glo:worstToVisitTravel ?worstToVisit.
+    }
+    group by (?continent)
+    order by desc(?NumberofCountries)
+
+***Result:***
+| Continent | Number of Countries |
+|-----------|---------------------|
+| Asia      | 8                   |
+| Africa    | 7                   |
+| Europe    | 3                   |
+| Americas  | 3                   |
+
+**9. Retrieve name of the countries known for having both the most beautiful women and the most handsome men.**
+
+    PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+    select ?name where { 
+    	?country glo:shortName ?name.
+        ?peopleBeauty glo:belongsToCountry ?country;
+                   a glo:PeopleBeauty;
+                   glo:mostBeautifulWomen ?mostBeautifulWomen;
+                   glo:mostHandsomeMen ?mostHandsomeMen.              
+    }
+    order by asc(?mostBeautifulWomen)
+
+***Result:***
+| Name        |
+|-------------|
+| Italy       |
+| India       |
+| Philippines |
+| Turkey      |
+| Korea       |
+| Spain       |
+| Venezuela   |
+| France      |
+| Russia      |
+| Indonesia   |
+
+**10. Retrieve the continents with the highest number of conflicts.**
+
+    PREFIX glo: <http://www.MT.org/graphDatabase/GlobalLivabilityOntology#>
+    select ?continent (SUM(?Conflits) as ?TotalConflits) where{
+    	?country glo:shortName ?name;
+              glo:continent ?continent.
+        {select ?name (Count(?date) AS ?Conflits) where { 
+    	?country glo:shortName ?name.
+        ?conflict glo:belongsToCountry ?country;
+                   a glo:Conflict;
+                   glo:date ?date.   
+    }
+    group by(?name)
+    order by desc(?Conflits)
+    }
+    FILTER (?Conflits>5)
+    }
+    group by(?continent)
+
+***Result:***
+| Continent | Total Conflicts |
+|-----------|-----------------|
+| Asia      | 141             |
+| Africa    | 105             |
+| Americas  | 32              |
+| Europe    | 7               |
 
 ## Datasets Used
 Below are links to the datasets utilized in this project:
