@@ -61,8 +61,13 @@ We also merge various datasets to enrich the information available for each coun
 ## Populating the Data
 The process of populating the RDF graph involves meticulously mapping and integrating data from each of our datasets into a coherent semantic structure. This involves creating RDF triples that link entities with their attributes and relationships according to our ontology. The populated data in the RDF graph is then serialized into Turtle format, making it ready for analysis. This structured approach allows us to capture the complexity of global living conditions in a format that is both rich in detail and flexible for querying.
 
-<img src="./Images/ClassHierarchy.png" width=400 height=400>
-<img src="./Images/Class%20Relationships.png" width=400 height=400>
+<p align="center">
+  <img src="./Images/ClassHierarchy.png" width=400>
+</p>
+
+<p align="center">
+  <img src="./Images/Class%20Relationships.png" width=400>
+</p>
 
 ## Serialization
 A key aspect of our project is the serialization of our integrated datasets into Turtle (.ttl) format. Turtle provides a more readable format for RDF data, making it easier for humans to understand and machines to process. This step is crucial for ensuring that our data is accessible and usable, allowing for the complex querying and analysis that sets our project apart.
